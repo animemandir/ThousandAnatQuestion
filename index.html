@@ -3,86 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thousand Anat Questions | Medical Anatomy Quiz Platform</title>
+    <title>Thousand Anat Questions</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-<nav>
-    <div class="nav-container container">
-        <a href="#" class="logo">Thousand<span>Anat</span>Questions</a>
+    <div class="container">
+        <header class="main-header">
+            <h1>Thousand <span>Anat</span> Questions</h1>
+            <p class="subtitle">Master human anatomy through systematic practice</p>
+        </header>
         
-        <div class="nav-right">
-            <!-- Theme Toggle (if you're using it) -->
-            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-            </button>
-            
-            <!-- Hamburger Menu -->
-            <button class="hamburger" aria-label="Menu">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
-        </div>
-
-        <!-- Navigation Links -->
-        <ul class="nav-links">
-            <li><a href="#osteology">Osteology</a></li>
-            <li><a href="#myology">Myology</a></li>
-            <li><a href="#splanchnology">Splanchnology</a></li>
-            <li><a href="#cvs">CVS</a></li>
-            <li><a href="#cns">CNS</a></li>
-            <li><a href="#pns">PNS</a></li>
-            <li><a href="#about">About Us</a></li>
-        </ul>
-    </div>
-</nav>    
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container">
-            <h1>Master Anatomy Through Practice</h1>
-            <p>Test your knowledge with our comprehensive collection of anatomy questions</p>
-            
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="container">
-        <!-- Category Sections -->
-       
-
-        <!-- About Us Section -->
-        <section id="about" class="about-section">
-            <h2>About Our Initiative</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>As a medical student immersed in the rigorous study of human anatomy, I recognized the need for a comprehensive, accessible question bank to reinforce anatomical knowledge. Thousand Anat Questions was born from this vision - to create a platform where medical students can systematically test their understanding and identify areas for improvement.</p>
-                    <p>This project represents a fusion of medical expertise and technological innovation, designed to support the learning journey of healthcare students worldwide. By transforming complex anatomical concepts into digestible questions, we aim to make anatomy mastery more achievable for all.</p>
+        <main>
+            <div class="subjects-grid">
+                <!-- Osteology -->
+                <div class="subject-card osteology-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h2>Osteology</h2>
+                    <p>Bone structures and skeletal system</p>
+                    <a href="osteology.html" class="btn">Start Practice</a>
                 </div>
-                <div class="team-info">
-                    <h3>The White Coat Coders</h3>
-                    <p>Developed by a team of medical students and developers who understand the challenges of anatomical education, White Coat Coders bridges the gap between medicine and technology. We're committed to creating resources that enhance medical education through innovative digital solutions.</p>
+                
+                <!-- Myology -->
+                <div class="subject-card myology-card">
+                    <div class="card-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h2>Myology</h2>
+                    <p>Muscle systems and functions</p>
+                    <a href="myology.html" class="btn">Start Practice</a>
+                </div>
+                
+                <!-- Splanchnology -->
+                <div class="subject-card splanchnology-card">
+                    <div class="card-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <h2>Splanchnology</h2>
+                    <p>Visceral organs and systems</p>
+                    <a href="splanchnology.html" class="btn">Start Practice</a>
+                </div>
+                
+                <!-- CVS -->
+                <div class="subject-card cvs-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h2>CVS</h2>
+                    <p>Heart and circulatory system</p>
+                    <a href="cvs.html" class="btn">Start Practice</a>
+                </div>
+                
+                <!-- CNS -->
+                <div class="subject-card cns-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h2>CNS</h2>
+                    <p>Brain and spinal cord</p>
+                    <a href="cns.html" class="btn">Start Practice</a>
+                </div>
+                
+                <!-- PNS -->
+                <div class="subject-card pns-card">
+                    <div class="card-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h2>PNS</h2>
+                    <p>Nerves and ganglia</p>
+                    <a href="pns.html" class="btn">Start Practice</a>
                 </div>
             </div>
-        </section>
-    </main>
+            
+            <!-- About Us Section -->
+            <section id="about" class="about-section">
+                <div class="section-header">
+                    <h2>Our Goals</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Developed by medical students for medical students, Thousand Anat Questions addresses the critical need for structured anatomy practice. Our platform transforms complex anatomical concepts into accessible, exam-focused questions that reinforce learning through active recall.</p>
+                        <div class="signature">
+                            <p>- A Student Initiative -</p>
+                        </div>
 
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+    </div>
+    
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2023 Thousand Anat Questions. For educational purposes</p>
-            <p class="disclaimer">Questions are collected from students of KSMU. This project is made for educational purposes only. We do not claim ownership of these questions.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+        <div class="footer-content container">
+            <div class="footer-brand">
+                <h3>Thousand Anat Questions</h3>
+                <p>Comprehensive anatomy practice platform</p>
             </div>
+            <div class="footer-disclaimer">
+               
+                <p>© 2023 Educational Resource. </p>
+                <p>We dont claim ownership over questins ; Question collected from KSMU studens</p>
+
+            </div>
+
+            
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
