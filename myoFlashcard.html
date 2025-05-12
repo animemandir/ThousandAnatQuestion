@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anatomy Flash Cards</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #3498db;
+        --accent-color: #e74c3c;
+        --light-color: #ecf0f1;
+        --dark-color: #2c3e50;
+        --text-color: #333;
+        --border-radius: 8px;
+        --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: #f5f7fa;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+      }
+
+      .header p {
+        margin: 10px 0 0;
+        opacity: 0.9;
+      }
+
+      #faqContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .flip-container {
+        perspective: 1000px;
+        height: 250px;
+      }
+
+      .flip-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+      }
+
+      .flip-card.flipped {
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: var(--border-radius);
+      }
+
+      .flip-card-front {
+        background-color: white;
+        border: 2px solid var(--secondary-color);
+      }
+
+      .flip-card-back {
+        background-color: var(--secondary-color);
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .question,
+      .answer {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+      }
+
+      .counter {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 0.8rem;
+        color: #666;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 3px 6px;
+        border-radius: 10px;
+      }
+
+      .flip-card-back .counter {
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      .progress-divider {
+        grid-column: 1 / -1;
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+        background-color: var(--light-color);
+        border-radius: var(--border-radius);
+        font-weight: bold;
+        color: var(--dark-color);
+        box-shadow: var(--box-shadow);
+      }
+
+      .load-more-btn {
+        grid-column: 1 / -1;
+        padding: 12px 24px;
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        border-radius: var(--border-radius);
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin: 20px auto;
+        display: block;
+        box-shadow: var(--box-shadow);
+      }
+
+      .load-more-btn:hover {
+        background-color: #c0392b;
+        transform: translateY(-2px);
+      }
+
+      .controls {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .control-btn {
+        padding: 10px 20px;
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .control-btn:hover {
+        background-color: #1a252f;
+      }
+
+      @media (max-width: 768px) {
+        #faqContainer {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Anatomy Flash Cards</h1>
+      <p>Click on a card to flip and reveal the answer</p>
+    </div>
+
+    <div class="controls">
+      <button class="control-btn" id="shuffleBtn">Shuffle Cards</button>
+      <button class="control-btn" id="resetBtn">Reset All</button>
+    </div>
+
+    <div id="faqContainer"></div>
+
+    <script>
+              // Complete FAQ data with all questions
+              const faqData = [
+
+
+
+                  {   question: "Name the main parts of the intervertebral disc.",
+                answer: "Annulus fibrosus and nucleus pulposus.",
+              },
+              {
+                question:
+                  "Name the ligament located on all vertebrae bodies anterior surface.",
+                answer: "Anterior longitudinal ligament.",
+              },
+              {
+                question:
+                  "Name the ligament located on the back surface of the bodies of all vertebrae.",
+                answer: "Posterior longitudinal ligament.",
+              },
+              {
+                question:
+                  "Name the ligament located between arches of overlying and underlying vertebrae.",
+                answer: "Ligamentum flavum.",
+              },
+              {
+                question:
+                  "Name a triangular-shaped ligament in the cervical spine, connecting the external occipital protrusion and the spinous process of the VII cervical vertebra.",
+                answer: "Ligamentum nuchae.",
+              },
+              {
+                question:
+                  "Name the ligaments between the transverse processes of the vertebrae.",
+                answer: "Intertransverse ligaments.",
+              },
+              {
+                question:
+                  "Name the auxiliary component of the temporomandibular joint located between the mandibular fossa and the head of the lower jaw.",
+                answer: "Articular disc.",
+              },
+              {
+                question:
+                  "Name the ligament that strengthens the temporomandibular joint from the lateral side.",
+                answer: "Lateral ligament.",
+              },
+              {
+                question:
+                  "List the extra-articular ligaments of the temporomandibular joint located medially (from the inside) from the branch of the mandible.",
+                answer: "Sphenomandibular ligament and stylomandibular ligament.",
+              },
+              {
+                question:
+                  "Name the extra-articular ligament of the temporomandibular joint, starting from the spine of the sphenoid bone, and attaching to the tongue of the lower jaw.",
+                answer: "Sphenomandibular ligament.",
+              },
+              {
+                question:
+                  "Name the extra-articular ligament of the temporomandibular joint, starting from the awl-shaped process of the temporal bone, and attaching to the inner surface of the angle of the lower jaw.",
+                answer: "Stylomandibular ligament.",
+              },
+              {
+                question: "Name the connection of pubic bones with each other.",
+                answer: "Pubic symphysis.",
+              },
+              {
+                question:
+                  "Name the ligament connecting the tubercle of the sciatic bone with the lateral part of the sacrum.",
+                answer: "Sacrotuberous ligament.",
+              },
+              {
+                question:
+                  "Name the ligament connecting sacrum lateral edge with ishiatic spine.",
+                answer: "Sacrospinous ligament.",
+              },
+              {
+                question: "List the formations that limit the large sciatic opening.",
+                answer: "Greater sciatic notch and sacrotuberous ligament.",
+              },
+              {
+                question: "List the formations that limit the small sciatic opening.",
+                answer:
+                  "Lesser sciatic notch, sacrospinous ligament, and sacrotuberous ligament.",
+              },
+              {
+                question:
+                  "Name the hole located between the sacro-spinous ligament and the large sciatic tenderloin.",
+                answer: "Greater sciatic foramen.",
+              },
+              {
+                question:
+                  "Name the hole located between the sacro-spinous ligament, sacro-tubercular ligament and the small sciatic notch.",
+                answer: "Lesser sciatic foramen.",
+              },
+              {
+                question:
+                  "Name the ligament originates from femoral head fossa and inserts to acetabular notch.",
+                answer: "Ligamentum teres (round ligament of the femur).",
+              },
+              {
+                question:
+                  "Name two auxiliary formations of the knee joint located between the articular surfaces of the femur and tibia and connected by the transverse ligament of the knee.",
+                answer: "Medial meniscus and lateral meniscus.",
+              },
+              {
+                question:
+                  "Name the intra-articular ligaments of the knee joint that attach to the anterior and posterior intercondylar fields.",
+                answer: "Anterior cruciate ligament and posterior cruciate ligament.",
+              },
+              {
+                question:
+                  "Name knee joint ligament originates from femur lateral condyle medial surface and inserts to anterior intercondylar area.",
+                answer: "Anterior cruciate ligament.",
+              },
+              {
+                question:
+                  "Name the ligament of the knee joint starting from the lateral surface of the medial condyle of the femur and attaching to the posterior intercondylar field.",
+                answer: "Posterior cruciate ligament.",
+              },
+              {
+                question: "List the chewing muscles.",
+                answer:
+                  "Masseter, temporalis, medial pterygoid, and lateral pterygoid.",
+              },
+              {
+                question:
+                  "Name muscle originates from zygomatic arch lower surface inserts to the masseter tuberosity.",
+                answer: "Masseter.",
+              },
+              {
+                question:
+                  "Name muscle originates from temporal fossa and inserts to lower jaw coronoid process.",
+                answer: "Temporalis.",
+              },
+              {
+                question:
+                  "Name the muscle starting from the suspensory ridge and the outer surface of the lateral plate of the pterygoid process of the sphenoid bone and attaching to the pterygoid fossa of the condyle process of the lower jaw.",
+                answer: "Lateral pterygoid.",
+              },
+              {
+                question:
+                  "Name muscle originates from sphenoid bone pterygoid fossa and inserts to lower jaw pterygoid tuberosity.",
+                answer: "Medial pterygoid.",
+              },
+              {
+                question:
+                  "Name the fulcrum – 1 and the attachment point – 2 of the medial pterygoid muscle.",
+                answer:
+                  "1- Pterygoid fossa of the sphenoid bone, 2- Pterygoid tuberosity of the mandible.",
+              },
+              {
+                question:
+                  "Name the muscle, which contraction makes forehead transverse folds and eyebrows rise.",
+                answer: "Frontalis.",
+              },
+              {
+                question: "List the muscles that ensure the movement of the auricle.",
+                answer:
+                  "Superior auricular, anterior auricular, and posterior auricular.",
+              },
+              {
+                question:
+                  "Name the muscle starting from the back of the nose and ending in the skin of the nose bridge, with the contraction of which transverse folds are formed in the area of the nose bridge.",
+                answer: "Procerus.",
+              },
+              {
+                question:
+                  "Name the muscle performs closing of eyelids (closing eyes).",
+                answer: "Orbicularis oculi.",
+              },
+              {
+                question:
+                  "Name the muscle that starts from the nasal part of the frontal bone and attaches to the skin of the eyebrow, with the contraction of which longitudinal folds form above the root of the nose and the eyebrow wrinkles.",
+                answer: "Corrugator supercilii.",
+              },
+              {
+                question:
+                  "Name the muscle, which contraction forms dimples on a cheeks.",
+                answer: "Zygomaticus major.",
+              },
+              {
+                question:
+                  "List the muscles involved in lifting the upper lip and the corner of the mouth.",
+                answer:
+                  "Levator labii superioris, zygomaticus major, zygomaticus minor, and levator anguli oris.",
+              },
+              {
+                question:
+                  "List the muscles that ensure the movement of the lower lip and the corner of the mouth down.",
+                answer: "Depressor labii inferioris and depressor anguli oris.",
+              },
+              {
+                question:
+                  "Name muscle that originates from lower jaw incisor area alveolar elevations and inserts to skin of a chin, contraction makes longitudinal folds on a chin.",
+                answer: "Mentalis.",
+              },
+              {
+                question:
+                  "Name a circular-shaped mimic muscle located in the thickness of upper and lower lips, closing mouth and participating in the act of sucking.",
+                answer: "Orbicularis oris.",
+              },
+              {
+                question:
+                  "List the muscles starting at the zygomatic bone and involved in lifting the upper lip and corner of the mouth.",
+                answer: "Zygomaticus major and zygomaticus minor.",
+              },
+              {
+                question:
+                  "List the muscles that begin on the anterior surface of the upper jaw from the subglacial margin and canine fossa, involved in raising the upper lip and corner of the mouth.",
+                answer: "Levator labii superioris and levator anguli oris.",
+              },
+              {
+                question: "List the parts of the circular mouth muscle.",
+                answer: "Marginal part and labial part.",
+              },
+              {
+                question:
+                  "Name the facial muscle starting from the buccal ridge and attaching to the mucous membrane in the corner of the mouth, pressing the cheeks to the teeth and pulling the corners of the mouth in the dorsolateral direction.",
+                answer: "Buccinator.",
+              },
+              {
+                question:
+                  "Name the muscle that provides a change in the lumen of the nostrils (compression and expansion).",
+                answer: "Nasalis.",
+              },
+              {
+                question:
+                  "Name the fascia of the head, starting from the upper temporal line, forming two plates and attaching to the inner and outer surface of the zygomatic arch.",
+                answer: "Temporal fascia.",
+              },
+              {
+                question:
+                  "Name the plate of the temporal fascia, starting from the upper temporal line and attaching to the inner surface of the zygomatic arch.",
+                answer: "Deep layer.",
+              },
+              {
+                question:
+                  "Name the plate of the temporal fascia, starting from the upper temporal line and attaching to the outer surface of the zygomatic arch.",
+                answer: "Superficial layer.",
+              },
+              {
+                question: "Name the fascia covering the masticatory muscle.",
+                answer: "Masseteric fascia.",
+              },
+              {
+                question:
+                  "Name the fascia covering the outer surface of the buccal muscle, forming the pterygomandibular suture and continuing to the lateral wall of the pharynx.",
+                answer: "Buccopharyngeal fascia.",
+              },
+              {
+                question:
+                  "Name the neck muscle pulling mouth corner down and lifting neck skin, protecting superficial veins from compression.",
+                answer: "Platysma.",
+              },
+              {
+                question:
+                  "Name muscle originates from sternum manubrium and clavicle sternal end and inserts to mastoid process.",
+                answer: "Sternocleidomastoid.",
+              },
+              {
+                question:
+                  "Name the muscle whose unilateral contraction causes the head to tilt in its direction and the simultaneous rotation of the face in the opposite direction. Two-way reduction provides head tilting, nodding.",
+                answer: "Sternocleidomastoid.",
+              },
+              {
+                question:
+                  "List the muscles attached to the hyoid bone and located under the hyoid bone.",
+                answer: "Omohyoid, sternohyoid, and thyrohyoid.",
+              },
+              {
+                question:
+                  "List the neck muscles belonging to the anterior group, located below the hyoid bone, in front of the respiratory tract.",
+                answer: "Sternohyoid, omohyoid, and thyrohyoid.",
+              },
+              {
+                question:
+                  "List the neck muscles belonging to the supra-lingual group, having one attachment point on the hyoid bone, and the other on the surrounding bone formations.",
+                answer: "Digastric, stylohyoid, mylohyoid, and geniohyoid.",
+              },
+              {
+                question:
+                  "Name the neck muscle, anterior belly originates from lower jaw internal surface fossa and posterior belly inserts to mastoid notch.",
+                answer: "Digastric.",
+              },
+              {
+                question:
+                  "Name the muscle that forms the diaphragm of the oral cavity.",
+                answer: "Mylohyoid.",
+              },
+              {
+                question:
+                  "Name neck muscle that originates with upper abdomen from hyoid bone lower edge and inserts with lower abdomen to scapula upper edge.",
+                answer: "Omohyoid.",
+              },
+              {
+                question:
+                  "List the neck muscles attached to the handle of the sternum.",
+                answer: "Sternohyoid and sternothyroid.",
+              },
+              {
+                question:
+                  "Name the neck muscle originates from chin spine and inserts to hyoid bone body.",
+                answer: "Geniohyoid.",
+              },
+              {
+                question:
+                  "Name neck muscle originates from temporal bone styloid process and inserts to hyoid bone body.",
+                answer: "Stylohyoid.",
+              },
+              {
+                question:
+                  "List the neck muscles belonging to the lateral group and attached to the I and II ribs.",
+                answer: "Scalenus anterior, scalenus medius, and scalenus posterior.",
+              },
+              {
+                question:
+                  "List the neck muscles belonging to the lateral group and attached to the I rib.",
+                answer: "Scalenus anterior and scalenus medius.",
+              },
+              {
+                question:
+                  "Name lateral group neck muscle, originates from transverse processes anterior tubercles of III – VI cervical vertebrae and inserts to homonymous tubercle on the I rib upper surface.",
+                answer: "Scalenus anterior.",
+              },
+              {
+                question:
+                  "Name the neck muscle belonging to the lateral group, starting from the anterior tubercles of the transverse processes of all cervical vertebrae and attaching behind the furrow of the subclavian artery on the upper surface of the I rib.",
+                answer: "Scalenus anterior.",
+              },
+              {
+                question:
+                  "Name lateral group neck muscle, originates from cervical vertebrae V – VII transverse processes posterior tubercles and inserts to outer surface of the II rib.",
+                answer: "Scalenus posterior.",
+              },
+              {
+                question:
+                  "Name the neck muscle belonging to the lateral group and attached to the II rib.",
+                answer: "Scalenus posterior.",
+              },
+              {
+                question: "Specify the boundaries of the anterior neck area.",
+                answer:
+                  "1 upper – Lower border of the mandible, 2 lateral – Anterior border of the sternocleidomastoid muscle.",
+              },
+              {
+                question: "List the triangles highlighted in the front of the neck.",
+                answer:
+                  "Submental triangle, submandibular triangle, carotid triangle, and muscular triangle.",
+              },
+
+      { question: "Specify the boundaries of the scapular-sublingual (carotid) triangle", answer: "1 upper – Posterior belly of digastric muscle, 2 lower – Superior belly of omohyoid muscle, 3 rear – Sternocleidomastoid muscle." },
+          { question: "Specify the muscles that limit the scapular-tracheal (muscular) triangle", answer: "Sternocleidomastoid, superior belly of omohyoid, and midline of neck." },
+          { question: "Specify the boundaries of the submandibular triangle", answer: "1 upper – Body of mandible, 2 front – Anterior belly of digastric muscle, 3 rear – Posterior belly of digastric muscle." },
+          { question: "Name the area of the neck bounded by the posterior edge of the lower jaw branch – in front, the mastoid process – from behind, the external auditory canal – from above", answer: "Retromandibular fossa." },
+          { question: "Specify the boundaries of the Pirogov triangle", answer: "1 front – Mylohyoid muscle, 2 rear – Hyoglossus muscle, 3 upper – Hypoglossal nerve." },
+          { question: "Name neck triangle, bounded by mylohyoid muscle posterior edge – in front, digastric muscle posterior belly – behind, hypoglossal nerve – above.", answer: "Pirogov's triangle." },
+          { question: "Specify the boundaries of the lateral neck area", answer: "1 front – Posterior edge of sternocleidomastoid, 2 rear – Anterior edge of trapezius, 3 lower – Middle third of clavicle." },
+          { question: "Specify the boundaries of the scapuloclavicular triangle", answer: "1 front – Clavicle, 2 upper – Omohyoid muscle, 3 lower – Subclavius muscle." },
+          { question: "Specify the boundaries of the scapular-trapezoidal triangle", answer: "1 front – Sternocleidomastoid, 2 rear – Trapezius, 3 lower – Clavicle." },
+          { question: "Specify the boundaries of the interstitial space", answer: "1 front – Sternohyoid and sternothyroid muscles, 2 rear – Prevertebral fascia, 3 lower – Manubrium sterni." },
+          { question: "Specify the boundaries of the pre-page space", answer: "1 front – Pretracheal fascia, 2 rear – Prevertebral fascia." },
+          { question: "List the fascia of the neck by V.N. Shevkunenko", answer: "Superficial fascia, superficial layer of deep fascia, pretracheal fascia, and prevertebral fascia." },
+          { question: "Name the neck muscles covered by, and located between the leaves of the surface plate of the neck's own fascia", answer: "Sternocleidomastoid and trapezius muscles." },
+          { question: "Name the neck muscles covered and located between the leaves of the deep (pretracheal) plate of the neck's own fascia", answer: "Infrahyoid muscles (sternohyoid, sternothyroid, thyrohyoid, and omohyoid)." },
+          { question: "Name the bone – 1 and muscle – 2, which make up the upper border of the neck sail of Richet (scapuloclavicular aponeurosis)", answer: "1- Clavicle, 2- Omohyoid muscle." },
+          { question: "Name the fascia of the neck according to V.N. Shevkunenko, limiting the supra-thoracic interaponeurotic space", answer: "1 front – Superficial layer of deep cervical fascia, 2 at the back – Prevertebral fascia." },
+          { question: "Name the triangle of the neck, bounded by the posterior abdomen of the bicuspid muscle – from above, the upper abdomen of the scapular-hyoid muscle – from below, the sternocleidomastoid muscle from behind", answer: "Pirogov's triangle." },
+          { question: "Name the triangle of the neck, bounded by the upper abdomen of the scapula-hyoid muscle – from above, the sternocleidomastoid muscle - from below, the median line – medially", answer: "Muscular triangle." },
+          { question: "Name the neck area bounded by the lower edge of the lower jaw – from above, the anterior edge of the sternocleidomastoid muscle - laterally, the jugular notch - from below", answer: "Anterior triangle of neck." },
+          { question: "Name the triangle of the neck, bounded by the body of the lower jaw – from above, the anterior abdomen of the bicuspid muscle – in front, the posterior abdomen of the bicuspid muscle – from behind.", answer: "Submandibular triangle." },
+          { question: "Name the neck area bounded by the posterior edge of the sternocleidomastoid muscle – in front, the lateral edge of the trapezius muscle – from behind, the collarbone – from below", answer: "Posterior triangle of neck." },
+          { question: "Name the triangle of the neck, bounded by the posterior edge of the sternocleidomastoid muscle - in front, the lower abdomen of the scapula-hyoid muscle – from above, the collarbone - from below", answer: "Subclavian triangle." },
+          { question: "Name the triangle of the neck, bounded by the posterior edge of the sternocleidomastoid muscle - in front, the lateral edge of the trapezius muscle - from behind, the lower abdomen of the scapula-hyoid muscle – from below", answer: "Occipital triangle." },
+          { question: "Name the space bounded by the anterior stair muscle – in front, the middle stair muscle – in the back, the I rib – from below", answer: "Scalene fissure." },
+          { question: "Name the space bounded in front by the sterno-thyroid and sterno-hyoid muscles – in front, and the anterior stair muscle – in the back.", answer: "Vascular space of neck." },
+          { question: "Name the neck fascia according to V.N. Shevkunenko, covers sternocleidomastoid and trapezius muscles with its lamina.", answer: "Superficial layer of deep cervical fascia." },
+          { question: "Name the fascia of the neck according to V.N. Shevkunenko, containing between its leaves the sterno-thyroid, sterno-sublingual, thyroid-lingual muscles", answer: "Pretracheal fascia." },
+          { question: "Name the fascia of the neck according to V.N. Shevkunenko, covering the lateral and medial group of deep neck muscles", answer: "Prevertebral fascia." },
+          { question: "Name the space located between the superficial and deep leaf of the neck's own fascia", answer: "Suprasternal space." },
+          { question: "Name the aponeurosis of the neck, containing between its leaves the sterno-thyroid, sterno-sublingual, thyroid-lingual muscles", answer: "Pretracheal fascia." },
+          { question: "Name the space located between the parietal and visceral leaves (plates) of the inner fascia of the neck", answer: "Retropharyngeal space." },
+          { question: "Name the space located behind pharynx and esophagus, between inner and prevertebral neck fascia.", answer: "Danger space (space 4 of neck)." },
+          { question: "Name the neck space communicating with the anterior mediastinum (purulent-necrotic processes in this space descend into the anterior mediastinum)", answer: "Pretracheal space." },
+          { question: "Name the neck space communicating with the posterior mediastinum (purulent-necrotic processes in this space descend into the posterior mediastinum)", answer: "Retropharyngeal space." },
+          { question: "Name the muscle originates from upper nuchal line, nuchal ligament, VII cervical and all thoracic vertebrae spinous processes, and inserts to scapular spine and acromion.", answer: "Trapezius muscle." },
+          { question: "Name the muscle originates from six lower ribs spinous processes and all lumbar vertebrae, as well as from median sacral and iliac ridges, and inserts to humerus small tubercle crest.", answer: "Latissimus dorsi muscle." },
+          { question: "Name the muscle starting from the posterior tubercles of the transverse processes of the four upper cervical vertebrae, and attaching to the upper corner of the scapula and to the upper part of the medial edge of the scapula", answer: "Levator scapulae muscle." },
+          { question: "Name the muscle starting from the lower part of the thoracic ligament, spinous processes of the VII cervical, I thoracic vertebrae, and attaching to the medial edge of the scapula above the level of the spine", answer: "Rhomboid minor muscle." },
+          { question: "Name the muscle starting from the spinous processes of the four upper thoracic vertebrae and attaching to the medial edge of the scapula below the spine.", answer: "Rhomboid major muscle." },
+          { question: "Name the back muscle, which includes the iliocostal, longest and spinous muscles", answer: "Erector spinae muscle." },
+          { question: "Name the muscle located between overlying and underlying vertebra spinous processes.", answer: "Interspinales muscles." },
+          { question: "Name the muscle located between the transverse processes of the overlying and underlying vertebra", answer: "Intertransversarii muscles." },
+          { question: "Name the muscle originates from clavicle sternal end, sternum manubrium and body, and inserts to humerus large tubercle crest.", answer: "Pectoralis major muscle." },
+          { question: "Name the muscle originates from II – V ribs, near their anterior ends, and inserts to scapula coracoid process.", answer: "Pectoralis minor muscle." },
+          { question: "Name the muscle starting from the cartilage of the I rib, and attaching to the lower surface of the acromial end of the clavicle", answer: "Subclavius muscle." },
+          { question: "Name the muscle starting from the outer (lateral) surface of the I – IX ribs, and attaching to the medial edge and lower corner of the scapula.", answer: "Serratus anterior muscle." },
+          { question: "Name the muscles located directly between the lower edge of the overlying rib and the upper edge of the underlying rib", answer: "External intercostal muscles." },
+          { question: "Name the muscle separating chest cavity from abdominal cavity.", answer: "Diaphragm." },
+          { question: "Name the ligament starting from the anterior superior iliac spine and attaching to the pubic tubercle.", answer: "Inguinal ligament." },
+          { question: "Specify the boundaries of the scapular-sublingual (carotid) triangle", answer: "1 upper – Posterior belly of digastric muscle, 2 lower – Superior belly of omohyoid muscle, 3 rear – Sternocleidomastoid muscle." },
+          { question: "Specify the muscles that limit the scapular-tracheal (muscular) triangle", answer: "Sternocleidomastoid, superior belly of omohyoid, and midline of neck." },
+          { question: "Specify the boundaries of the submandibular triangle", answer: "1 upper – Body of mandible, 2 front – Anterior belly of digastric muscle, 3 rear – Posterior belly of digastric muscle." },
+          { question: "Name the area of the neck bounded by the posterior edge of the lower jaw branch – in front, the mastoid process – from behind, the external auditory canal – from above", answer: "Retromandibular fossa." },
+          { question: "Specify the boundaries of the Pirogov triangle", answer: "1 front – Mylohyoid muscle, 2 rear – Hyoglossus muscle, 3 upper – Hypoglossal nerve." },
+          { question: "Name neck triangle, bounded by mylohyoid muscle posterior edge – in front, digastric muscle posterior belly – behind, hypoglossal nerve – above.", answer: "Pirogov's triangle." },
+          { question: "Specify the boundaries of the lateral neck area", answer: "1 front – Posterior edge of sternocleidomastoid, 2 rear – Anterior edge of trapezius, 3 lower – Middle third of clavicle." },
+          { question: "Specify the boundaries of the scapuloclavicular triangle", answer: "1 front – Clavicle, 2 upper – Omohyoid muscle, 3 lower – Subclavius muscle." },
+          { question: "Specify the boundaries of the scapular-trapezoidal triangle", answer: "1 front – Sternocleidomastoid, 2 rear – Trapezius, 3 lower – Clavicle." },
+          { question: "Specify the boundaries of the interstitial space", answer: "1 front – Sternohyoid and sternothyroid muscles, 2 rear – Prevertebral fascia, 3 lower – Manubrium sterni." },
+          { question: "Specify the boundaries of the pre-page space", answer: "1 front – Pretracheal fascia, 2 rear – Prevertebral fascia." },
+          { question: "List the fascia of the neck by V.N. Shevkunenko", answer: "Superficial fascia, superficial layer of deep fascia, pretracheal fascia, and prevertebral fascia." },
+          { question: "Name the neck muscles covered by, and located between the leaves of the surface plate of the neck's own fascia", answer: "Sternocleidomastoid and trapezius muscles." },
+          { question: "Name the neck muscles covered and located between the leaves of the deep (pretracheal) plate of the neck's own fascia", answer: "Infrahyoid muscles (sternohyoid, sternothyroid, thyrohyoid, and omohyoid)." },
+          { question: "Name the bone – 1 and muscle – 2, which make up the upper border of the neck sail of Richet (scapuloclavicular aponeurosis)", answer: "1- Clavicle, 2- Omohyoid muscle." },
+          { question: "Name the fascia of the neck according to V.N. Shevkunenko, limiting the supra-thoracic interaponeurotic space", answer: "1 front – Superficial layer of deep cervical fascia, 2 at the back – Prevertebral fascia." },
+          { question: "Name the triangle of the neck, bounded by the posterior abdomen of the bicuspid muscle – from above, the upper abdomen of the scapular-hyoid muscle – from below, the sternocleidomastoid muscle from behind", answer: "Pirogov's triangle." },
+          { question: "Name the triangle of the neck, bounded by the upper abdomen of the scapula-hyoid muscle – from above, the sternocleidomastoid muscle - from below, the median line – medially", answer: "Muscular triangle." },
+          { question: "Name the neck area bounded by the lower edge of the lower jaw – from above, the anterior edge of the sternocleidomastoid muscle - laterally, the jugular notch - from below", answer: "Anterior triangle of neck." },
+          { question: "Name the triangle of the neck, bounded by the body of the lower jaw – from above, the anterior abdomen of the bicuspid muscle – in front, the posterior abdomen of the bicuspid muscle – from behind.", answer: "Submandibular triangle." },
+          { question: "Name the neck area bounded by the posterior edge of the sternocleidomastoid muscle – in front, the lateral edge of the trapezius muscle – from behind, the collarbone – from below", answer: "Posterior triangle of neck." },
+          { question: "Name the triangle of the neck, bounded by the posterior edge of the sternocleidomastoid muscle - in front, the lower abdomen of the scapula-hyoid muscle – from above, the collarbone - from below", answer: "Subclavian triangle." },
+          { question: "Name the triangle of the neck, bounded by the posterior edge of the sternocleidomastoid muscle - in front, the lateral edge of the trapezius muscle - from behind, the lower abdomen of the scapula-hyoid muscle – from below", answer: "Occipital triangle." },
+          { question: "Name the space bounded by the anterior stair muscle – in front, the middle stair muscle – in the back, the I rib – from below", answer: "Scalene fissure." },
+          { question: "Name the space bounded in front by the sterno-thyroid and sterno-hyoid muscles – in front, and the anterior stair muscle – in the back.", answer: "Vascular space of neck." },
+          { question: "Name the neck fascia according to V.N. Shevkunenko, covers sternocleidomastoid and trapezius muscles with its lamina.", answer: "Superficial layer of deep cervical fascia." },
+          { question: "Name the fascia of the neck according to V.N. Shevkunenko, containing between its leaves the sterno-thyroid, sterno-sublingual, thyroid-lingual muscles", answer: "Pretracheal fascia." },
+          { question: "Name the fascia of the neck according to V.N. Shevkunenko, covering the lateral and medial group of deep neck muscles", answer: "Prevertebral fascia." },
+          { question: "Name the space located between the superficial and deep leaf of the neck's own fascia", answer: "Suprasternal space." },
+          { question: "Name the aponeurosis of the neck, containing between its leaves the sterno-thyroid, sterno-sublingual, thyroid-lingual muscles", answer: "Pretracheal fascia." },
+          { question: "Name the space located between the parietal and visceral leaves (plates) of the inner fascia of the neck", answer: "Retropharyngeal space." },
+          { question: "Name the space located behind pharynx and esophagus, between inner and prevertebral neck fascia.", answer: "Danger space (space 4 of neck)." },
+          { question: "Name the neck space communicating with the anterior mediastinum (purulent-necrotic processes in this space descend into the anterior mediastinum)", answer: "Pretracheal space." },
+          { question: "Name the neck space communicating with the posterior mediastinum (purulent-necrotic processes in this space descend into the posterior mediastinum)", answer: "Retropharyngeal space." },
+          { question: "Name the muscle originates from upper nuchal line, nuchal ligament, VII cervical and all thoracic vertebrae spinous processes, and inserts to scapular spine and acromion.", answer: "Trapezius muscle." },
+          { question: "Name the muscle originates from six lower ribs spinous processes and all lumbar vertebrae, as well as from median sacral and iliac ridges, and inserts to humerus small tubercle crest.", answer: "Latissimus dorsi muscle." },
+          { question: "Name the muscle starting from the posterior tubercles of the transverse processes of the four upper cervical vertebrae, and attaching to the upper corner of the scapula and to the upper part of the medial edge of the scapula", answer: "Levator scapulae muscle." },
+          { question: "Name the muscle starting from the lower part of the thoracic ligament, spinous processes of the VII cervical, I thoracic vertebrae, and attaching to the medial edge of the scapula above the level of the spine", answer: "Rhomboid minor muscle." },
+          { question: "Name the muscle starting from the spinous processes of the four upper thoracic vertebrae and attaching to the medial edge of the scapula below the spine.", answer: "Rhomboid major muscle." },
+          { question: "Name the back muscle, which includes the iliocostal, longest and spinous muscles", answer: "Erector spinae muscle." },
+          { question: "Name the muscle located between overlying and underlying vertebra spinous processes.", answer: "Interspinales muscles." },
+          { question: "Name the muscle located between the transverse processes of the overlying and underlying vertebra", answer: "Intertransversarii muscles." },
+          { question: "Name the muscle originates from clavicle sternal end, sternum manubrium and body, and inserts to humerus large tubercle crest.", answer: "Pectoralis major muscle." },
+          { question: "Name the muscle originates from II – V ribs, near their anterior ends, and inserts to scapula coracoid process.", answer: "Pectoralis minor muscle." },
+          { question: "Name the muscle starting from the cartilage of the I rib, and attaching to the lower surface of the acromial end of the clavicle", answer: "Subclavius muscle." },
+          { question: "Name the muscle starting from the outer (lateral) surface of the I – IX ribs, and attaching to the medial edge and lower corner of the scapula.", answer: "Serratus anterior muscle." },
+          { question: "Name the muscles located directly between the lower edge of the overlying rib and the upper edge of the underlying rib", answer: "External intercostal muscles." },
+          { question: "Name the muscle separating chest cavity from abdominal cavity.", answer: "Diaphragm." },
+          { question: "Name the ligament starting from the anterior superior iliac spine and attaching to the pubic tubercle.", answer: "Inguinal ligament." },
+
+
+
+
+                  { question: "Name the muscle starting from the V – VII ribs, the xiphoid process, and attaching between the tubercle of the pubic bone and the symphysis.", answer: "Rectus abdominis muscle." },
+                  { question: "List the abdominal muscles belonging to the anterior group", answer: "Rectus abdominis and pyramidalis." },
+                  { question: "List the abdominal muscles belonging to the lateral group.", answer: "External oblique, internal oblique, and transversus abdominis." },
+                  { question: "Name the abdominal muscle belonging to the posterior group.", answer: "Quadratus lumborum." },
+                  { question: "Name the muscle originates from supraspinatus fossa and inserts to humerus large tubercle.", answer: "Supraspinatus." },
+                  { question: "Name the muscle that begins in the subcostal fossa and attaches to the upper part of the large humerus.", answer: "Infraspinatus." },
+                  { question: "Name the muscle starting from the lateral edge of the scapula, below the subcostal muscle, and attaching to the lower part of the large humerus.", answer: "Teres minor." },
+                  { question: "Name the muscle starting from the lower corner of the shoulder blade and attaching to the crest of the small humerus.", answer: "Teres major." },
+                  { question: "Name the muscle starting from the scapular fossa and attaching to the small tubercle of the humerus.", answer: "Subscapularis." },
+                  { question: "Name the muscle originates from scapula supra-glenoidal tubercle and coracoid process, and inserts to radius tuberosity.", answer: "Biceps brachii." },
+                  { question: "Name the muscles of the anterior shoulder group", answer: "Biceps brachii, brachialis, and coracobrachialis." },
+                  { question: "Name the muscle originates from humerus and intermuscular septum anterior surface, and inserts to ulnar tuberosity.", answer: "Brachialis." },
+                  { question: "Name the muscle that attaches its tendon to the tuberosity of the ulna", answer: "Brachialis." },
+                  { question: "Name the muscle that attaches its tendon to the tuberosity of the radius", answer: "Biceps brachii." },
+                  { question: "List the muscles of the posterior shoulder group.", answer: "Triceps brachii and anconeus." },
+                  { question: "Name the muscles of the anterior shoulder group that will be squeezed when applying a tourniquet to the lower third of the shoulder.", answer: "Biceps brachii and brachialis." },
+                  { question: "Name the muscles of the anterior shoulder group that will be squeezed when applying a tourniquet to the upper third of the shoulder.", answer: "Biceps brachii, brachialis, and coracobrachialis." },
+                  { question: "Name the muscle of the posterior shoulder group that will be squeezed when applying a tourniquet to the upper third of the shoulder.", answer: "Triceps brachii (long head)." },
+                  { question: "Name the muscle of the posterior shoulder group that will be squeezed when applying a tourniquet to the lower third of the shoulder.", answer: "Triceps brachii (medial and lateral heads)." },
+                  { question: "Name the muscle starting from the bodies of the XII thoracic and I – IV lumbar vertebrae, and from the transverse processes of all the lumbar vertebrae, and attaching to the small trochanter of the femur.", answer: "Psoas major." },
+                  { question: "Name the muscle starting from the iliac fossa and attaching to the small trochanter of the femur.", answer: "Iliacus." },
+                  { question: "Name the muscle starting from the bodies of the XII thoracic and I lumbar vertebrae, and attaching to the ilio-pubic elevation.", answer: "Psoas minor." },
+                  { question: "Name muscle originates from sacrum anterior surface, passing through the large ischiatic foramen, and inserts to femur large trochanter.", answer: "Piriformis." },
+                  { question: "Name muscle originates from posterior gluteal line, sacrum posterior surface, the sacro-tuberal ligament and inserts to femur gluteal tuberosity.", answer: "Gluteus maximus." },
+                  { question: "Name the muscle located on a thigh anteriorly than medially, originates from anterior superior iliac spine, and inserts to tibia tuberosity.", answer: "Sartorius." },
+                  { question: "List the muscles of the anterior thigh group.", answer: "Quadriceps femoris (rectus femoris, vastus lateralis, vastus medialis, vastus intermedius) and sartorius." },
+                  { question: "Name thigh muscle originates from anterior inferior iliac spine, from femur medial and lateral lips, and anterior surface, and inserts to tibia tuberosity, extending knee joint and flexing hip.", answer: "Rectus femoris." },
+                  { question: "Name the head of the quadriceps femoral muscle, starting from the anterior inferior iliac spine and attaching to the tuberosity of the tibia.", answer: "Rectus femoris." },
+                  { question: "List the muscles of the posterior thigh group.", answer: "Biceps femoris, semitendinosus, and semimembranosus." },
+                  { question: "List the muscles of the anterior group of the lower leg.", answer: "Tibialis anterior, extensor digitorum longus, extensor hallucis longus, and fibularis tertius." },
+                  { question: "List the muscles of the lateral group of the lower leg.", answer: "Fibularis longus and fibularis brevis." },
+                  { question: "Name the place of attachment of the triceps muscle of the lower leg on the foot.", answer: "Calcaneal tuberosity via the Achilles tendon." },
+                  { question: "Name the muscle of the posterior surface of the lower leg, starting from the medial and lateral condyles of the femur, the line of the flounder muscle and attaching to the tubercle of the calcaneus.", answer: "Gastrocnemius." },
+                  { question: "Name the muscles that make up the triceps muscle of the lower leg.", answer: "Gastrocnemius, soleus, and plantaris." },
+                  { question: "Give a name to the tendon connecting the triceps muscle of the lower leg with the heel bone hillock.", answer: "Calcaneal tendon (Achilles tendon)." },
+                  { question: "Name the neck muscle attached by the anterior abdomen to the double-abdominal fossa and the posterior abdomen to the mastoid tenderloin.", answer: "Digastric muscle." },
+                  { question: "Name the forearm muscle that performs extension of the phalanx.", answer: "Extensor digitorum." }
+              ];
+
+              // Batch loading variables
+              let currentIndex = 0;
+              const batchSize = 20;
+              const faqContainer = document.getElementById('faqContainer');
+              let shuffledData = [...faqData];
+
+              // Function to create a single FAQ card
+              function createFAQCard(item, index) {
+                  const flipContainer = document.createElement('div');
+                  flipContainer.className = 'flip-container';
+
+                  const flipCard = document.createElement('div');
+                  flipCard.className = 'flip-card';
+                  flipCard.addEventListener('click', function() {
+                      this.classList.toggle('flipped');
+                  });
+
+                  const counter = document.createElement('div');
+                  counter.className = 'counter';
+                  counter.textContent = `${index + 1}/${faqData.length}`;
+
+                  const flipCardFront = document.createElement('div');
+                  flipCardFront.className = 'flip-card-front';
+
+                  const question = document.createElement('div');
+                  question.className = 'question';
+                  question.textContent = item.question;
+                  flipCardFront.appendChild(question);
+                  flipCardFront.appendChild(counter);
+
+                  const flipCardBack = document.createElement('div');
+                  flipCardBack.className = 'flip-card-back';
+
+                  const answer = document.createElement('div');
+                  answer.className = 'answer';
+                  answer.textContent = item.answer;
+                  flipCardBack.appendChild(answer);
+                  flipCardBack.appendChild(counter.cloneNode(true));
+
+                  flipCard.appendChild(flipCardFront);
+                  flipCard.appendChild(flipCardBack);
+                  flipContainer.appendChild(flipCard);
+
+                  return flipContainer;
+              }
+
+              // Function to load a batch of questions
+              function loadQuestionsBatch() {
+                  const endIndex = Math.min(currentIndex + batchSize, shuffledData.length);
+                  const fragment = document.createDocumentFragment();
+
+                  for (let i = currentIndex; i < endIndex; i++) {
+                      fragment.appendChild(createFAQCard(shuffledData[i], i));
+
+                      // Add progress divider after every 10 questions
+                      if ((i + 1) % 10 === 0 && i !== endIndex - 1) {
+                          const divider = document.createElement('div');
+                          divider.className = 'progress-divider';
+                          divider.innerHTML = `<span>Completed ${i + 1} questions</span>`;
+                          fragment.appendChild(divider);
+                      }
+                  }
+
+                  faqContainer.appendChild(fragment);
+                  currentIndex = endIndex;
+
+                  // Remove any existing load more button
+                  const existingBtn = document.querySelector('.load-more-btn');
+                  if (existingBtn) {
+                      existingBtn.remove();
+                  }
+
+                  // Add new load more button if needed
+                  if (currentIndex < shuffledData.length) {
+                      const loadMoreBtn = document.createElement('button');
+                      loadMoreBtn.className = 'load-more-btn';
+                      loadMoreBtn.textContent = 'Load More Questions';
+                      loadMoreBtn.addEventListener('click', loadQuestionsBatch);
+                      faqContainer.appendChild(loadMoreBtn);
+                  }
+              }
+
+              // Shuffle function
+              function shuffleArray(array) {
+                  for (let i = array.length - 1; i > 0; i--) {
+                      const j = Math.floor(Math.random() * (i + 1));
+                      [array[i], array[j]] = [array[j], array[i]];
+                  }
+                  return array;
+              }
+
+              // Reset function
+              function resetCards() {
+                  currentIndex = 0;
+                  shuffledData = [...faqData];
+                  faqContainer.innerHTML = '';
+                  loadQuestionsBatch();
+              }
+
+              // Shuffle cards function
+              function shuffleCards() {
+                  currentIndex = 0;
+                  shuffledData = shuffleArray([...faqData]);
+                  faqContainer.innerHTML = '';
+                  loadQuestionsBatch();
+              }
+
+              // Event listeners
+              document.addEventListener('DOMContentLoaded', function() {
+                  loadQuestionsBatch();
+
+                  document.getElementById('shuffleBtn').addEventListener('click', shuffleCards);
+                  document.getElementById('resetBtn').addEventListener('click', resetCards);
+
+                  // Auto-flip back when clicking outside
+                  document.addEventListener('click', function(event) {
+                      if (!event.target.closest('.flip-card')) {
+                          document.querySelectorAll('.flip-card.flipped').forEach(card => {
+                              card.classList.remove('flipped');
+                          });
+                      }
+                  });
+              });
+    </script>
+  </body>
+</html>
