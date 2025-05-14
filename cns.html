@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNS Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: black;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: lightcyan;
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .option {
+            padding: 8px;
+            margin: 5px 0;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .option:hover {
+            background-color: #f0f0f0;
+        }
+        .correct {
+            background-color: grey;
+            border-color: #c3e6cb;
+        }
+        .incorrect {
+            background-color: coral;
+            border-color: #f5c6cb;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: wheat;
+            font-size: 2.8rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>CNS Quizzes</h1>
+    <div id="quiz-container"></div>
+
+    <script>
+        const questions = [
+            
+
+   
+  
+
+
+
+    {
+      question: "1. Trigeminal nerve is -",
+      options: ["a. mixed", "b. parasympathetic", "c. motor", "d. sympathetic", "e. sensory"],
+      correct: 0,
+    },
+    {
+      question: "2. Abducens nerve is -",
+      options: ["a. motor", "b. sympathetic", "c. mixed", "d. sensory", "e. parasympathetic"],
+      correct: 0,
+    },
+    {
+      question: "3. Glossopharyngeal nerve is -",
+      options: ["a. mixed", "b. parasympathetic", "c. sensory", "d. motor", "e. sympathetic"],
+      correct: 0,
+    },
+    {
+      question: "4. Vagus nerve is -",
+      options: ["a. mixed", "b. motor", "c. sympathetic", "d. parasympathetic", "e. sensory"],
+      correct: 0,
+    },
+    {
+      question: "5. Accessory nerve is -",
+      options: ["a. parasympathetic", "b. sympathetic", "c. mixed", "d. motor", "e. sensory"],
+      correct: 3,
+    },
+    {
+      question: "6. Hypoglossal nerve is -",
+      options: ["a. parasympathetic", "b. mixed", "c. sympathetic", "d. sensory", "e. motor"],
+      correct: 4,
+    },
+    {
+      question: "7. In which group are only motor cranial nerves:",
+      options: [
+        "a. IV pair, VI pair, XII pair",
+        "b. III pair, VII pair, X pair",
+        "c. II pair, VIII pair, IX pair",
+        "d. I pair, V pair, VI pair",
+        "e. X pair, XI pair, XII pair",
+      ],
+      correct: 0,
+    },
+    {
+      question: "8. In which group are only sensory cranial nerves:",
+      options: [
+        "a. VIII pair, XI pair, XII pair",
+        "b. II pair, VII pair, X pair",
+        "c. I pair, II pair, III pair",
+        "d. III pair, VIII pair, IX pair",
+        "e. I pair, II pair, VIII pair",
+      ],
+      correct: 4,
+    },
+    {
+      question: "9. In which group are only mixed cranial nerves:",
+      options: [
+        "a. IX pair, X pair, XI pair",
+        "b. V pair, XI pair, XII pair",
+        "c. VII pair, VIII pair, IX pair",
+        "d. V pair, VII pair, IX pair",
+        "e. V pair, VII pair, VIII pair",
+      ],
+      correct: 3,
+    },
+    {
+      question: "10. Vestibulocochlear nerve is -",
+      options: ["a. motor", "b. sympathetic", "c. mixed", "d. sensory", "e. parasympathetic"],
+      correct: 3,
+    },
+    {
+      question: "11. Call the motor somatic nucleus of the oculomotor nerve:",
+      options: [
+        "a. nucleus nervi oculomotorii",
+        "b. nucleus oculomotorius accessorius",
+        "c. nucleus salivatorius inferior",
+        "d. nucleus ambiguus",
+        "e. nucleus motorius nervi trigemini",
+      ],
+      correct: 0,
+    },
+    {
+      question: "12. Call the motor parasympathetic nucleus of the oculomotor nerve:",
+      options: [
+        "a. nucleus oculomotorius accessorius",
+        "b. nucleus motorius nervi trigemini",
+        "c. nucleus nervi oculomotorii",
+        "d. nucleus salivatorius inferior",
+        "e. nucleus ambiguus",
+      ],
+      correct: 0,
+    },
+    {
+      question: "13. Call the motor somatic nucleus of the trochlear nerve:",
+      options: [
+        "a. nucleus nervi trochlearis",
+        "b. nucleus motorius nervi trigemini",
+        "c. nucleus oculomotorius accessorius",
+        "d. nucleus ambiguus",
+        "e. nucleus salivatorius inferior",
+      ],
+      correct: 0,
+    },
+    {
+      question: "14. Call the sensory nucleus of the trigeminal nerve:",
+      options: [
+        "a. nucleus salivatorius inferior",
+        "b. nucleus nervi trigemini",
+        "c. nucleus pontinus nervi trigemini",
+        "d. nucleus motorius nervi trigemini",
+        "e. nucleus oculomotorius accessorius",
+      ],
+      correct: 2,
+    },
+    {
+      question: "15. Call the sensory nucleus of the trigeminal nerve:",
+      options: [
+        "a. nucleus nervi trigemini",
+        "b. nucleus salivatorius inferior",
+        "c. nucleus mesencephalicus nervi trigemini",
+        "d. nucleus oculomotorius accessorius",
+        "e. nucleus motorius nervi trigemini",
+      ],
+      correct: 2,
+    },
+    {
+      question: "16. Call the motor parasympathetic nucleus of the facial nerve:",
+      options: [
+        "a. nucleus salivatorius superior",
+        "b. nucleus nervi facialis",
+        "c. nucleus motorius nervi trigemini",
+        "d. nucleus dorsalis nervi vagi",
+        "e. nucleus salivatorius inferior",
+      ],
+      correct: 0,
+    },
+    {
+      question: "17. Call the sensory nucleus of the glossopharyngeal nerve:",
+      options: [
+        "a. nucleus salivatorius inferior",
+        "b. nucleus solitarius",
+        "c. nucleus tractus spinalis",
+        "d. nucleus accessorius",
+        "e. nucleus ambiguus",
+      ],
+      correct: 1,
+    },
+    {
+      question: "18. Call the motor parasympathetic nucleus of the glossopharyngeal nerve:",
+      options: [
+        "a. nucleus accessorius",
+        "b. nucleus ambiguus",
+        "c. nucleus tractus spinalis",
+        "d. nucleus salivatorius inferior",
+        "e. nucleus solitarius",
+      ],
+      correct: 3,
+    },
+    {
+      question: "19. Call the motor somatic nucleus of the glossopharyngeal nerve:",
+      options: [
+        "a. nucleus solitarius",
+        "b. nucleus accessorius",
+        "c. nucleus salivatorius inferior",
+        "d. nucleus tractus spinalis",
+        "e. nucleus ambiguus",
+      ],
+      correct: 4,
+    },
+    {
+      question: "20. Call the sensory nucleus of the vagus nerve:",
+      options: [
+        "a. nucleus tractus spinalis",
+        "b. nucleus ambiguus",
+        "c. nucleus salivatorius inferior",
+        "d. nucleus accessorius",
+        "e. nucleus solitarius",
+      ],
+      correct: 4,
+    },
+  
+    {
+    question: "21. Call the motor parasympathetic nucleus of the vagus nerve:",
+    options: [
+        "a. nucleus solitarius",
+        "b. nucleus ambiguus",
+        "c. nucleus tractus spinalis",
+        "d. nucleus dorsalis nervi vagi",
+        "e. nucleus accessorius"
+    ],
+    correct: 3
+},
+{
+    question: "22. Call the motor somatic nucleus of the vagus nerve:",
+    options: [
+        "a. nucleus ambiguus",
+        "b. nucleus tractus spinalis",
+        "c. nucleus salivatorius inferior",
+        "d. nucleus solitarius",
+        "e. nucleus accessorius"
+    ],
+    correct: 0
+},
+{
+    question: "23. How does optic nerve reach middle cranial fossa?",
+    options: [
+        "a. optic canal",
+        "b. sphenopalatine foramen",
+        "c. inferior orbital fissure",
+        "d. superior orbital fissure",
+        "e. posterior ethmoidal foramen"
+    ],
+    correct: 0
+},
+{
+    question: "24. How does oculomotor nerve reach orbit?",
+    options: [
+        "a. foramen rotundum",
+        "b. carotid canal",
+        "c. optic canal",
+        "d. superior orbital fissure",
+        "e. inferior orbital fissure"
+    ],
+    correct: 3
+},
+{
+    question: "25. Which muscle is innervated by superior ramus of oculomotor nerve?",
+    options: [
+        "a. musculus rectus medialis",
+        "b. musculus levator palpebrae superioris",
+        "c. musculus obliquus inferior",
+        "d. musculus rectus lateralis",
+        "e. musculus procerus"
+    ],
+    correct: 1
+},
+{
+    question: "26. Which muscle is innervated by superior ramus of oculomotor nerve?",
+    options: [
+        "a. musculus rectus medialis",
+        "b. musculus rectus lateralis",
+        "c. musculus rectus superior",
+        "d. musculus procerus",
+        "e. musculus obliquus inferior"
+    ],
+    correct: 2
+},
+{
+    question: "27. Which muscle is innervated by inferior ramus of oculomotor nerve?",
+    options: [
+        "a. musculus levator palpebrae superioris",
+        "b. musculus rectus inferior",
+        "c. musculus obliquus superior",
+        "d. musculus rectus superior",
+        "e. musculus procerus"
+    ],
+    correct: 1
+},
+{
+    question: "28. Which muscle is innervated by inferior ramus of oculomotor nerve?",
+    options: [
+        "a. musculus rectus lateralis",
+        "b. musculus procerus",
+        "c. musculus rectus superior",
+        "d. musculus obliquus superior",
+        "e. musculus levator palpebrae superioris"
+    ],
+    correct: 0
+},
+{
+    question: "29. Which muscle is innervated by inferior ramus of oculomotor nerve?",
+    options: [
+        "a. musculus obliquus inferior",
+        "b. musculus obliquus superior",
+        "c. musculus procerus",
+        "d. musculus levator palpebrae superioris",
+        "e. musculus rectus superior"
+    ],
+    correct: 0
+},
+{
+    question: "30. What do parasympathetic fibers of oculomotor nerve innervate?",
+    options: [
+        "a. musculus procerus",
+        "b. musculus ciliaris",
+        "c. musculus stapedius",
+        "d. musculus levator palpebrae superioris",
+        "e. dilatator pupillae"
+    ],
+    correct: 1
+},
+{
+    question: "31. What do parasympathetic fibers of oculomotor nerve innervate?",
+    options: [
+        "a. musculus levator palpebrae superioris",
+        "b. dilatator pupillae",
+        "c. musculus stapedius",
+        "d. sphincter pupillae",
+        "e. musculus procerus"
+    ],
+    correct: 3
+},
+{
+    question: "32. Which muscle is innervated by trochlear nerve?",
+    options: [
+        "a. musculus rectus superior",
+        "b. musculus rectus inferior",
+        "c. musculus obliquus superior",
+        "d. musculus rectus lateralis",
+        "e. musculus rectus medialis"
+    ],
+    correct: 2
+},
+{
+    question: "33. Which muscle is innervated by abducens nerve?",
+    options: [
+        "a. musculus obliquus superior",
+        "b. musculus rectus medialis",
+        "c. musculus rectus superior",
+        "d. musculus rectus inferior",
+        "e. musculus rectus lateralis"
+    ],
+    correct: 4
+},
+{
+    question: "34. Which cranial nerve does innervate musculus obliquus superior?",
+    options: [
+        "a. trochlear",
+        "b. facial",
+        "c. trigeminal",
+        "d. abducens",
+        "e. oculomotor"
+    ],
+    correct: 0
+},
+{
+    question: "35. Which cranial nerve does innervate musculus obliquus inferior?",
+    options: [
+        "a. trigeminal",
+        "b. trochlear",
+        "c. facial",
+        "d. abducens",
+        "e. oculomotor"
+    ],
+    correct: 4
+},
+{
+    question: "36. Which cranial nerve does innervate musculus rectus medialis?",
+    options: [
+        "a. facial",
+        "b. abducens",
+        "c. trochlear",
+        "d. oculomotor",
+        "e. trigeminal"
+    ],
+    correct: 3
+},
+{
+    question: "37. Which cranial nerve does innervate musculus rectus lateralis?",
+    options: [
+        "a. trigeminal",
+        "b. abducens",
+        "c. oculomotor",
+        "d. trochlear",
+        "e. facial"
+    ],
+    correct: 1
+},
+{
+    question: "38. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus procerus",
+        "b. musculus longitudinalis superior linguae",
+        "c. mylohyoideus",
+        "d. posterior belly of musculus digastricus",
+        "e. musculus stapedius"
+    ],
+    correct: 2
+},
+{
+    question: "39. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus procerus",
+        "b. musculus stapedius",
+        "c. musculus longitudinalis superior linguae",
+        "d. musculus procerus",
+        "e. anterior belly of musculus digastricus"
+    ],
+    correct: 4
+},
+{
+    question: "40. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus procerus",
+        "b. musculus stapedius",
+        "c. musculus masseter",
+        "d. posterior belly of musculus digastricus",
+        "e. musculus longitudinalis superior linguae"
+    ],
+    correct: 2
+}, 
+{
+    question: "41. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus buccalis",
+        "b. musculus levator labii superioris",
+        "c. musculus longitudinalis superior linguae",
+        "d. musculus stapedius",
+        "e. musculus pterygoideus lateralis"
+    ],
+    correct: 4
+},
+{
+    question: "42. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus longitudinalis superior linguae",
+        "b. musculus procerus",
+        "c. musculus temporalis",
+        "d. musculus stapedius",
+        "e. posterior belly of musculus digastricus"
+    ],
+    correct: 2
+},
+{
+    question: "43. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus stapedius",
+        "b. musculus tensor membrana tympani",
+        "c. posterior belly of musculus digastricus",
+        "d. musculus buccalis",
+        "e. musculus levator labii superioris"
+    ],
+    correct: 1
+},
+{
+    question: "44. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus zygomaticus major",
+        "b. musculus zygomaticus minor",
+        "c. musculus orbicularis oris",
+        "d. musculus mentalis",
+        "e. musculus tensor veli palatini"
+    ],
+    correct: 4
+},
+{
+    question: "45. Which muscle is innervated by trigeminal nerve?",
+    options: [
+        "a. musculus longitudinalis superior linguae",
+        "b. musculus procerus",
+        "c. musculus stapedius",
+        "d. musculus pterygoideus medialis",
+        "e. posterior belly of musculus digastricus"
+    ],
+    correct: 3
+},
+{
+    question: "46. The branches of the orbital nerve (from trigeminal nerve) are all EXCEPT OF",
+    options: [
+        "a. nervus frontalis",
+        "b. nervus infraorbitalis",
+        "c. nervus nasociliaris",
+        "d. ramus tentorialis",
+        "e. nervus lacrimalis"
+    ],
+    correct: 1
+},
+{
+    question: "47. The branches of the maxillary nerve (from trigeminal nerve) are all EXCEPT OF",
+    options: [
+        "a. nervus infraorbitalis",
+        "b. nervus alveolaris superior",
+        "c. nervi gingivales superiores",
+        "d. nervus frontalis",
+        "e. nervus zygomaticus"
+    ],
+    correct: 3
+},
+{
+    question: "48. The branches of the mandibular nerve (from trigeminal nerve) are all EXCEPT OF",
+    options: [
+        "a. nervus lingualis",
+        "b. nervus frontalis",
+        "c. nervus buccalis",
+        "d. nervus alveolaris inferior",
+        "e. nervus auriculotemporalis"
+    ],
+    correct: 1
+},
+{
+    question: "49. Ophthalmic nerve (from n. Trigeminus) is:",
+    options: [
+        "a. motor sympathetic",
+        "b. motor somatic",
+        "c. mixed",
+        "d. sensory",
+        "e. motor parasympathetic"
+    ],
+    correct: 3
+},
+{
+    question: "50. Maxillary nerve (from n. Trigeminus) is:",
+    options: [
+        "a. motor sympathetic",
+        "b. motor parasympathetic",
+        "c. sensory",
+        "d. motor somatic",
+        "e. mixed"
+    ],
+    correct: 2
+},
+{
+    question: "51. Mandibular nerve (from n. Trigeminus) is:",
+    options: [
+        "a. sensory",
+        "b. mixed",
+        "c. motor somatic",
+        "d. motor parasympathetic",
+        "e. motor sympathetic"
+    ],
+    correct: 1
+},
+{
+    question: "52. Greater petrosal nerve is:",
+    options: [
+        "a. motor sympathetic",
+        "b. mixed",
+        "c. motor parasympathetic",
+        "d. sensory",
+        "e. motor somatic"
+    ],
+    correct: 2
+},
+{
+    question: "53. What does greater petrosal nerve supply?",
+    options: [
+        "a. parotid gland",
+        "b. sublingual gland",
+        "c. submandibular gland",
+        "d. stapedius muscle",
+        "e. lacrimal gland"
+    ],
+    correct: 4
+},
+{
+    question: "54. What does stapedius nerve supply?",
+    options: [
+        "a. musculus tensor veli palatini",
+        "b. musculus tensor membrana tympani",
+        "c. musculus uvulae",
+        "d. musculus procerus",
+        "e. musculus stapedius"
+    ],
+    correct: 4
+},
+{
+    question: "55. What does facial nerve supply?",
+    options: [
+        "a. anterior belly of digastric muscle",
+        "b. posterior belly of digastric muscle",
+        "c. lateral pterygoid muscle",
+        "d. musculus tensor veli palatini",
+        "e. stylopharyngeus muscle"
+    ],
+    correct: 1
+},
+{
+    question: "56. What does facial nerve supply?",
+    options: [
+        "a. anterior belly of digastric muscle",
+        "b. stylopharyngeus muscle",
+        "c. lateral pterygoid muscle",
+        "d. musculus tensor veli palatini",
+        "e. stylohyoid muscle"
+    ],
+    correct: 4
+},
+{
+    question: "57. What does facial nerve supply?",
+    options: [
+        "a. mimic muscles",
+        "b. muscles of mastication",
+        "c. deep neck muscles",
+        "d. all head muscles",
+        "e. infrahyoid muscle"
+    ],
+    correct: 0
+},
+{
+    question: "58. What does facial nerve supply?",
+    options: [
+        "a. musculus tensor veli palatini",
+        "b. anterior belly of digastric muscle",
+        "c. corrugator supercilii muscle",
+        "d. lateral pterygoid muscle",
+        "e. stylopharyngeus muscle"
+    ],
+    correct: 2
+},
+{
+    question: "59. What does facial nerve supply?",
+    options: [
+        "a. anterior belly of digastric muscle",
+        "b. lateral pterygoid muscle",
+        "c. platysma muscle",
+        "d. musculus tensor veli palatini",
+        "e. stylopharyngeus muscle"
+    ],
+    correct: 2
+},
+{
+    question: "60. Submandibular gland is innervated by:",
+    options: [
+        "a. vagus nerve",
+        "b. glossopharyngeal nerve",
+        "c. trigeminal nerve",
+        "d. oculomotor nerve",
+        "e. facial nerve"
+    ],
+    correct: 4
+},
+ {
+    question: "61. Sublingual gland is innervated by:",
+    options: [
+        "a. vagus nerve",
+        "b. glossopharyngeal nerve",
+        "c. trigeminal nerve",
+        "d. facial nerve",
+        "e. oculomotor nerve"
+    ],
+    correct: 3
+},
+{
+    question: "62. Parotid gland is innervated by:",
+    options: [
+        "a. trigeminal nerve",
+        "b. oculomotor nerve",
+        "c. vagus nerve",
+        "d. facial nerve",
+        "e. glossopharyngeal nerve"
+    ],
+    correct: 4
+},
+{
+    question: "63. Which muscle is innervated by glossopharyngeal nerve?",
+    options: [
+        "a. levator veli palatini muscle",
+        "b. musculus uvulae",
+        "c. digastric muscle",
+        "d. stylopharyngeus muscle",
+        "e. masseter muscle"
+    ],
+    correct: 3
+},
+{
+    question: "64. What do sensory fibers of glossopharyngeal nerve supply?",
+    options: [
+        "a. tympanic cavity",
+        "b. superior teeth",
+        "c. anterior 2/3 of the tongue",
+        "d. nasal cavity",
+        "e. dorsum nasi"
+    ],
+    correct: 0
+},
+{
+    question: "65. What do sensory fibers of glossopharyngeal nerve supply?",
+    options: [
+        "a. dorsum nasi",
+        "b. superior teeth",
+        "c. anterior 2/3 of the tongue",
+        "d. auditory tube",
+        "e. nasal cavity"
+    ],
+    correct: 3
+},
+{
+    question: "66. What muscle is innervated by vagus nerve?",
+    options: [
+        "a. musculus levator veli palatini",
+        "b. musculus levator labii superioris",
+        "c. musculus buccalis",
+        "d. posterior belly of musculus digastricus",
+        "e. musculus stapedius"
+    ],
+    correct: 0
+},
+{
+    question: "67. What muscles are innervated by vagus nerve?",
+    options: [
+        "a. superior longitudinal muscle",
+        "b. transverse muscle",
+        "c. anterior belly of digastric",
+        "d. laryngeal muscles",
+        "e. lateral pterygoid muscle"
+    ],
+    correct: 3
+},
+{
+    question: "68. Which muscle is innervated by accessory nerve?",
+    options: [
+        "a. sternocleidomastoid muscle",
+        "b. buccal muscle",
+        "c. platysma",
+        "d. orbicularis oris muscle",
+        "e. mylohyoid muscle"
+    ],
+    correct: 0
+},
+{
+    question: "69. Which muscle is innervated by accessory nerve?",
+    options: [
+        "a. trapezius muscle",
+        "b. mylohyoid muscle",
+        "c. platysma",
+        "d. buccal muscle",
+        "e. orbicularis oris muscle"
+    ],
+    correct: 0
+},
+{
+    question: "70. Which muscle is innervated by hypoglossal nerve?",
+    options: [
+        "a. musculus palatoglossus",
+        "b. musculus masseter",
+        "c. musculus longitudinalis superior",
+        "d. musculus stylopharyngeus",
+        "e. musculus procerus"
+    ],
+    correct: 2
+},
+{
+    question: "71. Which muscle is innervated by hypoglossal nerve?",
+    options: [
+        "a. musculus stylopharyngeus",
+        "b. musculus procerus",
+        "c. musculus masseter",
+        "d. musculus palatoglossus",
+        "e. musculus longitudinalis inferior"
+    ],
+    correct: 4
+},
+{
+    question: "72. Which muscle is innervated by hypoglossal nerve?",
+    options: [
+        "a. musculus procerus",
+        "b. musculus palatoglossus",
+        "c. musculus verticalis linguae",
+        "d. musculus masseter",
+        "e. musculus stylopharyngeus"
+    ],
+    correct: 2
+},
+{
+    question: "73. Which muscle is innervated by hypoglossal nerve?",
+    options: [
+        "a. musculus stylopharyngeus",
+        "b. musculus procerus",
+        "c. musculus palatoglossus",
+        "d. musculus masseter",
+        "e. musculus transversus linguae"
+    ],
+    correct: 4
+},
+{
+    question: "74. What nerves are responsible for the innervation of pharynx?",
+    options: [
+        "a. hypoglossus et accessorius",
+        "b. trigeminus et facialis",
+        "c. trigeminus et glossopharyngeus",
+        "d. vagus et glossopharyngeus",
+        "e. facialis et glossopharyngeus"
+    ],
+    correct: 3
+},
+{
+    question: "75. Which ganglion is related to trigeminal nerve?",
+    options: [
+        "a. ganglion oticum",
+        "b. ganglion superius",
+        "c. ganglion geniculi",
+        "d. ganglion trigeminale",
+        "e. ganglion inferius"
+    ],
+    correct: 3
+},
+{
+    question: "76. Which ganglion is related to vagus nerve?",
+    options: [
+        "a. ganglion submandibulare",
+        "b. ganglion trigeminale",
+        "c. ganglion geniculi",
+        "d. ganglion oticum",
+        "e. ganglion superius"
+    ],
+    correct: 4
+},
+{
+    question: "77. Tongue’s anterior two-thirds TASTE sensitivity is provided by:",
+    options: [
+        "a. trigeminal nerve",
+        "b. vagus nerve",
+        "c. glossopharyngeal nerve",
+        "d. facial nerve",
+        "e. hypoglossal nerve"
+    ],
+    correct: 3
+},
+{
+    question: "78. Tongue’s anterior two-thirds GENERAL sensitivity is provided by:",
+    options: [
+        "a. vagus nerve",
+        "b. hypoglossal nerve",
+        "c. trigeminal nerve",
+        "d. facial nerve",
+        "e. glossopharyngeal nerve"
+    ],
+    correct: 2
+},
+{
+    question: "79. Tongue’s posterior one-third TASTE sensitivity is provided by:",
+    options: [
+        "a. glossopharyngeal nerve",
+        "b. vagus nerve",
+        "c. facial nerve",
+        "d. trigeminal nerve",
+        "e. hypoglossal nerve"
+    ],
+    correct: 0
+},
+{
+    question: "80. Tongue’s posterior one-third GENERAL sensitivity is provided by:",
+    options: [
+        "a. hypoglossal nerve",
+        "b. vagus nerve",
+        "c. glossopharyngeal nerve",
+        "d. trigeminal nerve",
+        "e. facial nerve"
+    ],
+    correct: 1
+},
+{
+    question: "81. Greater petrosal nerve is a branch of what cranial nerve?",
+    options: [
+        "a. III pair",
+        "b. IX pair",
+        "c. X pair",
+        "d. V pair",
+        "e. VII pair"
+    ],
+    correct: 4
+},
+{
+    question: "82. Lesser petrosal nerve is a branch of what cranial nerve?",
+    options: [
+        "a. IX pair",
+        "b. X pair",
+        "c. III pair",
+        "d. V pair",
+        "e. VII pair"
+    ],
+    correct: 0
+},
+{
+    question: "83. Tympanic nerve is a branch of what cranial nerve?",
+    options: [
+        "a. IX pair",
+        "b. III pair",
+        "c. V pair",
+        "d. X pair",
+        "e. VII pair"
+    ],
+    correct: 0
+},
+{
+    question: "84. What pathway is related to anterior funiculus of spinal cord?",
+    options: [
+        "a. gracile",
+        "b. rubrospinal",
+        "c. lateral spinothalamic",
+        "d. anterior spinothalamic",
+        "e. ventral spinocerebellar"
+    ],
+    correct: 3
+},
+{
+    question: "85. What pathway is related to anterior funiculus of spinal cord?",
+    options: [
+        "a. medial longitudinal",
+        "b. lateral spinothalamic",
+        "c. rubrospinal",
+        "d. gracile",
+        "e. ventral spinocerebellar"
+    ],
+    correct: 0
+},
+{
+    question: "86. What pathway is related to anterior funiculus of spinal cord?",
+    options: [
+        "a. ventral spinocerebellar",
+        "b. lateral spinothalamic",
+        "c. gracile",
+        "d. vestibulospinal",
+        "e. rubrospinal"
+    ],
+    correct: 3
+},
+{
+    question: "87. What pathway is related to anterior funiculus of spinal cord?",
+    options: [
+        "a. ventral spinocerebellar",
+        "b. lateral spinothalamic",
+        "c. gracile",
+        "d. rubrospinal",
+        "e. anterior corticospinal"
+    ],
+    correct: 4
+},
+{
+    question: "88. What pathway is related to anterior funiculus of spinal cord?",
+    options: [
+        "a. gracile",
+        "b. rubrospinal",
+        "c. reticulospinal",
+        "d. lateral spinothalamic",
+        "e. ventral spinocerebellar"
+    ],
+    correct: 2
+},
+{
+    question: "89. What pathway is related to anterior funiculus of spinal cord?",
+    options: [
+        "a. gracile",
+        "b. rubrospinal",
+        "c. ventral spinocerebellar",
+        "d. lateral spinothalamic",
+        "e. tectospinal"
+    ],
+    correct: 4
+},
+{
+    question: "90. What pathway is related to lateral funiculus of spinal cord?",
+    options: [
+        "a. cuneatus",
+        "b. medial longitudinal",
+        "c. ventral spinocerebellar",
+        "d. gracile",
+        "e. tectospinal"
+    ],
+    correct: 2
+},
+{
+    question: "91. What pathway is related to lateral funiculus of spinal cord?",
+    options: [
+        "a. cuneatus",
+        "b. tectospinal",
+        "c. gracile",
+        "d. dorsal spinocerebellar",
+        "e. medial longitudinal"
+    ],
+    correct: 3
+},
+{
+    question: "92. What pathway is related to lateral funiculus of spinal cord?",
+    options: [
+        "a. gracile",
+        "b. lateral spinothalamic",
+        "c. cuneatus",
+        "d. tectospinal",
+        "e. medial longitudinal"
+    ],
+    correct: 1
+},
+{
+    question: "93. What pathway is related to lateral funiculus of spinal cord?",
+    options: [
+        "a. medial longitudinal",
+        "b. tectospinal",
+        "c. cuneatus",
+        "d. rubrospinal",
+        "e. gracile"
+    ],
+    correct: 3
+},
+{
+    question: "94. What pathway is related to lateral funiculus of spinal cord?",
+    options: [
+        "a. lateral corticospinal",
+        "b. cuneatus",
+        "c. tectospinal",
+        "d. medial longitudinal",
+        "e. gracile"
+    ],
+    correct: 0
+},
+{
+    question: "95. What pathway is related to posterior funiculus of spinal cord?",
+    options: [
+        "a. tectospinal",
+        "b. gracile",
+        "c. rubrospinal",
+        "d. medial longitudinal",
+        "e. corticospinal"
+    ],
+    correct: 1
+},
+{
+    question: "96. What pathway is related to posterior funiculus of spinal cord?",
+    options: [
+        "a. cuneatus",
+        "b. rubrospinal",
+        "c. tectospinal",
+        "d. corticospinal",
+        "e. medial longitudinal"
+    ],
+    correct: 0
+},
+{
+    question: "97. How many cervical segments of spinal cord?",
+    options: [
+        "a. 11",
+        "b. 1",
+        "c. 12",
+        "d. 5",
+        "e. 8"
+    ],
+    correct: 4
+},
+{
+    question: "98. How many thoracic segments of spinal cord?",
+    options: [
+        "a. 5",
+        "b. 11",
+        "c. 12",
+        "d. 8",
+        "e. 1"
+    ],
+    correct: 2
+},
+{
+    question: "99. How many lumbar segments of spinal cord?",
+    options: [
+        "a. 5",
+        "b. 1",
+        "c. 8",
+        "d. 12",
+        "e. 11"
+    ],
+    correct: 0
+},
+{
+    question: "100. Facial nerve is –",
+    options: [
+        "a. sensory",
+        "b. motor",
+        "c. parasympathetic",
+        "d. mixed",
+        "e. sympathetic"
+    ],
+    correct: 3
+},
+
+ 
+
+
+
+
+
+
+
+            // Add the remaining questions in the same format
+            // I've included the first 10 as an example
+            // The full quiz would include all 100 questions
+        ];
+
+        const quizContainer = document.getElementById('quiz-container');
+
+        questions.forEach((q, index) => {
+            const questionDiv = document.createElement('div');
+            questionDiv.className = 'question';
+            
+            const questionText = document.createElement('p');
+            questionText.textContent = q.question;
+            questionDiv.appendChild(questionText);
+            
+            const optionsDiv = document.createElement('div');
+            optionsDiv.className = 'options';
+            
+            q.options.forEach((option, i) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.textContent = option;
+                
+                optionDiv.addEventListener('click', () => {
+                    // Remove any existing classes
+                    const options = optionsDiv.querySelectorAll('.option');
+                    options.forEach(opt => {
+                        opt.classList.remove('correct', 'incorrect');
+                    });
+                    
+                    if (i === q.correct) {
+                        optionDiv.classList.add('correct');
+                    } else {
+                        optionDiv.classList.add('incorrect');
+                        options[q.correct].classList.add('correct');
+                    }
+                });
+                
+                optionsDiv.appendChild(optionDiv);
+            });
+            
+            questionDiv.appendChild(optionsDiv);
+            quizContainer.appendChild(questionDiv);
+        });
+    </script>
+</body>
+</html>
