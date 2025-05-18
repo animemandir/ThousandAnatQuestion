@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latin Cards</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #3498db;
+        --accent-color: #e74c3c;
+        --light-color: #ecf0f1;
+        --dark-color: #2c3e50;
+        --text-color: #333;
+        --border-radius: 8px;
+        --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: white;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+      }
+
+      .header p {
+        margin: 10px 0 0;
+        opacity: 0.9;
+      }
+
+      #faqContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .flip-container {
+        perspective: 1000px;
+        height: 250px;
+      }
+
+      .flip-card {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+      }
+
+      .flip-card.flipped {
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: var(--border-radius);
+      }
+
+      .flip-card-front {
+        background-color: rgb(233, 225, 225);
+        border: 2px solid var(--secondary-color);
+      }
+
+      .flip-card-back {
+        background-color: var(--secondary-color);
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .question,
+      .answer {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+      }
+
+      .counter {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 0.8rem;
+        color: #666;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 3px 6px;
+        border-radius: 10px;
+      }
+
+      .flip-card-back .counter {
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      .progress-divider {
+        grid-column: 1 / -1;
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+        background-color: var(--light-color);
+        border-radius: var(--border-radius);
+        font-weight: bold;
+        color: var(--dark-color);
+        box-shadow: var(--box-shadow);
+      }
+
+      .load-more-btn {
+        grid-column: 1 / -1;
+        padding: 12px 24px;
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        border-radius: var(--border-radius);
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin: 20px auto;
+        display: block;
+        box-shadow: var(--box-shadow);
+      }
+
+      .load-more-btn:hover {
+        background-color: #c0392b;
+        transform: translateY(-2px);
+      }
+
+      .controls {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .control-btn {
+        padding: 10px 20px;
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+
+      .control-btn:hover {
+        background-color: #1a252f;
+      }
+
+      @media (max-width: 768px) {
+        #faqContainer {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Latin (Clinical Terminology) Flash Cards</h1>
+      <p>Click on a card to flip and reveal the answer</p>
+    </div>
+
+    <div class="controls">
+      <button class="control-btn" id="shuffleBtn">Shuffle Cards</button>
+      <button class="control-btn" id="resetBtn">Reset All</button>
+    </div>
+
+    <div id="faqContainer"></div>
+
+    <script>
+              // Complete FAQ data with all questions
+              const faqData = [
+
+
+             {
+    "question": "not, without",
+    "answer": "aa-(an-)"
+  },
+  {
+    "question": "against",
+    "answer": "anti-"
+  },
+  {
+    "question": "disorder, difficult, painful, bad",
+    "answer": "dys-"
+  },
+  {
+    "question": "below, deficient",
+    "answer": "hypo-"
+  },
+  {
+    "question": "above, excessive",
+    "answer": "hyper-"
+  },
+  {
+    "question": "together, with",
+    "answer": "syn-, sym-"
+  },
+  {
+    "question": "within",
+    "answer": "endo-"
+  },
+  {
+    "question": "surrounding",
+    "answer": "peri-"
+  },
+  {
+    "question": "near, beside, abnormal",
+    "answer": "para-"
+  },
+  {
+    "question": "complete, through",
+    "answer": "dia-"
+  },
+  {
+    "question": "above, upon",
+    "answer": "epi-"
+  },
+  {
+    "question": "beyond, change, near",
+    "answer": "meta-"
+  },
+  {
+    "question": "before",
+    "answer": "pro-"
+  },
+  {
+    "question": "out, outside",
+    "answer": "ec-(exo-)"
+  },
+  {
+    "question": "again, backward",
+    "answer": "ana-"
+  },
+  {
+    "question": "back",
+    "answer": "re-"
+  },
+  {
+    "question": "across",
+    "answer": "trans-"
+  },
+  {
+    "question": "inflammation",
+    "answer": "-itis"
+  },
+  {
+    "question": "abnormal condition",
+    "answer": "-osis"
+  },
+  {
+    "question": "tumor",
+    "answer": "-oma"
+  },
+  {
+    "question": "gland",
+    "answer": "aden-"
+  },
+  {
+    "question": "cause, reason",
+    "answer": "aetia-"
+  },
+  {
+    "question": "word, speech",
+    "answer": "-log(os)-"
+  },
+  {
+    "question": "study, science",
+    "answer": "-logia"
+  },
+  {
+    "question": "expert, specialist",
+    "answer": "-logus"
+  },
+  {
+    "question": "pain",
+    "answer": "-algia"
+  },
+  {
+    "question": "disease",
+    "answer": "ath(os)-"
+  },
+  {
+    "question": "heart",
+    "answer": "cardia-"
+  },
+  {
+    "question": "bone",
+    "answer": "oste(on)-"
+  },
+  {
+    "question": "joint",
+    "answer": "arthr(on)-"
+  },
+  {
+    "question": "cartilage",
+    "answer": "chondr(os)-"
+  },
+  {
+    "question": "sac of fluid, urinary bladder",
+    "answer": "cyst(is)-"
+  },
+  {
+    "question": "gall, bile",
+    "answer": "chol(e)-"
+  },
+  {
+    "question": "life",
+    "answer": "bio-, bios"
+  },
+  {
+    "question": "nature, growth",
+    "answer": "phys(is)-"
+  },
+  {
+    "question": "stomach",
+    "answer": "gaster, gastr(os)-"
+  },
+  {
+    "question": "connection, join",
+    "answer": "-desm(os)-"
+  },
+  {
+    "question": "head",
+    "answer": "cephal(e)-"
+  },
+  {
+    "question": "brain",
+    "answer": "encephal(on)-"
+  },
+  {
+    "question": "brain (largest part)",
+    "answer": "-cerebr(um)"
+  },
+  {
+    "question": "skin",
+    "answer": "derma, dermat(os)-"
+  },
+  {
+    "question": "skin condition",
+    "answer": "-dermia"
+  },
+  {
+    "question": "blood",
+    "answer": "haema, haemat(os)-"
+  },
+  {
+    "question": "blood condition",
+    "answer": "-aemia"
+  },
+  {
+    "question": "water",
+    "answer": "hydro(hydr)-"
+  },
+  {
+    "question": "vessel",
+    "answer": "angi(on)-"
+  },
+  {
+    "question": "vein",
+    "answer": "phleps, phleb(os)-"
+  },
+  {
+    "question": "child",
+    "answer": "-paedi(on)"
+  },
+  {
+    "question": "correction of defect",
+    "answer": "-paedia"
+  },
+  {
+    "question": "body",
+    "answer": "-soma, somat(os)-"
+  },
+  {
+    "question": "old man, senility",
+    "answer": "gen(on), geront(os)-"
+  },
+  {
+    "question": "physician",
+    "answer": "-iater"
+  },
+  {
+    "question": "study of treatment of disease",
+    "answer": "-iatria"
+  },
+  {
+    "question": "straight",
+    "answer": "-orth(os)"
+  },
+  {
+    "question": "tightening, stricture",
+    "answer": "-sten(os)"
+  },
+  {
+    "question": "stretching; dilation",
+    "answer": "-ectasia"
+  },
+  {
+    "question": "fat",
+    "answer": "lip(os)-"
+  },
+  {
+    "question": "white",
+    "answer": "leuc(os)-"
+  },
+  {
+    "question": "red",
+    "answer": "erythr(os)-"
+  },
+  {
+    "question": "cell",
+    "answer": "cyt(us)-"
+  },
+  {
+    "question": "sugar",
+    "answer": "glyk(ys)-"
+  },
+  {
+    "question": "eat; swallow",
+    "answer": "phag(os)-"
+  },
+  {
+    "question": "eating, swallowing",
+    "answer": "-phagia"
+  },
+  {
+    "question": "formation",
+    "answer": "-poésis"
+  },
+  {
+    "question": "treatment",
+    "answer": "-therapia"
+  },
+  {
+    "question": "clot",
+    "answer": "thromb(os)-"
+  },
+  {
+    "question": "stone, calculus",
+    "answer": "lith(os)-"
+  },
+  {
+    "question": "mind",
+    "answer": "psych(e)-"
+  },
+  {
+    "question": "shield, thyroid gland",
+    "answer": "thyre(os)-"
+  },
+  {
+    "question": "backbones, vertebrae",
+    "answer": "spondyl(os)-"
+  },
+  {
+    "question": "woman, female",
+    "answer": "gynaec(os)-"
+  },
+  {
+    "question": "record",
+    "answer": "-gramma"
+  },
+  {
+    "question": "process of recording",
+    "answer": "-graphia"
+  },
+  {
+    "question": "to view",
+    "answer": "-opsia"
+  },
+  {
+    "question": "muscle",
+    "answer": "mys, my(os)-"
+  },
+  {
+    "question": "tissue",
+    "answer": "hist(os)-"
+  },
+  {
+    "question": "hard",
+    "answer": "scler(os)-"
+  },
+  {
+    "question": "hardening",
+    "answer": "-sclerosis"
+  },
+  {
+    "question": "instrumental examination",
+    "answer": "-scopia"
+  },
+  {
+    "question": "kidney",
+    "answer": "nephr(os)-"
+  },
+  {
+    "question": "renal pelvis",
+    "answer": "pyel(os)-"
+  },
+  {
+    "question": "urinary, urine",
+    "answer": "ur(os)-"
+  },
+  {
+    "question": "urination, urine",
+    "answer": "-uria"
+  },
+  {
+    "question": "stone",
+    "answer": "-lith(os)"
+  },
+  {
+    "question": "mouth",
+    "answer": "-stoma, stomat(os)"
+  },
+  {
+    "question": "making artificial opening",
+    "answer": "-stomia"
+  },
+  {
+    "question": "secrete; separate",
+    "answer": "-crin(o)"
+  },
+  {
+    "question": "break down, destruction",
+    "answer": "-lysis"
+  },
+  {
+    "question": "control, stop",
+    "answer": "-stasis"
+  },
+  {
+    "question": "decreased number; a lack of",
+    "answer": "-penia"
+  },
+  {
+    "question": "attraction for (increase in numbers)",
+    "answer": "-philia"
+  },
+  {
+    "question": "fear",
+    "answer": "-phobia"
+  },
+  {
+    "question": "change, beyond, between",
+    "answer": "-meta"
+  },
+  {
+    "question": "flesh",
+    "answer": "sarx, sarc(os)"
+  },
+  {
+    "question": "anus and rectum",
+    "answer": "proct(os)"
+  },
+  {
+    "question": "palsy; paralysis",
+    "answer": "-plegia"
+  },
+  {
+    "question": "rupture",
+    "answer": "-rrhex(is)"
+  },
+  {
+    "question": "addiction; mania",
+    "answer": "-mania"
+  },
+  {
+    "question": "measure",
+    "answer": "-metria"
+  },
+  {
+    "question": "digestion",
+    "answer": "-pepsia"
+  },
+  {
+    "question": "infection",
+    "answer": "-sepsis"
+  },
+  {
+    "question": "softening",
+    "answer": "-malacia"
+  },
+  {
+    "question": "breathing",
+    "answer": "-pnoé"
+  },
+  {
+    "question": "pulse",
+    "answer": "-sphygmia"
+  },
+  {
+    "question": "tongue",
+    "answer": "gloss(a)"
+  },
+  {
+    "question": "condition of tongue",
+    "answer": "-glossia"
+  },
+  {
+    "question": "tooth",
+    "answer": "odus"
+  },
+  {
+    "question": "tooth",
+    "answer": "odont(os)"
+  },
+  {
+    "question": "lip",
+    "answer": "cheil(os)"
+  },
+  {
+    "question": "condition of lip",
+    "answer": "-cheilia"
+  },
+  {
+    "question": "breast",
+    "answer": "mast(os)"
+  },
+  {
+    "question": "spinal cord, bone marrow",
+    "answer": "myel(os)"
+  },
+  {
+    "question": "numbness; stupor",
+    "answer": "-nark(e)"
+  },
+  {
+    "question": "cancer",
+    "answer": "carcin(os)"
+  },
+  {
+    "question": "plant",
+    "answer": "phyt(on)"
+  },
+  {
+    "question": "nerve",
+    "answer": "neur(on)"
+  },
+  {
+    "question": "gray matter of brain and spinal cord",
+    "answer": "polio(s)"}
+  
+
+
+
+
+              ];
+
+              // Batch loading variables
+              let currentIndex = 0;
+              const batchSize = 20;
+              const faqContainer = document.getElementById('faqContainer');
+              let shuffledData = [...faqData];
+
+              // Function to create a single FAQ card
+              function createFAQCard(item, index) {
+                  const flipContainer = document.createElement('div');
+                  flipContainer.className = 'flip-container';
+
+                  const flipCard = document.createElement('div');
+                  flipCard.className = 'flip-card';
+                  flipCard.addEventListener('click', function() {
+                      this.classList.toggle('flipped');
+                  });
+
+                  const counter = document.createElement('div');
+                  counter.className = 'counter';
+                  counter.textContent = `${index + 1}/${faqData.length}`;
+
+                  const flipCardFront = document.createElement('div');
+                  flipCardFront.className = 'flip-card-front';
+
+                  const question = document.createElement('div');
+                  question.className = 'question';
+                  question.textContent = item.question;
+                  flipCardFront.appendChild(question);
+                  flipCardFront.appendChild(counter);
+
+                  const flipCardBack = document.createElement('div');
+                  flipCardBack.className = 'flip-card-back';
+
+                  const answer = document.createElement('div');
+                  answer.className = 'answer';
+                  answer.textContent = item.answer;
+                  flipCardBack.appendChild(answer);
+                  flipCardBack.appendChild(counter.cloneNode(true));
+
+                  flipCard.appendChild(flipCardFront);
+                  flipCard.appendChild(flipCardBack);
+                  flipContainer.appendChild(flipCard);
+
+                  return flipContainer;
+              }
+
+              // Function to load a batch of questions
+              function loadQuestionsBatch() {
+                  const endIndex = Math.min(currentIndex + batchSize, shuffledData.length);
+                  const fragment = document.createDocumentFragment();
+
+                  for (let i = currentIndex; i < endIndex; i++) {
+                      fragment.appendChild(createFAQCard(shuffledData[i], i));
+
+                      // Add progress divider after every 10 questions
+                      if ((i + 1) % 10 === 0 && i !== endIndex - 1) {
+                          const divider = document.createElement('div');
+                          divider.className = 'progress-divider';
+                          divider.innerHTML = `<span>Completed ${i + 1} questions</span>`;
+                          fragment.appendChild(divider);
+                      }
+                  }
+
+                  faqContainer.appendChild(fragment);
+                  currentIndex = endIndex;
+
+                  // Remove any existing load more button
+                  const existingBtn = document.querySelector('.load-more-btn');
+                  if (existingBtn) {
+                      existingBtn.remove();
+                  }
+
+                  // Add new load more button if needed
+                  if (currentIndex < shuffledData.length) {
+                      const loadMoreBtn = document.createElement('button');
+                      loadMoreBtn.className = 'load-more-btn';
+                      loadMoreBtn.textContent = 'Load More Questions';
+                      loadMoreBtn.addEventListener('click', loadQuestionsBatch);
+                      faqContainer.appendChild(loadMoreBtn);
+                  }
+              }
+
+              // Shuffle function
+              function shuffleArray(array) {
+                  for (let i = array.length - 1; i > 0; i--) {
+                      const j = Math.floor(Math.random() * (i + 1));
+                      [array[i], array[j]] = [array[j], array[i]];
+                  }
+                  return array;
+              }
+
+              // Reset function
+              function resetCards() {
+                  currentIndex = 0;
+                  shuffledData = [...faqData];
+                  faqContainer.innerHTML = '';
+                  loadQuestionsBatch();
+              }
+
+              // Shuffle cards function
+              function shuffleCards() {
+                  currentIndex = 0;
+                  shuffledData = shuffleArray([...faqData]);
+                  faqContainer.innerHTML = '';
+                  loadQuestionsBatch();
+              }
+
+              // Event listeners
+              document.addEventListener('DOMContentLoaded', function() {
+                  loadQuestionsBatch();
+
+                  document.getElementById('shuffleBtn').addEventListener('click', shuffleCards);
+                  document.getElementById('resetBtn').addEventListener('click', resetCards);
+
+                  // Auto-flip back when clicking outside
+                  document.addEventListener('click', function(event) {
+                      if (!event.target.closest('.flip-card')) {
+                          document.querySelectorAll('.flip-card.flipped').forEach(card => {
+                              card.classList.remove('flipped');
+                          });
+                      }
+                  });
+              });
+    </script>
+  </body>
+</html>
