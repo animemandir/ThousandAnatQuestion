@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Editor</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .question-block { border: 1px solid #ccc; margin-bottom: 20px; padding: 15px; }
+    textarea, input[type="text"] { width: 100%; }
+    .options { margin-left: 20px; }
+    .btn { margin-right: 10px; cursor: pointer; }
+    .correct-select { width: auto; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<h2>Quiz Editor</h2>
+
+<input type="file" id="jsonUpload" accept=".json"><br><br>
+<button class="btn" onclick="addQuestion()">Add Question</button>
+<button class="btn" onclick="exportJSON()">Export JSON</button>
+<hr>
+
+<div id="quizContainer"></div>
+
+<script>
+let quizData = [];
+
+// Load default data
+function loadDefaultData() {
+  quizData = [
+    {
+      question: "What are the following spinal nerves do not form plexus?",
+      options: ["a. thoracic", "b. coccygeal", "c. lumbar", "d. cervical", "e. sacral"],
+      correct: 0,
+    },
+    {
+      question: "What nerve of cervical plexus is mixed?",
+      options: [
+        "a. n. transversus colli",
+        "b. n. auricular major",
+        "c. n. occipitalis minor",
+        "d. n. phrenicum",
+        "e. n. supraclavicularis",
+      ],
+      correct: 3,
+    }
+  ];
+  renderQuiz();
+}
+
+// Render all questions
+function renderQuiz() {
+  const container = document.getElementById('quizContainer');
+  container.innerHTML = '';
+
+  quizData.forEach((q, index) => {
+    const block = document.createElement('div');
+    block.className = 'question-block';
+
+    // Question Text
+    const qInput = document.createElement('textarea');
+    qInput.value = q.question;
+    qInput.oninput = () => q.question = qInput.value;
+
+    // Options
+    const optsDiv = document.createElement('div');
+    optsDiv.className = 'options';
+    q.options.forEach((opt, i) => {
+      const optInput = document.createElement('input');
+      optInput.type = 'text';
+      optInput.value = opt;
+      optInput.oninput = () => q.options[i] = optInput.value;
+      const delBtn = document.createElement('button');
+      delBtn.textContent = 'Remove';
+      delBtn.className = 'btn';
+      delBtn.onclick = () => {
+        q.options.splice(i, 1);
+        if (q.correct >= q.options.length) q.correct = Math.max(0, q.options.length - 1);
+        renderQuiz();
+      };
+      optsDiv.appendChild(optInput);
+      optsDiv.appendChild(delBtn);
+      optsDiv.appendChild(document.createElement('br'));
+    });
+
+    const addOptBtn = document.createElement('button');
+    addOptBtn.textContent = 'Add Option';
+    addOptBtn.className = 'btn';
+    addOptBtn.onclick = () => {
+      q.options.push("New option");
+      renderQuiz();
+    };
+
+    // Correct Answer Selector
+    const select = document.createElement('select');
+    select.className = 'correct-select';
+    q.options.forEach((_, i) => {
+      const opt = document.createElement('option');
+      opt.value = i;
+      opt.text = `Option ${i + 1}`;
+      select.appendChild(opt);
+    });
+    select.value = q.correct;
+    select.onchange = () => q.correct = parseInt(select.value);
+
+    // Delete Question Button
+    const delBtn = document.createElement('button');
+    delBtn.textContent = 'Delete Question';
+    delBtn.className = 'btn';
+    delBtn.onclick = () => {
+      quizData.splice(index, 1);
+      renderQuiz();
+    };
+
+    block.appendChild(qInput);
+    block.appendChild(document.createElement('br'));
+    block.appendChild(document.createTextNode('Options:'));
+    block.appendChild(optsDiv);
+    block.appendChild(addOptBtn);
+    block.appendChild(document.createElement('br'));
+    block.appendChild(document.createTextNode('Correct Answer:'));
+    block.appendChild(select);
+    block.appendChild(delBtn);
+
+    container.appendChild(block);
+  });
+}
+
+// Add New Question
+function addQuestion() {
+  quizData.push({
+    question: "New question...",
+    options: ["Option a", "Option b"],
+    correct: 0
+  });
+  renderQuiz();
+}
+
+// Export JSON
+function exportJSON() {
+  const jsonStr = JSON.stringify(quizData, null, 2);
+  const blob = new Blob([jsonStr], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = "quiz.json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// Handle JSON Upload
+document.getElementById('jsonUpload').addEventListener('change', function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    let content = event.target.result;
+
+    try {
+      // Attempt to parse raw JSON
+      quizData = JSON.parse(content);
+    } catch (e) {
+      // If failed, attempt to fix common formatting errors
+      content = content.replace(/([{[])/g, '$1\n').replace(/([}\]]),?/g, '$1\n');
+
+      const lines = content.split('\n').map(line => line.trim()).filter(Boolean);
+      const fixedLines = [];
+      let buffer = '';
+      for (const line of lines) {
+        buffer += line;
+        try {
+          JSON.parse(buffer);
+          fixedLines.push(buffer);
+          buffer = '';
+        } catch {
+          buffer += '\n';
+        }
+      }
+
+      try {
+        quizData = JSON.parse(`[${fixedLines.join(',')}]`);
+      } catch (e2) {
+        alert("Failed to parse uploaded JSON even after repair.");
+        console.error(e2);
+        return;
+      }
+    }
+
+    // Ensure each question has at least one option and a correct index
+    quizData = quizData.map(q => ({
+      question: q.question || "Untitled",
+      options: Array.isArray(q.options) && q.options.length > 0 ? q.options : ["Option 1"],
+      correct: typeof q.correct === 'number' && q.correct >= 0 && q.correct < q.options.length ? q.correct : 0
+    }));
+
+    renderQuiz();
+  };
+  reader.readAsText(file);
+});
+
+// Initialize
+loadDefaultData();
+
+</script>
+
+</body>
+</html>
