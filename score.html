@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Scores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Your <span>Quiz Scores</span></h1>
+        <p class="subtitle">Track your progress across subjects</p>
+    </header>
+
+    <div class="container">
+        <div id="scores-list"></div>
+        <button onclick="resetScores()" class="btn">Reset All Scores</button>
+    </div>
+
+    <script>
+        const subjectNames = {
+            osteology: "Osteology",
+            myology: "Myology",
+            splanchnology: "Splanchnology",
+            cns: "Central Nervous System",
+            pns: "Peripheral Nervous System"
+        };
+
+        function displayScores() {
+            const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
+            const container = document.getElementById('scores-list');
+
+            if (Object.keys(scores).length === 0) {
+                container.innerHTML = '<p>No scores recorded yet.</p>';
+                return;
+            }
+
+            const scoreHTML = Object.entries(scores).map(([subject, data]) => {
+                return `
+                    <div style="margin-bottom: 1.5rem; border: 1px solid #ddd; padding: 1rem; border-radius: 10px;">
+                        <h3 style="margin: 0;">Subject: ${capitalize(subject)}</h3>
+                        <p style="margin: 0.5rem 0;">Score: <strong>${data.score}</strong></p>
+                        <small>Last completed: ${data.date}</small>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = scoreHTML;
+        }
+
+        function capitalize(str) {
+            return subjectNames[str] || str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        function resetScores() {
+            if (confirm("Are you sure you want to reset all scores?")) {
+                localStorage.removeItem('quizScores');
+                displayScores();
+            }
+        }
+
+        displayScores();
+    </script>
+</body>
+</html>
