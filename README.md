@@ -6,6 +6,9 @@ Thousand Anatomy Questions addresses the critical need for structured anatomy pr
 Get complex anatomical concepts into accessible, exam-focused questions that reinforce learning through active recall.
 
 
+![Preview](https://anatomy1.pages.dev/anat1.webp)
+
+
 
 ## -----
 
