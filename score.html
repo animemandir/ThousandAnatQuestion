@@ -2,19 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz Scores</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quiz Scoreboard</title>
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #16222A 0%, #3A6073 100%);
+            --secondary-gradient: linear-gradient(to right, #1A2980, #26D0CE);
+            --accent-gradient: linear-gradient(to right, #FF416C, #FF4B2B);
+            --card-bg: #ffffff;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --text-dark: #2c3e50;
+            --text-light: #7f8c8d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            color: var(--text-dark);
+            line-height: 1.7;
+        }
+
+        .header {
+            background: var(--primary-gradient);
+            color: white;
+            padding: 3rem 1rem 2rem;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .score-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .score-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .subject-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .score-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .score-badge {
+            font-weight: bold;
+            color: #fff;
+            background: var(--secondary-gradient);
+            padding: 0.3rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 12px;
+            background: #eee;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--accent-gradient);
+            border-radius: 10px;
+            transition: width 1s ease-in-out;
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .no-scores {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--text-light);
+            margin-top: 3rem;
+        }
+
+        .btn-reset {
+            display: block;
+            margin: 3rem auto 2rem;
+            padding: 0.8rem 1.8rem;
+            border-radius: 50px;
+            background: var(--accent-gradient);
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-reset:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(255, 75, 43, 0.4);
+        }
+    </style>
 </head>
 <body>
-    <header class="main-header">
-        <h1>Your <span>Quiz Scores</span></h1>
-        <p class="subtitle">Track your progress across subjects</p>
+
+    <header class="header">
+        <h1>Your Quiz Scores</h1>
+        <p>Track your performance across subjects</p>
     </header>
 
-    <div class="container">
-        <div id="scores-list"></div>
-        <button onclick="resetScores()" class="btn">Reset All Scores</button>
+    <div class="container" id="scores-container">
+        <!-- Score cards will be injected here -->
     </div>
+
+    <button class="btn-reset" onclick="resetScores()">Reset All Scores</button>
 
     <script>
         const subjectNames = {
@@ -25,40 +159,51 @@
             pns: "Peripheral Nervous System"
         };
 
+        function capitalize(str) {
+            return subjectNames[str] || str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
         function displayScores() {
             const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
-            const container = document.getElementById('scores-list');
+            const container = document.getElementById('scores-container');
 
             if (Object.keys(scores).length === 0) {
-                container.innerHTML = '<p>No scores recorded yet.</p>';
+                container.innerHTML = '<p class="no-scores">No scores recorded yet.</p>';
                 return;
             }
 
-            const scoreHTML = Object.entries(scores).map(([subject, data]) => {
-                return `
-                    <div style="margin-bottom: 1.5rem; border: 1px solid #ddd; padding: 1rem; border-radius: 10px;">
-                        <h3 style="margin: 0;">Subject: ${capitalize(subject)}</h3>
-                        <p style="margin: 0.5rem 0;">Score: <strong>${data.score}</strong></p>
-                        <small>Last completed: ${data.date}</small>
+            Object.entries(scores).forEach(([subject, data]) => {
+                const card = document.createElement('div');
+                card.className = 'score-card';
+
+                const totalQuestions = 10; // Set this based on actual quiz length
+                const percentage = Math.round((data.score / totalQuestions) * 100);
+
+                card.innerHTML = `
+                    <div class="subject-title">${capitalize(subject)}</div>
+                    <div class="score-info">
+                        <span>Score: <strong>${data.score}/${totalQuestions}</strong></span>
+                        <span class="score-badge">${percentage}%</span>
                     </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${percentage}%;"></div>
+                    </div>
+                    <div class="date">Last completed: ${data.date}</div>
                 `;
-            }).join('');
-
-            container.innerHTML = scoreHTML;
-        }
-
-        function capitalize(str) {
-            return subjectNames[str] || str.charAt(0).toUpperCase() + str.slice(1);
+                container.appendChild(card);
+            });
         }
 
         function resetScores() {
             if (confirm("Are you sure you want to reset all scores?")) {
                 localStorage.removeItem('quizScores');
+                document.getElementById('scores-container').innerHTML = '';
                 displayScores();
             }
         }
 
         displayScores();
     </script>
+
 </body>
 </html>
