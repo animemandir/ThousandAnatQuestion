@@ -1328,10 +1328,15 @@
 
     // Scroll to result when floating button is clicked
     floatingBtn.addEventListener('click', () => {
-        if (resultSection) {
-            resultSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    });
+    if (resultSection) {
+        resultSection.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+        });
+    }
+});
     </script>
 </body>
 </html>
