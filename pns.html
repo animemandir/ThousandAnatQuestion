@@ -1,105 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PNS Quiz</title>
-    <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    }
+    <title>PNS QUIZ 1k Anat Questions</title>
 
-    h1 {
-        text-align: center;
-        color: #333;
-        font-size: 2.8rem;
-        margin-bottom: 1rem;
-        font-weight: 600;
-    }
-
-    .question {
-        margin-bottom: 20px;
-        padding: 15px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: white;
-    }
-
-    .options {
-        margin-top: 10px;
-    }
-
-    .option {
-        padding: 8px;
-        margin: 5px 0;
-        cursor: pointer;
-        border: 1px solid #ddd;
-        border-radius: 3px;
-        transition: background-color 0.3s, border-color 0.3s;
-    }
-
-    /* Correct answer */
-    .correct {
-        background-color: #c3e6cb;
-        border-color: #2eb82e;
-    }
-
-    /* Incorrect answer */
-    .incorrect {
-        background-color: #f8d7da;
-        border-color: #ff4d4d;
-    }
-        /* Floating Finish Button */
-#floating-finish-btn {
-    position: fixed;
-    left: 20px;
-    bottom: 20px;
-    z-index: 1000;
-    background: linear-gradient(135deg, #1A2980, #26D0CE);
-    color: white;
-    border: none;
-    padding: 1rem 1.5rem;
-    border-radius: 50px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease, opacity 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    opacity: 0;
-    pointer-events: none;
-}
-
-#floating-finish-btn.show {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-#floating-finish-btn .badge {
-    background: white;
-    color: #1A2980;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-    </style>
+    <link rel="stylesheet" href="quiz.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
 </head>
 <body>
     <h1>PNS Quizzes</h1>
     <div id="quiz-container"></div>
-
+  <div class="fab fabVertical active">
+    <div class="fabNav fabNav--left">
+      <a href="" class="fabItem ic-facebook">
+        <span class="fabTooltip">Facebook</span>
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="" class="fabItem ic-ig">
+        <span class="fabTooltip">Instagram</span>
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="" class="fabItem ic-tw">
+        <span class="fabTooltip">Twitter</span>
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+    </div>
+    <div class="fabTrigger">
+      <a href="">
+        <span class="icon"></span>
+      </a>
+    </div>
+    <div class="fabNav fabNav--right">
+      <a href="" class="fabItem ic-facebook">
+        <span class="fabTooltip">Hotline</span>
+        <i class="fa-solid fa-phone"></i>
+      </a>
+      <a href="" class="fabItem ic-ig">
+        <span class="fabTooltip">Livechat</span>
+        <i class="fa-regular fa-comment-dots"></i>
+      </a>
+      <a href="" class="fabItem ic-tw">
+        <span class="fabTooltip">Map</span>
+        <i class="fa-solid fa-location-dot"></i>
+      </a>
+    </div>
+  </div>
     <script>
         const questions = [
             
@@ -1187,156 +1134,11 @@
     correct: 4,
   },
 
-
-
-
-            // Add the remaining questions in the same format
-            // I've included the first 10 as an example
-            // The full quiz would include all 100 questions
         ];
 
 
-
-    const quizContainer = document.getElementById('quiz-container');
-
-    // Create floating finish button
-    const floatingBtn = document.createElement('button');
-    floatingBtn.id = 'floating-finish-btn';
-    floatingBtn.innerHTML = `
-        Finish Quiz <span class="badge" id="answered-count">0</span>
-    `;
-    document.body.appendChild(floatingBtn);
-
-    let resultSection = null;
-
-    // Render quiz questions
-    questions.forEach((q, index) => {
-        const questionDiv = document.createElement('div');
-        questionDiv.className = 'question';
-
-        const questionText = document.createElement('p');
-        questionText.textContent = q.question;
-        questionDiv.appendChild(questionText);
-
-        const optionsDiv = document.createElement('div');
-        optionsDiv.className = 'options';
-
-        q.options.forEach((option, i) => {
-            const optionDiv = document.createElement('div');
-            optionDiv.className = 'option';
-            optionDiv.textContent = option;
-
-            optionDiv.addEventListener('click', () => {
-                if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) {
-                    return;
-                }
-
-                const allOptions = optionsDiv.querySelectorAll('.option');
-                allOptions.forEach(opt => opt.style.pointerEvents = 'none');
-
-                if (i === q.correct) {
-                    optionDiv.classList.add('correct');
-                } else {
-                    optionDiv.classList.add('incorrect');
-                    allOptions[q.correct].classList.add('correct');
-                }
-
-                q.selected = i;
-
-                updateFloatingButton();
-            });
-
-            optionsDiv.appendChild(optionDiv);
-        });
-
-        questionDiv.appendChild(optionsDiv);
-        quizContainer.appendChild(questionDiv);
-    });
-
-    // Function to show/hide floating button based on answered questions
-    function updateFloatingButton() {
-        let answeredCount = 0;
-        questions.forEach(q => {
-            if (q.selected !== undefined) answeredCount++;
-        });
-
-        const badge = document.getElementById('answered-count');
-        if (badge) badge.textContent = answeredCount;
-
-        if (answeredCount > 0) {
-            floatingBtn.classList.add('show');
-        } else {
-            floatingBtn.classList.remove('show');
-        }
-    }
-
-    // Save score to localStorage
-    function saveScore(subject, score) {
-        const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
-        scores[subject] = {
-            score: score,
-            date: new Date().toLocaleDateString()
-        };
-        localStorage.setItem('quizScores', JSON.stringify(scores));
-    }
-
-    // Create and append finish button
-    const finishButton = document.createElement('button');
-    finishButton.textContent = 'Finish Quiz';
-    finishButton.className = 'btn';
-    finishButton.style.marginTop = '3rem';
-    finishButton.style.display = 'block';
-    finishButton.style.marginLeft = 'auto';
-    finishButton.style.marginRight = 'auto';
-
-    finishButton.addEventListener('click', () => {
-        let correctCount = 0;
-        questions.forEach(q => {
-            const selected = q.selected;
-            if (selected !== undefined && selected === q.correct) {
-                correctCount++;
-            }
-        });
-
-        const total = questions.length;
-        const subject = window.location.pathname.split('/').filter(Boolean).pop();
-
-        saveScore(subject, correctCount);
-
-        // Show result message
-        resultSection = document.createElement('div');
-        resultSection.innerHTML = `
-            <h3 style="text-align:center; margin-top: 2rem;">Quiz Complete!</h3>
-            <p style="text-align:center; font-size:1.2rem;">
-                You got <strong>${correctCount}</strong> out of <strong>${total}</strong> correct.
-            </p>
-            <p style="text-align:center;">
-                <a href="/score.html" class="btn">View Scoreboard</a>
-            </p>
-        `;
-        quizContainer.appendChild(resultSection);
-
-        // Scroll to result
-        if (resultSection) {
-            resultSection.scrollIntoView({ behavior: 'smooth' });
-        }
-
-        finishButton.remove();
-    });
-
-    quizContainer.appendChild(finishButton);
-
-    // Scroll to result when floating button is clicked
-    floatingBtn.addEventListener('click', () => {
-    if (resultSection) {
-        resultSection.scrollIntoView({ behavior: 'smooth' });
-    } else {
-        window.scrollTo({
-            top: document.body.scrollHeight,
-            behavior: 'smooth'
-        });
-    }
-});
     </script>
+
+    <script src="script.js" ></script>
 </body>
 </html>
