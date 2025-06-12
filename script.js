@@ -1,37 +1,45 @@
-document.querySelector('.hamburger').addEventListener('click', function() {
-    // Toggle mobile menu
-    document.querySelector('.nav-links').classList.toggle('active');
-    
-    // Animate hamburger to "X"
-    this.classList.toggle('active');
-});
-
-// Close menu when clicking a link (optional)
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        document.querySelector('.nav-links').classList.remove('active');
-        document.querySelector('.hamburger').classList.remove('active');
-    });
-});
+// ✅ ALL GLOBAL VARIABLES MUST BE DECLARED AT THE TOP
+let resultSection = null;
+//let questions = []; // 🔥 This must come BEFORE any functions that use it
 
 
-// QUIZ CODE
+// FETCH AND QUIZ LOGIC STARTS BELOW
+
+function loadQuiz(jsonPath) {
+    console.log("🔍 loadQuiz: Loading from", jsonPath);
+
+    fetch(jsonPath)
+        .then(res => {
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            return res.json();
+        })
+        .then(data => {
+            console.log("✅ JSON loaded successfully");
+            console.log("📥 Raw data:", data); // <-- inspect structure here
+            console.log("📊 Total questions:", data.length);
+
+            // Ensure data is an array
+            if (Array.isArray(data)) {
+                questions = data;
+                renderQuiz();
+            } else {
+                console.error("❌ JSON data is not an array!");
+            }
+        })
+        .catch(err => {
+            console.error("❌ Failed to load quiz:", err);
+        });
+}
+
+// Render quiz questions dynamically
+function renderQuiz() {
     const quizContainer = document.getElementById('quiz-container');
+    quizContainer.innerHTML = ''; // Clear previous content
 
-    // Create floating finish button
-    const floatingBtn = document.createElement('button');
-    floatingBtn.id = 'floating-finish-btn';
-    floatingBtn.innerHTML = `
-        Finish Quiz <span class="badge" id="answered-count">0</span>
-    `;
-    document.body.appendChild(floatingBtn);
-
-    let resultSection = null;
-
-    // Render quiz questions
     questions.forEach((q, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.className = 'question';
+        q.selected = undefined; // Reset selected answers
 
         const questionText = document.createElement('p');
         questionText.textContent = q.question;
@@ -72,34 +80,46 @@ document.querySelectorAll('.nav-links a').forEach(link => {
         quizContainer.appendChild(questionDiv);
     });
 
-    // Function to show/hide floating button based on answered questions
-    function updateFloatingButton() {
-        let answeredCount = 0;
-        questions.forEach(q => {
-            if (q.selected !== undefined) answeredCount++;
-        });
+    createFloatingFinishButton();
+    addFinishButton(quizContainer);
+}
 
-        const badge = document.getElementById('answered-count');
-        if (badge) badge.textContent = answeredCount;
-
-        if (answeredCount > 0) {
-            floatingBtn.classList.add('show');
-        } else {
-            floatingBtn.classList.remove('show');
-        }
+// Create floating finish button
+function createFloatingFinishButton() {
+    const floatingBtn = document.getElementById('floating-finish-btn') ||
+                        document.createElement('button');
+    
+    if (!document.getElementById('floating-finish-btn')) {
+        floatingBtn.id = 'floating-finish-btn';
+        floatingBtn.innerHTML = `
+            Finish Quiz <span class="badge" id="answered-count">0</span>
+        `;
+        document.body.appendChild(floatingBtn);
     }
 
-    // Save score to localStorage
-    function saveScore(subject, score) {
-        const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
-        scores[subject] = {
-            score: score,
-            date: new Date().toLocaleDateString()
-        };
-        localStorage.setItem('quizScores', JSON.stringify(scores));
-    }
+    // Scroll to bottom or result section
+    floatingBtn.addEventListener('click', () => {
+    if (resultSection) {
+        console.log("🟢 Scrolling to result section");
+        resultSection.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        console.log("🟡 Result not ready. Scrolling to bottom");
 
-    // Create and append finish button
+        // Wait for DOM update before scrolling
+        setTimeout(() => {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
+        }, 100);
+    }
+});
+
+  //  updateFloatingButton(); // Initial update
+}
+
+// Add "Finish Quiz" button at the end
+function addFinishButton(quizContainer) {
     const finishButton = document.createElement('button');
     finishButton.textContent = 'Finish Quiz';
     finishButton.className = 'btn';
@@ -136,55 +156,44 @@ document.querySelectorAll('.nav-links a').forEach(link => {
         quizContainer.appendChild(resultSection);
 
         // Scroll to result
-        if (resultSection) {
-            resultSection.scrollIntoView({ behavior: 'smooth' });
-        }
+        resultSection.scrollIntoView({ behavior: 'smooth' });
 
         finishButton.remove();
     });
 
     quizContainer.appendChild(finishButton);
+}
 
-    // Scroll to result when floating button is clicked
-    floatingBtn.addEventListener('click', () => {
-    if (resultSection) {
-        resultSection.scrollIntoView({ behavior: 'smooth' });
-    } else {
-        window.scrollTo({
-            top: document.body.scrollHeight,
-            behavior: 'smooth'
-        });
-    }
-});
-
-
-// FLOATING MENU
-// Get all menu from document
-document.querySelectorAll('.fabTrigger').forEach(OpenMenu);
-// Menu Open and Close function
-function OpenMenu(active) {
-  if(active.classList.contains('fabTrigger') === true){
-    active.addEventListener('click', function (e) {
-      e.preventDefault();        
-
-      if (this.parentElement.classList.contains('active') === true) {
-        // Close the clicked dropdown
-        this.parentElement.classList.remove('active');
-
-      } else {
-        // Close the opend dropdown
-        closeMenu();
-        // add the open and active class(Opening the DropDown)
-        this.parentElement.classList.add('active');
-      }
+// Function to update floating button
+function updateFloatingButton() {
+    let answeredCount = 0;
+    questions.forEach(q => {
+        if (q.selected !== undefined) answeredCount++;
     });
-  }
-};
 
-// Close the openend Menu
-function closeMenu() { 
-  // remove the open and active class from other opened Moenu (Closing the opend Menu)
-  document.querySelectorAll('.fab').forEach(function (container) { 
-    container.classList.remove('active')
-  });
+    const badge = document.getElementById('answered-count');
+    if (badge) badge.textContent = answeredCount;
+
+    const btn = document.getElementById('floating-finish-btn');
+    if (answeredCount > 0) {
+        btn.classList.add('show');
+    } else {
+        btn.classList.remove('show');
+    }
+}
+
+// Save score to localStorage
+function saveScore(subject, score) {
+    const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
+    const now = new Date();
+const formattedDate = now.toLocaleDateString(); // e.g., "12/7/2025"
+const formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); // e.g., "3:45 PM"
+
+// Combine them
+const fullDate = `${formattedDate} at ${formattedTime}`;
+    scores[subject] = {
+    score: score,
+    date: fullDate
+};
+    localStorage.setItem('quizScores', JSON.stringify(scores));
 }
