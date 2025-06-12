@@ -1156,97 +1156,142 @@
         ];
 
 
-const quizContainer = document.getElementById('quiz-container');
 
-questions.forEach((q, index) => {
-    const questionDiv = document.createElement('div');
-    questionDiv.className = 'question';
+    const quizContainer = document.getElementById('quiz-container');
 
-    const questionText = document.createElement('p');
-    questionText.textContent = q.question;
-    questionDiv.appendChild(questionText);
+    // Create floating finish button
+    const floatingBtn = document.createElement('button');
+    floatingBtn.id = 'floating-finish-btn';
+    floatingBtn.innerHTML = `
+        Finish Quiz <span class="badge" id="answered-count">0</span>
+    `;
+    document.body.appendChild(floatingBtn);
 
-    const optionsDiv = document.createElement('div');
-    optionsDiv.className = 'options';
+    let resultSection = null;
 
-    q.options.forEach((option, i) => {
-        const optionDiv = document.createElement('div');
-        optionDiv.className = 'option';
-        optionDiv.textContent = option;
+    // Render quiz questions
+    questions.forEach((q, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
 
-        optionDiv.addEventListener('click', () => {
-            if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) {
-                return;
-            }
+        const questionText = document.createElement('p');
+        questionText.textContent = q.question;
+        questionDiv.appendChild(questionText);
 
-            const allOptions = optionsDiv.querySelectorAll('.option');
-            allOptions.forEach(opt => opt.style.pointerEvents = 'none');
+        const optionsDiv = document.createElement('div');
+        optionsDiv.className = 'options';
 
-            if (i === q.correct) {
-                optionDiv.classList.add('correct');
-            } else {
-                optionDiv.classList.add('incorrect');
-                allOptions[q.correct].classList.add('correct');
-            }
+        q.options.forEach((option, i) => {
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'option';
+            optionDiv.textContent = option;
 
-            q.selected = i;
+            optionDiv.addEventListener('click', () => {
+                if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) {
+                    return;
+                }
+
+                const allOptions = optionsDiv.querySelectorAll('.option');
+                allOptions.forEach(opt => opt.style.pointerEvents = 'none');
+
+                if (i === q.correct) {
+                    optionDiv.classList.add('correct');
+                } else {
+                    optionDiv.classList.add('incorrect');
+                    allOptions[q.correct].classList.add('correct');
+                }
+
+                q.selected = i;
+
+                updateFloatingButton();
+            });
+
+            optionsDiv.appendChild(optionDiv);
         });
 
-        optionsDiv.appendChild(optionDiv);
+        questionDiv.appendChild(optionsDiv);
+        quizContainer.appendChild(questionDiv);
     });
 
-    questionDiv.appendChild(optionsDiv);
-    quizContainer.appendChild(questionDiv);
-});
+    // Function to show/hide floating button based on answered questions
+    function updateFloatingButton() {
+        let answeredCount = 0;
+        questions.forEach(q => {
+            if (q.selected !== undefined) answeredCount++;
+        });
 
-function saveScore(subject, score) {
-    const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
-    scores[subject] = {
-        score: score,
-        date: new Date().toLocaleDateString()
-    };
-    localStorage.setItem('quizScores', JSON.stringify(scores));
-}
+        const badge = document.getElementById('answered-count');
+        if (badge) badge.textContent = answeredCount;
 
-const finishButton = document.createElement('button');
-finishButton.textContent = 'Finish Quiz';
-finishButton.className = 'btn';
-finishButton.style.marginTop = '3rem';
-finishButton.style.display = 'block';
-finishButton.style.marginLeft = 'auto';
-finishButton.style.marginRight = 'auto';
+        if (answeredCount > 0) {
+            floatingBtn.classList.add('show');
+        } else {
+            floatingBtn.classList.remove('show');
+        }
+    }
 
-finishButton.addEventListener('click', () => {
-    let correctCount = 0;
+    // Save score to localStorage
+    function saveScore(subject, score) {
+        const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
+        scores[subject] = {
+            score: score,
+            date: new Date().toLocaleDateString()
+        };
+        localStorage.setItem('quizScores', JSON.stringify(scores));
+    }
 
-    questions.forEach(q => {
-        const selected = q.selected;
-        if (selected !== undefined && selected === q.correct) {
-            correctCount++;
+    // Create and append finish button
+    const finishButton = document.createElement('button');
+    finishButton.textContent = 'Finish Quiz';
+    finishButton.className = 'btn';
+    finishButton.style.marginTop = '3rem';
+    finishButton.style.display = 'block';
+    finishButton.style.marginLeft = 'auto';
+    finishButton.style.marginRight = 'auto';
+
+    finishButton.addEventListener('click', () => {
+        let correctCount = 0;
+        questions.forEach(q => {
+            const selected = q.selected;
+            if (selected !== undefined && selected === q.correct) {
+                correctCount++;
+            }
+        });
+
+        const total = questions.length;
+        const subject = window.location.pathname.split('/').filter(Boolean).pop();
+
+        saveScore(subject, correctCount);
+
+        // Show result message
+        resultSection = document.createElement('div');
+        resultSection.innerHTML = `
+            <h3 style="text-align:center; margin-top: 2rem;">Quiz Complete!</h3>
+            <p style="text-align:center; font-size:1.2rem;">
+                You got <strong>${correctCount}</strong> out of <strong>${total}</strong> correct.
+            </p>
+            <p style="text-align:center;">
+                <a href="/score.html" class="btn">View Scoreboard</a>
+            </p>
+        `;
+        quizContainer.appendChild(resultSection);
+
+        // Scroll to result
+        if (resultSection) {
+            resultSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        finishButton.remove();
+    });
+
+    quizContainer.appendChild(finishButton);
+
+    // Scroll to result when floating button is clicked
+    floatingBtn.addEventListener('click', () => {
+        if (resultSection) {
+            resultSection.scrollIntoView({ behavior: 'smooth' });
         }
     });
-
-    const total = questions.length;
-    const subject = window.location.pathname.split('/').filter(Boolean).pop();
-
-    saveScore(subject, correctCount);
-
-    const resultMessage = document.createElement('div');
-    resultMessage.innerHTML = `
-        <h3 style="text-align:center; margin-top: 2rem;">Quiz Complete!</h3>
-        <p style="text-align:center; font-size:1.2rem;">
-            You got <strong>${correctCount}</strong> out of <strong>${total}</strong> correct.
-        </p>
-        <p style="text-align:center;">
-            <a href="/score.html" class="btn">View Scoreboard</a>
-        </p>
-    `;
-    quizContainer.appendChild(resultMessage);
-
-    finishButton.remove();
-});
-
-quizContainer.appendChild(finishButton);
     </script>
 </body>
 </html>
