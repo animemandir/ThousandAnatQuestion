@@ -5,50 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osteology Quiz</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-        }
-        .question {
-            margin-bottom: 20px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .options {
-            margin-top: 10px;
-        }
-        .option {
-            padding: 8px;
-            margin: 5px 0;
-            cursor: pointer;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-        }
-        .option:hover {
-            background-color: #f0f0f0;
-        }
-        .correct {
-            background-color: #57e34f;
-            border-color: #c3e6cb;
-        }
-        .incorrect {
-            background-color: coral;
-            border-color: #f5c6cb;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-            font-size: 2.8rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    }
 
-        }
-    </style>
+    h1 {
+        text-align: center;
+        color: #333;
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .question {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .options {
+        margin-top: 10px;
+    }
+
+    .option {
+        padding: 8px;
+        margin: 5px 0;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    /* Correct answer */
+    .correct {
+        background-color: #c3e6cb;
+        border-color: #2eb82e;
+    }
+
+    /* Incorrect answer */
+    .incorrect {
+        background-color: #f8d7da;
+        border-color: #ff4d4d;
+    }
+</style>
 </head>
 <body>
     <h1>Osteology Quiz</h1>
@@ -1043,43 +1049,47 @@
 
         const quizContainer = document.getElementById('quiz-container');
 
-        questions.forEach((q, index) => {
-            const questionDiv = document.createElement('div');
-            questionDiv.className = 'question';
-            
-            const questionText = document.createElement('p');
-            questionText.textContent = q.question;
-            questionDiv.appendChild(questionText);
-            
-            const optionsDiv = document.createElement('div');
-            optionsDiv.className = 'options';
-            
-            q.options.forEach((option, i) => {
-                const optionDiv = document.createElement('div');
-                optionDiv.className = 'option';
-                optionDiv.textContent = option;
-                
-                optionDiv.addEventListener('click', () => {
-                    // Remove any existing classes
-                    const options = optionsDiv.querySelectorAll('.option');
-                    options.forEach(opt => {
-                        opt.classList.remove('correct', 'incorrect');
-                    });
-                    
-                    if (i === q.correct) {
-                        optionDiv.classList.add('correct');
-                    } else {
-                        optionDiv.classList.add('incorrect');
-                        options[q.correct].classList.add('correct');
-                    }
-                });
-                
-                optionsDiv.appendChild(optionDiv);
-            });
-            
-            questionDiv.appendChild(optionsDiv);
-            quizContainer.appendChild(questionDiv);
+questions.forEach((q, index) => {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'question';
+
+    const questionText = document.createElement('p');
+    questionText.textContent = q.question;
+    questionDiv.appendChild(questionText);
+
+    const optionsDiv = document.createElement('div');
+    optionsDiv.className = 'options';
+
+    q.options.forEach((option, i) => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'option';
+        optionDiv.textContent = option;
+
+        optionDiv.addEventListener('click', () => {
+            // Skip if already answered
+            if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) {
+                return;
+            }
+
+            // Disable further clicks on this question
+            const allOptions = optionsDiv.querySelectorAll('.option');
+            allOptions.forEach(opt => opt.style.pointerEvents = 'none');
+
+            // Add result classes
+            if (i === q.correct) {
+                optionDiv.classList.add('correct');
+            } else {
+                optionDiv.classList.add('incorrect');
+                allOptions[q.correct].classList.add('correct');
+            }
         });
+
+        optionsDiv.appendChild(optionDiv);
+    });
+
+    questionDiv.appendChild(optionsDiv);
+    quizContainer.appendChild(questionDiv);
+});
     </script>
 </body>
 </html>
