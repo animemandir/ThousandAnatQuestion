@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz JSON Repair Tool</title>
+  <style>
+    body { font-family: Arial; padding: 20px; max-width: 900px; margin: auto; }
+    textarea { width: 100%; height: 250px; font-family: monospace; }
+    .btn { padding: 10px 20px; background: #007BFF; color: white; border: none; cursor: pointer; margin: 5px 0; }
+    .btn:hover { background: #0056b3; }
+    pre { background: #f4f4f4; padding: 15px; white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+
+<h1>🔧 Quiz JSON Repair Tool</h1>
+
+<h2>Upload JSON File</h2>
+<input type="file" id="uploadInput" accept=".json,text/plain" />
+
+<h2>Paste Broken JSON</h2>
+<textarea id="jsonInput" placeholder="Paste your broken quiz JSON here..."></textarea>
+<button class="btn" onclick="repairAndShow()">Repair JSON</button>
+
+<h2>✅ Repaired JSON</h2>
+<pre id="outputPreview">Repaired JSON will appear here...</pre>
+
+<div style="text-align:center;">
+  <button class="btn" onclick="copyToClipboard()">📋 Copy to Clipboard</button>
+  <button class="btn" onclick="downloadJSON()">💾 Download JSON</button>
+</div>
+
+<script>
+let repairedJson = "";
+
+function escapeHtml(html) {
+  return html.replace(/[&<>"']/g, m => ({
+    '&': '&amp;', '<': '<', '>': '>', '"': '&quot;', "'": '&#39;'
+  }[m]));
+}
+
+function repairCustomQuizFormat(input) {
+  // Normalize line breaks and remove comments
+  input = input.replace(/\r/g, '').replace(/\/\/.*$/gm, '');
+
+  // Step 1: Wrap all items in array if not already
+  if (!input.trim().startsWith('[')) {
+    input = `[${input}]`;
+  }
+
+  // Step 2: Fix object separators - ensure commas between objects
+  input = input.replace(/}[\s\n]*{/g, '},{');
+
+  // Step 3: Quote keys like `question`, `options`, `correct`
+  input = input.replace(/([{,]\s*)(question|options|correct)(\s*:)/g, '$1"$2"$3');
+
+  // Step 4: Remove trailing commas inside arrays/objects
+  input = input.replace(/,\s*([\]}])/g, '$1');
+
+  // Step 5: Ensure strings with letters after colon are quoted
+  input = input.replace(/:\s*([^"\{\[$$\s][^,\}\]]*?)(?=[,$$])/g, (match, p1) => {
+    return `: "${p1.trim()}"`;
+  });
+
+  // Step 6: Try parsing to verify
+  try {
+    const parsed = JSON.parse(input);
+    return JSON.stringify(parsed, null, 2);
+  } catch (e) {
+    throw new Error("Could not repair JSON. Parsing failed at: " + e.message);
+  }
+}
+
+function repairAndShow() {
+  let input = document.getElementById("jsonInput").value.trim();
+  if (!input) {
+    alert("Please paste or upload JSON content first.");
+    return;
+  }
+
+  try {
+    const fixed = repairCustomQuizFormat(input);
+    repairedJson = fixed;
+    document.getElementById("outputPreview").innerHTML = escapeHtml(fixed);
+  } catch (e) {
+    document.getElementById("outputPreview").textContent = "Error: " + e.message;
+  }
+}
+
+// Upload file handler
+document.getElementById("uploadInput").addEventListener("change", function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    document.getElementById("jsonInput").value = event.target.result;
+    repairAndShow();
+  };
+  reader.readAsText(file);
+});
+
+// Copy to clipboard
+function copyToClipboard() {
+  const el = document.createElement("textarea");
+  el.value = repairedJson;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand("copy");
+  document.body.removeChild(el);
+  alert("✅ Copied to clipboard!");
+}
+
+// Download JSON
+function downloadJSON() {
+  if (!repairedJson) {
+    alert("No JSON available yet. Please repair first.");
+    return;
+  }
+
+  const blob = new Blob([repairedJson], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "repaired_quiz.json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+
+</body>
+</html>
