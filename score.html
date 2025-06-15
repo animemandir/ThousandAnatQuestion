@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
     <meta charset="UTF-8">
     <title>Quiz Scoreboard</title>
+        <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
             --primary-gradient: linear-gradient(135deg, #16222A 0%, #3A6073 100%);
@@ -135,8 +139,105 @@
             transform: scale(1.05);
             box-shadow: 0 4px 20px rgba(255, 75, 43, 0.4);
         }
+        
+ .adminActions {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 9999; /* 👈 This ensures it's always on top */
+}
+
+  .adminButton {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(67, 83, 143, .8);
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+    .adminButton i {
+      font-size: 22px;
+    }
+
+  .adminButtons {
+    position: absolute;
+    width: 100%;
+    bottom: 120%;
+    text-align: center;
+  }
+
+    .adminButtons a {
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      text-decoration: none;
+      margin: 10px auto 0;
+      line-height: 1.15;
+      color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      position: relative;
+      box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+    }
+
+      .adminButtons a:hover {
+        transform: scale(1.05);
+      }
+
+      .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(4) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(3) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
+
+      .adminActions a i {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+  .adminToggle {
+    -webkit-appearance: none;
+    position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 2;
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
+  }
+
+    .adminToggle:hover {
+      box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
+    }
+
+    .adminToggle:checked ~ .adminButtons a {
+      opacity: 1;
+      visibility: visible;
+    }
     </style>
 </head>
+<div class="adminActions">
+
+	<input type="checkbox" name="adminToggle" class="adminToggle" />
+
+	<a class="adminButton" href="#!"><i class="fa fa-gear"></i></a>
+	<div class="adminButtons">
+		<a href="/score" title="Score board"><i class="fa fa-star"></i></a>
+		<a href="https://t.me/aayush_s_c" title="me"><i class="fab fa-telegram"></i></a>
+		<a href="/" title="Home"><i class="fa fa-home"></i></a>
+	</div>
+</div>
 <body>
 
     <header class="header">
@@ -156,6 +257,7 @@
             myology: "Myology",
             splanchnology: "Splanchnology",
             cns: "Central Nervous System",
+            cvs: "Cardio Vaacular System",
             pns: "Peripheral Nervous System"
         };
 

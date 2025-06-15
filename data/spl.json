@@ -1,0 +1,1101 @@
+[
+  {
+    "question": "1. Among adult teeth the latest to appear will be:",
+    "options": [
+      "a. dentes canini",
+      "b. dentes serotines",
+      "c. dentes premolares",
+      "d. dentes canini",
+      "e. dentes incisivi"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "2. Intrinsic muscles of tongue include all, except:",
+    "options": [
+      "a. m. verticalis",
+      "b. m. diagonalis",
+      "c. m. longitudinalis superior",
+      "d. m. longitudinalis inferior",
+      "e. m. transversus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "3. On the surface of tongue are present all papillae, except:",
+    "options": [
+      "a. papillae filiforme",
+      "b. papillae foliatae",
+      "c. papillae vallatae",
+      "d. papillae palmatae",
+      "e. papillae conicae"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "4. Extrinsic muscles of tongue include all, except:",
+    "options": [
+      "a. m. genioglossus",
+      "b. m. palatoglossus",
+      "c. m. styloglossus",
+      "d. m. hyoglossus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "5. To the muscles of soft palate belongs:",
+    "options": [
+      "a. m. palatopharingeus",
+      "b. m. verticalis",
+      "c. m. transversus velli palatini",
+      "d. m. longitudinalis superior",
+      "e. m. tensor membrana tympani"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "6. A. carotica, v. jugularis interna and n. vagus are located in:",
+    "options": [
+      "a. cavitas infraglottica",
+      "b. spatium retropharyngeum",
+      "c. spatium previscerale",
+      "d. spatium peripharyngeum",
+      "e. fornix pharyngis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "7. Pirogov-Waldeyer’s tonsillar ring includes everything, except:",
+    "options": [
+      "a. tonsilla pharyngealis",
+      "b. tonsilla lingualis",
+      "c. tonsilla tubaria",
+      "d. tonsilla palatina",
+      "e. tonsilla laryngea"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "8. Identify which anatomical structure is located laterally and below of cartilago arythenoidea in pars laryngea pharingis:",
+    "options": [
+      "a. tonsilla laryngea",
+      "b. epiglotis",
+      "c. recessus piriformis",
+      "d. tubae auditivae",
+      "e. ventriculus laryngis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "9. Identify origin point of m. constrictor pharyngis superior:",
+    "options": [
+      "a. cartilago cricoidea",
+      "b. os hyoideus",
+      "c. cartilago thyroidea",
+      "d. lamina medialis processus pterigoideus",
+      "e. raphe pterigoidea"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "10. Identify longitudinal muscles of pharynx:",
+    "options": [
+      "a. m. salpingopharyngeus",
+      "b. m. constrictor pharynges inferior",
+      "c. m. stylohyoideus",
+      "d. m. constrictor pharynges medius",
+      "e. m. constrictor pharynges superior"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "11. Identify in which part of mediastinum is located pars thoracica oesophagis:",
+    "options": [
+      "a. middle superior mediastinum",
+      "b. middle inferior mediastinum",
+      "c. anterior superior mediastinum",
+      "d. posterior inferior mediastinum",
+      "e. anterior inferior mediastinum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "12. Tunica mucosae gastricae forms everything, except:",
+    "options": [
+      "a. plicae gastricae",
+      "b. villi gastricae",
+      "c. foveolae gastricae",
+      "d. area gastricae",
+      "e. valvula pylorica"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "13. At which level is located pars horizontalis duodeni:",
+    "options": [
+      "a. ThXII vertebrae",
+      "b. LIV vertebrae",
+      "c. LII vertebrae",
+      "d. LIII vertebrae",
+      "e. LI vertebrae"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "14. Identify which part of duodenum is adjacent to lobus caudatus hepatis:",
+    "options": [
+      "a. pars horizontalis",
+      "b. pars superior",
+      "c. pars descendens",
+      "d. pars ascendens",
+      "e. none"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "15. On tunicae mucosae duodeni can be found all anatomical elements, except:",
+    "options": [
+      "a. papilla duodeni major",
+      "b. plicae circulares",
+      "c. papilla duodeni minor",
+      "d. plica longitudinalis",
+      "e. plicae semilunares"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "16. Identify which part of gastrointestinal tract is characterized by presence of multiple noduli lymphatici aggregati:",
+    "options": [
+      "a. ileum",
+      "b. jejunum",
+      "c. duodenum",
+      "d. gaster",
+      "e. esophagus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "17. Identify what is located between flexura coli sinistra et dextra:",
+    "options": [
+      "a. colon descendens",
+      "b. colon ascendens",
+      "c. colon sigmoideum",
+      "d. caecum",
+      "e. colon transversum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "18. Identify which anatomical structure is NOT characteristic for rectum:",
+    "options": [
+      "a. ampulla recti",
+      "b. flexura sacralis",
+      "c. flexura perinealis",
+      "d. taniae",
+      "e. canalis analis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "19. Ligaments of liver include everything, except:",
+    "options": [
+      "a. lig. triangulare dextrum",
+      "b. lig. teres hepatis",
+      "c. lig. coronarium",
+      "d. lig. suspensorium hepatis",
+      "e. lig. falciforme hepatis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "20. On facies visceralis hepatis can be found all impressions, except:",
+    "options": [
+      "a. impressio oesophagea",
+      "b. impressio duodenalis",
+      "c. impressio pancreatica",
+      "d. impressio colica",
+      "e. impressio gastrica"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "21. Identify which anatomical structure is located on anterior surface of pancreas:",
+    "options": [
+      "a. tuber omentale",
+      "b. tuberculum gastricum",
+      "c. papilla duodeni major",
+      "d. papilla duodeni minor",
+      "e. processus uncinatus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "22. Peritoneum on internal surface of anterior abdominal wall forms all plicae, except:",
+    "options": [
+      "a. plica umbilicalis mediana",
+      "b. plica umbilicalis lateralis sinistra",
+      "c. plica umbilicalis medialis dextra",
+      "d. plica umbilicalis centralis",
+      "e. plica umbilicalis lateralis dextra"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "23. Identify which anatomical structures form inferior wall of bursa omentalis:",
+    "options": [
+      "a. paries anterior gastrici et omentum minus",
+      "b. colon transversum et mesocolon transversum",
+      "c. peritoneum parietale",
+      "d. hepar et vesica fellea",
+      "e. lien"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "24. Identify which anatomical structures form medial wall of bursa pregastrica:",
+    "options": [
+      "a. colon transversum et mesocolon transversum",
+      "b. paries anterior gastrici et omentum minus",
+      "c. peritoneum parietale",
+      "d. lig. falciforme hepatis",
+      "e. facies visceralis hepatis et vesica fellea"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "25. Identify which anatomical structures form inferior wall of bursa omentalis:",
+    "options": [
+      "a. colon transversum et mesocolon transversum",
+      "b. peritoneum parietale",
+      "c. lien",
+      "d. paries posterior gastrici et omentum minus",
+      "e. lobus caudatus hepatis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "26. Identify which anatomical structure forms superior wall of foramen epiploicum:",
+    "options": [
+      "a. lobus caudatus hepatis",
+      "b. lig. hepatoduodenale",
+      "c. pars superior duodeni",
+      "d. lobus quadratus hepatis",
+      "e. peritoneum parietale"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "27. Identify which anatomical structure forms superior wall of foramen epiploicum:",
+    "options": [
+      "a. lobus caudatus hepatis",
+      "b. lig. hepatoduodenale",
+      "c. pars superior duodeni",
+      "d. lobus quadratus hepatis",
+      "e. peritoneum parietale"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "28. In middle story of peritoneal cavity are present all recessuses, except:",
+    "options": [
+      "a. recessus retrocaecalis",
+      "b. recessus intersigmoidei",
+      "c. recessus ileocaecalis inferior",
+      "d. recessus duodenalis superior",
+      "e. recessus paracolicus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "29. Identify which recessus is characteristic to inferior story of female pelvis:",
+    "options": [
+      "a. recessus intersigmoidei",
+      "b. recessus duodenalis inferior",
+      "c. recessus retrocaecalis",
+      "d. excavatio vesicouterina",
+      "e. recessus ileocaecalis superior"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "30. Cartilages of external nose include all, except:",
+    "options": [
+      "a. cartilago alaris minor",
+      "b. cartilago septi nasi",
+      "c. cartilago nasi medialis",
+      "d. cartilago nasi lateralis",
+      "e. cartilago alaris major"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "31. Nasal meatuses include all, except:",
+    "options": [
+      "a. meatus nasalis inferior",
+      "b. meatus nasalis media",
+      "c. meatus nasalis anterior",
+      "d. meatus nasalis superior",
+      "e. meatus nasalis suprema"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "32. Identify what is located laterally in aditus laryngis:",
+    "options": [
+      "a. plicae aryepiglotticae",
+      "b. plicae vestibulares",
+      "c. epiglottis",
+      "d. cartilago arytenoidea",
+      "e. plicae vocales"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "33. Identify what bounds rima glottidis laryngis:",
+    "options": [
+      "a. plicae aryepiglotticae",
+      "b. plicae vestibulares",
+      "c. cartilago cricoidea",
+      "d. plicae vocales",
+      "e. epiglottis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "34. Identify between which anatomical structures is located cavitas infraglottica laryngis:",
+    "options": [
+      "a. plicae vocales et aryepiglotticae",
+      "b. cartilago cricoidea et plicae vocales",
+      "c. plicae vestibulares et vocales",
+      "d. plicae vestibulares et aryepiglotticae",
+      "e. plicae aryepiglotticae et cartilago cricoidea"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "35. Identify in which part of larynx is located conus elasticus:",
+    "options": [
+      "a. ventriculus laryngis",
+      "b. vestibulum laryngis",
+      "c. is absent in larynx",
+      "d. cavitas infraglottica",
+      "e. in whole cavity of larynx"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "36. In the structure of cartilage arythenoidea are present all anatomical elements, except:",
+    "options": [
+      "a. facies articularis thyroidea",
+      "b. apex cartilaginis arytenoidea",
+      "c. processus vocalis",
+      "d. basis cartilaginis arytenoidea",
+      "e. processus muscularis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "37. Syndesmoses of larynx include all, except:",
+    "options": [
+      "a. lig. thyrohyoidea medianum",
+      "b. membrana thyrohyoidea",
+      "c. lig. hyoepiglotticum",
+      "d. lig. cricothyroideum",
+      "e. articulatio cricothyroidea"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "38. Identify which laryngeal muscle opens rima vocalis:",
+    "options": [
+      "a. m. thyroarytenoideus",
+      "b. m. cricoarytenoideus lateralis",
+      "c. m. cricoarytenoideus posterior",
+      "d. m. arytenoideus transversus",
+      "e. m. arytenoideus obliquus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "39. Identify which laryngeal muscle tenses vocal cords:",
+    "options": [
+      "a. m. cricoarytenoideus posterior",
+      "b. m. cricothyroideus",
+      "c. m. thyroarytenoideus",
+      "d. m. cricoarytenoideus lateralis",
+      "e. m. arytenoideus transversus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "40. Identify which laryngeal muscle continues into m. aryepiglotticus:",
+    "options": [
+      "a. m. cricoarytenoideus lateralis",
+      "b. m. arytenoideus transversus",
+      "c. m. arytenoideus obliquus",
+      "d. m. cricothyroideus",
+      "e. m. thyroarytenoideus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "41. Identify what is located in front of the trachea:",
+    "options": [
+      "a. bronchi principales",
+      "b. thymus",
+      "c. pharynx",
+      "d. esophagus",
+      "e. larynx"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "42. Identify by which anatomical structures are connected cartilages of trachea:",
+    "options": [
+      "a. ligg. anularia",
+      "b. ligg. suspensoria",
+      "c. ligg. circularia",
+      "d. ligg. intertrachealia",
+      "e. carina tracheae"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "43. Identify level at which bronchi lose cartilaginous elements in their structure:",
+    "options": [
+      "a. bronchi segmentales",
+      "b. bronchi lobares",
+      "c. bronchi terminales",
+      "d. bronchi lobulares",
+      "e. bronchi principales"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "44. Identify which anatomical structures open into sacculi alveolares:",
+    "options": [
+      "a. bronchi respiratorii",
+      "b. bronchi terminales",
+      "c. bronchi lobulares",
+      "d. bronchi segmentales",
+      "e. ductuli alveolares"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "45. Identify where parietal pleura transits into visceral pleura:",
+    "options": [
+      "a. fissura obliqua",
+      "b. lig. pulmonale",
+      "c. basis pulmonis",
+      "d. segments of lung",
+      "e. apex pulmonis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "46. Identify the deepest pleural sinus:",
+    "options": [
+      "a. recessus costomediastinalis",
+      "b. recessus costodiaphragmaticus",
+      "c. recessus phrenicocostalis",
+      "d. all sinuses are same in depth",
+      "e. recessus phrenicomediastinalis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "47. Lungs have all lobar bronchi, except:",
+    "options": [
+      "a. bronchus lobaris inferior sinister",
+      "b. bronchus lobaris superior dexter",
+      "c. bronchus lobaris medius dexter",
+      "d. bronchus lobaris medius sinister",
+      "e. bronchus lobaris superior sinister"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "48. Parietal pleura includes everything, except:",
+    "options": [
+      "a. pars costalis",
+      "b. pars diafragmatica",
+      "c. pars mediastinalis",
+      "d. cupula pleurae",
+      "e. facies interlobares"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "49. Radix pulmonis is formed by all anatomical structures, except:",
+    "options": [
+      "a. vasa lymphatica",
+      "b. v. pulmonalis",
+      "c. n. phrenicus",
+      "d. a. pulmonalis",
+      "e. bronchus principalis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "50. Identify on which surface of trachea is present paries membranaceus:",
+    "options": [
+      "a. sinister",
+      "b. posterior",
+      "c. anterior",
+      "d. dexter",
+      "e. this anatomical element does not exist"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "51. Identify how many layers of peritoneum form omentum minus:",
+    "options": [
+      "a. 3",
+      "b. 2",
+      "c. 4",
+      "d. 5",
+      "e. 6"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "52. Identify which anatomical element of kidney is adjacent to m. quadratus lumborum:",
+    "options": [
+      "a. Facies posterior",
+      "b. Hilum renalis",
+      "c. Extremitas inferior",
+      "d. Facies anterior",
+      "e. Extremitas superior"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "53. Identify where does hilum renalis lead:",
+    "options": [
+      "a. Into ducti colligens",
+      "b. Into hilum renalis",
+      "c. Into calyxes renalis majors",
+      "d. Into capsulae fibrosae",
+      "e. Into calyxes renalis minores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "54. Identify where are located kidneys:",
+    "options": [
+      "a. In lumbar region, retroperitoneally",
+      "b. In pelvic region, mesoperitoneally",
+      "c. In lumbar region, intraperitoneally",
+      "d. In lumbar region, mesoperitoneally",
+      "e. In pelvic region, retroperitoneally"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "55. Identify what does not take part in fixation of kidneys:",
+    "options": [
+      "a. Muscular seat",
+      "b. Capsula fibrosa",
+      "c. Capsula adiposa renalis",
+      "d. Fascia renalis",
+      "e. Intraabdominal pressure"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "56. Identify what forms medial part of kidney’s muscular seat:",
+    "options": [
+      "a. m. psoas minor",
+      "b. m. psoas major",
+      "c. Diaphragm",
+      "d. m. transversus abdominis",
+      "e. m. quadratus lumborum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "57. Identify which organ is in contact with greater part of facies anterior ren dexter:",
+    "options": [
+      "a. pancreas",
+      "b. lien",
+      "c. hepar",
+      "d. gaster",
+      "e. glandula suprarenalis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "58. Identify where do belong columnae renalis:",
+    "options": [
+      "a. Pelvis renalis",
+      "b. Medulla renalis",
+      "c. Pyramides renalis",
+      "d. Kidney’s muscular seat",
+      "e. Cortex renalis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "59. What forms apex of pyramis renalis:",
+    "options": [
+      "a. papilla renalis",
+      "b. ducti papillares",
+      "c. pelvis renalis",
+      "d. calix renalis major",
+      "e. calix renalis minor"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "60. Identify anatomical structure which belongs to nephron:",
+    "options": [
+      "a. calix renalis minor",
+      "b. corpusculum renale",
+      "c. ductus colligens",
+      "d. pelvis renalis",
+      "e. calix renalis major"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "61. Identify anatomical structure which opens on area cribrosa:",
+    "options": [
+      "a. calix renalis major",
+      "b. ductulli cribrosae",
+      "c. ducti papillares",
+      "d. calix renalis minor",
+      "e. ducti colligens"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "62. Identify which plicae are formed by tunica mucosa ureterici:",
+    "options": [
+      "a. plicae circulares",
+      "b. plicae longitudinales",
+      "c. plicae spirales",
+      "d. plicae semilunares",
+      "e. plicae palmatae"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "63. Identify the outermost layer of ureter:",
+    "options": [
+      "a. Tunica adventitia",
+      "b. Tunica mucosa",
+      "c. Tunica serosa",
+      "d. Tunica muscularis",
+      "e. Tunica parenchymatosa"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "64. What is the relation of filled vesica urinaria to peritoneum:",
+    "options": [
+      "a. intraperitoneally",
+      "b. mesoperitoneally",
+      "c. retroperitoneally",
+      "d. anteperitoneally",
+      "e. extraperitoneally"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "65. Identify anatomical structure devoid of plicae at the depth of vesica urinaria:",
+    "options": [
+      "a. Trigonum vesicae",
+      "b. Hilum vesica urinaria",
+      "c. Apex vesica urinaria",
+      "d. Pyramis vesicae",
+      "e. Lingula vesica urinaria"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "66. Fascia spermatica externa by its origin is formed by:",
+    "options": [
+      "a. m. transversus abdominis",
+      "b. m. rectus abdominis",
+      "c. fascia superficialis abdominis",
+      "d. m. obliquus internus abdominis",
+      "e. m. obliquus externus abdominis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "67. Fascia cremasterica by its origin is formed by:",
+    "options": [
+      "a. fascia propria abdominis",
+      "b. fascia superficialis abdominis",
+      "c. m. transversus abdominis",
+      "d. m. obliquus externus abdominis",
+      "e. m. obliquus internus abdominis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "68. M. cremaster by its origin is formed by:",
+    "options": [
+      "a. m. obliquus internus et transversus abdominis",
+      "b. m. rectus abdominis",
+      "c. fascia superficialis abdominis",
+      "d. m. obliquus externus abdominis",
+      "e. fascia propria abdominis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "69. Tunica dartos by its origin is formed by:",
+    "options": [
+      "a. subcutaneous adipose layer",
+      "b. m. rectus abdominis",
+      "c. m. obliquus internus et transversus abdominis",
+      "d. m. obliquus externus abdominis",
+      "e. cutis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "70. Identify where lies caput epididymidis:",
+    "options": [
+      "a. On facies medialis testis",
+      "b. On facies lateralis testis",
+      "c. Below extremitas inferior testis",
+      "d. On margo anterior testis",
+      "e. Above extremitas superior testis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "71. Identify which structure opens into epididymidis testis:",
+    "options": [
+      "a. Ductus epididymidis testis",
+      "b. Canaliculi seminiferi contortii",
+      "c. Ducti afferentis",
+      "d. Canalis epididymidis testis",
+      "e. Ducti efferentis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "72. Identify which part is absent in ductus deferens:",
+    "options": [
+      "a. pars abdominalis",
+      "b. pars inguinalis",
+      "c. pars funicularis",
+      "d. pars epididymidis",
+      "e. pars pelvinus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "73. Identify in which part of ductus deferens is present ampulla:",
+    "options": [
+      "a. pars abdominalis",
+      "b. pars funicularis",
+      "c. pars pelvinus",
+      "d. pars epididymidis",
+      "e. pars inguinalis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "74. Identify which structure is absent in funiculus spermaticus:",
+    "options": [
+      "a. Ductus euculatorius",
+      "b. v. testicularis",
+      "c. Ductus deferens",
+      "d. vasa lymphaticae",
+      "e. a. testicularis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "75. Identify where opens ductus excretorius glandulae seminalis:",
+    "options": [
+      "a. into ductus epididymidis",
+      "b. into ductus euculatorius",
+      "c. into ductus seminalis communis",
+      "d. into ductus deferens",
+      "e. into ductus prostaticus communis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "76. Identify part of glandulae prostatici which is NOT always present:",
+    "options": [
+      "a. lobus dexter",
+      "b. lobus inferior",
+      "c. lobus superior",
+      "d. lobus media",
+      "e. lobus sinister"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "77. Identify which anatomical structure touches basis prostatici:",
+    "options": [
+      "a. the middle of lig. inguinalis mediana",
+      "b. corpus vesicae urinariae",
+      "c. Fundus vesicae urinariae",
+      "d. collum vesicae urinariae",
+      "e. diaphragma pelvis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "78. Identify which anatomical structure touches apex prostatici:",
+    "options": [
+      "a. Fundus vesicae urinariae",
+      "b. diaphragma pelvis",
+      "c. corpus vesicae urinariae",
+      "d. collum vesicae urinariae",
+      "e. the middle of lig. inguinalis mediana"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "79. Identify sphincter in formation of which takes part smooth muscle cells of glandulae prostatici:",
+    "options": [
+      "a. m. sphincter internus urethrae",
+      "b. m. detrusor vesicae",
+      "c. m. sphincter externus recti",
+      "d. m. sphincter externus urethrae",
+      "e. m. sphincter internus recti"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "80. Identify location of colliculus seminalis:",
+    "options": [
+      "a. on crista urethralis",
+      "b. in sinus prostatici",
+      "c. in the region of m. sphincter internus recti",
+      "d. in the region of m. sphincter externus urethrae",
+      "e. in canaliculi seminiferi contortii"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "81. Identify attachment of pars fixa penis:",
+    "options": [
+      "a. Ossa ischii",
+      "b. coccyx",
+      "c. Ossa ilii",
+      "d. Ossa pubis",
+      "e. sacrum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "82. Identify location of opening of ducti bulbourethrales:",
+    "options": [
+      "a. Into utriculus prostatici",
+      "b. Pars spongiosae urethrae",
+      "c. Pars membranacea urethrae",
+      "d. Into ductus euculatorius",
+      "e. Pars prostatica urethrae"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "83. Identify where does m. sphincter urethrae externus belong anatomically:",
+    "options": [
+      "a. Penis",
+      "b. Glandula prostatica",
+      "c. Fossa ischiorectalis",
+      "d. Diaphragma urogenitalis",
+      "e. Funiculus spermaticus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "84. Identify what connects extremitas uterina ovarii with uterus:",
+    "options": [
+      "a. Lig. ovarii propria",
+      "b. Lig. vesicouterina",
+      "c. Lig. latum uteri",
+      "d. Ligg. cardinalia uteri",
+      "e. Lig. teres uteri"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "85. Identify from which ligament derives mesosalpinx:",
+    "options": [
+      "a. Lig. ovarii propria",
+      "b. Ligg. cardinalia uteri",
+      "c. Lig. latum uteri",
+      "d. Lig. teres uteri",
+      "e. Lig. vesicouterina"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "86. Identify position of ovarium in relation to peritoneum:",
+    "options": [
+      "a. retroperitoneally",
+      "b. intraperitoneally, does not have mesovarium",
+      "c. intraperitoneally, has mesovarium",
+      "d. mesoperitoneally",
+      "e. extraperitoneally"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "87. What is the anatomical name for tunica serosa uteri:",
+    "options": [
+      "a. exometrium",
+      "b. parametrium",
+      "c. endometrium",
+      "d. myometrium",
+      "e. perimetrium"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "88. Which plicae are present in endometrium:",
+    "options": [
+      "a. Plicae palmatae",
+      "b. Plicae longitudinales",
+      "c. Plicae foliatae",
+      "d. Plicae dendratae",
+      "e. Plicae circulares"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "89. Identify which ligament of the uterus prevents lateral movements:",
+    "options": [
+      "a. Lig. teres uteri",
+      "b. Ligg. cardinalia uteri",
+      "c. Lig. ovarii propria",
+      "d. Lig. latum uteri",
+      "e. Lig. vesicouterina"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "90. Identify which part is absent in tuba uterina:",
+    "options": [
+      "a. Ampulla",
+      "b. Pars ovarica",
+      "c. Infundibulum",
+      "d. Pars uterina",
+      "e. Isthmus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "91. Identify which part of urethra masculina is surrounded by m. sphincter urethrae externus:",
+    "options": [
+      "a. Pars membranosa",
+      "b. Pars cavernosa",
+      "c. Pars vesicalis",
+      "d. Pars prostatica",
+      "e. Pars spongiosa"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "92. Identify to which part of penis is analogous by origin and structure bulbus vestibuli vaginae:",
+    "options": [
+      "a. preputium",
+      "b. corpus cavernosus",
+      "c. scrotum",
+      "d. corpus spongiosus",
+      "e. funiculus spermaticus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "93. Identify where are located ovaria:",
+    "options": [
+      "a. On fundus uteri",
+      "b. On anterior layer of lig. latum uteri",
+      "c. On facies vesicalis corpus uteri",
+      "d. On facies intestinalis corpus uteri",
+      "e. On posterior layer of lig. latum uteri"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "94. Identify anatomical structure where fertilization of ova takes place:",
+    "options": [
+      "a. cervix uteri",
+      "b. cavitas peritonealis",
+      "c. vagina",
+      "d. uterus",
+      "e. tuba uterina"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "95. Identify organ which is adjacent to fundus vesica urinaria:",
+    "options": [
+      "a. Rectum",
+      "b. Intestinum tenue",
+      "c. Glandula seminalis",
+      "d. Ampulla ducti deferentis",
+      "e. Glandula prostatica"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "96. Sinus epididymidis is present between testis and epididymidis…:",
+    "options": [
+      "a. On extremitas inferior testis",
+      "b. On lateral surface of testis",
+      "c. On margo anterior testis",
+      "d. On medial surface of testis",
+      "e. On margo posterior testis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "97. Layers of testis and funiculus spermaticus are the same, except:",
+    "options": [
+      "a. fascia spermatica interna",
+      "b. fascia cremasterica",
+      "c. fascia spermatica externa",
+      "d. tunica dartos",
+      "e. m. cremaster"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "98. Facies anterior ren sinister on the upper third is adjacent to:",
+    "options": [
+      "a. lien",
+      "b. gaster",
+      "c. cauda pancreatis",
+      "d. flexura colica dextra",
+      "e. lobus quadratus hepatis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "99. Facies anterior ren dexter on the lower third is adjacent to:",
+    "options": [
+      "a. lien",
+      "b. gaster",
+      "c. lobus quadratus hepatis",
+      "d. flexura colica dextra",
+      "e. cauda pancreatis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "100. Identify which organs are adjacent to vesica urinaria on posterior surface in female body:",
+    "options": [
+      "a. Corpus uteri et ovaria",
+      "b. rectum",
+      "c. cervix uteri et vagina",
+      "d. diaphragma urogenitalis",
+      "e. Fundus uteri"
+    ],
+    "correct": 2
+  }
+]

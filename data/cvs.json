@@ -1,0 +1,1141 @@
+[
+  {
+    "question": "Identify which vessel begins systemic circulation:",
+    "options": ["a. Truncus pulmonalis", "b. aorta", "c. aa. coronaria", "d. vv. pulmonales", "e. v. cava superior et inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which vessel begins lesser circulation:",
+    "options": ["a. aorta", "b. aa. coronaria", "c. v. cava superior et inferior", "d. vv. pulmonales", "e. Truncus pulmonalis"],
+    "correct": 4
+  },
+  {
+    "question": "Identify which vessel begins cardiac circulation:",
+    "options": ["a. aorta", "b. aa. coronaria", "c. v. cava superior et inferior", "d. Truncus pulmonalis", "e. vv. pulmonales"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which vessel ends systemic circulation:",
+    "options": ["a. v. cava superior et inferior", "b. vv. pulmonales", "c. aa. coronaria", "d. aorta", "e. Truncus pulmonalis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which anatomical structure serves as a border between atria and ventricles:",
+    "options": ["a. sinus venarum cavarum", "b. sulcus interventricularis anterior", "c. sinus transversus pericardii", "d. sulcus coronaries", "e. sulcus interventricularis posterior"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which vein does not belong to the system of sinus coronaries:",
+    "options": ["a. v. cava surerior", "b. v. posterior ventriculi sinistri", "c. v. obliqua antri sinistri", "d. v. cordis magna", "e. v. cordis media"],
+    "correct": 0
+  },
+  {
+    "question": "Identify anatomical structure which does not belong to conductive system of the heart:",
+    "options": ["a. nodus sinoatrialis", "b. Purkinje fibers", "c. fasciculus atrioventricularis", "d. anula fibrosa", "e. nodus atrioventricularis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify anatomical structure which does not take part in formation of valva atrioventricularis sinistra:",
+    "options": ["a. cuspis posterior", "b. cuspis anterior", "c. cuspis septalis", "d. musculi papillares", "e. chordae tendineae"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which cusps are present in valva semilunaris aortae:",
+    "options": ["a. cuspis posterior et sinister", "b. cuspis posterior, dexter et sinister", "c. cuspis dexter et sinister", "d. cuspis anterior, dexter et sinister", "e. cuspis anterior et posterior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which cusps are present in valva semilunaris trunci pulmonalis:",
+    "options": ["a. cuspis dexter et posterior sinister", "b. cuspis posterior, dexter et sinister", "c. cuspis anterior et sinister", "d. cuspis anterior, dexter et sinister", "e. cuspis dexter et sinister"],
+    "correct": 3
+  },
+  {
+    "question": "Find correct definition: 'Arteries are vessels in which ...'",
+    "options": ["a. flows arterial blood", "b. flows blood to the heart", "c. flows venous blood", "d. flows lymph", "e. flows blood from the heart"],
+    "correct": 4
+  },
+  {
+    "question": "Find correct definition: 'Veins are vessels in which ...'",
+    "options": ["a. flows arterial blood", "b. flows lymph", "c. flows blood to the heart", "d. flows venous blood", "e. flows blood from the heart"],
+    "correct": 2
+  },
+  {
+    "question": "A. interventricularis posterior is a branch of:",
+    "options": ["a. a. interventricularis anterior", "b. a. circumflexa", "c. arcus aortae", "d. a. coronaria sinistra", "e. a. coronaria dextra"],
+    "correct": 4
+  },
+  {
+    "question": "A. interventricularis anterior is a branch of:",
+    "options": ["a. arcus aortae", "b. a. interventricularis posterior", "c. a. circumflexa", "d. a. coronaria sinistra", "e. a. coronaria dextra"],
+    "correct": 3
+  },
+  {
+    "question": "Arcus aortae transits into pars descendens aortae at the level of:",
+    "options": ["a. V thoracic vertebra", "b. IV thoracic vertebra", "c. II thoracic vertebra", "d. I thoracic vertebra", "e. III thoracic vertebra"],
+    "correct": 1
+  },
+  {
+    "question": "Aorta descendens divides into two a. iliaca communis at the level of:",
+    "options": ["a. II sacral vertebra", "b. XII thoracic vertebra", "c. XI thoracic vertebra", "d. IV lumbar vertebra", "e. I lumbar vertebra"],
+    "correct": 3
+  },
+  {
+    "question": "Identify artery which is NOT branch of a. carotica externa:",
+    "options": ["a. a. basilaris", "b. a. temporalis superficialis", "c. a. auricularis posterior", "d. a. maxillaris", "e. a. lingualis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify artery which belongs to anterior group of branches of a. carotica externa:",
+    "options": ["a. a. temporalis superficialis", "b. a. maxillaris", "c. a. thyroidea superior", "d. a. pharyngea ascendens", "e. a. occipitalis"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which vessels are connected by a. communicans anterior:",
+    "options": ["a. a. cerebri anterior dextra et a. cerebri media sinistra", "b. aa. cerebri media", "c. aa. cerebellaris inferior posterior", "d. aa. cerebri posterior", "e. aa. cerebri anterior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify which arteries take part in formation of Willy's circle:",
+    "options": ["a. aa. cerebellaris inferior anterior", "b. a. vertebralis", "c. a. basilaris", "d. aa. cerebri anterior", "e. aa. cerebellaris superior"],
+    "correct": 3
+  },
+  {
+    "question": "a. basilaris is formed by:",
+    "options": ["a. fusion of a. cerebri anterior et posterior", "b. fusion of aa. vertebralis", "c. connection of aa. pontis", "d. connection of aa. cerebri anterior", "e. connection of aa. cerebellaris inferior anterior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which artery does NOT take part in blood supply of mimic / facial muscles:",
+    "options": ["a. a. transversa faciei", "b. a. facialis", "c. a. mentalis", "d. a. infraorbitalis", "e. a. thyroidea superior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify which artery predominantly supplies glandula parotidea:",
+    "options": ["a. a. temporalis media", "b. a. carotica interna", "c. a. maxillaris", "d. rr. auriculares anteriores", "e. a. temporalis superficialis"],
+    "correct": 4
+  },
+  {
+    "question": "Identify which artery predominantly supplies inner ear:",
+    "options": ["a. aa. cerebellares inferior anterior", "b. aa. labirynthi", "c. aa. vertebrales", "d. a. basilaris", "e. a. cerebri media"],
+    "correct": 1
+  },
+  {
+    "question": "Identify artery which is NOT branch of a. carotica externa:",
+    "options": ["a. a. maxillaris", "b. a. lingualis", "c. a. vertebralis", "d. a. facialis", "e. a. thyroidea superior"],
+    "correct": 2
+  },
+  {
+    "question": "Identify artery which belongs to medial group of branches of a. carotica externa:",
+    "options": ["a. a. lingualis", "b. a. auricularis posterior", "c. a. thyroidea superior", "d. a. pharyngea ascendens", "e. a. occipitalis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify artery which is NOT branch of a. carotica externa:",
+    "options": ["a. a. lingualis", "b. a. occipitalis", "c. a. ophthalmica", "d. a. thyroidea superior", "e. a. facialis"],
+    "correct": 2
+  },
+  {
+    "question": "Identify from which vessel begin aa. alveolares superiores anteriores:",
+    "options": ["a. a. carotica interna", "b. a. infraorbitalis", "c. a. transversa faciei", "d. a. mandibullaris", "e. a. maxillaris"],
+    "correct": 1
+  },
+  {
+    "question": "Identify artery which branches from a. alveolaris inferior before entering into canalis mandibullaris:",
+    "options": ["a. a. lingualis", "b. a. masseterica", "c. a. alveolaris superior", "d. a. mylohyoidea", "e. a. bucalis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify in which anatomical structure a. centralis retinae reaches retina:",
+    "options": ["a. n opticus", "b. n ethmoidalis posterior", "c. n ethmoidalis anterior", "d. n supratrochlearis", "e. nn. ciliares longi"],
+    "correct": 0
+  },
+  {
+    "question": "Identify artery which does NOT take part in formation of rete articularis cubiti:",
+    "options": ["a. a. collateralis ulnaris superior", "b. a. collateralis ulnaris inferior", "c. r. palmaris profundus a. ulnaris", "d. a. reccurens radialis", "e. a. reccurens ulnaris"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which artery supplies lungs:",
+    "options": ["a. aa. bronchiales", "b. aa. tracheales", "c. aa. intercostales posteriores", "d. aa. pulmonales", "e. aa. intercostales anteriores"],
+    "correct": 0
+  },
+  {
+    "question": "Branches of truncus coeliacus are:",
+    "options": ["a. a. gastrica dextra, lienalis et gastrocolica sinistra", "b. a. gastrica sinistra et dextra, lienalis", "c. a. gastrica sinistra, hepatica communis et mesenterica superior", "d. a. gastrica sinistra, hepatica communis et lienalis", "e. a. hepatica communis, mesenterica superior et inferior"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which artery supplies pancreas:",
+    "options": ["a. a. cystica", "b. a. gastrica sinistra", "c. a. pancreatoduodenalis superior", "d. a. hepatica propria", "e. a. gastrica dextra"],
+    "correct": 2
+  },
+  {
+    "question": "Arterial arch on curvatura ventriculi minor is formed by connection of:",
+    "options": ["a. a. gastroepiploica sinistra et dextra", "b. a. gastrica sinistra et dextra", "c. a. gastrica sinistra et gastroepiploica dextra", "d. a. gastrica dextra et gastroepiploica sinistra", "e. a. mesenterica superior et lienalis"],
+    "correct": 1
+  },
+  {
+    "question": "Arterial arch on curvatura ventriculi major is formed by connection of:",
+    "options": ["a. a. gastroepiploica sinistra et dextra", "b. a. gastrica sinistra et dextra", "c. a. gastrica sinistra et gastroepiploica dextra", "d. aa. mesenterici", "e. a. gastrica dextra et gastroepiploica sinistra"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which arteries are parietal branches of pars abdominalis aorthae descendens:",
+    "options": ["a. aa. phrenicae superiores", "b. aa. oesophageales", "c. a. mesenterica superior et inferior", "d. aa. phrenicae inferiores", "e. rr. mediastinales"],
+    "correct": 3
+  },
+  {
+    "question": "a. testicularis is a branch of:",
+    "options": ["a. a. vesicalis superior", "b. pars abdominalis aorthae", "c. a. vesicalis inferior", "d. a. pudenda interna", "e. a. iliaca interna"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which artery is NOT a branch of a. iliaca interna:",
+    "options": ["a. a. uterine", "b. a. testicularis", "c. a. obturatoria", "d. a. pudenda interna", "e. a. rectlis media"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which artery supplies predominantly posterior group of muscles in the thigh:",
+    "options": ["a. a. poplitea", "b. a. obturatoria", "c. a. circumflexa femoris medialis", "d. aa. perforantes", "e. a. circumflexa femoris lateralis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify artery which does NOT take part in formation of rete articularis genu:",
+    "options": ["a. a. genu superior lateralis", "b. a. tibialis reccurens posterior", "c. a. iliaca externa", "d. a. genu inferior medialis", "e. a. genu descendens"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which artery passes in canalis fibularis inferior:",
+    "options": ["a. a. poplitea", "b. a. fibularis", "c. a. tibialis posterior", "d. a. tibialis anterior", "e. a. genu inferior lateralis"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which artery passes in canalis cruropopliteus:",
+    "options": ["a. a. fibularis", "b. a. tibialis posterior", "c. a. poplitea", "d. a. tibialis anterior", "e. a. femoralis"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which artery passes in canalis adductorius:",
+    "options": ["a. a. femoralis", "b. a. poplitea", "c. a. iliaca externa", "d. a. iliaca interna", "e. a. obturatoria"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which artery does NOT take part in blood supply of mimic / facial muscles:",
+    "options": ["a. a. infraorbitalis", "b. a. mentalis", "c. a. transversa faciei", "d. a. transversa coli", "e. a. facialis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which artery does NOT take part in blood supply of cavum tympani:",
+    "options": ["a. a. stylomastoidea", "b. a. meningea media", "c. a. maxillaris", "d. a. mandibullaris", "e. a. pharyngea ascendens"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which artery does NOT take part in blood supply of deep muscles of the neck:",
+    "options": ["a. a. coli profunda", "b. a. cervicis ascendens", "c. a. transversa coli", "d. a. axillaris", "e. a. vertebralis"],
+    "correct": 3
+  },
+  {
+    "question": "Find out the origin of a. pharyngea ascendens:",
+    "options": ["a. a. meningea media", "b. arcus aorthae", "c. a. carotica externa", "d. pars thoracica aortha descendens", "e. a. carotica interna"],
+    "correct": 2
+  },
+  {
+    "question": "Find out the origin of a. thoracoacromialis:",
+    "options": ["a. a. axillaris", "b. a. thyroidea inferior", "c. a. subclavia", "d. a. brachialis", "e. a. thyroidea superior"],
+    "correct": 0
+  },
+  {
+    "question": "All the given arteries are branches of a. subclavia, except:",
+    "options": ["a. a. thoracica interna", "b. truncus thyrocervicalis", "c. a. vertebralis", "d. a. subscapularis", "e. truncus costocervicalis"],
+    "correct": 3
+  },
+  {
+    "question": "Find out the artery which branches from a. axillaris in trigonum pectoralis:",
+    "options": ["a. a. thoracica superior", "b. a. thoracoacromialis", "c. a. subscapularis", "d. a. circumflexa humeri posterior", "e. a. thoracica lateralis"],
+    "correct": 4
+  },
+  {
+    "question": "Find out the artery which branches from a. subscapullaris in spatium interscalenii:",
+    "options": ["a. a. transversa coli", "b. truncus costocervicalis", "c. a. vertebralis", "d. a. thoracica interna", "e. truncus thyrocervicalis"],
+    "correct": 1
+  },
+  {
+    "question": "All the given arteries are branches of a. axillaris, except:",
+    "options": ["a. a. thoracica interna", "b. a. subscapularis", "c. a. thoracica superior", "d. a. circumflexa humeri posterior", "e. a. thoracica lateralis"],
+    "correct": 0
+  },
+  {
+    "question": "All the given arteries are branches of a. brachialis, except:",
+    "options": ["a. a. thoracica superior", "b. a. thoracica interna", "c. a. thoracica lateralis", "d. a. subscapularis", "e. a. circumflexa humeri posterior"],
+    "correct": 0
+  },
+  {
+    "question": "All the given arteries are branches of a. brachialis, except:",
+    "options": ["a. a. collateralis ulnaris inferior", "b. a. ulnaris", "c. a. collateralis ulnaris superior", "d. a. circumflexa humeri", "e. a. profunda brachii"],
+    "correct": 3
+  },
+  {
+    "question": "All the given arteries are branches of a. radialis, except:",
+    "options": ["a. r. carpalis palmaris", "b. r. palmaris superficialis", "c. a. interossea communis", "d. a. radialis reccurens", "e. r. carpalis dorsalis"],
+    "correct": 2
+  },
+  {
+    "question": "a. metacarpales palmares are branches of:",
+    "options": ["a. rete carpalis palmaris", "b. arcus palmaris profundus", "c. r. carpalis a. radialis", "d. r. carpalis a. ulnaris", "e. arcus palmaris superficialis"],
+    "correct": 1
+  },
+  {
+    "question": "Find out the branch which arises from a. subclavian before spatium interscalenii:",
+    "options": ["a. a. thoracica superior", "b. a. transversa coli", "c. truncus costocervicalis", "d. truncus thyrocervicalis", "e. a. thoracica lateralis"],
+    "correct": 3
+  },
+  {
+    "question": "Find out the branch which is located in spatium interaponeuroticum suprasternalis:",
+    "options": ["a. v. laryngea inferior", "b. v. thyroidea inferior", "c. v. retromandibullaris", "d. v. jugularis externa", "e. v. jugularis anterior"],
+    "correct": 4
+  },
+  {
+    "question": "Find out unpaired visceral branch of aortha abdominalis:",
+    "options": ["a. a. suprarenalis media", "b. a. phrenica inferior", "c. a. mesenterica inferior", "d. a. testicularis", "e. a. renalis"],
+    "correct": 2
+  },
+  {
+    "question": "Find out paired visceral branch of aortha abdominalis:",
+    "options": ["a. a. mesenterica inferior", "b. a. renalis", "c. a. phrenica inferior", "d. truncus coeliacus", "e. a. mesenterica superior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify the source of a. gastroepiploica sinistra:",
+    "options": ["a. a. lienalis", "b. a. mesenterica superior", "c. a. phrenica inferior", "d. truncus coeliacus", "e. a. mesenterica inferior"],
+    "correct": 0
+  },
+  {
+    "question": "The source of a. gastroepiploica dextra is:",
+    "options": ["a. a. renalis", "b. a. gastroduodenalis", "c. a. lienalis", "d. truncus coeliacus", "e. a. mesenterica superior"],
+    "correct": 1
+  },
+  {
+    "question": "Find out the branch of truncus coeliacus:",
+    "options": ["a. a. renalis", "b. a. mesenterica inferior", "c. a. hepatica communis", "d. a. phrenica inferior", "e. a. mesenterica superior"],
+    "correct": 2
+  },
+  {
+    "question": "Find out the branch of a. mesenterica superior:",
+    "options": ["a. a. lienalis", "b. a. colica sinistra", "c. a. rectalis superior", "d. a. sigmoidea", "e. a. pancreatoduodenalis inferior"],
+    "correct": 4
+  },
+  {
+    "question": "Find out the branch of a. mesenterica inferior:",
+    "options": ["a. a. rectalis inferior", "b. a. rectalis media", "c. a. rectalis superior", "d. a. iliocaecalis", "e. a. colica dextra"],
+    "correct": 2
+  },
+  {
+    "question": "Vena saphena magna drains into:",
+    "options": ["a. V. Porta", "b. The V. iliaca externa", "c. The V. poplitea", "d. The V. femoralis", "e. The V. iliaca interna"],
+    "correct": 3
+  },
+  {
+    "question": "Vena saphena parva drains into:",
+    "options": ["a. The V. femoralis", "b. The V. iliaca interna", "c. V. Porta", "d. V. saphena magna", "e. The V. poplitea"],
+    "correct": 4
+  },
+  {
+    "question": "What is the dominant element in conductive system of the heart:",
+    "options": ["a. Purkinje fibers", "b. nodus atrioventricularis", "c. fasciculus atrioventricularis", "d. atypical cardiomyocytes", "e. nodus sinoatrialis"],
+    "correct": 4
+  },
+  {
+    "question": "a. vertebralis has all topographical parts, except:",
+    "options": ["a. pars transversalis", "b. pars prevertebralis", "c. pars atlantica", "d. pars basillaris", "e. pars cranialis"],
+    "correct": 3
+  },
+  {
+    "question": "Sulcus vertebralis is located on:",
+    "options": ["a. arcus posterior atlantis", "b. massa lateralis", "c. facies articularis inferior", "d. facies articularis superior", "e. arcus anterior atlantis"],
+    "correct": 0
+  },
+  {
+    "question": "Vena cephalica drains into:",
+    "options": ["a. v. brachialis", "b. v. subclavia", "c. v. radialis", "d. v. axillaris", "e. v. ulnaris"],
+    "correct": 3
+  },
+  {
+    "question": "Vena basilica drains into:",
+    "options": ["a. v. ulnaris", "b. v. radialis", "c. v. subclavia", "d. v. brachialis", "e. v. axillaris"],
+    "correct": 3
+  },
+  {
+    "question": "Vena basilica starts from:",
+    "options": ["a. v. metacarpalis dorsalis primae", "b. v. metacarpalis dorsalis quatrii", "c. v. metacarpalis dorsalis tercii", "d. v. metacarpalis dorsalis secundi", "e. rete venosi"],
+    "correct": 1
+  },
+  {
+    "question": "Vena cephalica starts from:",
+    "options": ["a. v. metacarpalis dorsalis secundi", "b. v. metacarpalis dorsalis tercii", "c. v. metacarpalis dorsalis quatrii", "d. rete venosi", "e. v. metacarpalis dorsalis primae"],
+    "correct": 4
+  },
+  {
+    "question": "Musculi pectoralis receive blood supply from all sources, except:",
+    "options": ["a. a. thoracoacromialis", "b. a. circumflexa scapulae", "c. aa. intercostales anteriores", "d. a. brachialis", "e. aa. intercostales posteriores"],
+    "correct": 1
+  },
+  {
+    "question": "M. phrenicus receives blood supply from all sources, except:",
+    "options": ["a. a. phrenica superior", "b. a. pericardiacophrenica", "c. a. musculophrenica", "d. a. intercostalis superior", "e. a. phrenica inferior"],
+    "correct": 3
+  },
+  {
+    "question": "Tributary of vena porta is:",
+    "options": ["a. v. pudenda interna", "b. v. rectalis inferior", "c. v. rectalis superior", "d. v. rectalis media", "e. v. vesicalis superior"],
+    "correct": 2
+  },
+  {
+    "question": "Tributary of vena porta is:",
+    "options": ["a. v. paraumbilicalis", "b. v. hemiazygos", "c. v. pudenda interna", "d. v. femoralis", "e. v. iliaca interna"],
+    "correct": 0
+  },
+  {
+    "question": "Tributary of vena porta is:",
+    "options": ["a. v. rectalis media", "b. v. ovarica", "c. v. mesenterica superior", "d. v. iliaca interna", "e. v. uterina"],
+    "correct": 2
+  },
+  {
+    "question": "Tributary of vena cava inferior is:",
+    "options": ["a. v. rectalis superior", "b. v. iliaca interna", "c. v. lienalis", "d. v. mesenterica inferior", "e. v. mesenterica superior"],
+    "correct": 1
+  },
+  {
+    "question": "Extracranial tributary of v. jugularis interna is:",
+    "options": ["a. v. labirynthi", "b. v. diploicae", "c. vv. pharyngeales", "d. v. ophthalmica", "e. vv. cerebrales"],
+    "correct": 2
+  },
+  {
+    "question": "Extracranial tributary of v. jugularis interna is:",
+    "options": ["a. v. emissaria", "b. v. thyroidea superior", "c. v. labirynthi", "d. v. diploicae", "e. vv. cerebrales"],
+    "correct": 1
+  },
+  {
+    "question": "Intracranial tributary of v. jugularis interna is:",
+    "options": ["a. v. thyroidea superior", "b. v. retromandibularis", "c. v. labirynthi", "d. vv. pharyngeales", "e. v. lingualis"],
+    "correct": 2
+  },
+  {
+    "question": "Which border of heart is located at the level of cartilages of third ribs:",
+    "options": ["a. posterior", "b. inferior", "c. superior", "d. dexter", "e. anterior"],
+    "correct": 2
+  },
+  {
+    "question": "Which vessel connects truncus pulmonalis et aorta in fetal circulation:",
+    "options": ["a. a. umbilicalis", "b. ductus arteriosus", "c. ductus venosus", "d. a. carotica communis dextra", "e. v. umbilicalis"],
+    "correct": 1
+  },
+  {
+    "question": "Which anatomical structure in fetal circulation connects atrium dexter et sinister:",
+    "options": ["a. ostii venarum minimarum", "b. ostium vena cava superior", "c. foramen ovale", "d. sinus venosus", "e. ostium atrioventricularis sinister"],
+    "correct": 2
+  },
+  {
+    "question": "What is the anatomical structure into which transforms v. umbilicalis after birth:",
+    "options": ["a. lig. teres hepatis", "b. lig. falciforme", "c. lig. arteriosus", "d. lig. venosus", "e. lig. umbilicalis lateralis sinister"],
+    "correct": 0
+  },
+  {
+    "question": "What is the anatomical structure into which transforms ductus arteriosus after birth:",
+    "options": ["a. lig. umbilicalis lateralis sinister", "b. lig. venosus", "c. lig. teres hepatis", "d. lig. umbilicalis lateralis dexter", "e. lig. arteriosus"],
+    "correct": 4
+  },
+  {
+    "question": "What is the anatomical structure into which transforms ductus venosus after birth:",
+    "options": ["a. lig. umbilicalis", "b. lig. falciforme hepatis", "c. lig. arteriosus", "d. lig. teres hepatis", "e. lig. venosus"],
+    "correct": 4
+  },
+  {
+    "question": "Connection of which trunks does form ductus thoracicus:",
+    "options": ["a. truncus lumbalis dexter et sinister", "b. truncus bronchomediastinalis sinister et jugularis sinister", "c. truncus lumbalis sinister et subclavius dexter", "d. truncus lumbalis dexter et intestinales", "e. truncus jugularis sinister et bronchomediastinalis dexter"],
+    "correct": 0
+  },
+  {
+    "question": "Connection of which trunks does form ductus lymphaticus dexter:",
+    "options": ["a. truncus jugularis dexter, subclavius dexter et sinister", "b. truncus subclavius dexter et jugularis dexter", "c. truncus subclavius dexter et bronchomediastinalis sinister", "d. truncus subclavius dexter et bronchomediastinalis dexter", "e. truncus subclavius dexter, jugularis dexter et bronchomediastinalis dexter"],
+    "correct": 4
+  },
+  {
+    "question": "All the given arteries are branches of a. subclavia, except:",
+    "options": ["a. a. transversa coli", "b. a. vertebralis", "c. truncus costocervicalis", "d. a. thoracica interna", "e. a. thoracica superior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify openings which are present in atrium sinister:",
+    "options": ["a. ostii venarum pulmonarum dexter et sinister", "b. ostium sinus venosus", "c. only ostii venarum pulmonarum dexter", "d. only ostii venarum pulmonarum sinister", "e. ostii venarum cavarum"],
+    "correct": 0
+  },
+  {
+    "question": "Identify anatomical structure which is NOT part of soft skeleton of the heart:",
+    "options": ["a. annulus fibrosus sinister", "b. annulus fibrosus dexter", "c. pars muscularis septum interventriculare", "d. trigonum fibrosum sinistrum", "e. trigonum fibrosum dextrum"],
+    "correct": 2
+  },
+  {
+    "question": "Identify anatomical structure which is NOT present on inner surface of ventriculus dexter:",
+    "options": ["a. m. pectinati", "b. chordate tendineae", "c. trabeculae carneae", "d. m. papillaris anterior", "e. m. papillaris posterior"],
+    "correct": 0
+  },
+  {
+    "question": "Identify location of nodus sinoatrialis in the heart:",
+    "options": ["a. auricula sinistra", "b. wall of atrium sinister", "c. septum interatriale", "d. wall of atrium dexter", "e. septum interventriculare"],
+    "correct": 3
+  },
+  {
+    "question": "Identify veins of the heart which do NOT drain into sinus coronarius:",
+    "options": ["a. v. oblique antri sinistri", "b. v. cordis media", "c. v. cordis minimae", "d. v. cordis parva", "e. v. cordis magna"],
+    "correct": 2
+  },
+  {
+    "question": "Identify artery which does NOT take part in blood supply of articulatio radiocarpalis:",
+    "options": ["a. a. interossea posterior", "b. a. carpalis dorsalis", "c. a. interossea anterior", "d. a. recurrens ulnaris", "e. a. carpalis palmaris"],
+    "correct": 3
+  },
+  {
+    "question": "Identify artery which does NOT take part in blood supply of articulatio genu:",
+    "options": ["a. a. genus media", "b. a. genus superior medialis", "c. a. circumflexa femoris", "d. a. genus inferior lateralis", "e. a. tibialis reccurens anterior"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the given arteries is a branch of a. iliaca externa:",
+    "options": ["a. a. epigastrica inferior", "b. a. pudenda interna", "c. a. epigastrica superior", "d. a. circumflexa ilii superficialis", "e. a. epigastrica superficialis"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the given arteries is a branch of a. mesenterica inferior:",
+    "options": ["a. a. rectalis media", "b. a. gastrica sinistra", "c. a. colica media", "d. a. rectalis media", "e. a. rectalis inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the given arteries is a branch of a. iliaca externa:",
+    "options": ["a. a. epigastrica superior", "b. a. epigastrica superficialis", "c. a. circumflexa ilii superficialis", "d. a. circumflexa ilii profunda", "e. aa. pudendae externae"],
+    "correct": 3
+  },
+  {
+    "question": "Identify artery, which branches directly from truncus coeliacus:",
+    "options": ["a. a. suprarenalis inferior", "b. a. mesenterica superior", "c. a. gastroduodenalis", "d. a. suprarenalis superior", "e. a. lienalis"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. hepatica communis:",
+    "options": ["a. a. pancreatoduodenalis inferior", "b. a. pancreatoduodenalis superior", "c. a. gastroduodenalis", "d. a. hepatica dextra", "e. a. hepatica sinistra"],
+    "correct": 2
+  },
+  {
+    "question": "Identify branch of a. gastroduodenalis:",
+    "options": ["a. a. pancreatoduodenalis inferior", "b. aa. gastricae breves", "c. a. pancreatoduodenalis superior", "d. a. lienalis", "e. a. hepatica propria"],
+    "correct": 2
+  },
+  {
+    "question": "Identify branch of a. mesenterica superior:",
+    "options": ["a. a. lienalis", "b. a. pancreatoduodenalis inferior", "c. aa. sigmoidea", "d. a. rectalis superior", "e. a. pancreatoduodenalis superior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify branch of a. mesenterica inferior:",
+    "options": ["a. a. rectalis media", "b. a. rectalis inferior", "c. a. iliocolica", "d. a. colica media", "e. a. rectalis superior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. iliaca interna:",
+    "options": ["a. a. epigastrica inferior", "b. a. rectalis inferior", "c. a. circumflexa ilii profunda", "d. a. rectalis superior", "e. a. rectalis media"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. iliaca externa:",
+    "options": ["a. a. circumflexa ilii profunda", "b. aa. pudendae externae", "c. a. rectalis inferior", "d. a. epigastrica superior", "e. a. pudenda interna"],
+    "correct": 0
+  },
+  {
+    "question": "Identify branch of a. femoralis:",
+    "options": ["a. a. pudenda interna", "b. a. epigastrica superior", "c. a. circumflexa ilii profunda", "d. a. genus superior", "e. aa. pudendae externae"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. femoralis:",
+    "options": ["a. a. genus ascendens", "b. a. genus media", "c. a. genus superior medialis", "d. a. genus superior lateralis", "e. a. genus descendens"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. tibialis anterior:",
+    "options": ["a. a. plantaris lateralis", "b. a. plantaris medialis", "c. a. circumflexa fibulae", "d. a. fibullaris", "e. a. reccurens tibialis posterior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. tibialis posterior:",
+    "options": ["a. a. malleolaris anterior lateralis", "b. a. malleolaris anterior medialis", "c. a. reccurens tibialis anterior", "d. a. reccurens tibialis posterior", "e. a. fibullaris"],
+    "correct": 4
+  },
+  {
+    "question": "Identify branch of a. dorsalis pedis:",
+    "options": ["a. a. plantaris medialis", "b. a. plantaris lateralis", "c. a. fibullaris", "d. aa. malleolares laterales", "e. a. plantaris profunda"],
+    "correct": 4
+  },
+  {
+    "question": "Identify tributary of v. jugularis interna:",
+    "options": ["a. vv. mediastinales", "b. v. vertebralis", "c. vv. tymicae", "d. vv. pericardiales", "e. v. facialis"],
+    "correct": 4
+  },
+  {
+    "question": "Identify tributary of v. cava superior:",
+    "options": ["a. v. vertebralis", "b. v. hemiazygos", "c. v. thoracica interna", "d. v. azygos", "e. vv. mediastinales"],
+    "correct": 3
+  },
+  {
+    "question": "Identify superficial veins of upper extremity:",
+    "options": ["a. v. cephalica", "b. vv. radiales", "c. vv. ulnares", "d. v. axillaris", "e. vv. brachiales"],
+    "correct": 0
+  },
+  {
+    "question": "Identify tributary of v. cava inferior:",
+    "options": ["a. vv. hepaticae", "b. v. mesenterica inferior", "c. v. iliaca interna", "d. v. mesenterica superior", "e. v. lienalis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify tributary of v. iliaca interna:",
+    "options": ["a. vv. suprarenales", "b. v. mesenterica superior", "c. v. mesenterica inferior", "d. v. iliolumbalis", "e. v. renalis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify superficial veins of lower extremity:",
+    "options": ["a. v. poplitea", "b. v. saphena magna", "c. vv. tibiales anteriora", "d. vv. fibulares", "e. vv. tibiales posteriora"],
+    "correct": 1
+  },
+  {
+    "question": "Identify into which vein drains v. saphena parva:",
+    "options": ["a. v. femoralis", "b. v. saphena magna", "c. v. iliaca interna", "d. v. poplitea", "e. v. iliaca externa"],
+    "correct": 3
+  },
+  {
+    "question": "Identify into which vein drains v. saphena magna:",
+    "options": ["a. v. femoralis", "b. v. poplitea", "c. v. cava inferior", "d. v. iliaca interna", "e. v. iliaca externa"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which myocardial layer is common for both atria:",
+    "options": ["a. Outer transverse", "b. Middle circular", "c. Outer diagonal", "d. Inner circular", "e. Inner longitudinal"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which myocardial layer is individual for ventricles:",
+    "options": ["a. Middle diagonal", "b. Outer diagonal", "c. Outer transverse", "d. Inner longitudinal", "e. Middle circular"],
+    "correct": 4
+  },
+  {
+    "question": "Identify where does vena cordis magna drain:",
+    "options": ["a. ventriculus dexter", "b. atrium dextrum", "c. ventriculus sinister", "d. sinus coronarius", "e. atrium sinistrum"],
+    "correct": 3
+  },
+  {
+    "question": "Identify where does vena obliqua atrii sinistri drain:",
+    "options": ["a. atrium dextrum", "b. ventriculus sinister", "c. ventriculus dexter", "d. atrium sinistrum", "e. sinus coronarius"],
+    "correct": 4
+  },
+  {
+    "question": "Identify location of nodus sinuatrialis of conductive system of heart:",
+    "options": ["a. wall of ventriculus dexter", "b. septum interatriale", "c. wall of atrium dextrum", "d. septum interventriculare", "e. wall of atrium sinistrum"],
+    "correct": 2
+  },
+  {
+    "question": "Identify location of nodus atrioventricularis of conductive system of heart:",
+    "options": ["a. in wall of atrium dextrum", "b. in pars musculare septum interventriculare", "c. in lower part of septum interatriale", "d. in wall of atrium sinistra", "e. in wall of auris sinistra"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which element of conductive system of heart directly contacts cardiomyocytes:",
+    "options": ["a. Purkinje fibers", "b. nodus sinuatrialis", "c. Fasciculus atrioventricularis", "d. Shwann cells", "e. nodus atrioventricularis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which artery does NOT belong to branches of a. carotica interna:",
+    "options": ["a. a. ophthalmica", "b. aa. caroticotympanicae", "c. a. cerebellaris superior", "d. a. cerebri media", "e. a. cerebri anterior"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which artery does NOT belong to branches of a. carotica externa:",
+    "options": ["a. a. thyroidea superior", "b. a. ophthalmica", "c. a. lingualis", "d. a. pharyngea ascendens", "e. a. maxillaris"],
+    "correct": 1
+  },
+  {
+    "question": "Identify branch of a. carotica interna:",
+    "options": ["a. a. pharyngea ascendens", "b. a. choroidea anterior", "c. a. paltina ascendens", "d. a. lingualis", "e. a. paltina descendens"],
+    "correct": 1
+  },
+  {
+    "question": "Identify direct branch of a. carotica externa:",
+    "options": ["a. aa. caroticotympanici", "b. a. auricularis anterior", "c. a. alveolaris inferior", "d. a. occipitalis", "e. a. pharyngea ascendens"],
+    "correct": 4
+  },
+  {
+    "question": "Identify from which artery branches a. tympanica anterior:",
+    "options": ["a. a. occipitalis", "b. a. maxillaris", "c. a. pharyngea ascendens", "d. a. meningea media", "e. a. auricularis posterior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify from which artery branches a. tympanica posterior:",
+    "options": ["a. a. occipitalis", "b. a. pharyngea ascendens", "c. a. maxillaris", "d. a. meningea media", "e. a. auricularis posterior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify from which artery branches a. tympanica superior:",
+    "options": ["a. a. occipitalis", "b. a. auricularis posterior", "c. a. meningea media", "d. a. pharyngea ascendens", "e. a. maxillaris"],
+    "correct": 2
+  },
+  {
+    "question": "Identify from which artery branches a. tympanica inferior:",
+    "options": ["a. a. meningea media", "b. a. maxillaris", "c. a. sphenopalatina", "d. a. pharyngea ascendens", "e. a. auricularis posterior"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what does form anastomosis between a. cerebri posterior and a. cerebri media:",
+    "options": ["a. a. communicans anterior", "b. a. communicans media", "c. a. basillaris", "d. a. angularis", "e. a. communicans posterior"],
+    "correct": 4
+  },
+  {
+    "question": "Identify what does form anastomosis between a. cerebri anterior dextra et sinistra:",
+    "options": ["a. a. communicans media", "b. a. communicans posterior", "c. a. basillaris", "d. a. communicans anterior", "e. a. angularis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which artery does NOT belong to branches of a. basillaris:",
+    "options": ["a. aa. mesencephalici", "b. a. superior cerebelli", "c. a. inferior anterior cerebelli", "d. a. inferior posterior cerebelli", "e. aa. pontis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which artery does NOT belong to intracranial segment of a. vertebralis:",
+    "options": ["a. aa. pontis", "b. a. inferior posterior cerebelli", "c. a. spinalis anterior", "d. a. spinalis posterior", "e. rr. meningei"],
+    "correct": 0
+  },
+  {
+    "question": "Identify direct branch of a. basillaris:",
+    "options": ["a. a. communicans posterior", "b. a. spinalis posterior", "c. a. inferior posterior cerebelli", "d. a. spinalis anterior", "e. a. inferior anterior cerebelli"],
+    "correct": 4
+  },
+  {
+    "question": "Identify from which artery branches a. epigastrica superior:",
+    "options": ["a. a. thoracica interna", "b. a. gastroduodenalis", "c. a. iliaca externa", "d. truncus coeliacus", "e. a. hepatica propria"],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which artery branches a. musculophrenica:",
+    "options": ["a. a. thoracica interna", "b. a. pericardiacophrenica", "c. a. phrenica superior", "d. a. coronaria sinistra", "e. a. phrenica inferior"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which artery does NOT belong to a. pudenda interna:",
+    "options": ["a. a. labialis anterior", "b. a. rectalis inferior", "c. aa. bulbi vestibuli", "d. a. dorsalis penis", "e. a. profunda clitoridis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which artery branches a. circumflexa iliaca profunda:",
+    "options": ["a. a. iliaca interna", "b. a. obturatoria", "c. a. iliolumbalis", "d. a. iliaca externa", "e. a. femoralis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify from which artery branches a. circumflexa iliaca superficialis:",
+    "options": ["a. a. iliaca externa", "b. a. femoralis", "c. a. iliolumbalis", "d. a. obturatoria", "e. a. iliaca interna"],
+    "correct": 1
+  },
+  {
+    "question": "What is the radius of capillaries?",
+    "options": ["a. 5 μm", "b. 4 μm", "c. 6 μm", "d. 2 μm", "e. 3 μm"],
+    "correct": 4
+  },
+  {
+    "question": "What is the radius of fourth order (smallest) arterioles or venules?",
+    "options": ["a. 3 μm", "b. 5 μm", "c. 10 μm", "d. 15 μm", "e. 7 μm"],
+    "correct": 1
+  },
+  {
+    "question": "What is the radius of first order (largest) arterioles or venules?",
+    "options": ["a. 30 μm", "b. 15 μm", "c. 20 μm", "d. 7 μm", "e. 10 μm"],
+    "correct": 0
+  },
+  {
+    "question": "Find correct definition for arteries:",
+    "options": ["a. Vessels, which carry arterial blood", "b. Vessels, which carry blood to the heart", "c. Vessels, which carry venous blood", "d. Vessels, which have thickest walls", "e. Vessels, which carry blood from the heart"],
+    "correct": 4
+  },
+  {
+    "question": "Find correct definition for veins:",
+    "options": ["a. Vessels, which have thickest walls", "b. Vessels, which carry blood from the heart", "c. Vessels, which carry arterial blood", "d. Vessels, which carry venous blood", "e. Vessels, which carry blood to the heart"],
+    "correct": 4
+  },
+  {
+    "question": "Identify where does pulmonary circulation start:",
+    "options": ["a. Atrium dextrum", "b. Ventriculus dexter", "c. Atrium sinister", "d. Lungs", "e. Ventriculus sinister"],
+    "correct": 1
+  },
+  {
+    "question": "Identify where does pulmonary circulation end:",
+    "options": ["a. Atrium sinister", "b. Ventriculus dexter", "c. Lungs", "d. Atrium dextrum", "e. Ventriculus sinister"],
+    "correct": 0
+  },
+  {
+    "question": "Identify where does systemic circulation begin:",
+    "options": ["a. Ventriculus sinister", "b. Organs", "c. Ventriculus dexter", "d. Atrium dextrum", "e. Atrium sinister"],
+    "correct": 0
+  },
+  {
+    "question": "Identify where does systemic circulation end:",
+    "options": ["a. Ventriculus dexter", "b. Ventriculus sinister", "c. Atrium sinister", "d. Organs", "e. Atrium dextrum"],
+    "correct": 4
+  },
+  {
+    "question": "Identify organ, which does NOT drain venous blood into hepatic portal system of circulation:",
+    "options": ["a. Kidney", "b. Intestines", "c. Pancreas", "d. gall bladder", "e. Spleen"],
+    "correct": 0
+  },
+  {
+    "question": "The hepatic portal vein transports the following blood to the liver, EXCEPT:",
+    "options": ["a. absorbed aminoacids from intestinum tenue", "b. absorbed fatty acids from intestinum tenue", "c. poisonous substances, which are absorbed in the intestines", "d. absorbed monocarbohydrates from intestinum tenue", "e. white blood cells (added to the circulation) from the spleen"],
+    "correct": 1
+  },
+  {
+    "question": "The hepatic portal system of circulation ends (drains into):",
+    "options": ["a. v. vitellina magna", "b. v. cava inferior", "c. atrium dextrum", "d. sinus coronarius", "e. v. cava superior"],
+    "correct": 1
+  },
+  {
+    "question": "The coronary system of circulation ends (drains into):",
+    "options": ["a. sinus coronarius", "b. atrium dextrum", "c. v. cava inferior", "d. v. vitellina magna", "e. v. cava superior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessel, which begins pulmonary circulation:",
+    "options": ["a. Truncus pulmonalis", "b. Venae pulmonales", "c. Sinus coronarius", "d. Aorta", "e. Vena cava superior et inferior"],
+    "correct": 0
+  },
+  {
+    "question": "Identify vessel, which begins systemic circulation:",
+    "options": ["a. Venae pulmonales", "b. Vena cava superior et inferior", "c. Truncus pulmonalis", "d. Aorta", "e. Sinus coronarius"],
+    "correct": 3
+  },
+  {
+    "question": "Identify vessel, which ends pulmonary circulation:",
+    "options": ["a. Sinus coronarius", "b. Vena cava superior et inferior", "c. Aorta", "d. Truncus pulmonalis", "e. Venae pulmonales"],
+    "correct": 4
+  },
+  {
+    "question": "Identify vessel, which ends systemic circulation:",
+    "options": ["a. Vena cava superior et inferior", "b. Sinus coronarius", "c. Aorta", "d. Venae pulmonales", "e. Truncus pulmonalis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify phrase, which is characteristic for 'elastic' type arteries:",
+    "options": ["a. function - fixing organs", "b. function - pressure smoothening", "c. active vasoconstriction", "d. function - extention in length", "e. these are smaller in diameter arteries"],
+    "correct": 1
+  },
+  {
+    "question": "Identify phrase, which is characteristic for 'muscular' type arteries:",
+    "options": ["a. function - pressure smoothening", "b. these are larger in diameter arteries", "c. active vasoconstriction", "d. function - extention in length", "e. function - fixing organs"],
+    "correct": 2
+  },
+  {
+    "question": "Identify vessel, which exits from ventriculus dexter:",
+    "options": ["a. aorta", "b. v. cava superior et inferior", "c. a. pulmonalis", "d. truncus pulmonalis", "e. vv. pulmonales"],
+    "correct": 3
+  },
+  {
+    "question": "Identify vessel, which exits from ventriculus sinister:",
+    "options": ["a. v. cava superior et inferior", "b. vv. pulmonales", "c. a. pulmonalis", "d. aorta", "e. truncus pulmonalis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify vessel, which drains into atrium dextrum:",
+    "options": ["a. v. cava superior et inferior", "b. a. pulmonalis", "c. truncus pulmonalis", "d. aorta", "e. vv. pulmonales"],
+    "correct": 0
+  },
+  {
+    "question": "Identify vessel, which drains into atrium sinistrum:",
+    "options": ["a. truncus pulmonalis", "b. a. pulmonalis", "c. vv. pulmonales", "d. v. cava superior et inferior", "e. aorta"],
+    "correct": 2
+  },
+  {
+    "question": "Identify phrase, which is characteristic for valva tricuspidalis:",
+    "options": ["a. it is between atrium dextrum et ventriculus dexter", "b. lies at the entrance to the truncus pulmonalis", "c. it is between atrium sinistrum et ventriculus sinister", "d. lies at the entrance to the aorta", "e. starts to function only after birth"],
+    "correct": 0
+  },
+  {
+    "question": "Identify phrase, which is characteristic for valva bicuspidalis:",
+    "options": ["a. lies at the entrance to the truncus pulmonalis", "b. starts to function only after birth", "c. it is between atrium sinistrum et ventriculus sinister", "d. it is between atrium dextrum et ventriculus dexter", "e. lies at the entrance to the aorta"],
+    "correct": 2
+  },
+  {
+    "question": "Identify where does r. circumflexus a. coronaria sinistra lie:",
+    "options": ["a. in sulcus interventricularis posterior", "b. on lateral surface of left atrium", "c. in sulcus coronaries", "d. on lateral surface of left ventricle", "e. in sulcus interventricularis anterior"],
+    "correct": 2
+  },
+  {
+    "question": "Identify where does sinus coronarius lie:",
+    "options": ["a. on lateral surface of nodus sinoatrialis", "b. in sulcus coronaries", "c. in sulcus interventricularis anterior", "d. on lateral surface of sinus venarum cavarum", "e. in sulcus interventricularis posterior"],
+    "correct": 1
+  },
+  {
+    "question": "R. marginalis dexter is branch of:",
+    "options": ["a. a. coronaria dextra", "b. a. coronaria sinistra", "c. v. cordis magna", "d. sinus coronaries", "e. v. cordis parva"],
+    "correct": 0
+  },
+  {
+    "question": "A. interventricularis posterior is branch of:",
+    "options": ["a. v. cordis magna", "b. sinus coronaries", "c. a. coronaria dextra", "d. v. cordis parva", "e. a. coronaria sinistra"],
+    "correct": 2
+  },
+  {
+    "question": "A. interventricularis anterior is branch of:",
+    "options": ["a. a. coronaria dextra", "b. v. cordis parva", "c. a. coronaria sinistra", "d. sinus coronaries", "e. v. cordis magna"],
+    "correct": 2
+  },
+  {
+    "question": "Identify element of conductive system of the heart, which acts as primary pacemaker:",
+    "options": ["a. bundle of His", "b. Purkinje fibers", "c. nodus sinoatrialis", "d. fasciculus atrioventricularis", "e. nodus atrioventricularis"],
+    "correct": 2
+  },
+  {
+    "question": "Identify element of conductive system of the heart, which acts as secondary pacemaker:",
+    "options": ["a. nodus atrioventricularis", "b. nodus sinoatrialis", "c. bundle of His", "d. Purkinje fibers", "e. fasciculus atrioventricularis"],
+    "correct": 4
+  },
+  {
+    "question": "Identify element of conductive system of the heart, which stimulates cardiomyocytes to contract:",
+    "options": ["a. Purkinje fibers", "b. nodus sinoatrialis", "c. nodus atrioventricularis", "d. bundle of His", "e. fasciculus atrioventricularis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify phrase, which is NOT characteristic for lymphatic system:",
+    "options": ["a. it begins by capillaries", "b. it does not form a circular system", "c. it ends as single duct in subclavian vein", "d. lymph collects from interstitial fluid", "e. it drains into the cardiovascular system"],
+    "correct": 2
+  },
+  {
+    "question": "Lymphatic system begins by:",
+    "options": ["a. lymphatic vessels", "b. lymphatic capillaries", "c. lymphatic trunks", "d. lymphatic receptors", "e. lymphatic ducts"],
+    "correct": 1
+  },
+  {
+    "question": "Lymphatic vessels drain into:",
+    "options": ["a. lymphatic receptors", "b. lymphatic sinuses", "c. lymphatic ducts", "d. lymphatic capillaries", "e. lymphatic trunks"],
+    "correct": 4
+  },
+  {
+    "question": "Lymphatic trunks drain into:",
+    "options": ["a. lymphatic ducts", "b. lymphatic vessels", "c. lymphatic sinuses", "d. lymphatic capillaries", "e. lymphatic receptors"],
+    "correct": 0
+  },
+  {
+    "question": "Identify in which element of lymphatic system haematopoiesis is possible:",
+    "options": ["a. lymphatic capillaries", "b. lymphatic sinuses", "c. lymphatic trunks", "d. lymphatic nodes", "e. lymphatic vessels"],
+    "correct": 3
+  },
+  {
+    "question": "Identify in which element of lymphatic system lymphocytopoiesis is possible:",
+    "options": ["a. lymphatic sinuses", "b. lymphatic capillaries", "c. lymphatic trunks", "d. lymphatic nodes", "e. lymphatic vessels"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which duct belongs to lymphatic system:",
+    "options": ["a. ductus thoracicus", "b. ductus lymphaticus majus", "c. ductus lymphaticus proprius", "d. ductus pectoralis", "e. ductus abdominalis"],
+    "correct": 0
+  },
+  {
+    "question": "Identify which duct belongs to lymphatic system:",
+    "options": ["a. ductus lymphaticus majus", "b. ductus lymphaticus dexter", "c. ductus lymphaticus sinister", "d. ductus lymphaticus cardinalis", "e. ductus lymphaticus proprius"],
+    "correct": 1
+  },
+  {
+    "question": "Ductus lymphaticus dexter does NOT collect lymph from next trunk:",
+    "options": ["a. truncus thoracicus dexter", "b. none of the above", "c. truncus jugularis dexter", "d. truncus bronchomediastinalis dexter", "e. truncus subclavius dexter"],
+    "correct": 0
+  },
+  {
+    "question": "Ductus thoracicus does NOT collect lymph from next trunk:",
+    "options": ["a. truncus subclavius sinister", "b. truncus jugularis sinister", "c. trunci intestinales", "d. truncus bronchomediastinalis sinister", "e. none of the above"],
+    "correct": 4
+  },
+  {
+    "question": "Ductus thoracicus does NOT collect lymph from next trunk:",
+    "options": ["a. truncus bronchomediastinalis dexter", "b. truncus lumbalis sinister", "c. truncus lumbalis dexter", "d. truncus subclavius sinister", "e. trunci intestinales"],
+    "correct": 0
+  },
+  {
+    "question": "Ductus thoracicus does NOT collect lymph from next trunk:",
+    "options": ["a. truncus lumbalis dexter", "b. truncus bronchomediastinalis sinister", "c. none of the above", "d. trunci intestinales", "e. truncus lumbalis sinister"],
+    "correct": 2
+  },
+  {
+    "question": "Ductus thoracicus drains into:",
+    "options": ["a. cisterna chyli", "b. atrium dexter", "c. atrium sinister", "d. angulus venosus sinister", "e. angulus venosus dexter"],
+    "correct": 3
+  },
+  {
+    "question": "Ductus lymphaticus dexter drains into:",
+    "options": ["a. angulus venosus dexter", "b. atrium sinister", "c. cisterna chyli", "d. angulus venosus sinister", "e. atrium dexter"],
+    "correct": 0
+  },
+  {
+    "question": "Cisterna chyli is formed by:",
+    "options": ["a. ductus lymphaticus dexter", "b. ductus thoracicus", "c. truncus bronchomediastinalis sinister", "d. truncus lumbalis", "e. truncus bronchomediastinalis dexter"],
+    "correct": 1
+  },
+  {
+    "question": "Identify what is NOT correct about fetal circulation:",
+    "options": ["a. there is present ductus arteriosus", "b. fetal and maternal blood do not mix", "c. fetal and maternal blood exchange carbon dioxide", "d. there are present paired umbilical veins", "e. there is present ductus venosus"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is NOT correct about fetal circulation:",
+    "options": ["a. there is present foramen ovale", "b. there is present ductus venosus", "c. there are present paired umbilical arteries", "d. there is no mixing of arterial and venous blood in fetal circulation", "e. fetal and maternal blood do not mix"],
+    "correct": 3
+  },
+  {
+    "question": "Identify organ, which receives richest in O2 blood in fetal circulation:",
+    "options": ["a. liver", "b. heart", "c. kidneys", "d. lungs", "e. brain"],
+    "correct": 0
+  },
+  {
+    "question": "Identify organ, which receives lowest in O2 blood in fetal circulation:",
+    "options": ["a. liver", "b. kidneys", "c. brain", "d. heart", "e. upper limb"],
+    "correct": 1
+  },
+  {
+    "question": "Identify function of ductus venosus in fetal circulation:",
+    "options": ["a. connects truncus pulmonalis et aorta", "b. connects plexus venosus placentae et v. umbilicalis", "c. connects v. umbilicalis et liver sinusoids", "d. connects v. umbilicalis et v. cava inferior", "e. connects truncus pulmonalis et v. cava superior"],
+    "correct": 3
+  },
+  {
+    "question": "Identify function of ductus arteriosus in fetal circulation:",
+    "options": ["a. connects truncus pulmonalis et aorta", "b. connects truncus pulmonalis et v. cava superior", "c. connects v. umbilicalis et liver sinusoids", "d. connects plexus venosus placentae et v. umbilicalis", "e. connects v. umbilicalis et v. cava inferior"],
+    "correct": 0
+  },
+  {
+    "question": "V. umbilicalis by obliteration becomes:",
+    "options": ["a. lig. teres hepatis", "b. lig. venosus", "c. lig. umbilicale laterale", "d. lig. umbilicale mediale", "e. lig. umbilicale medianum"],
+    "correct": 0
+  },
+  {
+    "question": "A. umbilicalis by obliteration becomes:",
+    "options": ["a. lig. venosus", "b. lig. umbilicale laterale", "c. lig. teres hepatis", "d. lig. umbilicale mediale", "e. lig. umbilicale medianum"],
+    "correct": 1
+  },
+  {
+    "question": "A. umbilicalis does not obliterate completely and in adults supplies:",
+    "options": ["a. anterior abdominal wall", "b. umbilical ring", "c. vesica urinaria", "d. liver", "e. vesica fellea"],
+    "correct": 2
+  },
+  {
+    "question": "Ligament between truncus pulmonalis et aorta is called:",
+    "options": ["a. lig. trunci pulmonalis", "b. lig. arteriosus", "c. lig. pulmonale", "d. lig. aortopulmonalis", "e. lig. aorticus"],
+    "correct": 1
+  },
+  {
+    "question": "Ligament between truncus pulmonalis et aorta develops from:",
+    "options": ["a. ductus aortopulmonalis", "b. ductus pulmonalis", "c. ductus arteriosus", "d. ductus venosus", "e. ductus aorticus"],
+    "correct": 2
+  },
+  {
+    "question": "Foramen ovale in fetal circulation is present between:",
+    "options": ["a. ventriculus dexter et sinister", "b. atrium dextrum et sinistrum", "c. ventriculus sinister et atrium sinistrum", "d. ventriculus dexter et atrium dextrum", "e. truncus pulmonalis et aorta"],
+    "correct": 1
+  },
+  {
+    "question": "Foramen ovale by obliteration becomes:",
+    "options": ["a. fossa ovalis", "b. lig. teres hepatis", "c. lig. venosus", "d. lig. arteriosus", "e. lig. umbilicale laterale"],
+    "correct": 0
+  },
+  {
+    "question": "Identify what is characteristic for fetal circulation:",
+    "options": ["a. lungs are main organ for blood oxygenation", "b. liver receives lowest in O2 blood", "c. brain receives lowest in O2 blood", "d. there is present ductus arteriosus", "e. heart receives lowest in O2 blood"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is characteristic for fetal circulation:",
+    "options": ["a. kidneys receive richest in O2 blood", "b. there is present foramen ovale", "c. heart receives lowest in O2 blood", "d. liver receives lowest in O2 blood", "e. lungs are main organ for blood oxygenation"],
+    "correct": 1
+  },
+  {
+    "question": "Identify what is characteristic for circulation after birth:",
+    "options": ["a. there is present ductus venosus", "b. there is present ductus arteriosus", "c. there is present foramen ovale", "d. lungs are main organ for blood oxygenation", "e. liver receives richest in O2 blood"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is characteristic for circulation after birth:",
+    "options": ["a. there is present lig. arteriosus", "b. there is present ductus venosus", "c. there is present foramen ovale", "d. there is present ductus arteriosus", "e. kidneys receive richest in O2 blood"],
+    "correct": 0
+  },
+  {
+    "question": "Identify vessel which carries richest in O2 blood in fetal circulation:",
+    "options": ["a. v. cava superior", "b. v. umbilicalis", "c. a. umbilicalis", "d. truncus pulmonalis", "e. v. cava inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessel which carries lowest in O2 blood in fetal circulation:",
+    "options": ["a. v. umbilicalis", "b. a. umbilicalis", "c. v. cava inferior", "d. truncus pulmonalis", "e. v. cava superior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessels which do NOT carry blood in fetal circulation:",
+    "options": ["a. v. umbilicalis", "b. vv. pulmonales", "c. a. umbilicalis", "d. truncus pulmonalis", "e. ductus arteriosus"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessels which do NOT carry blood in circulation after birth:",
+    "options": ["a. vv. pulmonales", "b. v. umbilicalis", "c. truncus pulmonalis", "d. aorta", "e. v. cava superior et inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify anastomosis between systemic and pulmonary circulation in fetal circulation:",
+    "options": ["a. ductus venosus", "b. foramen ovale", "c. v. umbilicalis", "d. ductus arteriosus", "e. a. umbilicalis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify anastomosis between right and left heart in fetal circulation:",
+    "options": ["a. ductus arteriosus", "b. v. umbilicalis", "c. foramen ovale", "d. a. umbilicalis", "e. ductus venosus"],
+    "correct": 2
+  },
+  {
+    "question": "Ligament teres hepatis extends from liver to:",
+    "options": [
+      "a. diaphragm",
+      "b. v. cava inferior",
+      "c. vesica urinaria",
+      "d. duodenum",
+      "e. umbilicus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Ligament venosum extends from porta hepatis to:",
+    "options": [
+      "a. umbilicus",
+      "b. v. cava inferior",
+      "c. vesica urinaria",
+      "d. duodenum",
+      "e. diaphragm"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "During fetal circulation, how much blood of pulmonary circulation does pass through lungs?",
+    "options": [
+      "a. 10%",
+      "b. 30%",
+      "c. 40%",
+      "d. 20%",
+      "e. 50%"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "During fetal circulation, where does major portion of blood of pulmonary circulation escape?",
+    "options": [
+      "a. into aorta",
+      "b. into foramen ovale",
+      "c. into v. cava inferior",
+      "d. into v. cava superior",
+      "e. into left ventricle directly"
+    ],
+    "correct": 0
+  }
+]

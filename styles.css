@@ -10,90 +10,6 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-
-.adminActions {
-  position: fixed;
-  bottom: 35px; right: 35px;
-}
-
-  .adminButton {
-    height: 60px;
-    width: 60px;
-    background-color: rgba(67, 83, 143, .8);
-    border-radius: 50%;
-    display: block;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-
-    .adminButton i {
-      font-size: 22px;
-    }
-
-  .adminButtons {
-    position: absolute;
-    width: 100%;
-    bottom: 120%;
-    text-align: center;
-  }
-
-    .adminButtons a {
-      display: block;
-      width: 45px;
-      height: 45px;
-      border-radius: 50%;
-      text-decoration: none;
-      margin: 10px auto 0;
-      line-height: 1.15;
-      color: #fff;
-      opacity: 0;
-      visibility: hidden;
-      position: relative;
-      box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
-    }
-
-      .adminButtons a:hover {
-        transform: scale(1.05);
-      }
-
-      .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
-      .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
-      .adminButtons a:nth-child(4) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
-      .adminButtons a:nth-child(3) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
-
-      .adminActions a i {
-        position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-  .adminToggle {
-    -webkit-appearance: none;
-    position: absolute;
-    border-radius: 50%;
-    top: 0; left: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    z-index: 2;
-    transition: box-shadow .2s ease-in-out;
-    box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
-  }
-
-    .adminToggle:hover {
-      box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
-    }
-
-    .adminToggle:checked ~ .adminButtons a {
-      opacity: 1;
-      visibility: visible;
-    }
 /* Base Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -216,15 +132,24 @@ body {
 }
 
 .btn {
-    display: inline-block;
-    padding: 0.8rem 1.8rem;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-}
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
 
 .subject-card .btn {
     background: white;
@@ -282,8 +207,47 @@ body {
     line-height: 1.8;
 }
 
+        /* Flexbox Hero Section */
+        .hero-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+            padding: 2rem;
+        }
 
+        .hero-box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 3rem;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
 
+        .hero-box h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-box p {
+            color: #7f8c8d;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-box {
+                padding: 2rem 1.5rem;
+            }
+          
+            
+            .hero-box h2 {
+                font-size: 1.5rem;
+            }
+        }
 
 .signature {
     margin-top: 2rem;
