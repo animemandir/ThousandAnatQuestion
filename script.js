@@ -140,7 +140,7 @@ function addFinishButton(quizContainer) {
         const total = questions.length;
         const subject = window.location.pathname.split('/').filter(Boolean).pop();
 
-        saveScore(subject, correctCount);
+        saveScore(subject, correctCount, total);
 
         // Show result message
         resultSection = document.createElement('div');
@@ -183,7 +183,7 @@ function updateFloatingButton() {
 }
 
 // Save score to localStorage
-function saveScore(subject, score) {
+function saveScore(subject, score, total) {
     const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
     const now = new Date();
 const formattedDate = now.toLocaleDateString(); // e.g., "12/7/2025"
@@ -193,6 +193,7 @@ const formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-d
 const fullDate = `${formattedDate} at ${formattedTime}`;
     scores[subject] = {
     score: score,
+    total: total,
     date: fullDate
 };
     localStorage.setItem('quizScores', JSON.stringify(scores));
