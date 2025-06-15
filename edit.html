@@ -149,6 +149,64 @@
     #sidebarToggleButton.open {
       right: 270px;
     }
+    
+    /* Footer */
+footer {
+    background: #16222A;
+    color: white;
+    padding: 3rem 0 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer-brand h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+.footer-disclaimer p {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1.5rem;
+    }
+}
+
   </style>
 </head>
 <body>
@@ -175,7 +233,9 @@
 <hr>
 
 <div id="quizContainer"></div>
-
+<button class="btn" onclick="addQuestion()">Add Question</button>
+  <button class="btn" onclick="exportJSON()">Export JSON</button>
+  <button class="btn" onclick="resetQuiz()">Reset</button>
 <!-- Just replace your toggle button line with this -->
 <button id="sidebarToggleButton" title="Show/Hide Panel" onclick="toggleSidebar()">▶</button>
 
@@ -254,7 +314,8 @@ function renderQuiz() {
 
   quizData.forEach((q, index) => {
     const block = document.createElement('div');
-    block.className = 'question-block';
+    block.className = 'question-block'
+    block.id = `question-${index}`;
 
     // Question Number + Label
     const questionLabel = document.createElement('strong');
@@ -466,4 +527,26 @@ loadDefaultData();
 </script>
 
 </body>
+  <!-- Footer -->
+    <footer>
+      
+        <div class="footer-content container">
+            <div class="footer-brand">
+                <h3>Thousand Anatomy Questions</h3>
+                <p>Comprehensive anatomy practice platform for medical students.</p>
+            </div>
+            <div class="footer-disclaimer">
+               
+                <p id="dateyr"></p>
+                <p>Base code by @TheWhiteCoatCoder, Enhanced by Aayush SC</p>
+
+            </div>
+
+            
+        </div>
+    </footer>
+    <script>
+        let currentYear = new Date().getFullYear();
+        document.getElementById("dateyr").innerHTML = `© ${currentYear} 1K Anat Questions. All rights Reserved.`;
+        </script>
 </html>

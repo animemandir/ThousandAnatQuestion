@@ -135,7 +135,7 @@ Score page> Star icon in menu.<br />
 Home page navigation> Home icon in menu.<br /><br />
 <strong>To Edit:</strong> Pen icon in menu. <br />
 Then choose which topic to edit on edit page. When you click CVS, all questions of CVS load in editor, see side panel for skip to question, scroll to top and bottom buttons. Add questions or Delete questions(undo not possible). Once you make changes > export json. A .json file gets downloaded, send me that file on telegram.<br /><br />
-<strong>Note:</strong>To add new questions, just go to editor page and add new qiestions directly then export json and send me the file.
+<strong>Note:</strong>To add new questions, just go to editor page and add new Questions directly then export JSON and send me the file.
 
 </p><div class="divider"></div>
                     </div>
@@ -148,6 +148,7 @@ Then choose which topic to edit on edit page. When you click CVS, all questions 
 </body>
   <!-- Footer -->
     <footer>
+      
         <div class="footer-content container">
             <div class="footer-brand">
                 <h3>Thousand Anatomy Questions</h3>
@@ -155,12 +156,16 @@ Then choose which topic to edit on edit page. When you click CVS, all questions 
             </div>
             <div class="footer-disclaimer">
                
-                <p> 2025 Educational Resource. Thanks to @TheWhiteCoatCoder.</p>
-                <p>We dont claim ownership over questions. Mod by Aayush SC </p>
+                <p id="dateyr"></p>
+                <p>Base code by @TheWhiteCoatCoder, Enhanced by Aayush SC</p>
 
             </div>
 
             
         </div>
     </footer>
+    <script>
+        let currentYear = new Date().getFullYear();
+        document.getElementById("dateyr").innerHTML = `© ${currentYear} 1K Anat Questions. All rights Reserved.`;
+        </script>
 </html>
