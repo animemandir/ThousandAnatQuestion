@@ -1,13 +1,10 @@
 // ✅ ALL GLOBAL VARIABLES MUST BE DECLARED AT THE TOP
 let resultSection = null;
-//let questions = []; // 🔥 This must come BEFORE any functions that use it
-
+let questions = [];
 
 // FETCH AND QUIZ LOGIC STARTS BELOW
-
 function loadQuiz(jsonPath) {
     console.log("🔍 loadQuiz: Loading from", jsonPath);
-
     fetch(jsonPath)
         .then(res => {
             if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -15,10 +12,8 @@ function loadQuiz(jsonPath) {
         })
         .then(data => {
             console.log("✅ JSON loaded successfully");
-            console.log("📥 Raw data:", data); // <-- inspect structure here
+            console.log("📥 Raw data:", data);
             console.log("📊 Total questions:", data.length);
-
-            // Ensure data is an array
             if (Array.isArray(data)) {
                 questions = data;
                 renderQuiz();
@@ -34,12 +29,12 @@ function loadQuiz(jsonPath) {
 // Render quiz questions dynamically
 function renderQuiz() {
     const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = ''; // Clear previous content
+    quizContainer.innerHTML = '';
 
     questions.forEach((q, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.className = 'question';
-        q.selected = undefined; // Reset selected answers
+        q.selected = undefined;
 
         const questionText = document.createElement('p');
         questionText.textContent = q.question;
@@ -52,6 +47,10 @@ function renderQuiz() {
             const optionDiv = document.createElement('div');
             optionDiv.className = 'option';
             optionDiv.textContent = option;
+
+            // Store question and option index in dataset
+            optionDiv.dataset.questionIndex = index;
+            optionDiv.dataset.optionIndex = i;
 
             optionDiv.addEventListener('click', () => {
                 if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) {
@@ -69,7 +68,6 @@ function renderQuiz() {
                 }
 
                 q.selected = i;
-
                 updateFloatingButton();
             });
 
@@ -81,6 +79,7 @@ function renderQuiz() {
     });
 
     createFloatingFinishButton();
+    createFloatingAnswerToggle();
     addFinishButton(quizContainer);
 }
 
@@ -88,7 +87,7 @@ function renderQuiz() {
 function createFloatingFinishButton() {
     const floatingBtn = document.getElementById('floating-finish-btn') ||
                         document.createElement('button');
-    
+
     if (!document.getElementById('floating-finish-btn')) {
         floatingBtn.id = 'floating-finish-btn';
         floatingBtn.innerHTML = `
@@ -97,25 +96,20 @@ function createFloatingFinishButton() {
         document.body.appendChild(floatingBtn);
     }
 
-    // Scroll to bottom or result section
     floatingBtn.addEventListener('click', () => {
-    if (resultSection) {
-        console.log("🟢 Scrolling to result section");
-        resultSection.scrollIntoView({ behavior: 'smooth' });
-    } else {
-        console.log("🟡 Result not ready. Scrolling to bottom");
+        if (resultSection) {
+            resultSection.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            setTimeout(() => {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        }
+    });
 
-        // Wait for DOM update before scrolling
-        setTimeout(() => {
-            window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: 'smooth'
-            });
-        }, 100);
-    }
-});
-
-  //  updateFloatingButton(); // Initial update
+    updateFloatingButton(); // Initial update
 }
 
 // Add "Finish Quiz" button at the end
@@ -155,6 +149,9 @@ function addFinishButton(quizContainer) {
         `;
         quizContainer.appendChild(resultSection);
 
+        // Add toggle for showing answers
+        addShowAnswersToggle(quizContainer);
+
         // Scroll to result
         resultSection.scrollIntoView({ behavior: 'smooth' });
 
@@ -186,15 +183,111 @@ function updateFloatingButton() {
 function saveScore(subject, score, total) {
     const scores = JSON.parse(localStorage.getItem('quizScores') || '{}');
     const now = new Date();
-const formattedDate = now.toLocaleDateString(); // e.g., "12/7/2025"
-const formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); // e.g., "3:45 PM"
-
-// Combine them
-const fullDate = `${formattedDate} at ${formattedTime}`;
+    const formattedDate = now.toLocaleDateString();
+    const formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    const fullDate = `${formattedDate} at ${formattedTime}`;
     scores[subject] = {
-    score: score,
-    total: total,
-    date: fullDate
-};
+        score: score,
+        total: total,
+        date: fullDate
+    };
     localStorage.setItem('quizScores', JSON.stringify(scores));
+}
+
+// 🆕 NEW: Add toggle to show all correct answers
+function addShowAnswersToggle(quizContainer) {
+    const toggleDiv = document.createElement('div');
+    toggleDiv.style.marginTop = '2rem';
+    toggleDiv.style.textAlign = 'center';
+
+    const label = document.createElement('label');
+    label.style.fontSize = '1rem';
+    label.style.marginRight = '10px';
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = 'show-answers-toggle';
+
+    label.htmlFor = 'show-answers-toggle';
+    label.textContent = 'Show All Correct Answers';
+
+    toggleDiv.appendChild(checkbox);
+    toggleDiv.appendChild(label);
+
+    quizContainer.appendChild(toggleDiv);
+
+    checkbox.addEventListener('change', () => {
+        const showAnswers = checkbox.checked;
+        showAllCorrectAnswers(showAnswers);
+    });
+}
+
+// 🆕 NEW: Reveal all correct answers when toggle is checked
+function showAllCorrectAnswers(show) {
+    const allOptions = document.querySelectorAll('.option');
+
+    allOptions.forEach(option => {
+        const questionIndex = parseInt(option.dataset.questionIndex);
+        const optionIndex = parseInt(option.dataset.optionIndex);
+
+        const question = questions[questionIndex];
+        if (!question) return;
+
+        option.classList.remove('correct', 'incorrect');
+
+        if (optionIndex === question.correct) {
+            if (show) {
+                option.classList.add('correct');
+                option.style.pointerEvents = 'none';
+            } else {
+                option.style.pointerEvents = 'auto';
+            }
+        } else {
+            option.style.pointerEvents = show ? 'none' : 'auto';
+        }
+    });
+
+    const floatingCheckbox = document.getElementById('floating-answer-checkbox');
+    if (floatingCheckbox) floatingCheckbox.checked = show;
+
+    const floatingBtn = document.getElementById('floating-finish-btn');
+    if (floatingBtn) floatingBtn.style.display = show ? 'none' : 'block';
+}
+
+// 🆕 NEW: Create floating toggle switch
+function createFloatingAnswerToggle() {
+    const floatingToggle = document.getElementById('floating-answer-toggle') ||
+                           document.createElement('div');
+
+    if (!document.getElementById('floating-answer-toggle')) {
+        floatingToggle.id = 'floating-answer-toggle';
+        floatingToggle.style.position = 'fixed';
+        floatingToggle.style.top = '20px';
+floatingToggle.style.left = 'auto';
+floatingToggle.style.right = '20px'; // Ensure no conflict
+floatingToggle.style.bottom = 'auto';
+        floatingToggle.style.zIndex = '-1000';
+        floatingToggle.style.backgroundColor = '#fff';
+        floatingToggle.style.border = '1px solid #ccc';
+        floatingToggle.style.borderRadius = '8px';
+        floatingToggle.style.padding = '10px 15px';
+        floatingToggle.style.boxShadow = '0 4px 10px rgba(0,0,0,0.1)';
+        floatingToggle.style.fontFamily = 'Arial, sans-serif';
+        floatingToggle.style.maxWidth = '250px';
+        floatingToggle.style.textAlign = 'center';
+
+        floatingToggle.innerHTML = `
+            <label style="display:flex; align-items:center; justify-content:space-between; width:100%; font-size:14px;">
+                Show Correct
+                <input type="checkbox" id="floating-answer-checkbox" style="transform: scale(1.2); margin-left: 10px;">
+            </label>
+        `;
+
+        document.body.appendChild(floatingToggle);
+
+        const checkbox = floatingToggle.querySelector('#floating-answer-checkbox');
+        checkbox.addEventListener('change', () => {
+            showAllCorrectAnswers(checkbox.checked);
+        });
+    }
 }
