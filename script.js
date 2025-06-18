@@ -1,3 +1,13 @@
+// Shuffle an array using Fisher-Yates algorithm
+function shuffleArray(array) {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+}
+
 // ✅ ALL GLOBAL VARIABLES MUST BE DECLARED AT THE TOP
 let resultSection = null;
 let questions = [];
@@ -15,7 +25,7 @@ function loadQuiz(jsonPath) {
             console.log("📥 Raw data:", data);
             console.log("📊 Total questions:", data.length);
             if (Array.isArray(data)) {
-                questions = data;
+                questions = shuffleArray(data);
                 renderQuiz();
             } else {
                 console.error("❌ JSON data is not an array!");
