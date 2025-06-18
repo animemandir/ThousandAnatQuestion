@@ -1,0 +1,472 @@
+[
+  {
+    "question": "Which nerve innervates m. extensor carpi radialis longus?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. extensor carpi ulnaris?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. abductor pollicis longus?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. flexor digitorum superficialis?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. flexor digitorum profundus?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": [2, 1]
+  },
+  {
+    "question": "Which nerve innervates m. abductor digiti minimi (manus)?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. opponens pollicis?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. lumbricales (manus)?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": [2, 1]
+  },
+  {
+    "question": "Which nerve innervates m. interossei dorsales (manus)?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. interossei palmares?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. gluteus maximus?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. gluteus inferior", "n. gluteus superior"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. gluteus medius?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. gluteus inferior", "n. gluteus superior"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve innervates m. gluteus minimus?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. gluteus inferior", "n. gluteus superior"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve innervates m. tensor fasciae latae?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. gluteus inferior", "n. gluteus superior"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve innervates m. iliopsoas?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. lumbar plexus", "n. gluteus superior"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. quadriceps femoris?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. lumbar plexus", "n. gluteus superior"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. sartorius?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. lumbar plexus", "n. gluteus superior"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. adductor magnus?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. lumbar plexus", "n. gluteus superior"],
+    "correct": [1, 2]
+  },
+  {
+    "question": "Which nerve innervates m. hamstrings?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. lumbar plexus", "n. gluteus superior"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. tibialis anterior?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. tibialis posterior?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. gastrocnemius?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. soleus?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. peroneus longus?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. extensor digitorum longus?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. flexor digitorum longus?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. sciaticus", "n. femoralis"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. abductor hallucis?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris medialis", "n. femoralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. adductor hallucis?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris lateralis", "n. femoralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. interossei dorsales (pedis)?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris lateralis", "n. femoralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. interossei plantares?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris lateralis", "n. femoralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. lumbricales (pedis)?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris medialis", "n. femoralis"],
+    "correct": [3, 4]
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the medial forearm?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. musculocutaneous", "n. axillary"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the lateral forearm?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. musculocutaneous", "n. axillary"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the medial hand?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. musculocutaneous", "n. axillary"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the lateral hand?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. musculocutaneous", "n. axillary"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the anterior thigh?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. ilioinguinalis", "n. genitofemoralis"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the medial thigh?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. ilioinguinalis", "n. genitofemoralis"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the posterior thigh?",
+    "options": ["n. femoralis", "n. obturatorius", "n. sciaticus", "n. ilioinguinalis", "n. genitofemoralis"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the anterior leg?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. saphenus", "n. suralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the lateral leg?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. saphenus", "n. suralis"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the posterior leg?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. saphenus", "n. suralis"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the medial foot?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. saphenus", "n. suralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the lateral foot?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. saphenus", "n. suralis"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the sole of the foot?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris medialis", "n. suralis"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve provides sensory innervation to the skin of the dorsum of the foot?",
+    "options": ["n. peroneus profundus", "n. peroneus superficialis", "n. tibialis", "n. plantaris medialis", "n. suralis"],
+    "correct": 0
+  },
+  {
+    "question": "Which cranial nerve is responsible for vision?",
+    "options": ["n. opticus", "n. oculomotorius", "n. trochlearis", "n. trigeminus", "n. abducens"],
+    "correct": 0
+  },
+  {
+    "question": "Which cranial nerve is responsible for eye movement (superior rectus)?",
+    "options": ["n. opticus", "n. oculomotorius", "n. trochlearis", "n. trigeminus", "n. abducens"],
+    "correct": 1
+  },
+  {
+    "question": "Which cranial nerve is responsible for eye movement (superior oblique)?",
+    "options": ["n. opticus", "n. oculomotorius", "n. trochlearis", "n. trigeminus", "n. abducens"],
+    "correct": 2
+  },
+  {
+    "question": "Which cranial nerve is responsible for eye movement (lateral rectus)?",
+    "options": ["n. opticus", "n. oculomotorius", "n. trochlearis", "n. trigeminus", "n. abducens"],
+    "correct": 4
+  },
+  {
+    "question": "Which cranial nerve is responsible for facial sensation?",
+    "options": ["n. opticus", "n. oculomotorius", "n. trochlearis", "n. trigeminus", "n. abducens"],
+    "correct": 3
+  },
+  {
+    "question": "Which cranial nerve is responsible for facial expression?",
+    "options": ["n. trigeminus", "n. facialis", "n. vestibulocochlearis", "n. glossopharyngeus", "n. vagus"],
+    "correct": 1
+  },
+  {
+    "question": "Which cranial nerve is responsible for hearing and balance?",
+    "options": ["n. trigeminus", "n. facialis", "n. vestibulocochlearis", "n. glossopharyngeus", "n. vagus"],
+    "correct": 2
+  },
+  {
+    "question": "Which cranial nerve is responsible for taste (posterior third of tongue)?",
+    "options": ["n. trigeminus", "n. facialis", "n. vestibulocochlearis", "n. glossopharyngeus", "n. vagus"],
+    "correct": 3
+  },
+  {
+    "question": "Which cranial nerve is responsible for swallowing and gag reflex?",
+    "options": ["n. trigeminus", "n. facialis", "n. vestibulocochlearis", "n. glossopharyngeus", "n. vagus"],
+    "correct": 4
+  },
+  {
+    "question": "Which cranial nerve is responsible for tongue movement?",
+    "options": ["n. vagus", "n. accessorius", "n. hypoglossus", "n. glossopharyngeus", "n. facialis"],
+    "correct": 2
+  },
+  {
+    "question": "Which cranial nerve is responsible for shoulder shrugging?",
+    "options": ["n. vagus", "n. accessorius", "n. hypoglossus", "n. glossopharyngeus", "n. facialis"],
+    "correct": 1
+  },
+  {
+    "question": "Which structure is located in the fossa cranii anterior?",
+    "options": ["hypophysis", "chiasma optica", "pons", "medulla oblongata", "cerebellum"],
+    "correct": 1
+  },
+  {
+    "question": "Which structure is located in the fossa cranii media?",
+    "options": ["hypophysis", "chiasma optica", "pons", "medulla oblongata", "cerebellum"],
+    "correct": 0
+  },
+  {
+    "question": "Which structure is located in the fossa cranii posterior?",
+    "options": ["hypophysis", "chiasma optica", "pons", "medulla oblongata", "cerebellum"],
+    "correct": 4
+  },
+  {
+    "question": "Which part of the brain controls voluntary movement?",
+    "options": ["cerebellum", "medulla oblongata", "pons", "frontal lobe", "hypothalamus"],
+    "correct": 3
+  },
+  {
+    "question": "Which part of the brain controls balance and coordination?",
+    "options": ["cerebellum", "medulla oblongata", "pons", "frontal lobe", "hypothalamus"],
+    "correct": 0
+  },
+  {
+    "question": "Which part of the brain controls heart rate and breathing?",
+    "options": ["cerebellum", "medulla oblongata", "pons", "frontal lobe", "hypothalamus"],
+    "correct": 1
+  },
+  {
+    "question": "Which part of the brain controls body temperature and hunger?",
+    "options": ["cerebellum", "medulla oblongata", "pons", "frontal lobe", "hypothalamus"],
+    "correct": 4
+  },
+  {
+    "question": "Which part of the brain relays sensory and motor signals?",
+    "options": ["thalamus", "hypothalamus", "medulla oblongata", "cerebellum", "pons"],
+    "correct": 0
+  },
+  {
+    "question": "Which part of the brain processes visual information?",
+    "options": ["frontal lobe", "parietal lobe", "temporal lobe", "occipital lobe", "cerebellum"],
+    "correct": 3
+  },
+  {
+    "question": "Which part of the brain processes auditory information?",
+    "options": ["frontal lobe", "parietal lobe", "temporal lobe", "occipital lobe", "cerebellum"],
+    "correct": 2
+  },
+  {
+    "question": "Which part of the brain processes touch and pressure?",
+    "options": ["frontal lobe", "parietal lobe", "temporal lobe", "occipital lobe", "cerebellum"],
+    "correct": 1
+  },
+  {
+    "question": "Which structure connects the two cerebral hemispheres?",
+    "options": ["corpus callosum", "thalamus", "hypothalamus", "pons", "medulla oblongata"],
+    "correct": 0
+  },
+  {
+    "question": "Which structure contains the cerebrospinal fluid?",
+    "options": ["ventricles", "sulci", "gyri", "meninges", "corpus callosum"],
+    "correct": 0
+  },
+  {
+    "question": "Which layer of the meninges is closest to the brain?",
+    "options": ["dura mater", "arachnoid mater", "pia mater", "subarachnoid space", "subdural space"],
+    "correct": 2
+  },
+  {
+    "question": "Which layer of the meninges is the outermost?",
+    "options": ["dura mater", "arachnoid mater", "pia mater", "subarachnoid space", "subdural space"],
+    "correct": 0
+  },
+  {
+    "question": "Which structure protects the spinal cord?",
+    "options": ["vertebrae", "meninges", "ventricles", "corpus callosum", "thalamus"],
+    "correct": 0
+  },
+  {
+    "question": "Which tract carries motor signals from the brain to the spinal cord?",
+    "options": ["spinothalamic tract", "corticospinal tract", "dorsal column tract", "spinocerebellar tract", "rubrospinal tract"],
+    "correct": 1
+  },
+  {
+    "question": "Which tract carries sensory signals from the spinal cord to the brain?",
+    "options": ["corticospinal tract", "spinothalamic tract", "rubrospinal tract", "spinocerebellar tract", "tectospinal tract"],
+    "correct": 1
+  },
+  {
+    "question": "Which reflex is tested by tapping the patellar tendon?",
+    "options": ["biceps reflex", "triceps reflex", "patellar reflex", "ankle reflex", "plantar reflex"],
+    "correct": 2
+  },
+  {
+    "question": "Which reflex is tested by stroking the sole of the foot?",
+    "options": ["biceps reflex", "triceps reflex", "patellar reflex", "ankle reflex", "plantar reflex"],
+    "correct": 4
+  },
+  {
+    "question": "Which part of the autonomic nervous system increases heart rate?",
+    "options": ["parasympathetic", "sympathetic", "somatic", "enteric", "central"],
+    "correct": 1
+  },
+  {
+    "question": "Which part of the autonomic nervous system promotes digestion?",
+    "options": ["parasympathetic", "sympathetic", "somatic", "enteric", "central"],
+    "correct": 0
+  },
+  {
+    "question": "Which neurotransmitter is used by the sympathetic nervous system?",
+    "options": ["acetylcholine", "norepinephrine", "dopamine", "serotonin", "GABA"],
+    "correct": 1
+  },
+  {
+    "question": "Which neurotransmitter is used by the parasympathetic nervous system?",
+    "options": ["acetylcholine", "norepinephrine", "dopamine", "serotonin", "GABA"],
+    "correct": 0
+  },
+  {
+    "question": "Which sense does NOT belong to outer senses?",
+    "options": ["Taste", "Balance", "Touch", "Hearing", "Vision"],
+    "correct": 1
+  },
+  {
+    "question": "Receptors of visual analyzer are located in:",
+    "options": ["Corpus vitreous", "Lens", "Cornea", "Retina", "Camera bulbi oculi posterior"],
+    "correct": 3
+  },
+  {
+    "question": "Chiasma optica is located in:",
+    "options": ["Fossa cranii anterior", "Incisura ethmoidalis", "Fossa cranii media", "Fossa cranii posterior", "Fossa pterygopalatina"],
+    "correct": 2
+  },
+  {
+    "question": "Does tractus tectospinalis decussate? If yes, where?",
+    "options": ["In decussatio lemniscorum lateralis", "In decussatio lemniscorum medialis", "In decussatio tegmenti dorsalis", "It does not decussate", "In decussatio tegmenti ventralis"],
+    "correct": 2
+  },
+  {
+    "question": "Where does tractus tectospinalis begin?",
+    "options": ["Colliculi mesencephalici", "Colliculi tectales", "Colliculi brachiales", "Colliculi faciales", "Colliculi seminalis"],
+    "correct": 0
+  },
+  {
+    "question": "Receptors of auditory analyzer are located in:",
+    "options": ["organ of Corti", "retina", "crista ampullaris", "organ of Pachini", "organ of Merkel"],
+    "correct": 0
+  },
+  {
+    "question": "Membrana tympani conducts mechanical vibration to:",
+    "options": ["incus", "porus acusticus externus", "scala vestibuli", "malleolus", "stapes"],
+    "correct": 3
+  },
+  {
+    "question": "Malleolus conducts mechanical vibration to:",
+    "options": ["porus acusticus externus", "scala vestibuli", "scala tympani", "stapes", "incus"],
+    "correct": 4
+  },
+  {
+    "question": "Stapes conducts mechanical vibration to:",
+    "options": ["scala vestibuli", "porus acusticus externus", "scala tympani", "incus", "membrana tympanica secundaria"],
+    "correct": 0
+  },
+  {
+    "question": "Scala vestibuli conducts mechanical vibration to:",
+    "options": ["tuba auditiva", "scala tympani", "incus", "porus acusticus externus", "membrana tympanica secundaria"],
+    "correct": 1
+  },
+  {
+    "question": "Porus acusticus externus conducts mechanical vibration to:",
+    "options": ["scala tympani", "porus acusticus externus", "membrana tympanica secundaria", "tuba auditiva", "membrana tympani"],
+    "correct": 4
+  },
+  {
+    "question": "Scala tympani conducts mechanical vibration to:",
+    "options": ["scala vestibuli", "incus", "tuba auditiva", "membrana tympanica secundaria", "porus acusticus externus"],
+    "correct": 3
+  },
+  {
+    "question": "Incus conducts mechanical vibration to:",
+    "options": ["porus acusticus externus", "tuba auditiva", "scala vestibuli", "membrana tympanica secundaria", "stapes"],
+    "correct": 4
+  },
+  {
+    "question": "Hair cells of organ of Corti lie on:",
+    "options": ["canalis spiralis", "lamina spiralis osseus", "basal membrane", "paries parietalis", "membrana tectoria"],
+    "correct": 2
+  }
+]

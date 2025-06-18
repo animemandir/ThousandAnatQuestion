@@ -1,0 +1,427 @@
+[
+  {
+    "question": "Which muscle is attached to the coracoid process?",
+    "options": ["m. pectoralis major", "m. pectoralis minor", "m. deltoideus", "m. trapezius", "m. latissimus dorsi"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is attached to the acromion?",
+    "options": ["m. pectoralis minor", "m. deltoideus", "m. pectoralis major", "m. latissimus dorsi", "m. trapezius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is attached to the clavicle?",
+    "options": ["m. latissimus dorsi", "m. trapezius", "m. pectoralis minor", "m. deltoideus", "m. biceps brachii"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is attached to the scapula?",
+    "options": ["m. pectoralis major", "m. latissimus dorsi", "m. trapezius", "m. deltoideus", "m. biceps brachii"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is attached to the humerus?",
+    "options": ["m. trapezius", "m. pectoralis minor", "m. deltoideus", "m. latissimus dorsi", "m. pectoralis major"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the elbow?",
+    "options": ["m. triceps brachii", "m. biceps brachii", "m. brachioradialis", "m. anconeus", "m. supinator"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the elbow?",
+    "options": ["m. biceps brachii", "m. triceps brachii", "m. brachioradialis", "m. pronator teres", "m. supinator"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for pronation of the forearm?",
+    "options": ["m. supinator", "m. pronator teres", "m. biceps brachii", "m. triceps brachii", "m. anconeus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for supination of the forearm?",
+    "options": ["m. pronator teres", "m. supinator", "m. triceps brachii", "m. brachioradialis", "m. anconeus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for abduction of the shoulder?",
+    "options": ["m. pectoralis major", "m. latissimus dorsi", "m. deltoideus", "m. trapezius", "m. teres major"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for adduction of the shoulder?",
+    "options": ["m. deltoideus", "m. pectoralis major", "m. trapezius", "m. supraspinatus", "m. infraspinatus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the hip?",
+    "options": ["m. gluteus maximus", "m. iliopsoas", "m. quadriceps femoris", "m. hamstrings", "m. adductor magnus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the hip?",
+    "options": ["m. iliopsoas", "m. gluteus maximus", "m. quadriceps femoris", "m. adductor magnus", "m. sartorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the knee?",
+    "options": ["m. quadriceps femoris", "m. hamstrings", "m. gluteus maximus", "m. iliopsoas", "m. gastrocnemius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the knee?",
+    "options": ["m. hamstrings", "m. quadriceps femoris", "m. gastrocnemius", "m. iliopsoas", "m. sartorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for dorsiflexion of the foot?",
+    "options": ["m. gastrocnemius", "m. soleus", "m. tibialis anterior", "m. peroneus longus", "m. plantaris"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for plantarflexion of the foot?",
+    "options": ["m. tibialis anterior", "m. gastrocnemius", "m. peroneus longus", "m. extensor digitorum longus", "m. flexor hallucis longus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is attached to the iliac crest?",
+    "options": ["m. quadriceps femoris", "m. gluteus maximus", "m. iliopsoas", "m. sartorius", "m. tensor fasciae latae"],
+    "correct": 4
+  },
+  {
+    "question": "Which muscle is attached to the femur?",
+    "options": ["m. iliopsoas", "m. gluteus maximus", "m. quadriceps femoris", "m. sartorius", "m. tensor fasciae latae"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is attached to the tibia?",
+    "options": ["m. gluteus maximus", "m. quadriceps femoris", "m. iliopsoas", "m. tibialis anterior", "m. sartorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which muscle is responsible for abduction of the hip?",
+    "options": ["m. gluteus maximus", "m. gluteus medius", "m. adductor magnus", "m. iliopsoas", "m. quadriceps femoris"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for adduction of the hip?",
+    "options": ["m. gluteus medius", "m. adductor magnus", "m. gluteus maximus", "m. iliopsoas", "m. tensor fasciae latae"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for rotation of the hip?",
+    "options": ["m. quadriceps femoris", "m. gluteus maximus", "m. piriformis", "m. adductor magnus", "m. sartorius"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for stabilization of the knee?",
+    "options": ["m. quadriceps femoris", "m. hamstrings", "m. gastrocnemius", "m. popliteus", "m. sartorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the scapula?",
+    "options": ["m. trapezius", "m. latissimus dorsi", "m. pectoralis major", "m. deltoideus", "m. rhomboideus major"],
+    "correct": 0
+  },
+  {
+    "question": "Which muscle is responsible for depression of the scapula?",
+    "options": ["m. trapezius", "m. latissimus dorsi", "m. pectoralis minor", "m. deltoideus", "m. rhomboideus major"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for protraction of the scapula?",
+    "options": ["m. rhomboideus major", "m. serratus anterior", "m. trapezius", "m. latissimus dorsi", "m. deltoideus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for retraction of the scapula?",
+    "options": ["m. serratus anterior", "m. rhomboideus major", "m. pectoralis major", "m. deltoideus", "m. latissimus dorsi"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for lateral flexion of the spine?",
+    "options": ["m. rectus abdominis", "m. quadratus lumborum", "m. erector spinae", "m. latissimus dorsi", "m. transversus abdominis"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the spine?",
+    "options": ["m. erector spinae", "m. rectus abdominis", "m. quadratus lumborum", "m. latissimus dorsi", "m. transversus abdominis"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the spine?",
+    "options": ["m. rectus abdominis", "m. erector spinae", "m. quadratus lumborum", "m. transversus abdominis", "m. latissimus dorsi"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for rotation of the spine?",
+    "options": ["m. rectus abdominis", "m. external oblique", "m. erector spinae", "m. quadratus lumborum", "m. transversus abdominis"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for inspiration?",
+    "options": ["m. internal intercostals", "m. external intercostals", "m. transversus thoracis", "m. pectoralis major", "m. serratus posterior inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for expiration?",
+    "options": ["m. external intercostals", "m. internal intercostals", "m. diaphragm", "m. pectoralis major", "m. serratus posterior superior"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the mandible?",
+    "options": ["m. digastric", "m. masseter", "m. platysma", "m. sternocleidomastoid", "m. mylohyoid"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for depression of the mandible?",
+    "options": ["m. masseter", "m. temporalis", "m. digastric", "m. pterygoid lateral", "m. pterygoid medial"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for lateral excursion of the mandible?",
+    "options": ["m. masseter", "m. temporalis", "m. pterygoid lateral", "m. digastric", "m. mylohyoid"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for protrusion of the mandible?",
+    "options": ["m. masseter", "m. pterygoid lateral", "m. temporalis", "m. digastric", "m. pterygoid medial"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for retraction of the mandible?",
+    "options": ["m. pterygoid lateral", "m. temporalis", "m. masseter", "m. digastric", "m. pterygoid medial"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the hyoid bone?",
+    "options": ["m. sternohyoid", "m. omohyoid", "m. thyrohyoid", "m. sternothyroid", "m. mylohyoid"],
+    "correct": 4
+  },
+  {
+    "question": "Which muscle is responsible for depression of the hyoid bone?",
+    "options": ["m. mylohyoid", "m. geniohyoid", "m. sternohyoid", "m. thyrohyoid", "m. digastric"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the neck?",
+    "options": ["m. trapezius", "m. sternocleidomastoid", "m. splenius capitis", "m. semispinalis capitis", "m. longissimus capitis"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the neck?",
+    "options": ["m. sternocleidomastoid", "m. splenius capitis", "m. trapezius", "m. scalenus anterior", "m. scalenus medius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for rotation of the neck?",
+    "options": ["m. scalenus anterior", "m. sternocleidomastoid", "m. trapezius", "m. splenius capitis", "m. scalenus posterior"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for lateral flexion of the neck?",
+    "options": ["m. splenius capitis", "m. scalenus anterior", "m. sternocleidomastoid", "m. trapezius", "m. semispinalis capitis"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the ribs?",
+    "options": ["m. internal intercostals", "m. external intercostals", "m. transversus thoracis", "m. serratus posterior inferior", "m. serratus posterior superior"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for depression of the ribs?",
+    "options": ["m. external intercostals", "m. internal intercostals", "m. diaphragm", "m. serratus posterior superior", "m. pectoralis minor"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for stabilization of the pelvis?",
+    "options": ["m. quadratus lumborum", "m. rectus abdominis", "m. external oblique", "m. transversus abdominis", "m. erector spinae"],
+    "correct": 3
+  },
+  {
+    "question": "Which muscle is responsible for compression of the abdominal contents?",
+    "options": ["m. rectus abdominis", "m. external oblique", "m. transversus abdominis", "m. quadratus lumborum", "m. erector spinae"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for rotation of the shoulder?",
+    "options": ["m. pectoralis major", "m. latissimus dorsi", "m. subscapularis", "m. trapezius", "m. deltoideus"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for stabilization of the shoulder joint?",
+    "options": ["m. pectoralis major", "m. latissimus dorsi", "m. rotator cuff muscles", "m. trapezius", "m. deltoideus"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for abduction of the fingers?",
+    "options": ["m. flexor digitorum superficialis", "m. extensor digitorum", "m. abductor digiti minimi", "m. flexor digitorum profundus", "m. lumbricales"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for adduction of the fingers?",
+    "options": ["m. abductor digiti minimi", "m. interossei palmares", "m. extensor digitorum", "m. flexor digitorum superficialis", "m. lumbricales"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the fingers?",
+    "options": ["m. extensor digitorum", "m. flexor digitorum superficialis", "m. abductor digiti minimi", "m. interossei dorsales", "m. lumbricales"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the fingers?",
+    "options": ["m. flexor digitorum superficialis", "m. extensor digitorum", "m. abductor digiti minimi", "m. interossei palmares", "m. flexor digitorum profundus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for abduction of the thumb?",
+    "options": ["m. flexor pollicis longus", "m. extensor pollicis brevis", "m. abductor pollicis longus", "m. adductor pollicis", "m. opponens pollicis"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for adduction of the thumb?",
+    "options": ["m. abductor pollicis longus", "m. flexor pollicis longus", "m. adductor pollicis", "m. extensor pollicis brevis", "m. opponens pollicis"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for opposition of the thumb?",
+    "options": ["m. adductor pollicis", "m. abductor pollicis longus", "m. flexor pollicis longus", "m. opponens pollicis", "m. extensor pollicis brevis"],
+    "correct": 3
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the wrist?",
+    "options": ["m. extensor carpi radialis longus", "m. flexor carpi radialis", "m. extensor carpi ulnaris", "m. abductor pollicis longus", "m. extensor digitorum"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the wrist?",
+    "options": ["m. flexor carpi radialis", "m. extensor carpi radialis longus", "m. flexor carpi ulnaris", "m. abductor pollicis longus", "m. flexor digitorum superficialis"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for radial deviation of the wrist?",
+    "options": ["m. flexor carpi ulnaris", "m. extensor carpi ulnaris", "m. flexor carpi radialis", "m. extensor carpi radialis longus", "m. abductor pollicis longus"],
+    "correct": 3
+  },
+  {
+    "question": "Which muscle is responsible for ulnar deviation of the wrist?",
+    "options": ["m. extensor carpi radialis longus", "m. flexor carpi radialis", "m. extensor carpi ulnaris", "m. abductor pollicis longus", "m. flexor carpi ulnaris"],
+    "correct": 4
+  },
+  {
+    "question": "Which muscle is responsible for abduction of the toes?",
+    "options": ["m. flexor digitorum longus", "m. extensor digitorum longus", "m. abductor hallucis", "m. flexor hallucis longus", "m. interossei plantares"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for adduction of the toes?",
+    "options": ["m. abductor hallucis", "m. interossei plantares", "m. extensor digitorum longus", "m. flexor digitorum longus", "m. abductor digiti minimi"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the toes?",
+    "options": ["m. extensor digitorum longus", "m. flexor digitorum longus", "m. abductor hallucis", "m. interossei dorsales", "m. abductor digiti minimi"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the toes?",
+    "options": ["m. flexor digitorum longus", "m. extensor digitorum longus", "m. abductor hallucis", "m. interossei plantares", "m. flexor hallucis longus"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for abduction of the big toe?",
+    "options": ["m. flexor hallucis longus", "m. extensor hallucis longus", "m. abductor hallucis", "m. adductor hallucis", "m. interossei plantares"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for adduction of the big toe?",
+    "options": ["m. abductor hallucis", "m. adductor hallucis", "m. flexor hallucis longus", "m. extensor hallucis longus", "m. interossei dorsales"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for flexion of the big toe?",
+    "options": ["m. extensor hallucis longus", "m. flexor hallucis longus", "m. abductor hallucis", "m. adductor hallucis", "m. interossei plantares"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for extension of the big toe?",
+    "options": ["m. flexor hallucis longus", "m. extensor hallucis longus", "m. abductor hallucis", "m. adductor hallucis", "m. interossei dorsales"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for inversion of the foot?",
+    "options": ["m. peroneus longus", "m. tibialis anterior", "m. gastrocnemius", "m. soleus", "m. peroneus brevis"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for eversion of the foot?",
+    "options": ["m. tibialis anterior", "m. peroneus longus", "m. gastrocnemius", "m. soleus", "m. tibialis posterior"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for stabilization of the ankle?",
+    "options": ["m. gastrocnemius", "m. soleus", "m. tibialis posterior", "m. peroneus longus", "m. tibialis anterior"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the pelvic floor?",
+    "options": ["m. transversus abdominis", "m. levator ani", "m. rectus abdominis", "m. external oblique", "m. quadratus lumborum"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for compression of the pelvic contents?",
+    "options": ["m. levator ani", "m. transversus perinei profundus", "m. rectus abdominis", "m. external oblique", "m. quadratus lumborum"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for stabilization of the lumbar spine?",
+    "options": ["m. rectus abdominis", "m. transversus abdominis", "m. external oblique", "m. quadratus lumborum", "m. erector spinae"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the eyebrow?",
+    "options": ["m. orbicularis oculi", "m. frontalis", "m. corrugator supercilii", "m. procerus", "m. orbicularis oris"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for closing of the eyelids?",
+    "options": ["m. frontalis", "m. orbicularis oculi", "m. corrugator supercilii", "m. procerus", "m. levator palpebrae superioris"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for wrinkling of the forehead?",
+    "options": ["m. orbicularis oculi", "m. frontalis", "m. corrugator supercilii", "m. procerus", "m. orbicularis oris"],
+    "correct": 2
+  },
+  {
+    "question": "Which muscle is responsible for pursing of the lips?",
+    "options": ["m. orbicularis oris", "m. buccinator", "m. risorius", "m. zygomaticus major", "m. levator labii superioris"],
+    "correct": 0
+  },
+  {
+    "question": "Which muscle is responsible for smiling?",
+    "options": ["m. orbicularis oris", "m. buccinator", "m. risorius", "m. zygomaticus major", "m. depressor anguli oris"],
+    "correct": 3
+  },
+  {
+    "question": "Which muscle is responsible for frowning?",
+    "options": ["m. zygomaticus major", "m. depressor anguli oris", "m. orbicularis oris", "m. buccinator", "m. risorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for blowing air out of the cheeks?",
+    "options": ["m. orbicularis oris", "m. buccinator", "m. zygomaticus major", "m. risorius", "m. depressor labii inferioris"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for elevation of the upper lip?",
+    "options": ["m. depressor labii inferioris", "m. levator labii superioris", "m. orbicularis oris", "m. buccinator", "m. risorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which muscle is responsible for depression of the lower lip?",
+    "options": ["m. levator labii superioris", "m. depressor labii inferioris", "m. orbicularis oris", "m. zygomaticus major", "m. buccinator"],
+    "correct": 1
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "question": "Who's phrase is that «Anatomia fundamentum medicina est»?",
+    "options": ["Aristotle", "Vesalius", "Pirogov", "Galen", "Hippocrates"],
+    "correct": 4
+  },
+  {
+    "question": "Who is the most prominent anatomist in ancient Rome?",
+    "options": ["Hippocrates", "Aristotle", "Galen", "Pirogov", "Vesalius"],
+    "correct": 2
+  },
+  {
+    "question": "Which civilization took on anatomical studies after ancient Egypt?",
+    "options": ["Ancient Rome", "Arabs", "Ancient Greece", "Byzanthium", "Russia"],
+    "correct": 2
+  },
+  {
+    "question": "Which civilization took on anatomical studies after ancient Greece?",
+    "options": ["Byzanthium", "Ancient Rome", "Russia", "Arabs", "Ancient Egypt"],
+    "correct": 1
+  },
+  {
+    "question": "Which civilization took on anatomical studies after ancient Rome?",
+    "options": ["Byzanthium", "Arabs", "Ancient Egypt", "Ancient Greece", "Russia"],
+    "correct": 0
+  },
+  {
+    "question": "Which civilization took on anatomical studies after Byzanthium?",
+    "options": ["Ancient Egypt", "Russia", "Ancient Greece", "Arabs", "ancient Rome"],
+    "correct": 3
+  },
+  {
+    "question": "Who has written anatomical book 'De Humani Corporis Fabrica'?",
+    "options": ["Galen", "Vesalius", "Hippocrates", "Pirogov", "Aristotle"],
+    "correct": 1
+  },
+  {
+    "question": "Which anatomist first officially in written form corrected mistakes of Galen?",
+    "options": ["Ruish", "Hippocrates", "Pirogov", "Aristotle", "Vesalius"],
+    "correct": 4
+  },
+  {
+    "question": "In which century Human Anatomy becomes the base of medical scientific education?",
+    "options": ["17th", "19th", "15th", "18th", "16th"],
+    "correct": 0
+  },
+  {
+    "question": "Which year was built Anatomical theatre of Kazan Imperial University?",
+    "options": ["1837", "1804", "1846", "1830", "1814"],
+    "correct": 0
+  },
+  {
+    "question": "Who's phrase is that: 'Doctor which does not know anatomy is not only unuseful but harmful'?",
+    "options": ["Ruish", "Aristov", "Pirogov", "Muhin", "Tonkov"],
+    "correct": 3
+  },
+  {
+    "question": "What does anatomy mean?",
+    "options": ["study", "die", "prepare", "dissect", "cadaver"],
+    "correct": 3
+  },
+  {
+    "question": "What is the structural unit of bony tissue?",
+    "options": ["Osteoblast", "Osteoclast", "Sarcomere", "Osteon", "Myomer"],
+    "correct": 3
+  },
+  {
+    "question": "Where are located osteocytes?",
+    "options": ["In lacunae", "In fossiculae", "In Haversian canal", "In Volkmann canal", "In folliculae"],
+    "correct": 0
+  },
+  {
+    "question": "Osteoblasts develop from:",
+    "options": ["Osteopores", "Osteogenic cell", "Osteocytes", "Monocytes", "Osteoclast"],
+    "correct": 1
+  },
+  {
+    "question": "Osteocytes derive from:",
+    "options": ["Osteopores", "Monocytes", "Osteoclasts", "Osteogenic cell", "Osteocytes"],
+    "correct": 0,
+    "note": "Corrected from PDF error (listed as Osteoclasts); osteocytes derive from osteoblasts, which develop from osteogenic cells."
+  },
+  {
+    "question": "Osteoclasts derive from:",
+    "options": ["Osteopores", "Osteophages", "Osteogenic cell", "Monocytes", "Osteocytes"],
+    "correct": 3
+  },
+  {
+    "question": "Microscopic level of human anatomy studies:",
+    "options": ["Histology", "Embryology", "Litology", "Topographical anatomy", "Pathological anatomy"],
+    "correct": 0
+  },
+  {
+    "question": "Which function does NOT belong to skeletal system:",
+    "options": ["Storage of Ca", "Protection", "Haematopoiesis", "Contraction", "Storage of Mn"],
+    "correct": 3
+  },
+  {
+    "question": "Haematopoiesis starts in bones:",
+    "options": ["6th month of prenatal development", "3rd month of prenatal development", "After birth", "8th month of prenatal development", "2nd month after birth"],
+    "correct": 1
+  },
+  {
+    "question": "Which bone belongs to flat bones?",
+    "options": ["Os coxae", "Os metatarsale", "Femur", "Os metacarpale", "Vertebra"],
+    "correct": 0
+  },
+  {
+    "question": "Identify example of long tubular bone:",
+    "options": ["Femur", "Os metacarpale", "Vertebra", "Os metatarsale", "Os ethmoidale"],
+    "correct": 0
+  },
+  {
+    "question": "Identify example of short tubular bone:",
+    "options": ["Os metatarsale", "Os frontale", "Os ethmoidale", "Femur", "Vertebra"],
+    "correct": 0
+  },
+  {
+    "question": "Identify example of irregular bone:",
+    "options": ["Os frontale", "Vertebra", "Os ethmoidale", "Femur", "Os metatarsale"],
+    "correct": 1
+  },
+  {
+    "question": "Medullary cavity of bone is located in:",
+    "options": ["Epiphysis", "Beneath endosteum", "Beneath periosteum", "Diaphysis", "Methaphyseal plate"],
+    "correct": 3
+  },
+  {
+    "question": "Identify where is periosteum:",
+    "options": ["Covers each osteon", "Lines medullary cavity", "Covers articular surfaces", "Fills methaphyseal plate", "Covers diaphysis and epiphyses"],
+    "correct": 4
+  },
+  {
+    "question": "Identify where is endosteum:",
+    "options": ["Covers each osteon", "Covers diaphysis and epiphyses", "Covers articular surfaces", "Lines medullary cavity", "Fills methaphyseal plate"],
+    "correct": 3
+  },
+  {
+    "question": "Identify where is articular cartilage:",
+    "options": ["Covers diaphysis", "Fills methaphyseal plate", "Lines medullary cavity", "Covers each osteon", "Covers epiphyses"],
+    "correct": 4
+  },
+  {
+    "question": "Identify which bone undergoes endesmal osteogenesis:",
+    "options": ["Os coxae", "Os sacrum", "Os humerus", "Os parietale", "Os nasale"],
+    "correct": 3
+  },
+  {
+    "question": "Identify which bone undergoes enchondral osteogenesis:",
+    "options": ["Os frontale", "Os maxilla", "Os sphenoidale", "Os parietale", "Os occipitale"],
+    "correct": 1
+  },
+  {
+    "question": "To which part of the skeleton belongs os pubis:",
+    "options": ["Ossa membri inferioris libera", "Ossa membri superioris libera", "Ossa sceleton axiale", "Ossa cinguli membri inferioris", "Ossa cinguli membri superioris"],
+    "correct": 3
+  },
+  {
+    "question": "Identify cellular source for osteogenesis:",
+    "options": ["Hypoblast", "Mesenchyme", "Allantois", "Trophoblast", "Epiblast"],
+    "correct": 1
+  },
+  {
+    "question": "In which part of tubular bones can still be present remnants of embryonic catilagenous tissue:",
+    "options": ["Metaphyseal line", "Metaphyseal plate", "Diaphysis", "Epiphysis", "Medulla osseum"],
+    "correct": 1
+  },
+  {
+    "question": "Identify which bone undergoes endesmal osteogenesis:",
+    "options": ["Os occipitale", "Os coccyx", "Os trapezium", "Fibula", "Os talus"],
+    "correct": 0
+  },
+  {
+    "question": "To which part of the skeleton belongs sacrum:",
+    "options": ["Ossa membri superioris libera", "Ossa membri inferioris libera", "Ossa sceleton axiale", "Ossa cinguli membri inferioris", "Ossa cinguli membri superioris"],
+    "correct": 2
+  },
+  {
+    "question": "To which part of the skeleton belongs vomer:",
+    "options": ["Ossa cinguli membri superioris", "Ossa cinguli membri inferioris", "Ossa sceleton axiale", "Ossa membri superioris libera", "Ossa membri inferioris libera"],
+    "correct": 2
+  },
+  {
+    "question": "To which part of the skeleton belongs clavicula:",
+    "options": ["Ossa cinguli membri superioris", "Ossa membri inferioris libera", "Ossa cinguli membri inferioris", "Ossa sceleton axiale", "Ossa membri superioris libera"],
+    "correct": 0
+  },
+  {
+    "question": "To which part of the skeleton belongs humerus:",
+    "options": ["Ossa cinguli membri superioris", "Ossa membri inferioris libera", "Ossa membri superioris libera", "Ossa sceleton axiale", "Ossa cinguli membri inferioris"],
+    "correct": 2
+  },
+  {
+    "question": "Identify which bone undergoes enchondral osteogenesis:",
+    "options": ["Os occipitale", "Os parietale", "Os palatinus", "Os frontale", "Os ethmoidale"],
+    "correct": 2
+  },
+  {
+    "question": "Identify the key factor, which regulates the choice of differentiation of stem cells either into chondroblasts or into osteoblasts:",
+    "options": ["Level of calcium", "Level of carbon dioxide", "Level of oxygen", "Efficiency of VEGF and BMP transcription", "Level of vitamin D"],
+    "correct": 2
+  },
+  {
+    "question": "In which part of tubular bones is formed punctum ossificatum primum during osteogenesis:",
+    "options": ["Medulla osseum", "Metaphyseal plate", "Metaphyseal line", "Epiphysis", "Diaphysis"],
+    "correct": 4
+  },
+  {
+    "question": "In which part of tubular bones is formed punctum ossificatum secundum during osteogenesis:",
+    "options": ["Diaphysis", "Medulla osseum", "Epiphysis", "Metaphyseal line", "Metaphyseal plate"],
+    "correct": 2
+  },
+  {
+    "question": "To which part of the skeleton belongs os occipitale:",
+    "options": ["Ossa membri superioris libera", "Ossa cinguli membri superioris", "Ossa cinguli membri inferioris", "Ossa membri inferioris libera", "Ossa sceleton axiale"],
+    "correct": 4
+  },
+  {
+    "question": "Identify which bony tissue develops first during endesmal osteogenesis:",
+    "options": ["Compact bony tissue", "Diaphyseal bony tissue", "Mixed bony tissue", "Diploic bony tissue", "Spongy bony tissue"],
+    "correct": 4
+  },
+  {
+    "question": "To which part of the skeleton belongs calcaneus:",
+    "options": ["Ossa membri superioris libera", "Ossa cinguli membri inferioris", "Ossa sceleton axiale", "Ossa membri inferioris libera", "Ossa cinguli membri superioris"],
+    "correct": 3
+  },
+  {
+    "question": "To which part of the skeleton belongs sternum:",
+    "options": ["Ossa membri superioris libera", "Ossa cinguli membri inferioris", "Ossa membri inferioris libera", "Ossa sceleton axiale", "Ossa cinguli membri superioris"],
+    "correct": 3
+  },
+  {
+    "question": "Choose 3 main types of bones connection:",
+    "options": ["diarthrosis", "synarthrosis", "synchondrosis", "symphysis"],
+    "correct": [0, 1, 3]
+  },
+  {
+    "question": "Which kinds of synarthrosis do you know?",
+    "options": ["Syndesmosis", "Symphysis", "Synomphosis", "Synostosis", "Synchondrosis"],
+    "correct": [0, 3, 4]
+  },
+  {
+    "question": "What is the biggest fonticulus of a newborn?",
+    "options": ["Posterior", "Mastoideus", "Sphenoidale", "Anterior"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following bones connection is characterized by «bone - collagenous sutural ligament - bone»",
+    "options": ["Fonticulus", "Ligaments", "Membrana interossei", "Gomphosis", "Sutures"],
+    "correct": 4
+  },
+  {
+    "question": "Which of the following bones connection is characterized by «bone - collagenous interosseous ligament - bone»",
+    "options": ["Sutures", "Ligaments", "Gomphosis", "Fonticulus", "Membrana interossei"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following bones connection is characterized by «bone - complex periodontium - bone»",
+    "options": ["Membrana interossei", "Sutures", "Gomphosis", "Fonticulus", "Ligaments"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following bones connection is characterized by «bone - fibrous membrane - bone»",
+    "options": ["Sutures", "Membrana interossei", "Ligaments", "Fonticulus", "Gomphosis"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following characterizes the synchondrosis?",
+    "options": ["bone - collagenous interosseous ligament - bone", "bone - collagenous sutural ligament - bone", "bone - hyaline cartilage - bone", "bone - complex periodontium - bone", "bone - fibrous membrane - bone"],
+    "correct": 2
+  },
+  {
+    "question": "What bone connection characterizes the complete fusion of bones into one bone",
+    "options": ["Synchondrosis", "Syndesmosis", "Symphysis", "Syngomphosis", "Synostosis"],
+    "correct": 4
+  },
+  {
+    "question": "Where can the interosseous membrane be found?",
+    "options": ["Hip region", "Forearm", "Femur", "Shin", "Vertebral column"],
+    "correct": [1, 3]
+  },
+  {
+    "question": "Choose the obligatory element of diarthroses?",
+    "options": ["ligaments", "plica synovialis", "discs", "bursa", "articular surfaces"],
+    "correct": 4
+  },
+  {
+    "question": "Choose the obligatory element of diarthroses?",
+    "options": ["ligaments", "labra", "articular capsule", "plica synovialis", "discs"],
+    "correct": 2
+  },
+  {
+    "question": "Choose the obligatory element of diarthroses?",
+    "options": ["tendons", "articular cavity", "meniscs", "bursa", "ligaments"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following articular shape is uniaxial",
+    "options": ["ball and socket", "plane joints", "condylar joints", "saddle joints", "pivot joints"],
+    "correct": 4
+  },
+  {
+    "question": "Which of the following articular shape is uniaxial",
+    "options": ["ball and socket", "ellipsoid", "plane joints", "saddle joints", "hinge joints"],
+    "correct": 4
+  },
+  {
+    "question": "Which of the following articular shape is biaxial",
+    "options": ["hinge joints", "ellipsoid", "plane joints", "ball and socket", "pivot joints"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following articular shape is biaxial",
+    "options": ["hinge joints", "pivot joints", "ball and socket", "plane joints", "condylar joints"],
+    "correct": 4
+  },
+  {
+    "question": "Which of the following articular shape is biaxial",
+    "options": ["ball and socket", "plane joints", "hinge joints", "pivot joints", "saddle joints"],
+    "correct": 4
+  },
+  {
+    "question": "Which of the following articular shape is multiaxial",
+    "options": ["saddle joints", "condylar joints", "pivot joints", "ball and socket", "hinge joints"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following articular shape is multiaxial",
+    "options": ["condylar joints", "pivot joints", "plane joints", "ellipsoid", "hinge joints"],
+    "correct": 2
+  },
+  {
+    "question": "Call ligament of the shoulder joint:",
+    "options": ["lig. coracohumerale", "lig. humeroradiale", "lig. acromiohumerale", "lig. annulare humeri", "lig. humeroulnare"],
+    "correct": 0
+  },
+  {
+    "question": "What ligament is located between arches of the vertebra?",
+    "options": ["lig. supraspinale", "ligg. interspinalia", "ligg. intertransversarii", "lig. longitudinale anterius", "ligg. flava"],
+    "correct": 4
+  },
+  {
+    "question": "What ligament is located between the transverse processes of the vertebrae?",
+    "options": ["lig. longitudinale anterius", "ligg. intertransversarii", "lig. supraspinale", "ligg. flava", "ligg. interspinalia"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a correct description of shoulder joint:",
+    "options": ["Simple ellipsoid joint", "Complex spheroidal joint", "Simple cotylica joint", "Simple spheroidal joint", "Simple plane combined joint"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following is a correct description of elbow joint:",
+    "options": ["Complex hinge joint", "Complex ellipsoid joint", "Simple hinge joint", "Simple spheroidal joint", "Simple plane joint"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following is a correct description of radiocarpal joint:",
+    "options": ["Simple hinge joint", "Complex hinge joint", "Simple plane joint", "Complex ellipsoid joint", "Simple spheroidal joint"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following is a correct description of hip joint:",
+    "options": ["Complex hinge joint", "Simple ellipsoid joint", "Complex cotylica joint", "Simple plane joint", "Simple spheroidal joint"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is a correct description of knee joint:",
+    "options": ["Complex condylar joint", "Simple hinge joint", "Simple plane joint", "Complex ellipsoid joint", "Simple spheroidal joint"],
+    "correct": 0
+  },
+  {
+    "question": "What is the name of the joint between the proximal and medial phalanges of fingers?",
+    "options": ["artt. metacarpophalangeae", "artt. interphalangeae manus", "artt. carpometacarpaliae", "artt. intermetacarpaliae", "artt. radiocarpaliae"],
+    "correct": 1
+  },
+  {
+    "question": "What is the name of the joint between atlas and axis?",
+    "options": ["art. atlantooccipitalis", "art. atlantoaxialis", "art. uncovertebralis", "art. temporomandibularis", "art. sacroiliaca"],
+    "correct": 1
+  },
+  {
+    "question": "What is the name of the joint between sacrum and os coxae?",
+    "options": ["art. atlantooccipitalis", "art. sacroiliaca", "art. temporomandibularis", "art. atlantoaxialis", "art. uncovertebralis"],
+    "correct": 1
+  },
+  {
+    "question": "What is the name of the joint between mandible and temporal bone?",
+    "options": ["art. uncovertebralis", "art. atlantooccipitalis", "art. sacroiliaca", "art. temporomandibularis", "art. atlantoaxialis"],
+    "correct": 3
+  },
+  {
+    "question": "What is the name of the joint between atlas and occipital bone?",
+    "options": ["art. atlantooccipitalis", "art. uncovertebralis", "art. temporomandibularis", "art. atlantoaxialis", "art. sacroiliaca"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following ligaments belong to articulatio talocruralis?",
+    "options": ["lig. collaterale mediale", "lig. coracohumerale", "lig. annulare radii", "lig. longitudinale anterius", "lig. interspinale"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following ligaments belong to articulatio genus?",
+    "options": ["lig. collaterale mediale", "lig. coracohumerale", "lig. annulare radii", "lig. longitudinale anterius", "lig. interspinale"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following ligaments belong to articulatio cubiti?",
+    "options": ["lig. coracohumerale", "lig. collaterale mediale", "lig. longitudinale anterius", "lig. annulare radii", "lig. interspinale"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following ligaments belong to articulatio humeri?",
+    "options": ["lig. coracohumerale", "lig. collaterale mediale", "lig. annulare radii", "lig. longitudinale anterius", "lig. interspinale"],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following ligaments belong to columna vertebralis?",
+    "options": ["lig. coracohumerale", "lig. collaterale mediale", "lig. annulare radii", "lig. longitudinale anterius", "lig. interspinale"],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following is a correct description of articulatio temporomandibularis?",
+    "options": ["Simple hinge joint", "Complex condylar joint", "Simple plane joint", "Complex ellipsoid joint", "Simple spheroidal joint"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a correct description of articulatio atlantooccipitalis?",
+    "options": ["Simple hinge joint", "Complex condylar joint", "Simple plane joint", "Complex ellipsoid joint", "Simple spheroidal joint"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a correct description of articulatio atlantoaxialis?",
+    "options": ["Complex condylar joint", "Simple hinge joint", "Complex pivot joint", "Simple plane joint", "Simple spheroidal joint"],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is a correct description of articulatio sacroiliaca?",
+    "options": ["Complex condylar joint", "Simple hinge joint", "Complex pivot joint", "Simple plane joint", "Simple spheroidal joint"],
+    "correct": 3
+  }
+]

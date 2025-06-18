@@ -1,19 +1,67 @@
-// Shuffle an array using Fisher-Yates algorithm
-function shuffleArray(array) {
-    const newArray = [...array];
-    for (let i = newArray.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    return newArray;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osteology QUIZ 1k Anat Questions</title>
+    <link rel="stylesheet" href="quiz.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<div class="adminActions">
+	<input type="checkbox" name="adminToggle" class="adminToggle" />
+	<a class="adminButton" href="#!"><i class="fa fa-gear"></i></a>
+	<div class="adminButtons">
+<a href="/" title="Home"><i class="fa fa-home"></i></a>
+		<a href="https://t.me/aayush_s_c" title="me"><i class="fab fa-telegram"></i></a>
+		<a href="/edit" title="Score board"><i class="fa fa-pencil"></i></a>
+		<a href="/score" title="Score board"><i class="fa fa-star"></i></a>
+	</div>
+</div>
+<body>
 
+    <div class="container">
+        <h1>Osteology Quiz</h1>
+        <div id="quiz-container"></div>
+    </div>
+
+
+    <!-- Load specific quiz data -->
+<script>
+    window.onload = () => {
+        // Define an array of JSON paths you want to load
+const jsonPaths = [
+    '/data/anatomy_quiz_part1.json',
+    '/data/anatomy_quiz_part2.json',
+    '/data/anatomy_quiz_part3.json',
+    '/data/anatomy_quiz_part4.json'
+];
+
+console.log("📄 Starting quiz load for multiple subjects:", jsonPaths);
+
+// Load all JSONs at once
+loadMultipleQuizzes(jsonPaths);
+    };
+</script>
+    <!-- Shared JavaScript -->
+<script>
 // ✅ ALL GLOBAL VARIABLES MUST BE DECLARED AT THE TOP
 let resultSection = null;
 let questions = [];
+let currentQuizSubject = '';
+const subject = window.location.pathname.split('/').filter(Boolean).pop();
+currentQuizSubject = subject;
+// Fisher-Yates Shuffle Algorithm
+function shuffleArray(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
 
 // FETCH AND QUIZ LOGIC STARTS BELOW
-function loadQuiz(jsonPath) {
+function loadQuiz(jsonPath, shuffle = true) {
     console.log("🔍 loadQuiz: Loading from", jsonPath);
     fetch(jsonPath)
         .then(res => {
@@ -24,8 +72,10 @@ function loadQuiz(jsonPath) {
             console.log("✅ JSON loaded successfully");
             console.log("📥 Raw data:", data);
             console.log("📊 Total questions:", data.length);
+
             if (Array.isArray(data)) {
-                questions = shuffleArray(data);
+                // Combine and shuffle if needed
+                questions = shuffle ? shuffleArray(data) : data;
                 renderQuiz();
             } else {
                 console.error("❌ JSON data is not an array!");
@@ -36,15 +86,43 @@ function loadQuiz(jsonPath) {
         });
 }
 
+// Load multiple JSONs into one combined quiz
+function loadMultipleQuizzes(jsonPaths, shuffle = true) {
+    const fetchPromises = jsonPaths.map(path =>
+        fetch(path)
+            .then(res => {
+                if (!res.ok) throw new Error(`Failed to load ${path}: ${res.statusText}`);
+                return res.json();
+            })
+            .catch(err => {
+                console.error(err);
+                return [];
+            })
+    );
+
+    Promise.all(fetchPromises).then(allData => {
+        const combined = allData.flat();
+        if (combined.length === 0) {
+            document.getElementById('quiz-container').innerHTML =
+                `<p style="text-align:center;">No quiz data could be loaded.</p>`;
+            return;
+        }
+
+        questions = shuffle ? shuffleArray(combined) : combined;
+        renderQuiz();
+    });
+}
+
 // Render quiz questions dynamically
 function renderQuiz() {
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = '';
 
     questions.forEach((q, index) => {
+        q.selected = [];
+
         const questionDiv = document.createElement('div');
         questionDiv.className = 'question';
-        q.selected = undefined;
 
         const questionText = document.createElement('p');
         questionText.textContent = q.question;
@@ -63,21 +141,33 @@ function renderQuiz() {
             optionDiv.dataset.optionIndex = i;
 
             optionDiv.addEventListener('click', () => {
-                if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) {
-                    return;
-                }
+                if (optionDiv.classList.contains('correct') || optionDiv.classList.contains('incorrect')) return;
 
                 const allOptions = optionsDiv.querySelectorAll('.option');
-                allOptions.forEach(opt => opt.style.pointerEvents = 'none');
 
-                if (i === q.correct) {
-                    optionDiv.classList.add('correct');
+                if (Array.isArray(q.correct)) {
+                    // Multiple correct mode
+                    const idx = q.selected.indexOf(i);
+                    if (idx === -1) {
+                        q.selected.push(i);
+                        optionDiv.classList.add('correct');
+                    } else {
+                        q.selected.splice(idx, 1);
+                        optionDiv.classList.remove('correct');
+                    }
                 } else {
-                    optionDiv.classList.add('incorrect');
-                    allOptions[q.correct].classList.add('correct');
+                    // Single correct mode
+                    allOptions.forEach(opt => opt.style.pointerEvents = 'none');
+                    if (i === q.correct) {
+                        optionDiv.classList.add('correct');
+                        q.selected = [i];
+                    } else {
+                        optionDiv.classList.add('incorrect');
+                        q.selected = [i];
+                        allOptions[q.correct].classList.add('correct');
+                    }
                 }
 
-                q.selected = i;
                 updateFloatingButton();
             });
 
@@ -95,14 +185,25 @@ function renderQuiz() {
 
 // Create floating finish button
 function createFloatingFinishButton() {
-    const floatingBtn = document.getElementById('floating-finish-btn') ||
-                        document.createElement('button');
-
-    if (!document.getElementById('floating-finish-btn')) {
+    let floatingBtn = document.getElementById('floating-finish-btn');
+    if (!floatingBtn) {
+        floatingBtn = document.createElement('button');
         floatingBtn.id = 'floating-finish-btn';
-        floatingBtn.innerHTML = `
-            Finish Quiz <span class="badge" id="answered-count">0</span>
-        `;
+        floatingBtn.innerHTML = `Finish Quiz <span class="badge" id="answered-count">0</span>`;
+        floatingBtn.style.position = 'fixed';
+        floatingBtn.style.bottom = '70px';
+        floatingBtn.style.right = '20px';
+        floatingBtn.style.zIndex = '999';
+        floatingBtn.style.display = 'none';
+        floatingBtn.style.padding = '10px 20px';
+        floatingBtn.style.borderRadius = '30px';
+        floatingBtn.style.backgroundColor = '#007bff';
+        floatingBtn.style.color = '#fff';
+        floatingBtn.style.border = 'none';
+        floatingBtn.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+        floatingBtn.style.transition = 'opacity 0.3s ease';
+        floatingBtn.style.whiteSpace = 'nowrap';
+        floatingBtn.style.maxWidth = '200px';
         document.body.appendChild(floatingBtn);
     }
 
@@ -110,12 +211,10 @@ function createFloatingFinishButton() {
         if (resultSection) {
             resultSection.scrollIntoView({ behavior: 'smooth' });
         } else {
-            setTimeout(() => {
-                window.scrollTo({
-                    top: document.body.scrollHeight,
-                    behavior: 'smooth'
-                });
-            }, 100);
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: 'smooth'
+            });
         }
     });
 
@@ -135,16 +234,17 @@ function addFinishButton(quizContainer) {
     finishButton.addEventListener('click', () => {
         let correctCount = 0;
         questions.forEach(q => {
-            const selected = q.selected;
-            if (selected !== undefined && selected === q.correct) {
-                correctCount++;
+            if (Array.isArray(q.correct)) {
+                correctCount += q.correct.every(ans => q.selected.includes(ans)) ? 1 : 0;
+            } else {
+                correctCount += q.selected.includes(q.correct) ? 1 : 0;
             }
         });
 
         const total = questions.length;
-        const subject = window.location.pathname.split('/').filter(Boolean).pop();
+       // const subject = window.location.pathname.split('/').filter(Boolean).pop();
 
-        saveScore(subject, correctCount, total);
+        saveScore(currentQuizSubject, correctCount, total);
 
         // Show result message
         resultSection = document.createElement('div');
@@ -175,7 +275,11 @@ function addFinishButton(quizContainer) {
 function updateFloatingButton() {
     let answeredCount = 0;
     questions.forEach(q => {
-        if (q.selected !== undefined) answeredCount++;
+        if (Array.isArray(q.correct)) {
+            if (q.selected.length > 0) answeredCount++;
+        } else {
+            if (q.selected !== undefined && q.selected !== null) answeredCount++;
+        }
     });
 
     const badge = document.getElementById('answered-count');
@@ -183,9 +287,9 @@ function updateFloatingButton() {
 
     const btn = document.getElementById('floating-finish-btn');
     if (answeredCount > 0) {
-        btn.classList.add('show');
+        btn.style.display = 'block';
     } else {
-        btn.classList.remove('show');
+        btn.style.display = 'none';
     }
 }
 
@@ -223,7 +327,6 @@ function addShowAnswersToggle(quizContainer) {
 
     toggleDiv.appendChild(checkbox);
     toggleDiv.appendChild(label);
-
     quizContainer.appendChild(toggleDiv);
 
     checkbox.addEventListener('change', () => {
@@ -267,19 +370,18 @@ function showAllCorrectAnswers(show) {
     if (floatingBtn) floatingBtn.style.display = show ? 'none' : 'block';
 }
 
-// 🆕 NEW: Create floating toggle switch
+// Create floating toggle switch
 function createFloatingAnswerToggle() {
-    const floatingToggle = document.getElementById('floating-answer-toggle') ||
-                           document.createElement('div');
-
-    if (!document.getElementById('floating-answer-toggle')) {
+    let floatingToggle = document.getElementById('floating-answer-toggle');
+    if (!floatingToggle) {
+        floatingToggle = document.createElement('div');
         floatingToggle.id = 'floating-answer-toggle';
         floatingToggle.style.position = 'fixed';
         floatingToggle.style.top = '20px';
+floatingToggle.style.right = '20px';
 floatingToggle.style.left = 'auto';
-floatingToggle.style.right = '20px'; // Ensure no conflict
 floatingToggle.style.bottom = 'auto';
-        floatingToggle.style.zIndex = '-1000';
+        floatingToggle.style.zIndex = '1000';
         floatingToggle.style.backgroundColor = '#fff';
         floatingToggle.style.border = '1px solid #ccc';
         floatingToggle.style.borderRadius = '8px';
@@ -291,8 +393,8 @@ floatingToggle.style.bottom = 'auto';
 
         floatingToggle.innerHTML = `
             <label style="display:flex; align-items:center; justify-content:space-between; width:100%; font-size:14px;">
-                Show Correct
-                <input type="checkbox" id="floating-answer-checkbox" style="transform: scale(1.2); margin-left: 10px;">
+                Show Correct Answers
+                <input type="checkbox" id="floating-answer-checkbox" style="transform: scale(1.2); margin-left: auto;">
             </label>
         `;
 
@@ -303,4 +405,9 @@ floatingToggle.style.bottom = 'auto';
             showAllCorrectAnswers(checkbox.checked);
         });
     }
-}
+}  
+  
+</script>
+
+</body>
+</html>

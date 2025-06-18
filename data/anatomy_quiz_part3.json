@@ -1,0 +1,292 @@
+[
+  {
+    "question": "Ductus thoracicus drains into:",
+    "options": ["cisterna chyli", "atrium dexter", "atrium sinister", "angulus venosus sinister", "angulus venosus dexter"],
+    "correct": 3
+  },
+  {
+    "question": "Ductus lymphaticus dexter drains into:",
+    "options": ["angulus venosus dexter", "atrium sinister", "cisterna chyli", "angulus venosus sinister", "atrium dexter"],
+    "correct": 0
+  },
+  {
+    "question": "Cisterna chyli is formed by:",
+    "options": ["ductus lymphaticus dexter", "ductus thoracicus", "truncus bronchomediastinalis sinister", "truncus lumbalis", "truncus bronchomediastinalis dexter"],
+    "correct": 1
+  },
+  {
+    "question": "Identify what is NOT correct about fetal circulation:",
+    "options": ["there is present ductus arteriosus", "fetal and maternal blood do not mix", "fetal and maternal blood exchange carbon dioxide", "there are present paired umbilical veins", "there is present ductus venosus"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is NOT correct about fetal circulation:",
+    "options": ["there is present foramen ovale", "there is present ductus venosus", "there are present paired umbilical arteries", "there is no mixing of arterial and venous blood in fetal circulation", "fetal and maternal blood do not mix"],
+    "correct": 3
+  },
+  {
+    "question": "Identify organ, which receives richest in O2 blood in fetal circulation:",
+    "options": ["liver", "heart", "kidneys", "lungs", "brain"],
+    "correct": 0
+  },
+  {
+    "question": "Identify organ, which receives lowest in O2 blood in fetal circulation:",
+    "options": ["liver", "kidneys", "brain", "heart", "upper limb"],
+    "correct": 1
+  },
+  {
+    "question": "Identify function of ductus venosus in fetal circulation:",
+    "options": ["connects truncus pulmonalis et aorta", "connects plexus venosus placentae et v. umbilicalis", "connects v. umbilicalis et liver sinusoids", "connects v. umbilicalis et v. cava inferior", "connects truncus pulmonalis et v. cava superior"],
+    "correct": 3
+  },
+  {
+    "question": "Identify function of ductus arteriosus in fetal circulation:",
+    "options": ["connects truncus pulmonalis et aorta", "connects truncus pulmonalis et v. cava superior", "connects v. umbilicalis et liver sinusoids", "connects plexus venosus placentae et v. umbilicalis", "connects v. umbilicalis et v. cava inferior"],
+    "correct": 0
+  },
+  {
+    "question": "V. umbilicalis by obliteration becomes:",
+    "options": ["lig. teres hepatis", "lig. venosus", "lig. umbilicale laterale", "lig. umbilicale mediale", "lig. umbilicale medianum"],
+    "correct": 0
+  },
+  {
+    "question": "A. umbilicalis by obliteration becomes:",
+    "options": ["lig. venosus", "lig. umbilicale laterale", "lig. teres hepatis", "lig. umbilicale mediale", "lig. umbilicale medianum"],
+    "correct": 1
+  },
+  {
+    "question": "A. umbilicalis does not obliterate completely and in adults supplies:",
+    "options": ["anterior abdominal wall", "umbilical ring", "vesica urinaria", "liver", "vesica fellea"],
+    "correct": 2
+  },
+  {
+    "question": "Ligament between truncus pulmonalis et aorta is called:",
+    "options": ["lig. trunci pulmonalis", "lig. arteriosus", "lig. pulmonale", "lig. aortopulmonalis", "lig. aorticus"],
+    "correct": 1
+  },
+  {
+    "question": "Ligament between truncus pulmonalis et aorta develops from:",
+    "options": ["ductus aortopulmonalis", "ductus pulmonalis", "ductus arteriosus", "ductus venosus", "ductus aorticus"],
+    "correct": 2
+  },
+  {
+    "question": "Foramen ovale in fetal circulation is present between:",
+    "options": ["ventriculus dexter et sinister", "atrium dextrum et sinistrum", "ventriculus sinister et atrium sinistrum", "ventriculus dexter et atrium dextrum", "truncus pulmonalis et aorta"],
+    "correct": 1
+  },
+  {
+    "question": "Foramen ovale by obliteration becomes:",
+    "options": ["fossa ovalis", "lig. teres hepatis", "lig. venosus", "lig. arteriosus", "lig. umbilicale laterale"],
+    "correct": 0
+  },
+  {
+    "question": "Identify what is characteristic for fetal circulation:",
+    "options": ["lungs are main organ for blood oxygenation", "liver receives lowest in O2 blood", "brain receives lowest in O2 blood", "there is present ductus arteriosus", "heart receives lowest in O2 blood"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is characteristic for fetal circulation:",
+    "options": ["kidneys receive richest in O2 blood", "there is present foramen ovale", "heart receives lowest in O2 blood", "liver receives lowest in O2 blood", "lungs are main organ for blood oxygenation"],
+    "correct": 1
+  },
+  {
+    "question": "Identify what is characteristic for circulation after birth:",
+    "options": ["there is present ductus venosus", "there is present ductus arteriosus", "there is present foramen ovale", "lungs are main organ for blood oxygenation", "liver receives richest in O2 blood"],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is characteristic for circulation after birth:",
+    "options": ["there is present lig. arteriosus", "there is present ductus venosus", "there is present foramen ovale", "there is present ductus arteriosus", "kidneys receive richest in O2 blood"],
+    "correct": 0
+  },
+  {
+    "question": "Identify vessel which carries richest in O2 blood in fetal circulation:",
+    "options": ["v. cava superior", "v. umbilicalis", "a. umbilicalis", "truncus pulmonalis", "v. cava inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessel which carries lowest in O2 blood in fetal circulation:",
+    "options": ["v. umbilicalis", "a. umbilicalis", "v. cava inferior", "truncus pulmonalis", "v. cava superior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessels which do NOT carry blood in fetal circulation:",
+    "options": ["v. umbilicalis", "vv. pulmonales", "a. umbilicalis", "truncus pulmonalis", "ductus arteriosus"],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessels which do NOT carry blood in circulation after birth:",
+    "options": ["vv. pulmonales", "v. umbilicalis", "truncus pulmonalis", "aorta", "v. cava superior et inferior"],
+    "correct": 1
+  },
+  {
+    "question": "Identify anastomosis between systemic and pulmonary circulation in fetal circulation:",
+    "options": ["ductus venosus", "foramen ovale", "v. umbilicalis", "ductus arteriosus", "a. umbilicalis"],
+    "correct": 3
+  },
+  {
+    "question": "Identify anastomosis between right and left heart in fetal circulation:",
+    "options": ["ductus arteriosus", "v. umbilicalis", "foramen ovale", "a. umbilicalis", "ductus venosus"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. trapezius?",
+    "options": ["n. vagus", "n. accessorius", "n. hypoglossus", "n. glossopharyngeus", "n. facialis"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. sternocleidomastoid?",
+    "options": ["n. facialis", "n. accessorius", "n. vagus", "n. hypoglossus", "n. glossopharyngeus"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. masseter?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. orbicularis oculi?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. orbicularis oris?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. genioglossus?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. styloglossus?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. stylopharyngeus?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. glossopharyngeus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. palatoglossus?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. levator veli palatini?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. tensor veli palatini?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. digastric (anterior belly)?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. digastric (posterior belly)?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. mylohyoid?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. geniohyoid?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. hypoglossus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. sternohyoid?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. ansa cervicalis", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. sternothyroid?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. ansa cervicalis", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. thyrohyoid?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. ansa cervicalis", "n. hypoglossus"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve innervates m. omohyoid?",
+    "options": ["n. trigeminus", "n. facialis", "n. vagus", "n. ansa cervicalis", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. scalenus anterior?",
+    "options": ["n. phrenicus", "n. vagus", "n. cervical plexus", "n. brachial plexus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. scalenus medius?",
+    "options": ["n. phrenicus", "n. vagus", "n. cervical plexus", "n. brachial plexus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. scalenus posterior?",
+    "options": ["n. phrenicus", "n. vagus", "n. cervical plexus", "n. brachial plexus", "n. accessorius"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. pectoralis major?",
+    "options": ["n. thoracodorsalis", "n. pectoralis", "n. subscapularis", "n. axillary", "n. musculocutaneous"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. pectoralis minor?",
+    "options": ["n. thoracodorsalis", "n. pectoralis", "n. subscapularis", "n. axillary", "n. musculocutaneous"],
+    "correct": 1
+  },
+  {
+    "question": "Which nerve innervates m. latissimus dorsi?",
+    "options": ["n. thoracodorsalis", "n. pectoralis", "n. subscapularis", "n. axillary", "n. musculocutaneous"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. deltoideus?",
+    "options": ["n. thoracodorsalis", "n. pectoralis", "n. subscapularis", "n. axillary", "n. musculocutaneous"],
+    "correct": 3
+  },
+  {
+    "question": "Which nerve innervates m. biceps brachii?",
+    "options": ["n. thoracodorsalis", "n. pectoralis", "n. subscapularis", "n. axillary", "n. musculocutaneous"],
+    "correct": 4
+  },
+  {
+    "question": "Which nerve innervates m. triceps brachii?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. brachioradialis?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 0
+  },
+  {
+    "question": "Which nerve innervates m. pronator teres?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. flexor carpi radialis?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 2
+  },
+  {
+    "question": "Which nerve innervates m. flexor carpi ulnaris?",
+    "options": ["n. radialis", "n. ulnaris", "n. medianus", "n. axillary", "n. musculocutaneous"],
+    "correct": 1
+  }
+]
