@@ -21,6 +21,10 @@ Get complex anatomical concepts into accessible, exam-focused questions that rei
 
 ## Features
 
+- Score check
+- Floating menu icom
+- Show all answers toggle
+- advaned JSON editor for quiz
 - Flashcards
 - MCQ quiz
 - Osteology
@@ -29,7 +33,6 @@ Get complex anatomical concepts into accessible, exam-focused questions that rei
 - Cardiovascular System 
 - Central Nervous System 
 - Peripheral Nervous System 
-
 
 ## Acknowledgements
  - [ThousandAnatQuestion by @TheWhiteCoatCoder](https://github.com/TheWhiteCoatCoder/ThousandAnatQuestion)
