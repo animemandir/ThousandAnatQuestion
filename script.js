@@ -11,7 +11,7 @@ function shuffleArray(array) {
 // ✅ ALL GLOBAL VARIABLES MUST BE DECLARED AT THE TOP
 let resultSection = null;
 let questions = [];
-
+let originalQuestions = []; // 🔥 Store original order here
 // FETCH AND QUIZ LOGIC STARTS BELOW
 function loadQuiz(jsonPath) {
     console.log("🔍 loadQuiz: Loading from", jsonPath);
@@ -25,7 +25,8 @@ function loadQuiz(jsonPath) {
             console.log("📥 Raw data:", data);
             console.log("📊 Total questions:", data.length);
             if (Array.isArray(data)) {
-                questions = shuffleArray(data);
+                originalQuestions = JSON.parse(JSON.stringify(data)); // ✅ Deep copy
+                questions = [...data];
                 renderQuiz();
             } else {
                 console.error("❌ JSON data is not an array!");
@@ -40,6 +41,16 @@ function loadQuiz(jsonPath) {
 function renderQuiz() {
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = '';
+    
+addShuffleToggle(quizContainer);
+const shuffleToggle = document.getElementById('shuffle-toggle');
+if (shuffleToggle) {
+    // Compare current questions with original
+    const isShuffled = !arraysEqual(questions, originalQuestions);
+    shuffleToggle.checked = isShuffled;
+    window.shuffleCheckbox = shuffleToggle;
+}
+
 
     questions.forEach((q, index) => {
         const questionDiv = document.createElement('div');
@@ -87,7 +98,8 @@ function renderQuiz() {
         questionDiv.appendChild(optionsDiv);
         quizContainer.appendChild(questionDiv);
     });
-
+    
+    
     createFloatingFinishButton();
     createFloatingAnswerToggle();
     addFinishButton(quizContainer);
@@ -303,4 +315,51 @@ floatingToggle.style.bottom = 'auto';
             showAllCorrectAnswers(checkbox.checked);
         });
     }
+}
+
+function applyShuffle(shuffle) {
+    if (!originalQuestions.length) return;
+
+    if (shuffle) {
+        questions = shuffleArray(originalQuestions);
+    } else {
+        questions = JSON.parse(JSON.stringify(originalQuestions)); // ✅ Deep copy again
+    }
+
+    renderQuiz(); // ✅ Always re-render after change
+}
+
+function addShuffleToggle(quizContainer) {
+    const toggleDiv = document.createElement('div');
+    toggleDiv.style.marginTop = '2rem';
+    toggleDiv.style.textAlign = 'center';
+
+    const label = document.createElement('label');
+    label.style.fontSize = '1rem';
+    label.style.marginRight = '10px';
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.id = 'shuffle-toggle';
+    checkbox.checked = false; // Default: shuffled
+
+    label.htmlFor = 'shuffle-toggle';
+    label.textContent = 'Shuffle Questions';
+
+    toggleDiv.appendChild(checkbox);
+    toggleDiv.appendChild(label);
+    quizContainer.prepend(toggleDiv);
+
+    // Save reference
+    window.shuffleCheckbox = checkbox;
+
+    checkbox.addEventListener('change', () => {
+        const shouldShuffle = checkbox.checked;
+        applyShuffle(shouldShuffle);
+    });
+}
+
+// Helper to compare arrays deeply
+function arraysEqual(a, b) {
+    return JSON.stringify(a) === JSON.stringify(b);
 }
