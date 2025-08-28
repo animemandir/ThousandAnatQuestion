@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Practice test QUIZ 1k Anat Questions</title>
+    <link rel="stylesheet" href="quiz.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<div class="adminActions">
+	<input type="checkbox" name="adminToggle" class="adminToggle" />
+	<a class="adminButton" href="#!"><i class="fa fa-gear"></i></a>
+	<div class="adminButtons">
+<a href="/" title="Home"><i class="fa fa-home"></i></a>
+		<a href="https://t.me/aayush_s_c" title="me"><i class="fab fa-telegram"></i></a>
+		<a href="/edit" title="Score board"><i class="fa fa-pencil"></i></a>
+		<a href="/score" title="Score board"><i class="fa fa-star"></i></a>
+	</div>
+</div>
+<body>
+
+    <div class="container">
+        <h1>Final MCQ practice</h1>
+        <div id="quiz-container"></div>
+    </div>
+
+
+    <!-- Load specific quiz data -->
+<script>
+    // NEW: Load multiple JSON files and initialize quiz
+function loadMultipleQuizzes(jsonPaths) {
+    Promise.all(jsonPaths.map(path =>
+        fetch(path)
+        .then(res => {
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            return res.json();
+        })
+        .then(json => {
+            if (!Array.isArray(json)) {
+                console.warn(`Warning: JSON data from ${path} not an array; skipping.`);
+                return [];
+            }
+            return json;
+        })
+        .catch(err => {
+            console.error(`Error fetching/parsing ${path}:`, err);
+            return [];
+        })
+    ))
+    .then(results => {
+        const merged = [].concat(...results);
+
+        // Shuffle merged questions using your shuffleArray function
+        const shuffled = shuffleArray(merged);
+
+        // Take first 100 or all if less
+        const selectedQuestions = shuffled.slice(0, 100);
+
+        // Initialize quiz with merged data directly
+        loadQuizFromData(selectedQuestions);
+    });
+}
+
+// NEW: Initialize quiz from question data array instead of url
+function loadQuizFromData(data) {
+    console.log("✅ Loaded merged quiz data with", data.length, "questions.");
+
+    originalQuestions = JSON.parse(JSON.stringify(data));
+    questions = [...data];
+    renderQuiz();
+}
+
+// Start your app this way:
+window.onload = () => {
+    const jsonPaths = [
+        '/data/osteo.json',
+        '/data/myo.json',
+        '/data/cns.json',
+        '/data/cvs.json',
+        '/data/pns.json',
+        '/data/spl.json'
+    ];
+    loadMultipleQuizzes(jsonPaths);
+};
+
+</script>
+    <!-- Shared JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

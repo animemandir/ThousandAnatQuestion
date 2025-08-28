@@ -1,8 +1,8 @@
 /* Modern Gradient Color Scheme */
 :root {
     --primary-dark: #16222A;
-    --primary-gradient: linear-gradient(135deg, #16222A 0%, #3A6073 100%);
-    --secondary-gradient: linear-gradient(to right, #1A2980, #26D0CE);
+    --primary-gradient: linear-gradient(135deg, #94BBE9 0%, #EEAECA 100%);
+    --secondary-gradient: linear-gradient(to right, #57C785, #EDDD53);
     --accent-gradient: linear-gradient(to right, #FF416C, #FF4B2B);
     --card-gradient: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
     --text-dark: #2c3e50;

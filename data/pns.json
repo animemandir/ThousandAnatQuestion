@@ -1,1101 +1,1101 @@
 [
   {
-    "question": "What are the following spinal nerves do not form plexus?",
+    "question": "What following spinal nerves do not form plexus?",
     "options": [
-      "a. thoracic",
-      "b. coccygeal",
-      "c. lumbar",
-      "d. cervical",
-      "e. sacral"
+      "cervical",
+      "thoracic",
+      "sacral",
+      "coccygeal",
+      "lumbar"
     ],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "What nerve of cervical plexus is mixed?",
     "options": [
-      "a. n. transversus colli",
-      "b. n. auricular major",
-      "c. n. occipitalis minor",
-      "d. n. phrenicum",
-      "e. n. supraclavicularis"
+      "n. transversuscolli",
+      "n. phrenicum",
+      "n. auricularmajor",
+      "n. occipitalisminor",
+      "n. supraclavicularis"
     ],
-    "correct": 3
+    "correct": 1
   },
   {
-    "question": "What nerve IS NOT from cervical plexus?",
+    "question": "WhatnerveISNOTfromcervicalplexus?",
     "options": [
-      "a. nervus phrenicum",
-      "b. nervus transversus colli",
-      "c. nervus occipitalis minor",
-      "d. nervus auricular major",
-      "e. nervus occipitalis major"
+      "nervus phrenicum",
+      "nervus auricular major",
+      "nervus occipitalis minor",
+      "nervus transversus colli",
+      "nervus occipitalis major"
     ],
     "correct": 4
   },
   {
     "question": "What muscle IS NOT innervated from ansa cervicalis?",
     "options": [
-      "a. omohyoideus",
-      "b. mylohyoideus",
-      "c. sternohyoideus",
-      "d. sternothyroideus",
-      "e. thyrohyoideus"
+      "thyrohyoideus",
+      "sternohyoideus",
+      "sternothyroideus",
+      "mylohyoideus",
+      "omohyoideus"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "What ramus of spinal nerves do form cervical plexus?",
     "options": [
-      "a. anterior ramus of C5-C8 spinal nerves",
-      "b. anterior ramus of C1-C2 spinal nerves",
-      "c. anterior ramus of C1-C4 spinal nerves",
-      "d. anterior ramus of C1-C8 spinal nerves",
-      "e. posterior ramus of C5-C8 spinal nerves"
+      "anterior ramus of C1-C4 spinal nerves",
+      "anterior ramus of C5-C8 spinal nerves",
+      "posterior ramus of C5-C8 spinal nerves",
+      "anterior ramus of C1-C2 spinal nerves",
+      "anterior ramus of C1-C8 spinal nerves"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "What ramus of spinal nerves do form brachial plexus?",
     "options": [
-      "a. anterior ramus of C1-C8 spinal nerves",
-      "b. anterior ramus of C1-C4 spinal nerves",
-      "c. posterior ramus of C5-C8 spinal nerves",
-      "d. anterior ramus of C1-C8 spinal nerves",
-      "e. anterior ramus of C5-C8 spinal nerves"
+      "anterior ramus of C1-C4 spinal nerves",
+      "anterior ramus of C5-C8 spinal nerves",
+      "posteriorramusofC5-C8 spinalnerves",
+      "anterior ramus of C1-C8 spinal nerves",
+      "anterior ramus of C1-C8 spinal nerves"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "What nerve is related to long branches of brachial plexus?",
     "options": [
-      "a. nervus axillaris",
-      "b. nervus thoracodorsalis",
-      "c. nervus thoracicus longus",
-      "d. nervus dorsalis scapulae",
-      "e. nervus musculocutaneus"
+      "nervus thoracodorsalis",
+      "nervus dorsalis scapulae",
+      "nervus axillaris",
+      "nervus thoracicus longus",
+      "nervus musculocutaneus"
     ],
     "correct": 4
   },
   {
     "question": "What muscle of anterior forearm group IS NOT innervated by median nerve?",
     "options": [
-      "a. musculus flexor ulnaris",
-      "b. musculus flexor pollicis longus",
-      "c. musculus flexor digitorum profundus (lateral part)",
-      "d. musculus flexor radialis",
-      "e. pronator teres"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What muscles are innervated by posterior ramus of spinal nerves?",
-    "options": [
-      "a. external pelvic muscles",
-      "b. all back muscles",
-      "c. superficial back muscles",
-      "d. deep back muscles",
-      "e. deep neck muscles"
+      "muscuus flexor digitorum profundus (lateral part)",
+      "musculus flexor pollicis longus",
+      "musculus flexor radialis",
+      "musculus flexor ulnaris",
+      "pronator teres"
     ],
     "correct": 3
   },
   {
-    "question": "What nerves of brachial plexus does innervate posterior forearm muscles?",
+    "question": "What muscles are innervated by posterior ramus of spinal nerves?",
     "options": [
-      "a. nervus musculocutaneus",
-      "b. nervus ulnaris",
-      "c. nervus radialis",
-      "d. nervus medianus",
-      "e. nervus axillaris"
+      "deep neck muscles",
+      "superficial back muscles",
+      "all back muscles",
+      "external pelvic muscles",
+      "deep back muscles"
     ],
-    "correct": 2
+    "correct": 4
+  },
+  {
+    "question": "What nerves of brachial plexus does innervate posterior forearm muscles?",
+    "options": [
+      "nervus radialis",
+      "nervus medianus",
+      "nervus ulnaris",
+      "nervus musculocutaneus",
+      "nervus axillaris"
+    ],
+    "correct": 0
   },
   {
     "question": "What muscles are innervated by dorsal scapular nerve?",
     "options": [
-      "a. musculi rhomboidei",
-      "b. musculus teres major et minor",
-      "c. musculus splenius capitis",
-      "d. musculus serratus posterior superior",
-      "e. supra- et infraspinatus"
+      "musculi rhomboidei",
+      "supra- et infraspinatus",
+      "musculus splenius capitis",
+      "musculus teres major et minor",
+      "musculus serratus posterior superior"
     ],
     "correct": 0
   },
   {
     "question": "What muscle is innervated by nervus thoracicus longus?",
     "options": [
-      "a. musculus supraclavicularis",
-      "b. musculus serratus anterior",
-      "c. musculus pectoralis minor",
-      "d. musculus pectoralis major",
-      "e. musculus transversus thoracicus"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "What nerve of brachial plexus does innervate palmar and dorsal interossei muscles?",
-    "options": [
-      "a. nervus medianus",
-      "b. nervus interosseus dorsalis",
-      "c. nervus ulnaris",
-      "d. nervus radialis",
-      "e. nervus musculocutaneus"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What muscle of brachial plexus does innervate musculus latissimus dorsi?",
-    "options": [
-      "a. nervus thoracicus longus",
-      "b. nervus pectoralis lateralis",
-      "c. nervus musculocutaneus",
-      "d. nervus thoracodorsalis",
-      "e. nervus axillaris"
+      "musculus transversus thoracicus",
+      "musculus pectoralis major",
+      "musculus pectoralis minor",
+      "musculus serratus anterior",
+      "musculus supraclavicularis"
     ],
     "correct": 3
   },
   {
-    "question": "What nerve does innervate musculus teres major?",
+    "question": "What nerve of brachial plexus does innervate palmar and dorsal interossei muscles:",
     "options": [
-      "a. nervus axillaris",
-      "b. nervus thoracodorsalis",
-      "c. nervus suprascapularis",
-      "d. nervus dorsalis scapulae",
-      "e. nervus subscapularis"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "What nerve does innervate musculus subscapularis?",
-    "options": [
-      "a. nervus thoracodorsalis",
-      "b. nervus dorsalis scapulae",
-      "c. nervus axillaris",
-      "d. nervus subscapularis",
-      "e. nervus suprascapularis"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What nerve does innervate musculus triceps brachii?",
-    "options": [
-      "a. nervus axillaris",
-      "b. nervus musculocutaneus",
-      "c. nervus medianus",
-      "d. nervus radialis",
-      "e. nervus ulnaris"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What nerve does innervate 3rd and 4th lumbrical muscles?",
-    "options": [
-      "a. nervus ulnaris",
-      "b. nervus medianus",
-      "c. nervus musculocutaneus",
-      "d. nervus radialis",
-      "e. nervus axillaris"
+      "nervus ulnaris",
+      "nervus radialis",
+      "nervus interosseus dorsalis",
+      "nervus medianus",
+      "nervus musculocutaneus"
     ],
     "correct": 0
   },
   {
-    "question": "What nerve does innervate 1st and 2nd lumbrical muscles?",
+    "question": "What muscle of brachial plexus does innervate musculus latissimus dorsi?",
     "options": [
-      "a. nervus axillaris",
-      "b. nervus radialis",
-      "c. nervus medianus",
-      "d. nervus musculocutaneus",
-      "e. nervus ulnaris"
+      "nervus thoracodorsalis",
+      "nervus musculocutaneus",
+      "nervus thoracicus longus",
+      "nervus axillaris",
+      "nervus pectoralis lateralis"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
-    "question": "What nerve of brachial plexus does give lateral superior cutaneous nerve?",
+    "question": "What nerve does innervate musculus teres major?",
     "options": [
-      "a. nervus radialis",
-      "b. nervus suprascapularis",
-      "c. nervus axillaris",
-      "d. nervus musculocutaneus",
-      "e. nervus dorsalis scapulae"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What nerve does innervate pronator teres and pronator quadratus?",
-    "options": [
-      "a. nervus ulnaris",
-      "b. nervus radialis",
-      "c. nervus axillaris",
-      "d. nervus medianus",
-      "e. nervus musculocutaneus"
+      "nervus dorsalis scapulae",
+      "nervus suprascapularis",
+      "nervus axillaris",
+      "nervus subscapularis",
+      "nervus thoracodorsalis"
     ],
     "correct": 3
   },
   {
+    "question": "What nerve does innervate musculus subscapularis?",
+    "options": [
+      "nervus thoracodorsalis",
+      "nervus dorsalis scapulae",
+      "nervus subscapularis",
+      "nervus suprascapularis",
+      "nervus axillaris"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What nerve does innervate musculus triceps brachii:",
+    "options": [
+      "nervus medianus",
+      "nervus radialis",
+      "nervus musculocutaneus",
+      "nervus ulnaris",
+      "nervus axillaris"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What nerve does innervate 3rdand 4thlumbrical muscles?",
+    "options": [
+      "nervus ulnaris",
+      "nervus medianus",
+      "nervus axillaris",
+      "nervus radialis",
+      "nervus musculocutaneus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What nerve does innervate 1stand 2ndlumbrical muscles?",
+    "options": [
+      "nervus musculocutaneus",
+      "nervus ulnaris",
+      "nervus axillaris",
+      "nervus medianus",
+      "nervus radialis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What nerve of brachial plexus does give lateral superior cutaneous nerve?",
+    "options": [
+      "nervus radialis",
+      "nervus suprascapularis",
+      "nervus musculocutaneus",
+      "nervus dorsalis scapulae",
+      "nervus axillaris"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What nerve does innervate pronator teres and pronator quadratus?",
+    "options": [
+      "nervus radialis",
+      "nervus medianus",
+      "nervus musculocutaneus",
+      "nervus axillaris",
+      "nervus ulnaris"
+    ],
+    "correct": 1
+  },
+  {
     "question": "What forearm muscle is innervated by ulnar nerve?",
     "options": [
-      "a. musculus flexor carpi ulnaris",
-      "b. musculus flexor digitorum profundus (lateral part)",
-      "c. musculus flexor pollicis longus",
-      "d. musculus flexor carpi radialis",
-      "e. pronator teres"
+      "musculus flexor carpi ulnaris",
+      "musculus flexor carpi radialis",
+      "pronator teres",
+      "musculus flexor pollicis longus",
+      "muscuus flexor digitorum profundus (lateral part)"
     ],
     "correct": 0
   },
   {
     "question": "What muscle of forearm IS NOT innervated by median nerve?",
     "options": [
-      "a. musculus flexor pollicis longus",
-      "b. lateral part of musculus flexor digitorum profundus",
-      "c. musculus brachioradialis",
-      "d. musculus flexor carpi radialis",
-      "e. musculus flexor digitorum superficialis"
+      "musculus flexor digitorum superficialis",
+      "musculus flexor pollicis longus",
+      "musculus brachioradialis",
+      "musculus flexor carpi radialis",
+      "lateral part of musculus flexor digitorum profundus"
     ],
     "correct": 2
   },
   {
     "question": "What muscle of forearm IS NOT innervated by radial nerve?",
     "options": [
-      "a. musculus extensor carpi radialis",
-      "b. musculus brachialis",
-      "c. musculus extensor carpi radialis longus",
-      "d. musculus brachioradialis",
-      "e. musculus anconeus"
+      "musculus brachioradialis",
+      "musculus extensor carpi radialis",
+      "musculus anconeus",
+      "musculus brachialis",
+      "musculus extensor carpi radialis longus"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "What muscle is innervated by thoracodorsal nerve?",
     "options": [
-      "a. musculus subclavius",
-      "b. musculus pectoralis major",
-      "c. musculus serratus anterior",
-      "d. musculus latissimus dorsi",
-      "e. musculus levator scapulae"
+      "musculus levator scapulae",
+      "musculus subclavius",
+      "musculus serratus anterior",
+      "musculus latissimus dorsi",
+      "musculus pectoralis major"
     ],
     "correct": 3
   },
   {
     "question": "What nerve does innervate musculus teres major?",
     "options": [
-      "a. nervus thoracodorsalis",
-      "b. nervus suprascapularis",
-      "c. nervus thoracicus longus",
-      "d. nervus subscapularis",
-      "e. nervus axillaris"
+      "nervus thoracodorsalis",
+      "nervus axillaris",
+      "nervus thoracicus longus",
+      "nervus subscapularis",
+      "nervus suprascapularis"
     ],
     "correct": 3
   },
   {
-    "question": "What nerve does innervate musculus infraspinatus?",
+    "question": "What nerve does innervate musculus infraspinatus:",
     "options": [
-      "a. nervus thoracicus longus",
-      "b. nervus subscapularis",
-      "c. nervus axillaris",
-      "d. nervus thoracodorsalis",
-      "e. nervus suprascapularis"
+      "n. thoracodorsalis",
+      "n. axillaris",
+      "n. subscapularis",
+      "n. thoracicus longus",
+      "n. suprascapularis"
     ],
     "correct": 4
   },
   {
-    "question": "What nerve of brachial plexus can be most likely damaged due fracture of brachial bone's middle part?",
+    "question": "What nerve of brachial plexus can be most likely damaged due fracture of brachial bone’s middle part?",
     "options": [
-      "a. nervus dorsalis scapulae",
-      "b. nervus radialis",
-      "c. nervus suprascapularis",
-      "d. nervus ulnaris",
-      "e. nervus axillaris"
+      "n. dorsalis scapulae",
+      "n. Suprascapularis",
+      "n. axillaris",
+      "n. radialis",
+      "n. ulnaris"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What nerve of brachial plexus can be most likely damaged due fracture of brachial bone’s surgical neck?",
+    "options": [
+      "n. axillaris",
+      "n. dorsalis scapulae",
+      "n. Suprascapularis",
+      "n. radialis",
+      "n. ulnaris"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How is musculus abductor pollicis brevis innervated:",
+    "options": [
+      "n. radialis",
+      "n. medianus",
+      "n. musculocutaneus",
+      "n. ulnaris",
+      "n. axillaris"
     ],
     "correct": 1
   },
   {
-    "question": "What nerve of brachial plexus can be most likely damaged due fracture of brachial bone's surgical neck?",
-    "options": [
-      "a. nervus ulnaris",
-      "b. nervus suprascapularis",
-      "c. nervus dorsalis scapulae",
-      "d. nervus radialis",
-      "e. nervus axillaris"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "How is musculus abductor pollicis brevis innervated?",
-    "options": [
-      "a. nervus radialis",
-      "b. nervus musculocutaneus",
-      "c. nervus medianus",
-      "d. nervus ulnaris",
-      "e. nervus axillaris"
-    ],
-    "correct": 2
-  },
-  {
     "question": "What nerve does arise from medial fasciculus of brachial plexus?",
     "options": [
-      "a. nervus axillaris",
-      "b. nervus subscapularis",
-      "c. nervus ulnaris",
-      "d. nervus musculocutaneus",
-      "e. nervus radialis"
+      "n. radialis",
+      "n. musculocutaneus",
+      "n. ulnaris",
+      "n. axillaris",
+      "n. subscapularis"
     ],
     "correct": 2
   },
   {
     "question": "What nerve does arise from posterior fasciculus of brachial plexus?",
     "options": [
-      "a. nervus ulnaris",
-      "b. nervus cutaneus brachii medialis",
-      "c. nervus axillaris",
-      "d. nervus musculocutaneus",
-      "e. nervus subscapularis"
+      "n. ulnaris",
+      "n. musculocutaneus",
+      "n. axillaris",
+      "n. subscapularis",
+      "n. cutaneus brachii medialis"
     ],
     "correct": 2
   },
   {
     "question": "What nerve does innervate hypothenar muscles?",
     "options": [
-      "a. nervus radialis",
-      "b. nervus axillaris",
-      "c. nervus medianus",
-      "d. nervus musculocutaneus",
-      "e. nervus ulnaris"
+      "n. ulnaris",
+      "n. radialis",
+      "n. medianus",
+      "n. musculocutaneus",
+      "n. axillaris"
     ],
-    "correct": 4
+    "correct": 0
   },
   {
     "question": "What nerve of brachial plexus does innervate musculus flexor digitorum superficialis?",
     "options": [
-      "a. nervus axillaris",
-      "b. nervus medianus",
-      "c. nervus musculocutaneus",
-      "d. nervus ulnaris",
-      "e. nervus radialis"
+      "n. musculocutaneus",
+      "n. medianus",
+      "n. radialis",
+      "n. ulnaris",
+      "n. axillaris"
     ],
     "correct": 1
   },
   {
-    "question": "What nerve of brachial plexus does innervate musculus biceps brachii?",
+    "question": "What nerve of brachial plexus does innervate musculus biceps brachi?",
     "options": [
-      "a. nervus musculocutaneus",
-      "b. nervus ulnaris",
-      "c. nervus axillaris",
-      "d. nervus radialis",
-      "e. nervus medianus"
+      "n. musculocutaneus",
+      "n. axillaris",
+      "n. radialis",
+      "n. ulnaris",
+      "n. medianus"
     ],
     "correct": 0
   },
   {
     "question": "What nerve of brachial plexus does innervate musculus brachialis?",
     "options": [
-      "a. nervus axillaris",
-      "b. nervus ulnaris",
-      "c. nervus radialis",
-      "d. nervus medianus",
-      "e. nervus musculocutaneus"
+      "n. axillaris",
+      "n. ulnaris",
+      "n. radialis",
+      "n. medianus",
+      "n. musculocutaneus"
     ],
     "correct": 4
   },
   {
     "question": "What nerve of brachial plexus does innervate musculus coracobrachialis?",
     "options": [
-      "a. nervus musculocutaneus",
-      "b. nervus radialis",
-      "c. nervus medianus",
-      "d. nervus axillaris",
-      "e. nervus ulnaris"
+      "n. axillaris",
+      "n. medianus",
+      "n. ulnaris",
+      "n. radialis",
+      "n. musculocutaneus"
     ],
-    "correct": 0
+    "correct": 4
   },
   {
-    "question": "What nerve of brachial plexus does innervate musculus extensor carpi radialis longus et brevis?",
+    "question": "What nerve of brachial plexus does innervate musculi extensor carpi radialis longus et brevis?",
     "options": [
-      "a. nervus medianus",
-      "b. nervus musculocutaneus",
-      "c. nervus radialis",
-      "d. nervus axillaris",
-      "e. nervus ulnaris"
+      "n. musculocutaneus",
+      "n. radialis",
+      "n. axillaris",
+      "n. ulnaris",
+      "n. medianus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What nerve of brachial plexus does innervate musculus longus colli:",
+    "options": [
+      "ansa cervicalis",
+      "dorsal scapular nerve",
+      "muscular branches of cervical plexus",
+      "short branches of brachial plexus",
+      "subclavian nerve"
     ],
     "correct": 2
   },
   {
-    "question": "What nerve of brachial plexus does innervate musculus longus colli?",
+    "question": "What nerve IS NOT related lumbar plexus?",
     "options": [
-      "a. muscular branches of cervical plexus",
-      "b. ansa cervicalis",
-      "c. subclavian nerve",
-      "d. dorsal scapular nerve",
-      "e. short branches of brachial plexus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve IS NOT related to lumbar plexus?",
-    "options": [
-      "a. nervus cutaneus femoris posterior",
-      "b. nervus obturatorius",
-      "c. nervus femoralis",
-      "d. nervus ilioinguinalis",
-      "e. nervus genitofemoralis"
+      "nervus cutaneus femoris posterior",
+      "nervus femoralis",
+      "nervus obturatorius",
+      "nervus ilioinguinalis",
+      "nervus genitofemoralis"
     ],
     "correct": 0
   },
   {
     "question": "What nerve does innervate lateral skin of thigh up to knee?",
     "options": [
-      "a. nervus cutaneus femoris lateralis",
-      "b. nervus genitofemoralis",
-      "c. nervus femoralis",
-      "d. nervus iliohypogastricus",
-      "e. nervus ilioinguinalis"
+      "n. cutaneus femoris lateralis",
+      "n. genitofemoralis",
+      "n. iliohypogastricus",
+      "n. ilioingunalis",
+      "n. femoralis"
     ],
     "correct": 0
   },
   {
     "question": "What nerve of lumbar plexus does innervate musculus cremaster, skin of scrotum and tunica dartos?",
     "options": [
-      "a. nervus obturatorius",
-      "b. nervus genitofemoralis",
-      "c. nervus ilioinguinalis",
-      "d. nervus femoralis",
-      "e. nervus iliohypogastricus"
+      "nervus femoralis",
+      "nervus genitofemoralis",
+      "nervus ilioinguinalis",
+      "nervus iliohypogastricus",
+      "nervus obturatorius"
     ],
     "correct": 1
   },
   {
     "question": "How does femoral nerve leave pelvic cavity?",
     "options": [
-      "a. canalis obturatorius",
-      "b. lacuna musculorum",
-      "c. foramen ischiadicum majus",
-      "d. foramen ischiadicum minus",
-      "e. lacuna vasorum"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "What nerve of lumbar plexus is passed across inguinal canal behind of spermatic cord or round ligament of uterus?",
-    "options": [
-      "a. nervus obturatorius",
-      "b. nervus ilioinguinalis",
-      "c. nervus iliohypogastricus",
-      "d. nervus genitofemoralis",
-      "e. nervus femoralis"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "What nerve of lumbar plexus is passed across inguinal canal in front of spermatic cord or round ligament of uterus?",
-    "options": [
-      "a. nervus femoralis",
-      "b. nervus iliohypogastricus",
-      "c. nervus genitofemoralis",
-      "d. nervus ilioinguinalis",
-      "e. nervus obturatorius"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What nerve of lumbar plexus is damaged if no sensitivity of thigh's lateral skin?",
-    "options": [
-      "a. nervus iliohypogastricus",
-      "b. nervus ilioinguinalis",
-      "c. nervus femoralis",
-      "d. nervus cutaneus femoris lateralis",
-      "e. nervus genitofemoralis"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What nerve is passed across muscular space?",
-    "options": [
-      "a. nervus obturatorius",
-      "b. ramus femoralis of nervus genitofemoralis",
-      "c. nervus femoralis",
-      "d. nervus iliohypogastricus",
-      "e. ramus genitalis of nervus genitofemoralis"
+      "lacuna vasorum",
+      "foramen ischiadicum minus",
+      "lacuna musculorum",
+      "canalis obturatorius",
+      "foramen ischiadicum majus"
     ],
     "correct": 2
   },
   {
+    "question": "What nerve of lumbar plexus is passed across inguinal canal behind of spermatic cord or round ligament of uterus?",
+    "options": [
+      "nervus ilioinguinalis",
+      "nervus iliohypogastricus",
+      "nervus femoralis",
+      "nervus obturatorius",
+      "nervus genitofemoralis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What nerve of lumbar plexus is passed across inguinal canal in front of spermatic cord or round ligament of uterus?",
+    "options": [
+      "nervus ilioinguinalis",
+      "nervus femoralis",
+      "nervus genitofemoralis",
+      "nervus iliohypogastricus",
+      "nervus obturatorius"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What nerve of lumbar plexus is damaged if no sensitivity of thigh’s lateral skin?",
+    "options": [
+      "n. genitofemoralis",
+      "n. cutaneus femoris lateralis",
+      "n. ilioingunalis",
+      "n. iliohypogastricus",
+      "n. femoralis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What nerve is passed across muscular space?",
+    "options": [
+      "ramus genitalis of nervus genitofemalis",
+      "nervus femoralis",
+      "ramus femoralis of nervus genitofemalis",
+      "nervus iliohypogastricus",
+      "nervus obturatorius"
+    ],
+    "correct": 1
+  },
+  {
     "question": "What nerve is passed across adductor canal?",
     "options": [
-      "a. nervus cutaneus femoris posterior",
-      "b. nervus obturatorius",
-      "c. ramus genitalis of nervus genitofemoralis",
-      "d. nervus saphenus",
-      "e. nervus iliohypogastricus"
+      "nervus obturatorius",
+      "ramus genitalis of nervus genitofemalis",
+      "nervus cutaneus femoris posterior",
+      "nervus iliohypogastricus",
+      "nervus saphenus"
     ],
-    "correct": 3
+    "correct": 4
   },
   {
-    "question": "What nerve of lumbar plexus is most likely damaged if no sensitivity of shin and foot's antero-medial surface and medial surface of big toe?",
+    "question": "What nerve of lumbar plexus is most likely damaged if no sensitivity of shin and foot’s antero-medial surface and medial surface of big toe?",
     "options": [
-      "a. nervus peroneus superficialis",
-      "b. nervus iliohypogastricus",
-      "c. nervus ilioinguinalis",
-      "d. nervus saphenus",
-      "e. nervus cutaneus femoris lateralis"
+      "n. peroneus superficialis",
+      "n. ilioingunalis",
+      "n. saphenus",
+      "n. iliohypogastricus",
+      "n. cutaneus femoris lateralis"
     ],
-    "correct": 3
+    "correct": 2
   },
   {
-    "question": "What nerve of lumbar plexus is most likely damaged if paralysis (no movements) of thigh's adductor muscle?",
+    "question": "What nerve of lumbar plexus is most likely damaged if paralysis (no movements) of thigh’s adductor muscle?",
     "options": [
-      "a. nervus femoralis",
-      "b. nervus genitofemoralis",
-      "c. nervus pudendus",
-      "d. nervus obturatorius",
-      "e. nervus ischiadicus"
+      "nervus ischiadicus",
+      "nervus pudendus",
+      "nervus genitofemoralis",
+      "nervus femoralis",
+      "nervus obturatorius"
     ],
-    "correct": 3
+    "correct": 4
   },
   {
     "question": "What nerve of lumbar plexus is most likely damaged if paralysis (no movements) of quadriceps femoris?",
     "options": [
-      "a. nervus ischiadicus",
-      "b. nervus obturatorius",
-      "c. nervus pudendus",
-      "d. nervus genitofemoralis",
-      "e. nervus femoralis"
+      "nervus genitofemoralis",
+      "nervus obturatorius",
+      "nervus femoralis",
+      "nervus pudendus",
+      "nervus ischiadicus"
     ],
-    "correct": 4
+    "correct": 2
   },
   {
     "question": "Nervus saphenus is a branch of what nerve?",
     "options": [
-      "a. nervus genitofemoralis",
-      "b. nervus tibialis",
-      "c. nervus obturatorius",
-      "d. nervus ischiadicus",
-      "e. nervus femoralis"
+      "femoralis",
+      "ischiadicus",
+      "genitofemoralis",
+      "obturatorius",
+      "tibialis"
     ],
-    "correct": 4
+    "correct": 0
   },
   {
     "question": "What nerve IS NOT included to sacral plexus?",
     "options": [
-      "a. nervus gluteus superior",
-      "b. nervus gluteus inferior",
-      "c. nervus cutaneus femoris lateralis",
-      "d. nervus ischiadicus",
-      "e. nervus pudendus"
+      "nervus gluteus inferior",
+      "nervus ischiadicus",
+      "nervus cutaneus femoris lateralis",
+      "nervus gluteus superior",
+      "nervus pudendus"
     ],
     "correct": 2
   },
   {
     "question": "What nerve does innervate musculus gluteus maximus?",
     "options": [
-      "a. nervus femoralis",
-      "b. nervus ischiadicus",
-      "c. nervus gluteus superior",
-      "d. nervus gluteus inferior",
-      "e. nervus pudendus"
+      "nervus gluteus superior",
+      "nervus pudendus",
+      "nervus ischiadicus",
+      "nervus gluteus inferior",
+      "nervus femoralis"
     ],
     "correct": 3
   },
   {
     "question": "What nerve does innervate musculus sartorius?",
     "options": [
-      "a. nervus gluteus inferior",
-      "b. nervus ischiadicus",
-      "c. nervus gluteus superior",
-      "d. nervus femoralis",
-      "e. nervus pudendus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What nerve does innervate musculus gluteus medius et minimus?",
-    "options": [
-      "a. nervus gluteus superior",
-      "b. nervus ischiadicus",
-      "c. nervus pudendus",
-      "d. nervus gluteus inferior",
-      "e. nervus femoralis"
+      "nervus femoralis",
+      "nervus gluteus superior",
+      "nervus pudendus",
+      "nervus ischiadicus",
+      "nervus gluteus inferior"
     ],
     "correct": 0
   },
   {
+    "question": "What nerve does innervate musculus gluteus medius et minimus?",
+    "options": [
+      "nervus gluteus inferior",
+      "nervus femoralis",
+      "nervus gluteus superior",
+      "nervus ischiadicus",
+      "nervus pudendus"
+    ],
+    "correct": 2
+  },
+  {
     "question": "What nerve does innervate musculus semitendinosus et semimembranosus?",
     "options": [
-      "a. nervus ischiadicus",
-      "b. nervus peroneus profundus",
-      "c. nervus tibialis",
-      "d. nervus gluteus inferior",
-      "e. nervus femoralis"
+      "nervus ischiadicus",
+      "nervus gluteus inferior",
+      "nervus peroneus profundus",
+      "nervus femoralis",
+      "nervus tibialis"
     ],
     "correct": 0
   },
   {
     "question": "What nerve is related to short branches of sacral plexus?",
     "options": [
-      "a. nervus genitofemoralis",
-      "b. nervus obturatorius",
-      "c. nervus pudendus",
-      "d. nervus ilioinguinalis",
-      "e. nervus femoralis"
+      "obturatorius",
+      "femoralis",
+      "ilioinguinalis",
+      "genitofemoralis",
+      "pudendus"
     ],
-    "correct": 2
+    "correct": 4
   },
   {
     "question": "What nerve of sacral plexus does innervate musculus biceps femoris?",
     "options": [
-      "a. nervus peroneus profundus",
-      "b. nervus femoralis",
-      "c. nervus obturatorius",
-      "d. nervus ischiadicus",
-      "e. nervus genitofemoralis"
+      "ischiadicus",
+      "genitofemoralis",
+      "peroneus profundus",
+      "obturatorius",
+      "femoralis"
     ],
-    "correct": 3
+    "correct": 0
   },
   {
     "question": "What nerve does innervate musculus quadriceps femoris?",
     "options": [
-      "a. nervus pudendus",
-      "b. nervus genitofemoralis",
-      "c. nervus obturatorius",
-      "d. nervus ischiadicus",
-      "e. nervus femoralis"
+      "pudendus",
+      "ischiadicus",
+      "femoralis",
+      "genitofemoralis",
+      "obturatoris"
     ],
-    "correct": 4
+    "correct": 2
   },
   {
     "question": "What nerve of sacral plexus is passed across foramen suprapiriforme?",
     "options": [
-      "a. nervus gluteus inferior",
-      "b. nervus pudendus",
-      "c. nervus cutaneus femoris posterior",
-      "d. nervus ischiadicus",
-      "e. nervus gluteus superior"
+      "nervus cutaneus femoris posterior",
+      "nervus gluteus inferior",
+      "nervus gluteus superior",
+      "nervus ischiadicus",
+      "nervus pudendus"
     ],
-    "correct": 4
+    "correct": 2
   },
   {
     "question": "What nerve does innervate anterior thigh muscles?",
     "options": [
-      "a. nervus gluteus superior",
-      "b. nervus pudendus",
-      "c. nervus ischiadicus",
-      "d. nervus gluteus inferior",
-      "e. nervus femoralis"
+      "nervus femoralis",
+      "nervus pudendus",
+      "nervus ischiadicus",
+      "nervus gluteus superior",
+      "nervus gluteus inferior"
     ],
-    "correct": 4
+    "correct": 0
   },
   {
     "question": "What nerve does innervate posterior thigh muscles?",
     "options": [
-      "a. nervus gluteus inferior",
-      "b. nervus ischiadicus",
-      "c. nervus femoralis",
-      "d. nervus pudendus",
-      "e. nervus gluteus superior"
+      "nervus pudendus",
+      "nervus ischiadicus",
+      "nervus gluteus inferior",
+      "nervus gluteus superior",
+      "nervus femoralis"
     ],
     "correct": 1
   },
   {
     "question": "What nerve does innervate medial thigh muscles?",
     "options": [
-      "a. nervus gluteus superior",
-      "b. nervus ischiadicus",
-      "c. nervus obturatorius",
-      "d. nervus femoralis",
-      "e. nervus gluteus inferior"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What nerve does innervate musculus adductor magnus?",
-    "options": [
-      "a. nervus femoralis",
-      "b. nervus gluteus inferior",
-      "c. nervus ischiadicus",
-      "d. nervus gluteus superior",
-      "e. nervus obturatorius"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "What nerve does innervate musculus adductor longus?",
-    "options": [
-      "a. nervus obturatorius",
-      "b. nervus gluteus superior",
-      "c. nervus femoralis",
-      "d. nervus ischiadicus",
-      "e. nervus gluteus inferior"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve does innervate musculus adductor brevis?",
-    "options": [
-      "a. nervus gluteus superior",
-      "b. nervus obturatorius",
-      "c. nervus femoralis",
-      "d. nervus ischiadicus",
-      "e. nervus gluteus inferior"
+      "nervus gluteus superior",
+      "nervus obturatorius",
+      "nervus femoralis",
+      "nervus gluteus inferior",
+      "nervus ischiadicus"
     ],
     "correct": 1
   },
   {
-    "question": "On what muscle is sacral plexus located?",
+    "question": "What nerve does innervate musculus adductor magnus?",
     "options": [
-      "a. musculus piriformis",
-      "b. musculus gluteus maximus",
-      "c. musculus gluteus minimus",
-      "d. musculus iliopsoas",
-      "e. musculus quadriceps femoris"
+      "nervus obturatorius",
+      "nervus ischiadicus",
+      "nervus gluteus superior",
+      "nervus femoralis",
+      "nervus gluteus inferior"
     ],
     "correct": 0
   },
   {
-    "question": "What nerve does innervate musculus peroneus longus et brevis?",
+    "question": "What nerve does innervate musculus adductor longus?",
     "options": [
-      "a. nervus peroneus profundus",
-      "b. nervus peroneus communis",
-      "c. nervus peroneus superficialis",
-      "d. nervus tibialis",
-      "e. nervus plantaris lateralis"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What nerve does innervate lateral shin muscles?",
-    "options": [
-      "a. nervus plantaris lateralis",
-      "b. nervus peroneus communis",
-      "c. nervus tibialis",
-      "d. nervus peroneus profundus",
-      "e. nervus peroneus superficialis"
+      "nervus gluteus inferior",
+      "nervus femoralis",
+      "nervus gluteus superior",
+      "nervus ischiadicus",
+      "nervus obturatorius"
     ],
     "correct": 4
   },
   {
-    "question": "From where is nervus interosseus cruris originated?",
+    "question": "What nerve does innervate musculus adductor brevis?",
     "options": [
-      "a. nervus tibialis",
-      "b. nervus femoralis",
-      "c. nervus peroneus communis",
-      "d. nervus peroneus profundus",
-      "e. nervus suralis"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve does innervate musculus extensor digitorum brevis et musculus extensor hallucis brevis?",
-    "options": [
-      "a. nervus peroneus profundus",
-      "b. nervus plantaris medialis",
-      "c. nervus peroneus superficialis",
-      "d. nervus tibialis",
-      "e. nervus peroneus communis"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve does innervate palmar and dorsal interossei muscles?",
-    "options": [
-      "a. nervus plantaris lateralis",
-      "b. nervus plantaris medialis",
-      "c. nervus peroneus superficialis",
-      "d. nervus peroneus profundus",
-      "e. nervus obturatorius"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve does innervate anterior shin muscles?",
-    "options": [
-      "a. nervus femoralis",
-      "b. nervus ischiadicus",
-      "c. nervus peroneus profundus",
-      "d. nervus peroneus communis",
-      "e. nervus tibialis"
+      "nervus gluteus superior",
+      "nervus ischiadicus",
+      "nervus obturatorius",
+      "nervus femoralis",
+      "nervus gluteus inferior"
     ],
     "correct": 2
   },
   {
-    "question": "What nerve does innervate musculus triceps surae?",
+    "question": "On what muscle is sacral plexus located?",
     "options": [
-      "a. nervus peroneus profundus",
-      "b. nervus ischiadicus",
-      "c. nervus femoralis",
-      "d. nervus tibialis",
-      "e. nervus peroneus communis"
+      "musculus gluteus maximus",
+      "musculus piriformis",
+      "musculus iliopsoas",
+      "musculus quadriceps femoris",
+      "musculus gluteus minimus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What nerve does innervate musculus peroneus longus et brevis?",
+    "options": [
+      "nervus tibialis",
+      "nervus plantaris lateralis",
+      "nervus peroneus profundus",
+      "nervus peroneus communis",
+      "nervus peroneus superficialis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What nerve does innervate lateral shin muscles?",
+    "options": [
+      "nervus tibialis",
+      "nervus peroneus superficialis",
+      "nervus peroneus profundus",
+      "nervus peroneus communis",
+      "nervus plantaris lateralis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "From where is nervus interosseus cruris originated?",
+    "options": [
+      "nervus peroneus communis",
+      "nervus tibialis",
+      "nervus femoralis",
+      "nervus peroneus profundus",
+      "nervus suralis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What nerve does innervate musculus extensor digitorum brevis et musculus extensor hallucis brevis?",
+    "options": [
+      "nervus peroneus communis",
+      "nervus tibialis",
+      "nervus peroneus superficialis",
+      "nervus peroneus profundus",
+      "nervus plantaris medialis"
     ],
     "correct": 3
   },
   {
+    "question": "What nerve does innervate palmar and dorsal interossei muscles?",
+    "options": [
+      "nervus peroneus superficialis",
+      "nervus obturatorius",
+      "nervus plantaris medialis",
+      "nervus peroneus profundus",
+      "nervus plantaris lateralis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What nerve does innervate anterior shin muscles?",
+    "options": [
+      "nervus peroneus communis",
+      "nervus tibialis",
+      "nervus femoralis",
+      "nervus ischiadicus",
+      "nervus peroneus profundus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What nerve does innervate musculus triceps surae?",
+    "options": [
+      "nervus tibialis",
+      "nervus peroneus communis",
+      "nervus femoralis",
+      "nervus ischiadicus",
+      "nervus peroneus profundus"
+    ],
+    "correct": 0
+  },
+  {
     "question": "What nerve does innervate musculus quadratus pedis?",
     "options": [
-      "a. nervus tibialis",
-      "b. nervus plantaris lateralis",
-      "c. nervus peroneus profundus",
-      "d. nervus plantaris medialis",
-      "e. nervus peroneus superficialis"
+      "nervus plantaris medialis",
+      "nervus plantaris lateralis",
+      "nervus peroneus profundus",
+      "nervus peroneus superficialis",
+      "nervus tibialis"
     ],
     "correct": 1
   },
   {
     "question": "What nerve does innervate musculus abductor digiti minimi (foot)?",
     "options": [
-      "a. nervus plantaris medialis",
-      "b. nervus peroneus profundus",
-      "c. nervus tibialis",
-      "d. nervus plantaris lateralis",
-      "e. nervus peroneus superficialis"
+      "nervus peroneus profundus",
+      "nervus plantaris lateralis",
+      "nervus plantaris medialis",
+      "nervus tibialis",
+      "nervus peroneus superficialis"
     ],
-    "correct": 3
+    "correct": 1
   },
   {
     "question": "What nerve does innervate musculus flexor digiti minimi brevis (foot)?",
     "options": [
-      "a. nervus plantaris medialis",
-      "b. nervus plantaris lateralis",
-      "c. nervus peroneus superficialis",
-      "d. nervus peroneus profundus",
-      "e. nervus tibialis"
+      "nervus tibialis",
+      "nervus plantaris medialis",
+      "nervus peroneus superficialis",
+      "nervus plantaris lateralis",
+      "nervus peroneus profundus"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "What nerve does innervate musculus flexor digitorum brevis?",
     "options": [
-      "a. nervus plantaris lateralis",
-      "b. nervus peroneus profundus",
-      "c. nervus peroneus superficialis",
-      "d. nervus tibialis",
-      "e. nervus plantaris medialis"
+      "nervus plantaris medialis",
+      "nervus peroneus profundus",
+      "nervus plantaris lateralis",
+      "nervus peroneus superficialis",
+      "nervus tibialis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What nerve does innervate 1stand 2ndlumbrical muscles?",
+    "options": [
+      "nervus tibialis",
+      "nervus peroneus profundus",
+      "nervus peroneus superficialis",
+      "nervus plantaris lateralis",
+      "nervus plantaris medialis"
     ],
     "correct": 4
   },
   {
-    "question": "What nerve does innervate 1st and 2nd lumbrical muscles?",
+    "question": "What nerve does innervate 3rdand 4thlumbrical muscles?",
     "options": [
-      "a. nervus peroneus profundus",
-      "b. nervus plantaris medialis",
-      "c. nervus plantaris lateralis",
-      "d. nervus peroneus superficialis",
-      "e. nervus tibialis"
+      "nervus peroneus profundus",
+      "nervus plantaris medialis",
+      "nervus tibialis",
+      "nervus peroneus superficialis",
+      "nervus plantaris lateralis"
     ],
-    "correct": 1
-  },
-  {
-    "question": "What nerve does innervate 3rd and 4th lumbrical muscles?",
-    "options": [
-      "a. nervus tibialis",
-      "b. nervus peroneus superficialis",
-      "c. nervus peroneus profundus",
-      "d. nervus plantaris lateralis",
-      "e. nervus plantaris medialis"
-    ],
-    "correct": 3
+    "correct": 4
   },
   {
     "question": "What muscle IS NOT innervated by tibial nerve?",
     "options": [
-      "a. musculus tibialis anterior",
-      "b. musculus flexor digitorum longus",
-      "c. musculus flexor hallucis longus",
-      "d. musculus popliteus",
-      "e. musculus tibialis posterior"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve does innervate perineal muscles?",
-    "options": [
-      "a. nervus pudendus",
-      "b. nervus iliohypogastricus",
-      "c. nervus genitofemoralis",
-      "d. nervus gluteus inferior",
-      "e. nervus obturatorius"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "What nerve is passed across cruropopliteal canal?",
-    "options": [
-      "a. nervus ischiadicus",
-      "b. nervus tibialis",
-      "c. nervus genitofemoralis",
-      "d. nervus femoralis",
-      "e. nervus pudendus"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "What nerve is passed across superior musculoperoneal canal?",
-    "options": [
-      "a. nervus tibialis",
-      "b. nervus pudendus",
-      "c. nervus ischiadicus",
-      "d. nervus peroneus superficialis",
-      "e. nervus femoralis"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What nerve does innervate musculus plantaris?",
-    "options": [
-      "a. nervus peroneus profundus",
-      "b. nervus peroneus superficialis",
-      "c. nervus tibialis",
-      "d. nervus ischiadicus",
-      "e. nervus femoralis"
+      "m. flexor digitorum longus",
+      "m. tibialis posterior",
+      "m. tibialis anterior",
+      "m. popliteus",
+      "m. flexor hallucis longus"
     ],
     "correct": 2
   },
   {
+    "question": "What nerve does innervate perineal muscles?",
+    "options": [
+      "nervus obturatorius",
+      "nervus genitofemoralis",
+      "nervus gluteus inferior",
+      "nervus pudendus",
+      "nervus ilihypogastricus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What nerve is passed across cruropopliteal canal?",
+    "options": [
+      "n. pudendus",
+      "n. femoralis",
+      "n. genitofemoralis",
+      "n. ischiadicus",
+      "n. tibialis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What nerve is passed across superior musculoperoneal canal?",
+    "options": [
+      "n. tibialis",
+      "n. pudendus",
+      "n. peroneus superficialis",
+      "n. ischiadicus",
+      "n. femoralis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What nerve does innervate musculus plantaris?",
+    "options": [
+      "n. peroneus profundus",
+      "n. tibialis",
+      "n. peroneus superficialis",
+      "n. femoralis",
+      "n. ischiadicus"
+    ],
+    "correct": 1
+  },
+  {
     "question": "What nerve does innervate musculus popliteus?",
     "options": [
-      "a. nervus peroneus superficialis",
-      "b. nervus tibialis",
-      "c. nervus peroneus profundus",
-      "d. nervus femoralis",
-      "e. nervus ischiadicus"
+      "n. ischiadicus",
+      "n. tibialis",
+      "n. peroneus profundus",
+      "n. peroneus superficialis",
+      "n. femoralis"
     ],
     "correct": 1
   },
   {
     "question": "Where is tibial nerve passed?",
     "options": [
-      "a. superior musculoperoneal canal",
-      "b. cruropopliteal canal",
-      "c. femoral canal",
-      "d. adductor canal",
-      "e. inferior musculoperoneal canal"
+      "superior musculoperoneal canal",
+      "cruropopliteal canal",
+      "femoral canal",
+      "inferior musculoperoneal canal",
+      "adductor canal"
     ],
     "correct": 1
   },
   {
     "question": "Where is superficial peroneal nerve passed?",
     "options": [
-      "a. adductor canal",
-      "b. cruropopliteal canal",
-      "c. superior musculoperoneal canal",
-      "d. femoral canal",
-      "e. inferior musculoperoneal canal"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What nerve is passed across adductor canal?",
-    "options": [
-      "a. nervus plantaris lateralis",
-      "b. nervus plantaris medialis",
-      "c. nervus saphenus",
-      "d. nervus peroneus superficialis",
-      "e. nervus peroneus profundus"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "What ganglion IS NOT related to head's parasympathetic ganglions?",
-    "options": [
-      "a. ganglion oticum",
-      "b. ganglion submandibulare",
-      "c. ganglion trigeminale",
-      "d. ganglion pterygopalatinum",
-      "e. ganglion ciliare"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Where are in spinal cord sympathetic ganglions located?",
-    "options": [
-      "a. Th1-L5",
-      "b. C4-L2",
-      "c. S1-S5",
-      "d. C8-L2",
-      "e. C2-L2"
+      "cruropopliteal canal",
+      "femoral canal",
+      "adductor canal",
+      "superior musculoperoneal canal",
+      "inferior musculoperoneal canal"
     ],
     "correct": 3
   },
   {
+    "question": "What nerve is passed across adductor canal?",
+    "options": [
+      "n. peroneus superficialis",
+      "n. peroneus profundus",
+      "n. plantaris medialis",
+      "n. plantaris lateralis",
+      "n. saphenus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What ganglion IS NOT related to head’s parasympathetic ganglions?",
+    "options": [
+      "ganglion oticum",
+      "ganglion trigeminale",
+      "ganglion submandibulare",
+      "ganglion pterygopalatinum",
+      "ganglion ciliare"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where are in spinal cord sympathetic ganglions located?",
+    "options": [
+      "C2 – L2",
+      "C4 – L2",
+      "C8 – L2",
+      "Th1 – L5",
+      "S1 – S5"
+    ],
+    "correct": 2
+  },
+  {
     "question": "What kind of fibers do form gray ramus communicans?",
     "options": [
-      "a. preganglionic parasympathetic",
-      "b. postganglionic sympathetic",
-      "c. preganglionic sympathetic",
-      "d. motor somatic",
-      "e. postganglionic parasympathetic"
+      "preganglionic sympathetic",
+      "postganglionic sympathetic",
+      "postganglionic parasympathetic",
+      "motor somatic",
+      "preganglionic parasympathetic"
     ],
     "correct": 1
   },
   {
     "question": "What kind of fibers do form greater and lesser splanchnic nerves?",
     "options": [
-      "a. postganglionic sympathetic",
-      "b. preganglionic parasympathetic",
-      "c. postganglionic parasympathetic",
-      "d. preganglionic sympathetic",
-      "e. motor somatic"
+      "postganglionic sympathetic",
+      "motor somatic",
+      "postganglionic parasympathetic",
+      "preganglionic parasympathetic",
+      "preganglionic sympathetic"
     ],
-    "correct": 3
+    "correct": 4
   },
   {
     "question": "Sacral part of parasympathetic nervous system is presented by sacral parasympathetic nuclei. Where are they located?",
     "options": [
-      "a. S3-S5",
-      "b. S2-S4",
-      "c. S1-S5",
-      "d. S1-S4",
-      "e. S1-S3"
+      "S1 – S3",
+      "S2 – S4",
+      "S1 – S4",
+      "S3 – S5",
+      "S1 – S5"
     ],
     "correct": 1
   },
   {
     "question": "What kind of fibers do form pelvic splanchnic nerve?",
     "options": [
-      "a. preganglionic parasympathetic",
-      "b. preganglionic sympathetic",
-      "c. motor somatic",
-      "d. postganglionic parasympathetic",
-      "e. postganglionic sympathetic"
+      "postganglionic parasympathetic",
+      "postganglionic sympathetic",
+      "motor somatic",
+      "preganglionic parasympathetic",
+      "preganglionic sympathetic"
     ],
-    "correct": 0
+    "correct": 3
   },
   {
     "question": "What IS NOT related sympathetic nervous system?",
     "options": [
-      "a. rami communicantes albi",
-      "b. rami communicantes grisei",
-      "c. truncus sympathicus",
-      "d. ganglion stellatum",
-      "e. ganglion trigeminale"
+      "ganglion trigeminale",
+      "rami communicantes grisei",
+      "truncus sympathicus",
+      "rami communicantes albi",
+      "ganglion stellatum"
     ],
-    "correct": 4
+    "correct": 0
   },
   {
     "question": "What organ IS NOT innervated by pelvic splanchnic nerve?",
     "options": [
-      "a. urinary bladder",
-      "b. caecum",
-      "c. ovary",
-      "d. uterus",
-      "e. rectum"
+      "ovary",
+      "urinary bladder",
+      "caecum",
+      "rectum",
+      "uterus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What organ is innervated by pelvic splanchnic nerve?",
+    "options": [
+      "duodenum",
+      "urinary bladder",
+      "pancreas",
+      "stomach",
+      "liver"
     ],
     "correct": 1
   },
   {
     "question": "What organ is innervated by pelvic splanchnic nerve?",
     "options": [
-      "a. stomach",
-      "b. duodenum",
-      "c. liver",
-      "d. urinary bladder",
-      "e. pancreas"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "What organ is innervated by pelvic splanchnic nerve?",
-    "options": [
-      "a. pancreas",
-      "b. duodenum",
-      "c. stomach",
-      "d. liver",
-      "e. ovary"
+      "duodenum",
+      "stomach",
+      "liver",
+      "pancreas",
+      "ovary"
     ],
     "correct": 4
   }

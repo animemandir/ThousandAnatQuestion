@@ -2198,5 +2198,709 @@
       "a. obturatoria"
     ],
     "correct": 2
+  },
+  {
+    "question": "What is the radius of capillaries?",
+    "options": [
+      "6 µm",
+      "2 µm",
+      "4 µm",
+      "3 µm",
+      "5 µm"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the radius of fourth order (smallest)\narterioles or venules?",
+    "options": [
+      "3 µm",
+      "5 µm",
+      "15 µm",
+      "7 µm",
+      "10 µm"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the radius of first order (largest)\narterioles or venules?",
+    "options": [
+      "10 µm",
+      "15 µm",
+      "30 µm",
+      "7 µm",
+      "20 µm"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Find correct definition for arteries:",
+    "options": [
+      "Vessels, which carry venous blood",
+      "Vessels, which have thickest walls",
+      "Vessels, which carry blood to the heart",
+      "Vessels, which carry blood from the heart",
+      "Vessels, which carry arterial blood"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Find correct definition for veins:",
+    "options": [
+      "Vessels, which have thickest walls",
+      "Vessels, which carry blood from the heart",
+      "Vessels, which carry blood to the heart",
+      "Vessels, which carry arterial blood",
+      "Vessels, which carry venous blood"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where does pulmonary circulation start:",
+    "options": [
+      "Atrium sinister",
+      "Lungs",
+      "Ventriculus dexter",
+      "Ventriculus sinister",
+      "Atrium dextrum"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where does pulmonary circulation end:",
+    "options": [
+      "Ventriculus dexter",
+      "Ventriculus sinister",
+      "Atrium sinister",
+      "Lungs",
+      "Atrium dextrum"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where does systemic circulation begin:",
+    "options": [
+      "Atrium sinister",
+      "Ventriculus sinister",
+      "Ventriculus dexter",
+      "Organs",
+      "Atrium dextrum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify where does systemic circulation end:",
+    "options": [
+      "Atrium sinister",
+      "Organs",
+      "Atrium dextrum",
+      "Ventriculus dexter",
+      "Ventriculus sinister"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify organ, which does NOT drain venous blood\ninto hepatic portal system of circulation:",
+    "options": [
+      "Spleen",
+      "Intestines",
+      "Kidney",
+      "Pancreas",
+      "gall bladder"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The hepatic portal vein transports the following\nblood to the liver, EXCEPT:",
+    "options": [
+      "absorbed monocarbohydrates from intestinum tenue",
+      "poisonous substances, which are absorbed in the\nintestines",
+      "absorbed fatty acids from intestinum tenue",
+      "white blood cells (added to the circulation)\nfrom the spleen",
+      "absorbed aminoacids from intestinum tenue"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The hepatic portal system of circulation ends\n(drains into):",
+    "options": [
+      "v. cava inferior",
+      "atrium dextrum",
+      "v. vitellina magna",
+      "v. cava superior",
+      "sinus coronarius"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The coronary system of circulation ends (drains\ninto):",
+    "options": [
+      "atrium dextrum",
+      "v. cava superior",
+      "sinus coronarius",
+      "v. cava inferior",
+      "v. vitellina magna"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify vessel, which begins pulmonary\ncirculation:",
+    "options": [
+      "Sinus coronarius",
+      "Vena cava superior et inferior",
+      "Aorta",
+      "Venae pulmonales",
+      "Truncus pulmonalis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify vessel, which begins systemic\ncirculation:",
+    "options": [
+      "Vena cava superior et inferior",
+      "Aorta",
+      "Truncus pulmonalis",
+      "Sinus coronarius",
+      "Venae pulmonales"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessel, which ends pulmonary\ncirculation:",
+    "options": [
+      "Truncus pulmonalis",
+      "Vena cava superior et inferior",
+      "Sinus coronarius",
+      "Aorta",
+      "Venae pulmonales"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify vessel, which ends systemic\ncirculation:",
+    "options": [
+      "Venae pulmonales",
+      "Vena cava superior et inferior",
+      "Truncus pulmonalis",
+      "Aorta",
+      "Sinus coronarius"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify phrase, which is characteristic for “elastic”\ntype arteries:",
+    "options": [
+      "active vasoconstriction",
+      "function - pressure smoothening",
+      "these are smaller in diameter arteries",
+      "function - extention in length",
+      "function - fixing organs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify phrase, which is characteristic for\n“muscular” type arteries:",
+    "options": [
+      "these are larger in diameter arteries",
+      "function - pressure smoothening",
+      "active vasoconstriction",
+      "function - fixing organs",
+      "function - extention in length"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify vessel, which exits from ventriculus\ndexter:",
+    "options": [
+      "a. pulmonalis",
+      "v. cava superior et inferior",
+      "vv. pulmonales",
+      "truncus pulmonalis",
+      "aorta"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify vessel, which exits from ventriculus\nsinister:",
+    "options": [
+      "v. cava superior et inferior",
+      "vv. pulmonales",
+      "aorta",
+      "a. pulmonalis",
+      "truncus pulmonalis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify vessel, which drains into atrium\ndextrum:",
+    "options": [
+      "a. pulmonalis",
+      "v. cava superior et inferior",
+      "vv. pulmonales",
+      "aorta",
+      "truncus pulmonalis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify vessel, which drains into atrium\nsinistrum:",
+    "options": [
+      "v. cava superior et inferior",
+      "aorta",
+      "a. pulmonalis",
+      "vv. pulmonales",
+      "truncus pulmonalis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify phrase, which is characteristic for\nvalva tricuspidalis:",
+    "options": [
+      "lies at the entrance to the truncus pulmonalis",
+      "lies at the entrance to the aorta",
+      "it is between atrium sinistrum et ventriculus\nsinister",
+      "it is between atrium dextrum et ventriculus dexter",
+      "starts to function only after birth"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify phrase, which is characteristic for\nvalva bicuspidalis:",
+    "options": [
+      "it is between atrium sinistrum et ventriculus\nsinister",
+      "starts to function only after birth",
+      "lies at the entrance to the aorta",
+      "it is between atrium dextrum et ventriculus dexter",
+      "lies at the entrance to the truncus pulmonalis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify where does r. circumflexus a. coronaria\nsinistra lie:",
+    "options": [
+      "in sulcus interventricularis posterior",
+      "in sulcus interventricularis anterior",
+      "in sulcus coronaries",
+      "on lateral surface of left atrium",
+      "on lateral surface of left ventricle"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where does sinus coronarius lie:",
+    "options": [
+      "on lateral surface of sinus venarum cavarum",
+      "on lateral surface of nodus sinoatrialis",
+      "in sulcus interventricularis posterior",
+      "in sulcus coronaries",
+      "in sulcus interventricularis anterior"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "R. marginalis dexter is branch of:",
+    "options": [
+      "sinus coronaries",
+      "v. cordis parva",
+      "a. coronaria dextra",
+      "a. coronaria sinistra",
+      "v. cordis magna"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A. interventricularis posterior is branch of:",
+    "options": [
+      "a. coronaria sinistra",
+      "v. cordis parva",
+      "v. cordis magna",
+      "a. coronaria dextra",
+      "sinus coronaries"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "A. interventricularis anterior is branch of:",
+    "options": [
+      "v. cordis magna",
+      "sinus coronaries",
+      "v. cordis parva",
+      "a. coronaria sinistra",
+      "a. coronaria dextra"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify element of conductive system of the\nheart, which acts as primary pacemaker:",
+    "options": [
+      "bundle of His",
+      "Purkinje fibers",
+      "fasciculus atrioventricularis",
+      "nodus sinoatrialis",
+      "nodus atrioventricularis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify element of conductive system of the\nheart, which acts as secondary pacemaker:",
+    "options": [
+      "nodus sinoatrialis",
+      "Purkinje fibers",
+      "fasciculus atrioventricularis",
+      "nodus atrioventricularis",
+      "bundle of His"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify element of conductive system of the\nheart, which stimulates cardiomyocytes to contract:",
+    "options": [
+      "fasciculus atrioventricularis",
+      "nodus atrioventricularis",
+      "Purkinje fibers",
+      "nodus sinoatrialis",
+      "bundle of His"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify phrase, which is NOT characteristic for\nlymphatic system:",
+    "options": [
+      "it does not form a circular system",
+      "it begins by capillaries",
+      "it drains into the cardiovascular system",
+      "lymph collects from interstitial fluid",
+      "it ends as single duct in subclavian vein"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Lymphatic system begins by:",
+    "options": [
+      "lymphatic capillaries",
+      "lymphatic vessels",
+      "lymphatic receptors",
+      "lymphatic trunks",
+      "lymphatic ducts"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Lymphatic vessels drain into:",
+    "options": [
+      "lymphatic receptors",
+      "lymphatic ducts",
+      "lymphatic sinuses",
+      "lymphatic trunks",
+      "lymphatic capillaries"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Lymphatic trunks drain into:",
+    "options": [
+      "lymphatic capillaries",
+      "lymphatic vessels",
+      "lymphatic sinuses",
+      "lymphatic receptors",
+      "lymphatic ducts"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify in which element of lymphatic system\nhaematopoiesis is possible:",
+    "options": [
+      "lymphatic vessels",
+      "lymphatic sinuses",
+      "lymphatic trunks",
+      "lymphatic capillaries",
+      "lymphatic nodes"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify in which element of lymphatic system\nlymphocytopoiesis is possible:",
+    "options": [
+      "lymphatic vessels",
+      "lymphatic sinuses",
+      "lymphatic trunks",
+      "lymphatic capillaries",
+      "lymphatic nodes"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which duct belongs to lymphatic system:",
+    "options": [
+      "ductus thoracicus",
+      "ductus pectoralis",
+      "ductus abdominalis",
+      "ductus lymphaticus majus",
+      "ductus lymphaticus proprius"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which duct belongs to lymphatic system:",
+    "options": [
+      "ductus lymphaticus cardinalis",
+      "ductus lymphaticus dexter",
+      "ductus lymphaticus proprius",
+      "ductus lymphaticus sinister",
+      "ductus lymphaticus majus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ductus lymphaticus dexter does NOT collect lymph\nfrom next trunk:",
+    "options": [
+      "truncus thoracicus dexter",
+      "none of the above",
+      "truncus jugularis dexter",
+      "truncus bronchomediastinalis dexter",
+      "truncus subclavius dexter"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Ductus thoracicus does NOT collect lymph from\nnext trunk:",
+    "options": [
+      "truncus jugularis sinister",
+      "trunci intestinales",
+      "truncus bronchomediastinalis sinister",
+      "none of the above",
+      "truncus subclavius sinister"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Ductus thoracicus does NOT collect lymph from\nnext trunk:",
+    "options": [
+      "truncus subclavius sinister",
+      "trunci intestinales",
+      "truncus bronchomediastinalis dexter",
+      "truncus lumbalis dexter",
+      "truncus lumbalis sinister"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Ductus thoracicus does NOT collect lymph from\nnext trunk:",
+    "options": [
+      "trunci intestinales",
+      "truncus lumbalis sinister",
+      "truncus bronchomediastinalis sinister",
+      "none of the above",
+      "truncus lumbalis dexter"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Ductus thoracicus drains into:",
+    "options": [
+      "atrium dexter",
+      "atrium sinister",
+      "angulus venosus sinister",
+      "angulus venosus dexter",
+      "cisterna chyli"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Ductus lymphaticus dexter drains into:",
+    "options": [
+      "angulus venosus sinister",
+      "atrium sinister",
+      "cisterna chyli",
+      "atrium dexter",
+      "angulus venosus dexter"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Cisterna chyli is formed by:",
+    "options": [
+      "truncus bronchomediastinalis dexter",
+      "ductus lymphaticus dexter",
+      "truncus bronchomediastinalis sinister",
+      "ductus thoracicus",
+      "truncus lumbalis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is NOT correct\nabout fetal circulation:",
+    "options": [
+      "there is present ductus venosus",
+      "fetal and maternal blood exchange carbon dioxide",
+      "fetal and maternal blood do not mix",
+      "there are present paired umbilical veins",
+      "there is present ductus arteriosus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify what is NOT correct about fetal\ncirculation:",
+    "options": [
+      "there are present paired umbilical arteries",
+      "there is present foramen ovale",
+      "there is no mixing of arterial and venous blood\nin fetal circulation",
+      "there is present ductus venosus",
+      "fetal and maternal blood do not mix"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify organ, which receives richest in O2\nblood in fetal circulation:",
+    "options": [
+      "liver",
+      "heart",
+      "kidneys",
+      "lungs",
+      "brain"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify organ, which receives lowest in O2\nblood in fetal circulation:",
+    "options": [
+      "brain",
+      "upper limb",
+      "liver",
+      "heart",
+      "kidneys"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function of ductus venosus in fetal\ncirculation:",
+    "options": [
+      "connects v. umbilicalis et liver sinusoids",
+      "connects v. umbilicalis et v. cava inferior",
+      "connects plexus venosus placentae et v.\numbilicalis",
+      "connects truncus pulmonalis et v. cava superior",
+      "connects truncus pulmonalis et aorta"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify function of ductus arteriosus in fetal\ncirculation:",
+    "options": [
+      "connects v. umbilicalis et liver sinusoids",
+      "connects v. umbilicalis et v. cava inferior",
+      "connects truncus pulmonalis et aorta",
+      "connects truncus pulmonalis et v. cava superior",
+      "connects plexus venosus placentae et v.\numbilicalis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "V. umbilicalis by obliteration becomes:",
+    "options": [
+      "lig. teres hepatis",
+      "lig. umbilicale laterale",
+      "lig. umbilicale mediale",
+      "lig. umbilicale medianum",
+      "lig. venosus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A. umbilicalis by obliteration becomes:",
+    "options": [
+      "lig. teres hepatis",
+      "lig. umbilicale mediale",
+      "lig. umbilicale medianum",
+      "lig. umbilicale laterale",
+      "lig. venosus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A. umbilicalis does not obliterate completely\nand in adults supplies:",
+    "options": [
+      "liver",
+      "umbilical ring",
+      "anterior abdominal wall",
+      "vesica fellea",
+      "vesica urinaria"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Ligament between truncus pulmonalis et aorta is\ncalled:",
+    "options": [
+      "lig. aortopulmonalis",
+      "lig. arteriosus",
+      "lig. pulmonale",
+      "lig. aorticus",
+      "lig. trunci pulmonalis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ligament between truncus pulmonalis et aorta\ndevelops from:",
+    "options": [
+      "v. aortopulmonalis",
+      "ductus pulmonalis",
+      "a. aortopulmonalis",
+      "ductus arteriosus",
+      "ductus aortopulmonalis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Foramen ovale in fetal circulation is present\nbetween:",
+    "options": [
+      "truncus pulmonalis et aorta",
+      "atrium sinistrum et truncus pulmonalis",
+      "atrium dextrum et truncus pulmonalis",
+      "atrium dextrum et sinistrum",
+      "v. umbilicalis et v. cava inferior"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Ligament teres hepatis extends from liver to:",
+    "options": [
+      "v. cava inferior",
+      "duodenum",
+      "diaphragm",
+      "vesica urinaria",
+      "umbilicus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Ligament venosum extends from porta hepatis to:",
+    "options": [
+      "duodenum",
+      "v. cava inferior",
+      "vesica urinaria",
+      "diaphragm",
+      "umbilicus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "During fetal circulation, how much blood of\npulmonary circulation does pass through lungs?",
+    "options": [
+      "40%",
+      "30%",
+      "20%",
+      "10%",
+      "50%"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "During fetal circulation, where does major\nportion of blood of pulmonary circulation escape?",
+    "options": [
+      "into foramen ovale",
+      "into aorta",
+      "into left ventricle directly",
+      "into v. cava inferior",
+      "into v. cava superior"
+    ],
+    "correct": 1
   }
 ]
