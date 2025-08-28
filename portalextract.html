@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Robust Quiz Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html, body {
+      font-family: sans-serif;
+      margin: 0; padding: 1em;
+      background: #fafcff;
+    }
+    h1 { font-size: 1.4em; }
+    textarea {
+      width: 100%; min-height: 160px;
+      resize: vertical;
+      font-family: monospace;
+      padding: 8px;
+    }
+    button, .copy {
+      margin: 0.5em 0;
+      padding: 0.5em 1em;
+      font-size: 1em;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #f6f8fa;
+      padding: 1em;
+      border-radius: 0.4em;
+      max-height: 40em;
+      overflow: auto;
+    }
+    .controls {
+      display: flex;
+      gap: 0.5em;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 600px) {
+      pre, textarea { font-size: 0.93em; }
+      button, .copy { font-size: 0.92em; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Robust Quiz HTML to JSON Extractor</h1>
+  <label>Paste your parent &lt;div&gt; HTML (all questions):</label><br />
+  <textarea id="inputHtml" placeholder="Paste the full parent div HTML here..."></textarea><br />
+  <div class="controls">
+    <button onclick="extractJson()">Extract JSON</button>
+    <button onclick="downloadJson()" id="downloadBtn" style="display:none;">Download JSON</button>
+    <button class="copy" onclick="copyJson()" id="copyBtn" style="display:none;">Copy JSON</button>
+  </div>
+  <h3>Preview JSON:</h3>
+  <pre id="jsonPreview">{}</pre>
+
+  <script>
+    let extractedJson = null;
+
+    function normalizeText(str) {
+      return str.replace(/s+/g, '').toLowerCase();
+    }
+
+    function extractQuestionText(qtextDiv) {
+      if (!qtextDiv) return '';
+      // Collect all non-empty <p> texts inside qtextDiv
+      const paragraphs = Array.from(qtextDiv.querySelectorAll('p'));
+      const texts = paragraphs.map(p => p.textContent.trim()).filter(t => t.length > 0);
+      if (texts.length > 0) {
+        return texts.join(' ');
+      }
+      // fallback: use full textContent of qtextDiv
+      return qtextDiv.textContent.trim();
+    }
+
+    function extractAnswerText(optDiv) {
+      // Try to get meaningful answer text from an answer option div robustly
+      if (!optDiv) return '';
+
+      // Prefer <p> inside option with non empty text
+      const pElems = Array.from(optDiv.querySelectorAll('p')).filter(p => p.textContent.trim().length > 0);
+      if (pElems.length > 0) {
+        // Join all <p> with text to preserve multiline answers
+        return pElems.map(p => p.textContent.trim()).join(' ');
+      }
+
+      // If no <p> with text, try .flex-fill container text content
+      const flexFill = optDiv.querySelector('.flex-fill');
+      if (flexFill) {
+        return flexFill.textContent.trim();
+      }
+
+      // Else fallback: clone without .answernumber span text, extract textContent
+      let clone = optDiv.cloneNode(true);
+      const ansNumSpan = clone.querySelector('.answernumber');
+      if (ansNumSpan) ansNumSpan.remove();
+      return clone.textContent.trim();
+    }
+
+    function extractJson() {
+      const raw = document.getElementById('inputHtml').value;
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(raw, 'text/html');
+      const results = [];
+      const questionDivs = doc.querySelectorAll('div[id^="question-"][class*="que"]');
+
+      questionDivs.forEach(qDiv => {
+        // 1. Extract question text
+        const qtextDiv = qDiv.querySelector('.qtext');
+        const qText = extractQuestionText(qtextDiv);
+
+        // 2. Extract options
+        const answerBox = qDiv.querySelector('.answer');
+        const optionsArr = [];
+        if (answerBox) {
+          const options = answerBox.querySelectorAll('div[class*="r"]');
+          options.forEach(opt => {
+            const val = extractAnswerText(opt);
+            optionsArr.push(val);
+          });
+        }
+
+        // 3. Extract correct answer text from .rightanswer removing any prefix before colon
+        let correctIdx = -1;
+        const rightAnsDiv = qDiv.querySelector('.rightanswer');
+        if (rightAnsDiv) {
+          let rightAnswerText = rightAnsDiv.textContent.replace(/^[^:]*:s*/i, '').trim();
+
+          // Find matching option index ignoring whitespace and case
+          const normRight = normalizeText(rightAnswerText);
+          for (let i = 0; i < optionsArr.length; i++) {
+            if (normalizeText(optionsArr[i]) === normRight) {
+              correctIdx = i;
+              break;
+            }
+          }
+        }
+
+        // 4. Add question object if question text present and options non-empty
+        if (qText.length > 0 && optionsArr.length > 0) {
+          results.push({ question: qText, options: optionsArr, correct: correctIdx });
+        }
+      });
+
+      extractedJson = results;
+      document.getElementById('jsonPreview').textContent = JSON.stringify(results, null, 2);
+      document.getElementById('downloadBtn').style.display = results.length ? '' : 'none';
+      document.getElementById('copyBtn').style.display = results.length ? '' : 'none';
+    }
+
+    function downloadJson() {
+      if (!extractedJson) return;
+      const blob = new Blob([JSON.stringify(extractedJson, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'questions.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function copyJson() {
+      if (!extractedJson) return;
+      navigator.clipboard.writeText(JSON.stringify(extractedJson, null, 2));
+    }
+  </script>
+</body>
+</html>

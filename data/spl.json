@@ -1097,5 +1097,2204 @@
       "e. Fundus uteri"
     ],
     "correct": 2
+  },
+  {
+    "question": "Identify position of hilum renale on kidney:",
+    "options": [
+      "Margo mediale",
+      "Margo laterale",
+      "Facies anterior",
+      "Extremitas inferior",
+      "Extremitas superior"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify covering\nof kidney, which is viewed as part of fascia endoabdominalis:",
+    "options": [
+      "fascia\nrenalis",
+      "Capsula\nadipose pararenalis",
+      "capsula\nfibrosa",
+      "fascia\nlata",
+      "Fascia\nthoracolumbalis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify anatomical\nstructure, which forms renal seat behind:",
+    "options": [
+      "m. transversus",
+      "diaphragm",
+      "m. psoas\nminor",
+      "m. psoas\nmajor",
+      "m. quadratus\nlumborum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify anatomical\nstructure, which forms renal seat above:",
+    "options": [
+      "m. psoas\nminor",
+      "m. transversus",
+      "m. psoas\nmajor",
+      "diaphragm",
+      "m. quadratus\nlumborum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify anatomical structure, which forms the bottom of renal seat:",
+    "options": [
+      "m. quadratus\nlumborum",
+      "m. psoas\nmajor",
+      "m. transversus",
+      "m. psoas\nminor",
+      "diaphragm"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify topographical\nrelationship of right and left kidney:",
+    "options": [
+      "Extremitas\ninferior of ren dexter is lower then extremitas inferior of ren sinister",
+      "Extremitas\nsuperior of ren dexter et sinister are touching one another",
+      "Extremitas\ninferior of ren dexter is higher then extremitas superior of ren sinister",
+      "Extremitas\nsuperior of ren dexter is higher then extremitas superior of ren sinister",
+      "Extremitas\nsuperior of ren dexter et sinister are at the same level"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify organ,\nwhich is adjacent to extremitas superior of left\nkidney:",
+    "options": [
+      "glandula\nsuprarenalis",
+      "lien",
+      "pancreas",
+      "gaster",
+      "intestinum\ntenue"
+    ],
+    "correct": -1
+  },
+  {
+    "question": "Identify organ,\nwhich is adjacent to margo lateralis of ren sinister superiorly:",
+    "options": [
+      "pancreas",
+      "lien",
+      "intestinum\ntenue",
+      "glandula\nsuprarenalis",
+      "gaster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify organ,\nwhich is adjacent to extremitas superior of ren dexter:",
+    "options": [
+      "gaster",
+      "intestinum\ntenue",
+      "glandula\nsuprarenalis",
+      "lien",
+      "pancreas"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Filtration and formation of primary urine takes\nplace in:",
+    "options": [
+      "Ascending\npart of ansa nephroni",
+      "Tubuli\ncontortii distale",
+      "descending\npart of ansa nephroni",
+      "corpusculum\nrenale",
+      "Tubuli\ncontortii proximale"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify where\nsecondary urine starts its drainage:",
+    "options": [
+      "Calyces\nrenales minora",
+      "Calyces\nrenales majora",
+      "Pelvis\nrenale",
+      "ducti\ncolligens",
+      "ureter"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Complex of functionally united structures dedicated\nto excrete urine into calyx renalis minor is called:",
+    "options": [
+      "pelvis renale",
+      "nephron",
+      "juxtaglomerular apparatus",
+      "corpusculum renale",
+      "fornical\napparatus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What is the name of vesica urinaria’s part which is directed down to rectum or uterus:",
+    "options": [
+      "basis",
+      "apex",
+      "cervix",
+      "fundus",
+      "corpus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Empty\nurinary bladder lies:",
+    "options": [
+      "In\ncavitas abdominale, intraperitoneally",
+      "In pelvis\nminor behind symphysis pubica",
+      "In\npelvis major in front of symphysis pubica",
+      "In pelvis\nminor in front of symphysis pubica",
+      "In\npelvis major above symphysis pubica"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many layers does tunica muscularis vesicae\nurinariae have:",
+    "options": [
+      "tree:\nouter and inner circular, middle - longitudinal",
+      "two:\nouter longitudinal and inner circular",
+      "one: circular",
+      "two:\nouter circular and inner longitudinal",
+      "tree:\nouter and inner longitudinal, middle - circular"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify location of m. sphincter urethra\ninternus:",
+    "options": [
+      "Around apex vesicae\nurinaria",
+      "Around ostium urethra\nexternus",
+      "At the basis\nof trigonum vesicae",
+      "Around ostia ureterici",
+      "Around\nostium urethra internus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Fascia spermatica interna by its origis is derived\nfrom:",
+    "options": [
+      "fascia\ntransversa",
+      "aponeurosis\nof m. obliqus abdominis externus",
+      "m. transversus\nabdominis",
+      "fascia\nsuperficialis",
+      "m. obliqus\nabdominis internus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Tunica vaginalis testis by its origis is derived\nfrom:",
+    "options": [
+      "fascia\ntransversa",
+      "Primordial\ngerm cells",
+      "part\nof peritoneum",
+      "fascia superficialis",
+      "aponeurosis\nof m. obliqus abdominis externus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify which layer of testis is absent in funiculus\nspermaticus:",
+    "options": [
+      "fascia\ncremasterica",
+      "cutis",
+      "m. cremaster",
+      "fascia\nspermatica externa",
+      "fascia\nspermatica interna"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where is located epididymis:",
+    "options": [
+      "Extremitas\nsuperior et margo anterior testis",
+      "Facies\nmedialis testis",
+      "Extremitas\nsuperior et margo posterior testis",
+      "Extremitas\ninferior testis",
+      "Facies\nlateralis testis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where is the “door” into testis:",
+    "options": [
+      "margo\nposterior testis",
+      "Extremitas\nsuperior testis",
+      "Extremitas\ninferior testis",
+      "margo\nanterior testis",
+      "Facies\nmedialis testis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify where meiotic divisions take place:",
+    "options": [
+      "Rete\ntestis",
+      "Canaliculli\nseminiferi contortii",
+      "Ductus euculatorius",
+      "Ductus deferens",
+      "Canaliculli\nseminiferi recti"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify location of corpus epididymis:",
+    "options": [
+      "margo posterior testis",
+      "Facies medialis testis",
+      "Extremitas superior testis",
+      "margo anterior testis",
+      "Extremitas inferior testis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify cells producing testosterone in\ntestis:",
+    "options": [
+      "Sertolli\ncells",
+      "Leidig\ncells",
+      "Kuppfer\ncells",
+      "Shwann\ncells",
+      "Pachinni\ncells"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify location of mediastinum testis:",
+    "options": [
+      "Along extremitas superior testis",
+      "Along extremitas inferior testis",
+      "Along margo anterior testis",
+      "on facies lateralis testis",
+      "Along margo posterior testis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify the thickest layer of ductus deferens:",
+    "options": [
+      "Tela\nsubmucosa",
+      "Tunica\nmuscularis",
+      "Tunica\nmucosa",
+      "Tunica\nserosa",
+      "Tunica\nadventitia"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the name of anatomical structure forming after fusion between ampulla ductus deferens and ductus excretorius vesica seminalis:",
+    "options": [
+      "Ductus vesicoprostaticus",
+      "Ductus seminalis\ncommunis",
+      "Ductus euculatorius",
+      "Ductus deferens\ncommunis",
+      "Ductus urinalis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the layers is absent in funiculus spermaticus:",
+    "options": [
+      "m.cremaster",
+      "Fascia m.cremaster",
+      "Tunica dartos",
+      "Fascia spermatica interna",
+      "Fascia spermatica externa"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify on which muscle\nlie glandullae bulbourethralis:",
+    "options": [
+      "m. transversus perinei\nprofundus",
+      "m. bulbospongiosus",
+      "m. ischiocavernosus",
+      "m. levator ani",
+      "m. transversus\nperinei superficialis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the name for enlarged posterior part of\ncorpus spongiosus penis:",
+    "options": [
+      "frenulum\npreputii",
+      "bulbus\npenis",
+      "collum\npenis",
+      "glans\npenis",
+      "Sinus\npenis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify into which structure does continue frenulum preputii on ventral surface of penis:",
+    "options": [
+      "Raphe\npenis",
+      "radix\npenis",
+      "Corona\nglans penis",
+      "Ostium\nurethrae externus",
+      "collum\npenis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify inside which structure of penis urethra masculina passes:",
+    "options": [
+      "Corpus\nspongiosus",
+      "raphe penis",
+      "Sulcus\nurethralis",
+      "Corpus\ncavernosus",
+      "frenulum preputii"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify inside which structure of penis urethra masculina passes:",
+    "options": [
+      "Corpus\ncavernosus",
+      "raphe penis",
+      "frenulum preputii",
+      "Corpus\nspongiosus",
+      "Sulcus\nurethralis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Where is the beginning of lig. suspensorius\npenis superficiale:",
+    "options": [
+      "Fascia\nsuperficialis abdominis in the region of linea alba",
+      "Fascia\npropria abdominis in the region above lig. inguinale",
+      "Spina iliaca anterior inferior",
+      "Spina\niliaca anterior superior",
+      "Fascia\npropria abdominis in the region of linea alba"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Where is the beginning of lig. suspensorius penis\nprofundus:",
+    "options": [
+      "Spina\niliaca anterior superior",
+      "ramus\ninferior ossis pubis",
+      "superior\nportion of posterior surface of symphysis pubica",
+      "Spina iliaca anterior inferior",
+      "inferior\nportion of anterior surface of symphysis pubica"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Where is the border between pars fixum et mobile\nurethra masculina:",
+    "options": [
+      "In fixation\nplace of lig. suspensorius penis superficiale",
+      "In fixation\nplace of lig. inguinale",
+      "In fixation\nplace of lig. suspensorius penis profundus",
+      "In fixation\nplace of lig. fundiforme",
+      "In the\nregion of annulus inguinale profundus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify name for narrow part of male urethra passing through diaphragma urogenitalis:",
+    "options": [
+      "Pars prostaticus",
+      "Pars perinealis",
+      "Pars membranaceus",
+      "Pars diaphragmaticus",
+      "Pars urethralis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where is located one of the wider sections of male urethra:",
+    "options": [
+      "In perineum",
+      "In bulbus\npenis",
+      "In the\nregion of corpora cavernosa",
+      "In ostium\nurethrae internus",
+      "In ostium\nurethrae externus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify where is located one of the wider sections of male urethra:",
+    "options": [
+      "In perineum",
+      "In the\nregion of corpora cavernosa",
+      "In fossa\nurethralis",
+      "In fossa\nnavicularis",
+      "In ostium\nurethrae externus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify where is located one of the wider sections of male urethra:",
+    "options": [
+      "In pars\nmembranacea",
+      "In fossa urethralis",
+      "In perineum",
+      "In the\nregion of corpora cavernosa",
+      "In pars prostatica"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify where is located one of the narrow sections of male urethra:",
+    "options": [
+      "In pars prostatica",
+      "In the\nregion of corpora cavernosa",
+      "In pars\nmembranacea",
+      "In fossa navicularis",
+      "In bulbus penis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where is located one of the narrow sections of male urethra:",
+    "options": [
+      "In fossa navicularis",
+      "In bulbus penis",
+      "In pars prostatica",
+      "In ostium urethrae externus",
+      "In the\nregion of corpora cavernosa"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify where is located one of the narrow sections of male urethra:",
+    "options": [
+      "In fossa navicularis",
+      "In pars prostatica",
+      "In ostium urethrae internus",
+      "In the\nregion of corpora cavernosa",
+      "In bulbus penis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where is located internal sphincter for male urethra:",
+    "options": [
+      "In region\nof fossa navicularis",
+      "In region\nof ostium urethrae externus",
+      "In region\nof ostium urethrae internus",
+      "In pars prostatica",
+      "In pars membranacea"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify where is located external sphincter for male\nurethra:",
+    "options": [
+      "In region of ostium urethrae externus",
+      "In pars membranacea",
+      "In pars prostatica",
+      "In region of fossa navicularis",
+      "In region of ostium urethrae internus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify where does external sphincter of urethra belong in female’s anatomy:",
+    "options": [
+      "Labia\npudenda majora",
+      "Diaphragma\nurogenitalis",
+      "Clitoridis",
+      "Diaphragma\npelvis",
+      "Vagina"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify the place where testis used to be fixed by lig. gubernaculum testis:",
+    "options": [
+      "Margo\nposterior",
+      "Extremitas\ninferior",
+      "Epididymis\ntestis",
+      "Extremitas\nsuperior",
+      "Margo\nanterior"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify to which anatomical structure uterus is directed behind:",
+    "options": [
+      "Vesica\nurinaria",
+      "Symphysis\npubica",
+      "Vagina",
+      "Rectum",
+      "Tubae\nuterinae"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which ligament of uterus is essentially a duplicate of peritoneum in\npelvis:",
+    "options": [
+      "Lig. vesicouterina",
+      "Lig. teres uteri",
+      "Lig. rectouterina",
+      "Lig. latum uteri",
+      "Ligg.\ncardinalia"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which shape does uterus have on section:",
+    "options": [
+      "Triangle,\nbase of which is directed to tuba uterina sinistra",
+      "Triangle,\nbase of which is directed to fundus uteri",
+      "Triangle,\nbase of which is directed to cervix uteri",
+      "Triangle,\nbase of which is directed to tuba uterina dextra",
+      "Long\nnarrow gap"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ductus parotideus opens\ninto cavitas oris:",
+    "options": [
+      "Along plica sublingualis",
+      "On papilla sublingualis",
+      "At the level of 2nd upper premolar",
+      "On radix linguae",
+      "At the level of 2nd upper molar"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Corona dentis has all\nsurfaces, EXCEPT:",
+    "options": [
+      "Lingualis",
+      "Occlusialis",
+      "Vestibularis",
+      "Palatinus",
+      "Contacta"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Gladulla salivatoria minora\ninclude all, EXCEPT:",
+    "options": [
+      "glandulae linguales",
+      "glandulae sublinguales",
+      "glandulae palatinae",
+      "glandulae molares",
+      "glandulae labiales"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ductus submandibularis\nopens into cavitas oris:",
+    "options": [
+      "On radix linguae",
+      "On papilla sublingualis",
+      "Along plica sublingualis",
+      "At the level of 2nd upper premolar",
+      "At the level of 2nd upper molar"
+    ],
+    "correct": -1
+  },
+  {
+    "question": "Musculi palatini include\nall, EXCEPT:",
+    "options": [
+      "m. transversus velli palatini",
+      "m. palatoglossus",
+      "m. tensor velli palatini",
+      "m. uvulae",
+      "m. levator velli palatini"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Fornix pharyngis is formed:",
+    "options": [
+      "in spatium previscerale",
+      "on paries superior pharyngis",
+      "at the junction of paries lateralis et anterior\npharyngis",
+      "on paries posterior pharyngis",
+      "in spatium retropharyngeum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Tonsilla pharyngealis\nis located:",
+    "options": [
+      "on paries inferior nasopharyngis",
+      "on paries superior nasopharyngis",
+      "on paries lateralis nasopharyngis",
+      "at the junction of paries lateralis et anterior\nnasopharyngis",
+      "in spatium retropharyngeum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ostium pharyngeum\ntubae auditivae is\nlocated:",
+    "options": [
+      "on paries superior nasopharyngis",
+      "on paries lateralis nasopharyngis",
+      "on paries inferior nasopharyngis",
+      "on paries posterior nasopharyngis",
+      "on paries anterior nasopharyngis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify the element,\nwhich belongs to Pirogov-Waldeyer’s ring:",
+    "options": [
+      "tonsilla gingivalis",
+      "tonsilla parotidea",
+      "tonsilla sublingualis",
+      "tonsilla tubaria",
+      "tonsilla laryngea"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify the origin point\nfor m. constrictor pharynges medius:",
+    "options": [
+      "Lamina medialis processus pterygoideus",
+      "Os hyoideus",
+      "Cartilago crycoidea",
+      "Raphe pharyngis",
+      "Cartilago thyroidea"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify the origin point\nfor m. constrictor pharynges inferior:",
+    "options": [
+      "Os hyoideus",
+      "Lamina medialis processus pterygoideus",
+      "Raphe pharyngis",
+      "mandibula",
+      "Cartilago thyroidea"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify the origin point\nfor musculi constrictor pharyngis:",
+    "options": [
+      "Lamina medialis processus pterygoideus",
+      "Os hyoideus",
+      "Mandibula",
+      "Cartilago thyroidea",
+      "Raphe pharyngis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which muscle\nbelongs to longitudinal muscles of pharynx:",
+    "options": [
+      "m. constrictor pharynges inferior",
+      "m. stylohyoideus",
+      "m. constrictor pharynges superior",
+      "m. constrictor pharynges medius",
+      "m. stylopharyngeus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which teeth\nare absent among dentes decidui:",
+    "options": [
+      "dentes premolares",
+      "dentes incisivi",
+      "dentes canini",
+      "dentes molares maxilae",
+      "dentes molares mandibulae"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which teeth\nare absent among dentes decidui:",
+    "options": [
+      "dentes serotines",
+      "dentes molares mandibulae",
+      "dentes canini",
+      "dentes incisivi",
+      "dentes molares maxilae"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Stomach is in contact\nwith all the organs, EXCEPT:",
+    "options": [
+      "lien",
+      "colon transversum",
+      "diaphragm",
+      "colon ascendens",
+      "hepar"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Stomach has all\nlayers, EXCEPT:",
+    "options": [
+      "Tunica serosa",
+      "Tunica muscularis",
+      "Tunica adventitia",
+      "Tunica mucosa",
+      "Tela submucosa"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Duodenum has all parts,\nEXCEPT:",
+    "options": [
+      "pars superior",
+      "pars inferior",
+      "pars horizontalis",
+      "pars descendens",
+      "pars ascendens"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify into which\npart of duodenum opens papilla duodeni major:",
+    "options": [
+      "pars superior",
+      "pars horizontalis",
+      "sometimes into pars horizontalis, rarely into\npars ascendens",
+      "pars ascendens",
+      "pars descendens"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which part\nof duodenum is adjacent to ren dexter:",
+    "options": [
+      "pars horizontalis",
+      "pars ascendens",
+      "pars superior",
+      "pars descendens",
+      "никакая"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify the position\nof caecum in relationship to peritoneum:",
+    "options": [
+      "has no contact with peritoneum",
+      "intraperitoneal, has mesocolon",
+      "mesoperitoneal",
+      "Retroperitoneal",
+      "intraperitoneal, does not have mesocolon"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify the junction\npoint of all tenue coli:",
+    "options": [
+      "Medial surface of colon ascendens",
+      "anterior surface of colon transversum",
+      "ileum",
+      "lateral surface of colon sigmoideum",
+      "Posteromedial surface of caecum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify the position\nof colon transversum in relationship to peritoneum:",
+    "options": [
+      "mesoperitoneal",
+      "Retroperitoneal",
+      "intraperitoneal, has mesocolon",
+      "intraperitoneal, does not have mesocolon",
+      "has no contact with peritoneum"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify the position of colon ascendens in relationship to peritoneum:",
+    "options": [
+      "has no contact with peritoneum",
+      "intraperitoneal, does not have mesocolon",
+      "mesoperitoneal",
+      "intraperitoneal, has mesocolon",
+      "Retroperitoneal"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify what is\nlocated in front of rectum in males:",
+    "options": [
+      "sacrum et coccyx",
+      "uterus et vagina",
+      "Perineum",
+      "articulatio sacroiliaca",
+      "vesica urinaria et gl. prostatica"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify what is\nlocated in front of rectum in females:",
+    "options": [
+      "uterus et vagina",
+      "perineum",
+      "sacrum et coccyx",
+      "articulatio sacroiliaca",
+      "vesica urinaria et gl. prostatica"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which of the\nanatomical elements is not characteristic to structures of tunica mucosa recti:",
+    "options": [
+      "valvulae anales",
+      "plicae transversae",
+      "columnae anales",
+      "sinus anales",
+      "villi anales"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Ligaments of liver\ninclude all, EXCEPT:",
+    "options": [
+      "lig. triangulare sinistrum",
+      "lig. teres hepatis",
+      "lig. falciforme hepatis",
+      "lig. triangulare superior",
+      "lig. triangulare dextrum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which of the\nligaments represents obliterated vena umbilicalis:",
+    "options": [
+      "lig. venosum",
+      "lig. triangulare dextrum",
+      "lig. coronarium",
+      "lig. falciforme hepatis",
+      "lig. teres hepatis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which of the\nligaments represents obliterated ductus venosus:",
+    "options": [
+      "lig. coronarium",
+      "lig. teres hepatis",
+      "lig. falciforme hepatis",
+      "lig. triangulare dextrum",
+      "lig. venosum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "There are present all\nlobes of liver, EXCEPT:",
+    "options": [
+      "lobus hepatis sinister",
+      "lobus quadratus",
+      "lobus papillaris",
+      "lobus hepatis dexter",
+      "lobus caudatus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In porta hepatis can\nbe found all structures, EXCEPT:",
+    "options": [
+      "a. hepatica",
+      "vasa lymphatica",
+      "v. centralis",
+      "v. portae",
+      "ductus hepaticus communis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "On facies visceralis hepatis\ncan be found all impressions, EXCEPT:",
+    "options": [
+      "impressio gastrica",
+      "impressio oesophagea",
+      "impressio duodenalis",
+      "impressio jejunalis",
+      "impressio renalis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which fold\nis formed in collum vesica fellea:",
+    "options": [
+      "plica diagonalis",
+      "plicae circulares",
+      "plica fimbriate",
+      "plica spiralis",
+      "plica longitudinalis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify sceletotopy of\npancreas:",
+    "options": [
+      "L III-IV",
+      "Th XI-XII",
+      "Th XII – L I",
+      "L II-III",
+      "L I-II"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function of\nLangerhans islands of pancreas:",
+    "options": [
+      "Secretion of chymosine and inulin",
+      "Secretion of lipase",
+      "Secretion of trypsinogen and amylase",
+      "Secretion of insulin and glucagon",
+      "Secretion of pepsinogen and gastrin"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which anatomical structures are adjacent to posterior\nsurface of pancreas:",
+    "options": [
+      "Aorta,\nv. cava inferior et plexus coeliacus",
+      "Hilum\nlienalis",
+      "Ren\net glandulla suprarenalis dextra",
+      "Pars\nsuperior, descendens et horizontalis duodeni",
+      "Lobus\ncaudatus hepatis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify what lies between fascia endabdominalis et peritoneum on posterior abdominal wall:",
+    "options": [
+      "spatium\nretroperitoneale",
+      "peritoneum\nviscerale",
+      "cavitas\nperitonei",
+      "spatium\npreviscerale",
+      "recessus\nomentalis superior"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Retroperitoneal organs include all, EXCEPT:",
+    "options": [
+      "Vagina",
+      "Hepar",
+      "Pars\nhorizontalis duodeni",
+      "glandulla\nsuprarenalis",
+      "Ren"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Mesoperitoneal organs include all, EXCEPT:",
+    "options": [
+      "colon\nascendens",
+      "glandulla\nsuprarenalis",
+      "colon\ndescendens",
+      "middle\nportion of rectum",
+      "filled\nvesica urinaria"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Intraperitoneal organs include all, EXCEPT:",
+    "options": [
+      "Caecum",
+      "Colon\nsigmoideum",
+      "Colon\ntransversum",
+      "Appendix\nvermiformis",
+      "Jejunum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Intraperitoneal organs include all, EXCEPT:",
+    "options": [
+      "Colon\nsigmoideum",
+      "Colon\ntransversum",
+      "gaster",
+      "Superior\nthird of rectum",
+      "colon\nascendens"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Intraperitoneal organs include all, EXCEPT:",
+    "options": [
+      "gaster",
+      "Vesica\nurinaria",
+      "Appendix\nvermiformis",
+      "Lien",
+      "Colon\nsigmoideum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Peritoneum on internal surface of anterior abdominal\nwall forms all structures, EXCEPT:",
+    "options": [
+      "fossa\nhypogastrica medialis",
+      "plica\numbilicalis medialis",
+      "fossa\nsupravesicalis",
+      "fossa\ninguinalis medialis",
+      "plica\numbilicalis mediana"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify\nall ligaments, which participate in formation of omentum minus:",
+    "options": [
+      "lig.\nhepatoduodenale et hepatogastricum",
+      "ligg.\ntriangularia dextrum et sinistrum",
+      "lig.\ncoronarium et ligg. triangularia dextrum et sinistrum",
+      "lig.\nfalciforme hepatis",
+      "lig.\ngastrocolicum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify anatomical structure which is formed by\nupper edge of conus elasticus:",
+    "options": [
+      "lig.\nvocale",
+      "lig.\nvestibulare",
+      "cartilago\narytenoidea",
+      "epiglottis",
+      "plicae\naryepiglottica"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Cartilago thyroidea anatomically has all\nstructures, EXCEPT:",
+    "options": [
+      "lamina\ndextra et sinistra",
+      "cornu\ninferius",
+      "linea\nobliqua",
+      "incisura\nthyroidea superior",
+      "arcus\ncartilaginis thyroidea"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Cartilages of larynx include all, EXCEPT:",
+    "options": [
+      "cartilagо triticia",
+      "cartilagо corniculata",
+      "cartilagо cuneiformis",
+      "cartilagо cricoidea",
+      "cartilagо vestibularis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which connection of larynx belongs to\ndiarthrosis:",
+    "options": [
+      "membrana\nthyrohyoidea",
+      "lig.\nthyrohyoidea medianum",
+      "lig.\nhyoepiglotticum",
+      "articulatio\ncricothyroidea",
+      "lig.\ncricothyroideum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Syndesmoses of larynx include all, EXCEPT:",
+    "options": [
+      "membrana\nthyrohyoidea",
+      "lig.\ncricoarytenoideum",
+      "ligg.\nthyrohyoidea lateralia",
+      "lig.\nthyrohyoidea medianum",
+      "lig.\nhyoepiglotticum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Appendices epiploicae, teniae coli et haustrae\nare typical for all parts of intestinum crissum, except:",
+    "options": [
+      "Caecum",
+      "Colon sigmoideum",
+      "Colon descendens",
+      "Rectum",
+      "Colon transversum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify communication, which used to be present\nbetween midgut and yolk sac:",
+    "options": [
+      "Ductus umbilicalis",
+      "Ductus serotinus",
+      "Ductus cloacalis",
+      "Ductus colicus",
+      "Ductus vitellinus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify disease, which develops if hindgut does\nNOT establish communication with caudal fossa by rupturing cloacal plate:",
+    "options": [
+      "esophageal atresia",
+      "Diverticulitis",
+      "atresia of rectum",
+      "Stomatitis",
+      "esophageal hernia"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify, from which structure develops primary\ngut:",
+    "options": [
+      "Celom",
+      "Allantois",
+      "Urachus",
+      "Chorda",
+      "Yolk sac"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify from which structure do develop\ncartilagines laryngei:",
+    "options": [
+      "4-5th pharyngeal arch",
+      "3rd pharyngeal arch",
+      "1st pharyngeal arch",
+      "2nd pharyngeal arch",
+      "Preotic myotomes"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify, from which structure do develop\nexcretory organs:",
+    "options": [
+      "Intermediate mesoderm",
+      "Splanchnomesoderm",
+      "Venteromesoderm",
+      "Somites",
+      "Somatomesoderm"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which structure do develop mimic\nmuscles:",
+    "options": [
+      "3rd pharyngeal arch",
+      "1st pharyngeal arch",
+      "2nd pharyngeal arch",
+      "Preotic myotomes",
+      "4-5th pharyngeal arch"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify from which structure do develop mm.\nlaryngei:",
+    "options": [
+      "2nd pharyngeal arch",
+      "4-5th pharyngeal arch",
+      "1st pharyngeal arch",
+      "3rd pharyngeal arch",
+      "Preotic myotomes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify from which structure do develop mm.\npharyngei:",
+    "options": [
+      "3rd pharyngeal arch",
+      "2nd pharyngeal arch",
+      "1st pharyngeal arch",
+      "Preotic myotomes",
+      "4-5th pharyngeal arch"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify, from which structure do develop tela\nsubmucosa of intestines:",
+    "options": [
+      "Splanchnomesoderm",
+      "Endoderm",
+      "Somatomesoderm",
+      "Somites",
+      "Intermediate mesoderm"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify, from which structure do develop tunica\nmucosa of intestines:",
+    "options": [
+      "Intermediate mesoderm",
+      "Endoderm",
+      "Somatomesoderm",
+      "Splanchnomesoderm",
+      "Somites"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify, from which structure do develop tunica\nmuscularis of intestines:",
+    "options": [
+      "Splanchnomesoderm",
+      "Somatomesoderm",
+      "Somites",
+      "Endoderm",
+      "Intermediate mesoderm"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify, from which structure do develop tunica\nserosa of intestines:",
+    "options": [
+      "Endoderm",
+      "Intermediate mesoderm",
+      "Somatomesoderm",
+      "Somites",
+      "Splanchnomesoderm"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify from which structure does develop\nanterior 2/3 of the tongue:",
+    "options": [
+      "4-5th pharyngeal arch",
+      "1st pharyngeal arch",
+      "Preotic myotomes",
+      "3rd pharyngeal arch",
+      "2nd pharyngeal arch"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify from which structure does develop\nincus:",
+    "options": [
+      "Preotic myotomes",
+      "2nd pharyngeal arch",
+      "3rd pharyngeal arch",
+      "1st pharyngeal arch",
+      "4-5th pharyngeal arch"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify from which structure does develop\nmaxilla:",
+    "options": [
+      "1st pharyngeal arch",
+      "2nd pharyngeal arch",
+      "4-5th pharyngeal arch",
+      "3rd pharyngeal arch",
+      "Preotic myotomes"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which structure does develop m.\nmylohyoideus:",
+    "options": [
+      "4-5th pharyngeal arch",
+      "Preotic myotomes",
+      "3rd pharyngeal arch",
+      "1st pharyngeal arch",
+      "2nd pharyngeal arch"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify from which structure does develop m. stapedius:",
+    "options": [
+      "2nd pharyngeal arch",
+      "Preotic myotomes",
+      "3rd pharyngeal arch",
+      "4-5th pharyngeal arch",
+      "1st pharyngeal arch"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which structure does develop m. stylopharyngeus:",
+    "options": [
+      "4-5th pharyngeal arch",
+      "3rd pharyngeal arch",
+      "2nd pharyngeal arch",
+      "1st pharyngeal arch",
+      "Preotic myotomes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify from which structure does develop m.\ntensoris veli palatini:",
+    "options": [
+      "4-5th pharyngeal arch",
+      "Preotic myotomes",
+      "1st pharyngeal arch",
+      "3rd pharyngeal arch",
+      "2nd pharyngeal arch"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify from which structure does develop\npalatum:",
+    "options": [
+      "1st pharyngeal arch",
+      "3rd pharyngeal arch",
+      "Preotic myotomes",
+      "4-5th pharyngeal arch",
+      "2nd pharyngeal arch"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which structure does develop\ntonsilla palatina:",
+    "options": [
+      "2nd pharyngeal arch",
+      "3rd pharyngeal arch",
+      "1st pharyngeal arch",
+      "Preotic myotomes",
+      "4-5th pharyngeal arch"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify from which structure does develop tuba\nauditiva:",
+    "options": [
+      "3rd pharyngeal arch",
+      "2nd pharyngeal arch",
+      "1st pharyngeal arch",
+      "4-5th pharyngeal arch",
+      "Preotic myotomes"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify from which structure does develop vesica\nfellea:",
+    "options": [
+      "Ductus vitellinus",
+      "Midgut",
+      "Intermediate mesoderm",
+      "Hindgut",
+      "Foregut"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify into which structure does develop\nallantois:",
+    "options": [
+      "Ductus vitellinus",
+      "Urachus",
+      "Vesicae urinaria",
+      "Mekkel`s diverticulum",
+      "Appendix vermiformis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify main enzyme secreted by tunica mucosa\ngastrici:",
+    "options": [
+      "Pepsin",
+      "Cocarboxylase",
+      "Lipase",
+      "Amylase",
+      "Tripsin"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify when foregut establishes communication\nwith oral cavity by rupturing oral (pharyngeal) plate:",
+    "options": [
+      "on 3rd gestational week",
+      "on 7th  gestational week",
+      "on 9th  gestational week",
+      "on 11th  gestational week",
+      "on 5th  gestational week"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify when hindgut establishes communication\nwith caudal fossa by rupturing cloacal plate:",
+    "options": [
+      "on 11th  gestational week",
+      "on 5th  gestational week",
+      "on 3rd gestational week",
+      "on 9th  gestational week",
+      "on 7th  gestational week"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which antimicrobial molecule is\nsecreted with saliva:",
+    "options": [
+      "Lipase",
+      "Lysozyme",
+      "Amylase",
+      "Properdin",
+      "Avidin"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify, which cells cover tunica serosa:",
+    "options": [
+      "Mesangial cells",
+      "Mesothelial cells",
+      "Stellate cells",
+      "Endothelial cells",
+      "Kuppfer cells"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify, which layer is not present in the wall\nof tubular organs of gastrointestinal tract:",
+    "options": [
+      "Tela submuscularis",
+      "Tunica serosa",
+      "Tela submucosa",
+      "Tunica muscularis",
+      "Tunica mucosa"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which molecules are absorbed by tunica\nmucosa gastrici more efficiently?",
+    "options": [
+      "Peptides",
+      "Vitamin D",
+      "Alcohol",
+      "Cholesterol",
+      "Fatty acids"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify which organ develop from the embryonic\nforgut?",
+    "options": [
+      "Colon transversum",
+      "Rectum",
+      "Esophagus",
+      "Ileum",
+      "Ileum"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify which organ develop from the embryonic\nmidgut?",
+    "options": [
+      "Esophagus",
+      "Duodenum",
+      "Colon transversum",
+      "Colon sigmoideum",
+      "Rectum"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify which organ does not develop from the\nembryonic foregut?",
+    "options": [
+      "Duodenum",
+      "Liver",
+      "Esophagus",
+      "Oral cavity",
+      "Stomach"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which organ does not develop from the\nembryonic foregut?",
+    "options": [
+      "Jejunum",
+      "Stomach",
+      "Liver",
+      "Duodenum",
+      "Esophagus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which organ does not develop from the\nembryonic foregut?",
+    "options": [
+      "Esophagus",
+      "Duodenum",
+      "Ileum",
+      "Pancreas",
+      "Stomach"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify which organ does not develop from the\nembryonic hindgut?",
+    "options": [
+      "Colon transversum",
+      "Only ampulla recti",
+      "Rectum",
+      "Colon sigmoideum",
+      "Colon descendens"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which organ does not develop from the\nembryonic midgut?",
+    "options": [
+      "Ileum",
+      "Jejunum",
+      "Caecum",
+      "Pancreas",
+      "Colon ascendens",
+      "Colon transversum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which organ does not develop from the\nembryonic midgut?",
+    "options": [
+      "Ileum",
+      "Jejunum",
+      "Colon transversum",
+      "Colon ascendens",
+      "Duodenum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which part does not belong to gaster?",
+    "options": [
+      "Corpus",
+      "Fundus",
+      "Pars pylorica",
+      "Cauda gastrici",
+      "Pars cardiaca"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify, which structure does NOT belong to\nserous layers:",
+    "options": [
+      "Peritoneum",
+      "Pleura",
+      "Pericardium",
+      "Meninges"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify, which structure does NOT develop from\nmesoderm:",
+    "options": [
+      "Somatomesoderm",
+      "Intermediate mesoderm",
+      "Somites",
+      "Splanchnomesoderm",
+      "Venteromesoderm"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which teeth`s function is primarily\nbiting?",
+    "options": [
+      "All teeth",
+      "Dens canines",
+      "Dens molares",
+      "Dens incisivus",
+      "Dens premolares"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which teeth`s function is primarily\nchewing?",
+    "options": [
+      "All teeth",
+      "Dens molares",
+      "Dens incisivus",
+      "Dens canines"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Inflammation of Mekkel`s diverticulum can mimic\nappendicitis. Identify from which structure does it develop:",
+    "options": [
+      "Appendices epiploicae",
+      "Ductus umbilicalis",
+      "Ductus vitellinus",
+      "Appendix caecalis",
+      "Appendix vermiformis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Lig. teres hepatis develops from:",
+    "options": [
+      "Trophoblast",
+      "Allantois",
+      "Umbilical vein",
+      "Urachus",
+      "Vena cardinalia"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Lig. venosum hepatis develops from:",
+    "options": [
+      "Ductus venosus",
+      "Vena cephalica",
+      "Vena cardinalia",
+      "Urachus",
+      "Umbilical vein"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Lobus hepatis dexter et sinister superiorly are\ndivided by:",
+    "options": [
+      "Lig. terminalis hepatis",
+      "Lig. coronarius hepatis",
+      "Lig. falciforme hepatis",
+      "Lig. venosum hepatis",
+      "Lig. hepatophrenicus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Omentum majus develops from:",
+    "options": [
+      "Ligamentum gubernaculum",
+      "Celomic cavity",
+      "Ventral mesentery of gaster",
+      "Dorsal mesentery of gaster",
+      "Septum transversum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which organ does NOT belong to upper\nrespiratory tract:",
+    "options": [
+      "trachea",
+      "larynx",
+      "maxillary sinus",
+      "nasal cavity",
+      "bronchus principalis dexter"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify which structure does NOT belong to\nparanasal sinuses:",
+    "options": [
+      "Sinus frontalis",
+      "Sinus sphenoidalis",
+      "Sinus maxillaris",
+      "Sinus tonsillaris",
+      "Sinus ethmoidalis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify which structure does NOT exist:",
+    "options": [
+      "bronchus lobaris sinister media",
+      "bronchus lobaris dexter superior",
+      "bronchus lobaris dexter media",
+      "bronchus lobaris sinister inferior",
+      "bronchus lobaris dexter inferior"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify main breathing muscle:",
+    "options": [
+      "m. pectoralis major",
+      "mm. levatores costarum",
+      "m. phrenicus",
+      "m. obliquus externus abdominis",
+      "mm. scalenii"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify main breathing muscle:",
+    "options": [
+      "Surfactant",
+      "Respirant",
+      "Perspirant",
+      "Seismorant",
+      "Succulent"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify which organ does NOT belong to lower\nrespiratory tract:",
+    "options": [
+      "Bronchiola respiratoria",
+      "pars oralis pharyngis",
+      "bronchus segmentalis",
+      "bronchus principalis dexter",
+      "alveoli"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify structure which is NOT present in hilus\npulmonis:",
+    "options": [
+      "bronchus principalis",
+      "a. pulmonalis",
+      "v. azygos",
+      "nervi",
+      "vasa lymphatica"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify main exhaling muscle:",
+    "options": [
+      "m. pectoralis major",
+      "no muscle, it is passive act",
+      "mm. scalenii",
+      "mm. levatores costarum",
+      "m. obliquus externus abdominis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Lungs are intimately surrounded by:",
+    "options": [
+      "Visceral pleura",
+      "Mediastinum",
+      "Parietal pleura",
+      "Pericardium",
+      "Costae"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Mediastinum is located:",
+    "options": [
+      "Inferiorly from lungs",
+      "Posteriorly from lungs",
+      "In middle story of peritoneal cavity",
+      "In upper story of peritoneal cavity",
+      "Medially from lungs"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify organ, which does NOT belong to\nexcretory organs:",
+    "options": [
+      "Ren",
+      "Urethra",
+      "Vesica urinaria",
+      "Ureter",
+      "Prostate"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function, which does NOT belong to\nexcretory organs:",
+    "options": [
+      "Elimination of drugs",
+      "Maintenance of ionic balance",
+      "Elimination of nitrogenous wastes",
+      "Maintenance of osmotic balance",
+      "Maintenance of oncotic balance"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function, which does NOT belong to\nexcretory organs:",
+    "options": [
+      "Regulation of red blood cells production",
+      "Regulation of blood pressure",
+      "Elimination of drugs",
+      "Maintenance of ionic balance",
+      "Regulation of white blood cells production"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What is the structural unit of kidney?",
+    "options": [
+      "Nephron",
+      "Nephroblast",
+      "Nephrite",
+      "Nephrostoma",
+      "Osteon"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify part, which does NOT belong to nephron:",
+    "options": [
+      "Ansa nephroni",
+      "Ductus colligens",
+      "Corpusculum renale",
+      "Tubulus contortius distale",
+      "Tubulus contortius proximale"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Glomerulus and Bowman`s capsule together are\nforming:",
+    "options": [
+      "Locus coereleus",
+      "Ductus colligens",
+      "Plexus choroideus",
+      "Ansa nephroni",
+      "Corpusculum renale"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function, which is more characteristic\nto tubulus contortius proximale:",
+    "options": [
+      "Reabsorption of Na",
+      "Resorption of Ca",
+      "Reabsorption of organic molecules",
+      "Secretion of nitrogenous wastes",
+      "Reabsorption of water"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify function, which is more characteristic\nto ansa nephroni:",
+    "options": [
+      "Secretion of nitrogenous wastes",
+      "Reabsorption of organic molecules",
+      "Reabsorption of vitamins",
+      "Reabsorption of water",
+      "Resorption of Ca"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify function, which is more characteristic\nto tubulus contortius distale:",
+    "options": [
+      "Reabsorption of organic molecules",
+      "Resorption of Ca",
+      "Secretion of nitrogenous wastes",
+      "Reabsorption of water",
+      "Reabsorption of vitamins"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify function, which is more characteristic\nto ductus colligens:",
+    "options": [
+      "Reabsorption of vitamins",
+      "Reabsorption of organic molecules",
+      "Resorption of Ca",
+      "Secretion of nitrogenous wastes",
+      "Reabsorption of water"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify, which cells form tunica mucosa\nureteris:",
+    "options": [
+      "Squamous nonceratinising epithelium",
+      "Cuboid epithelium",
+      "Squamous ceratinising epithelium",
+      "Ciliary epithelium",
+      "Transitional epithelium"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify glands, which are characteristic for\ntunica mucosa urethra masculina:",
+    "options": [
+      "Bartoline`s glands",
+      "Glands of Littre",
+      "Seminal glands",
+      "Cowper`s glands",
+      "Bulbourethral glands"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify function of mesangial cells:",
+    "options": [
+      "Reabsorption of Na",
+      "Reabsorption of water",
+      "Phagocytosis",
+      "Ultrafiltration",
+      "Erythropoietin production"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify type of endothelium, which is\ncharacteristic for filtration barrier in nephron:",
+    "options": [
+      "Leaky endothelium",
+      "Squamous endothelium",
+      "Fenestrated endothelium",
+      "Dense endothelium",
+      "There are no endothelial cells"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Bowman`s capsule epithelial cells are\nrepresented by:",
+    "options": [
+      "Ciliary epithelial cells",
+      "Podocytes",
+      "Prismatic epithelial cells",
+      "mesangial cells",
+      "Fenestrated endothelium"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify hormone, which is produced by kidney:",
+    "options": [
+      "Na-uretic hormone",
+      "Cortisol",
+      "Aldosterone",
+      "Vasopressin",
+      "Erythropoietin"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Internal sphincter of urethra is formed:",
+    "options": [
+      "In pars membranacea urethra",
+      "By vesica seminalis",
+      "By tunica muscularis vesicae urinaria",
+      "In pars spongiosa urethra",
+      "By one of the muscles of perineum"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "External sphincter of urethra is formed:",
+    "options": [
+      "By vesica seminalis",
+      "In pars prostatica urethra",
+      "By tunica muscularis vesicae urinaria",
+      "By one of the muscles of perineum",
+      "In pars spongiosa urethra"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify function, which does NOT belong to male\nreproductive organs:",
+    "options": [
+      "Production of erythropoietin",
+      "Ejaculation",
+      "Production of spermatozoa",
+      "Spermatogenesis",
+      "Production of testosterone"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Identify structure, which does NOT belong to\ntestis:",
+    "options": [
+      "Tubuli seminiferii recti",
+      "Tunica albuginea",
+      "Tubuli seminiferii contortii",
+      "Tubuli contortii proximales",
+      "Mediastinum"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Identify structure, where are located Leydig\ncells:",
+    "options": [
+      "Mediastinum testis",
+      "Tunica albuginea",
+      "Interstitium",
+      "Septuli testis",
+      "Rete testis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify cells, which are responsible for\nproduction of androgens:",
+    "options": [
+      "Sertoli cells",
+      "Kuppfer cells",
+      "Leydig cells",
+      "Schwan cells",
+      "Schternberg cells"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify structure, where is located rete\ntestis:",
+    "options": [
+      "Pyramides testis",
+      "Lobuli testis",
+      "Tunica albuginea",
+      "Septuli testis",
+      "Mediastinum testis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function, which does NOT belong to\nscrotum:",
+    "options": [
+      "Thermo sensation",
+      "Production of testosterone",
+      "Protection",
+      "Irradiation of heat",
+      "Contraction"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Identify correct phrase for tunica vaginalis\ntestis:",
+    "options": [
+      "It develops from peritoneum",
+      "It produces hormones",
+      "It is fibrous covering",
+      "It has contractile ability",
+      "It regulates menstrual cycle"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Presence of trabeculae is characteristic for:",
+    "options": [
+      "Corpus spongiosum penis",
+      "Bulbus penis",
+      "Prostate gland",
+      "Corpora cavernosa penis",
+      "Glans penis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Cowper's gland is the same as:",
+    "options": [
+      "Prostate gland",
+      "paraurethral glands",
+      "Urethral glands",
+      "Seminal glands",
+      "Bulbourethral glands"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify phrase, which is NOT characteristic for\nprostate gland:",
+    "options": [
+      "Made by 50 lobules",
+      "Excretory ducts open into urethra",
+      "Produces yellowish viscid alkaline fluid",
+      "It has 2 lobes",
+      "Urethra pass through it"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Ductus deferens et vesica seminalis join to\nform:",
+    "options": [
+      "Ductus testoseminalis",
+      "Ductus seminalis communis",
+      "Ductus excretorius",
+      "Ductus prostaticus communis",
+      "Ductus ejaculatorius"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Plexus pampiniformis is:",
+    "options": [
+      "Inner neural plexus of ductus deference",
+      "Inner neural plexus of testis",
+      "Outer neural plexus of testis",
+      "Venous plexus of ductus deference",
+      "Outer neural plexus of ductus deference"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Gubernaculum testis is:",
+    "options": [
+      "Ligament, descending testis in fetal period",
+      "one of the layers of testis",
+      "is the same as venous plexus of ductus deference",
+      "is the same as venous plexus of testis",
+      "Ligament, fixing testis in children"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Testis et epididymis are connected by:",
+    "options": [
+      "isthmus",
+      "ductuli aberrantes",
+      "rete testis",
+      "Ductus deferens",
+      "ductuli efferentes"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify function, which does NOT belong to female\nreproductive organs:",
+    "options": [
+      "production of estrogen",
+      "gametogenesis",
+      "production of androgens",
+      "Production of ova",
+      "gestation"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify organ, which does NOT belong female\ninternal genitalia:",
+    "options": [
+      "vagina",
+      "ovarium",
+      "tuba uterina",
+      "uterus",
+      "pudendum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify structure, which serves function of the\nmesentery of the uterus:",
+    "options": [
+      "lig. latum uteri",
+      "lig. teres uteri",
+      "lig. cardinalia",
+      "lig. pubouterinus",
+      "Recessus rectouterinus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "All structures are formed by or invested by lig.\nlatum uteri, EXCEPT:",
+    "options": [
+      "lig. teres uteri",
+      "mesosalpinx",
+      "mesovarium",
+      "lig. ovarium proprium",
+      "lig. rectouterinus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Identify how mesovarium is formed:",
+    "options": [
+      "by 2 layers of peritoneum going medially from\npelvic wall",
+      "by 4 layers of peritoneum descending from pelvic\nwall",
+      "by anterior extension of lig. latum uteri",
+      "by 2 layers of peritoneum descending from pelvic\nwall",
+      "by posterior extension of lig. latum uteri"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Mesosalpinx is represented by:",
+    "options": [
+      "2 layers of peritoneum coming from vesica\nurinaria",
+      "Superior extension of lig. teres uteri",
+      "Superior border of lig. latum uteri",
+      "Peritoneal folds, limiting Douglas pouch",
+      "Superior extension of mesovarium"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Lig. ovarium proprium starts from:",
+    "options": [
+      "rectum",
+      "posterior surface of uterus",
+      "cornu uteri",
+      "cervix uteri",
+      "anterior surface of uterus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Identify structure, which is present in female\ncanalis inguinalis:",
+    "options": [
+      "lig. ovarium proprium",
+      "lig. teres uteri",
+      "lig. pubouterinus",
+      "lig. rectouterinus",
+      "lig. suspensorium ovarii"
+    ],
+    "correct": 1
   }
 ]

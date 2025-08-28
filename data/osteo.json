@@ -2,979 +2,1100 @@
   {
     "question": "One of the characteristic features of the cervical vertebrae is the presence of:",
     "options": [
-      "a. fovea costalis",
-      "b. foramen processus transversus",
-      "c. processus mastoideus",
-      "d. promontorium",
-      "e. incisura jugularis"
+      "promontorium",
+      "foramen processus transversus",
+      "incisura jugularis",
+      "processus mastoideus",
+      "fovea costalis"
     ],
     "correct": 1
   },
   {
     "question": "The front (rib) surface of the scapula forms:",
     "options": [
-      "a. spina scapulae",
-      "b. acromion",
-      "c. fossa subscapularis",
-      "d. fossa supraspinata",
-      "e. fossa infraspinata"
+      "fossa infraspinata",
+      "fossa supraspinata",
+      "acromion",
+      "fossa subscapularis",
+      "spina scapulae"
     ],
-    "correct": 2
+    "correct": 3
   },
   {
     "question": "The upper (proximal) row of carpal bones consists of all bones, EXCEPT:",
     "options": [
-      "a. os triquetrum",
-      "b. os scafoideum",
-      "c. os pisiforme",
-      "d. os lunatum",
-      "e. os hamatum"
+      "os triquetrum",
+      "os hamatum",
+      "os scafoideum",
+      "os lunatum",
+      "os pisiforme"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "Which cervical vertebra is called axis:",
     "options": [
-      "a. The 1st",
-      "b. The 3rd",
-      "c. The 4th",
-      "d. The 2nd",
-      "e. The 5th"
+      "The 1st",
+      "The 3rd",
+      "The 5th",
+      "The 2nd",
+      "The 4th"
     ],
     "correct": 3
   },
   {
     "question": "Where on the first rib passes the sulcus of the subclavian artery:",
     "options": [
-      "a. in front of the tubercle of the anterior scalene muscle",
-      "b. in front of the tubercle of the first rib",
-      "c. on the inferior surface",
-      "d. on the tubercle of anterior scalene muscle",
-      "e. behind the tubercle of anterior scalene muscle"
+      "on the tubercle of anterior scalene muscle",
+      "on the inferior surface",
+      "behind the tubercle of anterior scalene muscle",
+      "in front of the tubercle of the anterior scalene muscle",
+      ""
     ],
-    "correct": 4
+    "correct": 2
   },
   {
     "question": "Which of the following bones refers to the pectoral girdle:",
     "options": [
-      "a. costa prima",
-      "b. clavicula",
-      "c. axis",
-      "d. humerus",
-      "e. atlas"
+      "humerus",
+      "axis",
+      "atlas",
+      "clavicula",
+      "costa prima"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "On the posterior surface of the body of the tibia is:",
     "options": [
-      "a. eminentia intercondylaris",
-      "b. tuberositas tibiae",
-      "c. area intercondylaris posterior",
-      "d. incisura fibularis",
-      "e. linia musculi solei"
+      "eminentia intercondylaris",
+      "tuberositas tibiae",
+      "area intercondylaris posterior",
+      "incisura fibularis",
+      "linia musculi solei"
     ],
     "correct": 4
   },
   {
     "question": "On which of the surfaces of the maxilla is the fossa canina present:",
     "options": [
-      "a. temporalis",
-      "b. anterior",
-      "c. infratemporalis",
-      "d. orbitalis",
-      "e. nasalis"
+      "orbitalis",
+      "nasalis",
+      "anterior",
+      "infratemporalis",
+      "temporalis"
     ],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "Zygomatic bone has all elements, EXCEPT:",
     "options": [
-      "a. sulcus infraorbitalis",
-      "b. foramen zygomaticoorbitale",
-      "c. processus temporalis",
-      "d. foramen zygomaticofaciale",
-      "e. processus frontalis"
+      "processus temporalis",
+      "foramen zygomaticoorbitale",
+      "sulcus infraorbitalis",
+      "processus frontalis",
+      "foramen zygomaticofaciale"
     ],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "Pubic bone has all following elements, EXCEPT:",
     "options": [
-      "a. pecten ossis pubis",
-      "b. facies auricularis",
-      "c. ramus superior",
-      "d. facies symphysialis",
-      "e. tuberculum pubicum"
+      "pecten ossis pubis",
+      "ramus superior",
+      "facies symphysialis",
+      "facies auricularis",
+      "tuberculum pubicum"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "The tibia has the following morphological elements, EXCEPT:",
     "options": [
-      "a. eminentia intercondylaris",
-      "b. linea musculi solei",
-      "c. incisura fibularis",
-      "d. malleolus lateralis",
-      "e. area intercodylaris posterior"
+      "malleolus lateralis",
+      "eminentia intercondylaris",
+      "linea musculi solei",
+      "area intercodylaris posterior",
+      "incisura fibularis"
     ],
-    "correct": 3
+    "correct": 0
   },
   {
     "question": "The cuboid bone is connected with all the bones, EXCEPT:",
     "options": [
-      "a. os cuneiforme lateralis",
-      "b. os metatarsi V",
-      "c. os metatarsi IV",
-      "d. calcaneus",
-      "e. talus"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "On the infratemporal surface of the maxilla is:",
-    "options": [
-      "a. tuber maxillae",
-      "b. fossa canina",
-      "c. sulcus lacrimalis",
-      "d. hiatus maxillaris",
-      "e. foramen infraorbitalis"
+      "talus",
+      "os metatarsi V",
+      "os cuneiforme lateralis",
+      "calcaneus",
+      "os metatarsi IV"
     ],
     "correct": 0
+  },
+  {
+    "question": "On the infratemporal surfice of the maxilla is:",
+    "options": [
+      "fossa canina",
+      "hiatus maxillaris",
+      "tuber maxillae",
+      "foramen infraorbitalis",
+      "sulcus lacrimalis"
+    ],
+    "correct": 2
   },
   {
     "question": "The frontal bone has:",
     "options": [
-      "a. pars basilaris",
-      "b. crista galli",
-      "c. sulcus sinus sigmoidei",
-      "d. sinus frontalis",
-      "e. processus pterygoideus"
+      "sinus frontalis",
+      "sulcus sinus sigmoidei",
+      "pars basilaris",
+      "crista galli",
+      "processus pterygoideus"
     ],
-    "correct": 3
+    "correct": 0
   },
   {
     "question": "The body of the sphenoid bone has the following elements, EXCEPT:",
     "options": [
-      "a. foramen ovale",
-      "b. sinus sphenoidalis",
-      "c. fossa hypophysialis",
-      "d. crista sphenoidalis",
-      "e. sulcus caroticus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "At the base of the great wing of the sphenoid bone is located:",
-    "options": [
-      "a. foramen spinosum",
-      "b. foramen jugulare",
-      "c. foramen caecum",
-      "d. foramen caroticum internum",
-      "e. foramen mastoideum"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "The ethmoid bone has the following elements, except:",
-    "options": [
-      "a. lamina orbitalis",
-      "b. concha nasalis media",
-      "c. concha nasalis superior",
-      "d. concha nasalis inferior",
-      "e. crista galli"
+      "crista sphenoidalis",
+      "foramen ovale",
+      "sulcus caroticus",
+      "fossa hypophysialis",
+      "sinus sphenoidalis"
     ],
     "correct": 1
   },
   {
-    "question": "On the posterior surface of the pyramis of the temporal bone is:",
+    "question": "At the base\nof the great wing of the sphenoid bone is situated:",
     "options": [
-      "a. fossula petrosa",
-      "b. porus acusticus internus",
-      "c. fossa jugularis",
-      "d. eminentia arcuata",
-      "e. tegmen tympani"
+      "foramen caroticum internum",
+      "foramen spinosum",
+      "foramen mastoideum",
+      "foramen caecum",
+      "foramen jugulare"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The ethmoid bone has the following elements, except:",
+    "options": [
+      "crista galli",
+      "concha nasalis media",
+      "concha nasalis inferior",
+      "lamina orbitalis",
+      "concha nasalis superior"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "On the posterior surface of the pyramis of the temporal bone is:",
+    "options": [
+      "fossa jugularis",
+      "porus acusticua internus",
+      "tegmen tympani",
+      "fossula petrosa",
+      "eminentia arcuata"
     ],
     "correct": 1
   },
   {
     "question": "The frontal bone has the following elements, EXCEPT:",
     "options": [
-      "a. sinus frontalis",
-      "b. processus zygomaticus",
-      "c. foramen caecum",
-      "d. sulcus sinus sagitalis superioris",
-      "e. sulcus sinus sigmoidei"
+      "sinus frontalis",
+      "sulcus sinus sigmoidei",
+      "processus zygomaticus",
+      "sulcus sinus sagitalis superioris",
+      "foramen caecum"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "On the inner (cerebral) surface of the occipital bone is:",
     "options": [
-      "a. sulcus sinus sygmoidei",
-      "b. tuberculum pharyngeum",
-      "c. linea nucha superior",
-      "d. condylus ossis occipitalis",
-      "e. sulcus sinus transversus"
+      "sulcus sinus sygmoidei",
+      "sulcus sinus transversus",
+      "condylus ossis occipitalis",
+      "tuberculum pharyngeum",
+      "linea nucha superior"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
-    "question": "On the anterior surface of the pyramis of the temporal bone is:",
+    "question": "On the anterior surface of the pyramis of the temporal bone is:",
     "options": [
-      "a. apertuta externa canaliculi cochleae",
-      "b. apertura externa aqueducti vestibuli",
-      "c. fossa jugularis",
-      "d. impresiio trigemenale",
-      "e. processus styloideus"
+      "processus styloideus",
+      "apertuta externa canaliculi cochleae",
+      "apertura externa aqueducti vestibuli",
+      "impresiio trigemenale",
+      "fossa jugularis"
     ],
     "correct": 3
   },
   {
     "question": "The external opening of the carotid canal is located on the:",
     "options": [
-      "a. base of the pyramis of the temporal bone",
-      "b. the posterior surface of the temporal bone pyramid",
-      "c. the anterior surface of the temporal bone pyramid",
-      "d. the inferior surface of the temporal bone pyramid",
-      "e. great wing of the temporal bone"
+      "the anterior surface of the temporal bone pyramid",
+      "",
+      "base of the pyramis of the temporal bone",
+      "the inferior surface of the temporal bone pyramid",
+      "great wing of the temporal bone"
     ],
     "correct": 3
   },
   {
     "question": "At the depth of the internal auditory canal begins:",
     "options": [
-      "a. canalis facialis",
-      "b. canaliculus tympanicus",
-      "c. canalis musculotubarius",
-      "d. canalis mastoideus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "In the anterior cranial fossa is:",
-    "options": [
-      "a. foramen ovale",
-      "b. foramen rotundum",
-      "c. foramen caecum",
-      "d. canalis hypoglossus",
-      "e. foramen jugularis"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "In the posterior cranial fossa are all anatomical structures except the:",
-    "options": [
-      "a. foramen magnum",
-      "b. porus acusticus internus",
-      "c. sulcus sinus sygmoidei",
-      "d. canalis hypoglossus",
-      "e. crista frontalis"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "The medial wall of the orbit is formed by all following formations, EXCEPT:",
-    "options": [
-      "a. processus frontalis maxillae",
-      "b. os lacrimalis",
-      "c. facies orbitalis alae majoris ossis sphenoidalis",
-      "d. lamina orbitalis ossis ethmoidalis",
-      "e. corpus ossis sphenoidalis"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "On the lateral wall of the orbit is:",
-    "options": [
-      "a. foramen ethmoidale anterius",
-      "b. crista lacrimalis posterior",
-      "c. sulcus infraorbitalis",
-      "d. fossa canina",
-      "e. foramen zygomaticoorbitale"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "In the superior nasal meatus open:",
-    "options": [
-      "a. canalis nasolacrimalis",
-      "b. sinus maxillaris",
-      "c. apertura sinus sphenoidalis",
-      "d. apertura sinus frontalis",
-      "e. cellulae ethmoidales mediae"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "The anterior wall of the pterygoid-palatine fossa is:",
-    "options": [
-      "a. processus perpendicularis ossis palatini",
-      "b. tuber maxillae",
-      "c. basisus processus pterygoidei ossis sphenoidalis",
-      "d. corpus ossis sphenoidalis",
-      "e. ala major ossis sphenoidalis"
+      "canalis musculotubarius",
+      "canalis facialis",
+      "canaliculus tympanicus",
+      "canalis mastoideus"
     ],
     "correct": 1
   },
   {
-    "question": "The pterygo-palatine fossa communicates with the middle cranial fossa using:",
+    "question": "In the anterior cranial fossa is:",
     "options": [
-      "a. canalis pterygoideus major",
-      "b. foramen sphenopalatinum",
-      "c. canalis pterygoideus",
-      "d. foramen ovale",
-      "e. foramen rotundum"
+      "canalis hypoglossus",
+      "foramen rotundum",
+      "foramen jugularis",
+      "foramen ovale",
+      "foramen caecum"
     ],
     "correct": 4
   },
   {
-    "question": "In the middle cranial fossa are all anatomical structures EXCEPT the:",
+    "question": "In the posterior cranial fossa are all anatomical structures except the:",
     "options": [
-      "a. fissura orbitalis superior",
-      "b. foramen caroticum internum",
-      "c. hiatus canalis nervi petrosi minoris",
-      "d. foramen caecum",
-      "e. foramen spinosum"
+      "foramen magnum",
+      "sulcus sinus sygmoidei",
+      "canalis hypoglossus",
+      "crista frontalis",
+      "porus acusticus internus"
     ],
     "correct": 3
   },
   {
-    "question": "In the posterior cranial fossa is:",
+    "question": "The medial wall of the orbit is formed by all following formations, EXCEPT:",
     "options": [
-      "a. hiatus canalis nervi petrosi minoris",
-      "b. hiatus canalis nervi petrosi majoris",
-      "c. foramen jugulare",
-      "d. foramen rotundum",
-      "e. foramen ovale"
+      "processus frontalis maxillae",
+      "facies orbitalis alae majoris ossis sphenoidalis",
+      "os lacrimalis",
+      "corpus ossis sphenoidalis",
+      "lamina orbitalis ossis ethmoidalis"
     ],
-    "correct": 2
+    "correct": 1
   },
   {
-    "question": "On the medial wall of the orbit is all of structures, EXCEPT:",
+    "question": "On the lateral wall of the orbit is:",
     "options": [
-      "a. fossa glandulae lacrimalis",
-      "b. crista lacrimalis posterior",
-      "c. foramen ethmoidale posterius",
-      "d. fossa sacci lacrimalis",
-      "e. foramen ethmoidale anterius"
+      "foramen zygomaticoorbitale",
+      "fossa canina",
+      "sulcus infraorbitalis",
+      "foramen ethmoidale anterius",
+      "crista lacrimalis posterior"
     ],
     "correct": 0
   },
   {
+    "question": "In the superior nasal meatus open:",
+    "options": [
+      "cellulae ethmoidales mediae",
+      "apertura sinus frontalis",
+      "sinus maxillaris",
+      "canalis nasolacrimalis",
+      "apertura sinus sphenoidalis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The anterior wall of the pterygoid-palatine fossa is:",
+    "options": [
+      "tuber maxillae",
+      "corpus ossis sphenoidalis",
+      "ala major ossis sphenoidalis",
+      "processus perpendicularis ossis palatini",
+      "basis processus pterygoidei ossis sphenoidalis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The pterygo-palatine fossa communicates with the middle cranial fossa using:",
+    "options": [
+      "foramen ovale",
+      "canalis pterygoideus major",
+      "foramen sphenopalatinum",
+      "foramen rotundum",
+      "canalis pterygoideus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "In the middle cranial fossa are all anatomical structures EXCEPT the:",
+    "options": [
+      "hiatus canalis nervi petrosi minoris",
+      "foramen caroticum internum",
+      "foramen spinosum",
+      "fissura orbitalis superior",
+      "foramen caecum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "In the posterior cranial fossa is:",
+    "options": [
+      "hiatus canalis nervi petrosi minoris",
+      "foramen rotundum",
+      "foramen ovale",
+      "foramen jugulare",
+      "hiatus canalis nervi petrosi majoris"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "On the medial wall of the orbit is all of structures, EXCEPT:",
+    "options": [
+      "fossa sacci lacrimalis",
+      "foramen ethmoidale posterius",
+      "crista lacrimalis posterior",
+      "foramen ethmoidale anterius",
+      "fossa glandulae lacrimalis"
+    ],
+    "correct": 4
+  },
+  {
     "question": "In the formation of the upper wall of the nasal cavity takes part:",
     "options": [
-      "a. vomer",
-      "b. lamina perpendicularis ossis palatinum",
-      "c. lamina orbitalis ossis ethmoidalis",
-      "d. lamina horizontalis",
-      "e. lamina cribrosa ossis ethmoidalis"
+      "vomer",
+      "",
+      "lamina horizontalis",
+      "lamina perpendicularis ossis palatinum",
+      "lamina cribrosa ossis ethmoidalis"
     ],
     "correct": 4
   },
   {
     "question": "The medial wall of the pterygopalatine fossa is formed by:",
     "options": [
-      "a. processus pterygoideus",
-      "b. ala major ossis sphenoidalis",
-      "c. corpus ossis sphenoidalis",
-      "d. lamina perpendicularis ossis palatini",
-      "e. maxilla"
+      "ala major ossis sphenoidalis",
+      "processus pterygoideus",
+      "lamina perpendicularis ossis palatini",
+      "maxilla",
+      "corpus ossis sphenoidalis"
     ],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Through the sphenopalatine opening, the pterygopalatine fossa communicates with:",
     "options": [
-      "a. fossa cranii media",
-      "b. cavitas nasi",
-      "c. cavitas oris",
-      "d. fossa cranii anterior",
-      "e. orbita"
+      "fossa cranii anterior",
+      "orbita",
+      "cavitas nasi",
+      "cavitas oris",
+      "fossa cranii media"
     ],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "Deltoid tuberosity is the formation of:",
     "options": [
-      "a. femur",
-      "b. humerus",
-      "c. tibia",
-      "d. ulna",
-      "e. radius"
+      "radius",
+      "humerus",
+      "ulna",
+      "femur",
+      "tibia"
     ],
     "correct": 1
   },
   {
     "question": "Which of the following formations opens into the superior nasal passage:",
     "options": [
-      "a. fossa pterygopalatina",
-      "b. cellulae ethmoidales anteriores et mediae",
-      "c. sinus sphenoidalis",
-      "d. sinus maxillaris",
-      "e. sinus frontalis"
+      "sinus sphenoidalis",
+      "sinus maxillaris",
+      "cellulae ethmoidales anteriores et mediae",
+      "sinus frontalis",
+      "fossa pterygopalatina"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "Which of the following formations opens into the inferior nasal meatus:",
     "options": [
-      "a. sinus sphenoidalis",
-      "b. canalis nasolacrimalis",
-      "c. cellulae ethmoidales mediae",
-      "d. sinus maxillae",
-      "e. cellulae ethmoidales posteriores"
+      "sinus sphenoidalis",
+      "canalis nasolacrimalis",
+      "sinus maxillae",
+      "cellulae ethmoidales posteriores",
+      "cellulae ethmoidales mediae"
     ],
     "correct": 1
   },
   {
     "question": "Which of the following formations opens into the middle nasal meatus:",
     "options": [
-      "a. cellulae ethmoidales posteriores",
-      "b. sinus sphenoidalis",
-      "c. cellulae ethmoidales mediae",
-      "d. canalis nasolacrimalis",
-      "e. foramen ovale"
+      "cellulae ethmoidales mediae",
+      "canalis nasolacrimalis",
+      "foramen ovale",
+      "sinus sphenoidalis",
+      "cellulae ethmoidales posteriores"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "In the middle nasal meatus opens:",
     "options": [
-      "a. cellulae ethmoidales posteriores",
-      "b. foramen rotundum",
-      "c. sinus maxillaris",
-      "d. sinus sphenoidalis",
-      "e. canalis nasolacrimalis"
+      "sinus sphenoidalis",
+      "foramen rotundum",
+      "canalis nasolacrimalis",
+      "sinus maxillaris",
+      "cellulae ethmoidales posteriores"
     ],
-    "correct": 2
+    "correct": 3
   },
   {
     "question": "Which of the following formations takes part in the formation of the lateral wall of the nasal cavity:",
     "options": [
-      "a. lamina perpendicularis ossis ethmoidalis",
-      "b. lamina cribrosa ossis ethmoidalis",
-      "c. vomer",
-      "d. lamina perpendicularis ossis palatini",
-      "e. lamina horizontalis ossis palatini"
+      "lamina horizontalis ossis palatini",
+      "lamina perpendicularis ossis ethmoidalis",
+      "vomer",
+      "lamina perpendicularis ossis palatini",
+      "lamina cribrosa ossis ethmoidalis"
     ],
     "correct": 3
   },
   {
     "question": "Which of the following formations is involved in the formation of the anterior cranial fossa:",
     "options": [
-      "a. facies anterior pyramidis ossis temporalis",
-      "b. lamina cribrosa ossis ethmoidalis",
-      "c. lamina perpendicularis ossis ethmoidalis",
-      "d. ala major ossis sphenoidalis",
-      "e. os frontale"
+      "ala major ossis sphenoidalis",
+      "lamina cribrosa ossis ethmoidalis",
+      "lamina perpendicularis ossis ethmoidalis",
+      "os frontale",
+      "facies anterior pyramidis ossis temporalis"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "Which of the following elements is in the middle cranial fossa:",
     "options": [
-      "a. foramen caecum",
-      "b. foramen jugulare",
-      "c. fissura orbitalis superior",
-      "d. sella turcica",
-      "e. porus acusticus internus"
+      "fissura orbitalis superior",
+      "porus acusticus internus",
+      "foramen caecum",
+      "sella turcica",
+      "foramen jugulare"
     ],
     "correct": 3
   },
   {
     "question": "In the middle cranial fossa is:",
     "options": [
-      "a. foramen caecum",
-      "b. fissura orbitalis inferior",
-      "c. foramen sphenopalatinum",
-      "d. canalis hypoglossus",
-      "e. foramen ovale"
+      "fissura orbitalis inferior",
+      "foramen ovale",
+      "canalis hypoglossus",
+      "foramen caecum",
+      "foramen sphenopalatinum"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "In the posterior cranial fossa is:",
     "options": [
-      "a. foramen caroticum internum",
-      "b. fissura orbitalis inferior",
-      "c. canalis nervi hypoglossi",
-      "d. foramen spinosum",
-      "e. foramen caecum"
+      "fissura orbitalis inferior",
+      "foramen spinosum",
+      "foramen caecum",
+      "canalis nervi hypoglossi",
+      "foramen caroticum internum"
     ],
-    "correct": 2
+    "correct": 3
   },
   {
     "question": "Which of the following formations is in the posterior cranial fossa:",
     "options": [
-      "a. foramen jugulare",
-      "b. foramen lacerum",
-      "c. foramen caroticum internum",
-      "d. canalis opticus",
-      "e. foramen sphenopalatinum"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "In the posterior cranial fossa is:",
-    "options": [
-      "a. foramen lacerum",
-      "b. porus acusticus internus",
-      "c. fissura orbitalis superior",
-      "d. foramen caroticum internum",
-      "e. foramen ovale"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Which of the following elements connects the nasal cavity with the pterygopalatine fossa:",
-    "options": [
-      "a. canalis palatinus major",
-      "b. canalis pterygoideus",
-      "c. foramen jugulare",
-      "d. foramen sphenopalatinum",
-      "e. foramen rotundum"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "Choose the cavity into which the aperture of the frontal sinus opens:",
-    "options": [
-      "a. fossa cranii anterior",
-      "b. orbita",
-      "c. meatus nasalis medius",
-      "d. meatus nasalis superior",
-      "e. fossa cranii media"
+      "foramen caroticum internum",
+      "foramen lacerum",
+      "foramen jugulare",
+      "foramen sphenopalatinum",
+      "canalis opticus"
     ],
     "correct": 2
   },
   {
-    "question": "In the formation of the bone septum of the nasal cavity takes part:",
+    "question": "In the posterior cranial fossa is:",
     "options": [
-      "a. lamina perpendicularis ossis ethmoidalis",
-      "b. lamina perpendicularis ossis palatini",
-      "c. lamina orbitalis ossis ethmoidalis",
-      "d. os lacrimale",
-      "e. lamina medialis processus pterygoideus ossis sphenoidalis"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "Choose the anatomical formation in which the nasolacrimal canal opens:",
-    "options": [
-      "a. fossa cranii anterior",
-      "b. cavitas oris",
-      "c. meatus nasalis superior",
-      "d. meatus nasalis inferior",
-      "e. meatus nasalis medius"
+      "foramen caroticum internum",
+      "fissura orbitalis superior",
+      "foramen ovale",
+      "porus acusticus internus",
+      "foramen lacerum"
     ],
     "correct": 3
   },
   {
+    "question": "Which of the following elements connects the nasal cavity with the pterygopalatine fossa:",
+    "options": [
+      "foramen jugulare",
+      "canalis palatinus major",
+      "foramen sphenopalatinum",
+      "foramen rotundum",
+      "canalis pterygoideus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Choose the cavity into which the aperture of the frontal sinus opens:",
+    "options": [
+      "fossa cranii media",
+      "meatus nasalis superior",
+      "orbita",
+      "fossa cranii anterior",
+      "meatus nasalis medius"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "In the formation of the bone septum of the nasal cavity takes part:",
+    "options": [
+      "lamina medialis processus pterygoideus ossis sphenoidalis",
+      "lamina perpendicularis ossis palatini",
+      "lamina perpendicularis ossis ethmoidalis",
+      "lamina orbitalis ossis ethmoidalis",
+      "os lacrimale"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Choose the anatomical formation in which the nasolacrimal canal opens:",
+    "options": [
+      "meatus nasalis inferior",
+      "fossa cranii anterior",
+      "cavitas oris",
+      "meatus nasalis medius",
+      "meatus nasalis superior"
+    ],
+    "correct": 0
+  },
+  {
     "question": "Choose the anatomical formation in which the aperture of the maxillary sinus opens:",
     "options": [
-      "a. orbita",
-      "b. meatus nasalis medius",
-      "c. meatus nasalis inferior",
-      "d. meatus nasalis superior",
-      "e. fossa cranii posterior"
+      "orbita",
+      "fossa cranii posterior",
+      "meatus nasalis superior",
+      "meatus nasalis medius",
+      "meatus nasalis inferior"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "On the anterior surface of the temporal bone pyramid is:",
     "options": [
-      "a. apertura externa canaliculi cochleae",
-      "b. fossa jugularis",
-      "c. fossa subarcuata",
-      "d. apertura externa aqueductus vestibuli",
-      "e. hiatus canalis sinus petrosi majoris"
+      "apertura externa canaliculi cochleae",
+      "apertura externa aqueductus vestibuli",
+      "fossa jugularis",
+      "hiatus canalis sinus petrosi majoris",
+      "fossa subarcuata"
     ],
     "correct": 3
   },
   {
     "question": "On the posterior surface of the temporal bone pyramid is:",
     "options": [
-      "a. fossula petrosa",
-      "b. porus acusticus internus",
-      "c. sulcus arteriae occipitalis",
-      "d. fossa jugularis",
-      "e. impressio trigeminalis"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "On the inferior surface of the pyramid of the temporal bone is:",
-    "options": [
-      "a. impressio trigeminale",
-      "b. apertura externa aqueductus vestibuli",
-      "c. porus acusticus internus",
-      "d. fossa jugularis",
-      "e. porus acusticus externus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "To the canals of the temporal bone include all of these EXCEPT:",
-    "options": [
-      "a. canalis condylaris",
-      "b. canalis facialis",
-      "c. canalis musculo-tubarius",
-      "d. canalis caroticus",
-      "e. canaliculi carotico-tympanici"
+      "porus acusticus internus",
+      "impressio trigeminalis",
+      "sulcus arteriae occipitalis",
+      "fossa jugularis",
+      "fossula petrosa"
     ],
     "correct": 0
   },
   {
+    "question": "On the inferior surface of the pyramid of the temporal bone is:",
+    "options": [
+      "porus acusticus externus",
+      "apertura externa aqueductus vestibuli",
+      "fossa jugularis",
+      "porus acusticus internus",
+      "impressio trigeminale"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "To the canals of the temporal bone include all of these EXCEPT:",
+    "options": [
+      "canalis facialis",
+      "canaliculi carotico-tympanici",
+      "canalis condylaris",
+      "canalis musculo-tubarius",
+      "canalis caroticus"
+    ],
+    "correct": 2
+  },
+  {
     "question": "Which canal connects the pterygopalatine fossa with the outer base of the skull:",
     "options": [
-      "a. canalis facialis",
-      "b. canalis mastoideus",
-      "c. canalis pterygoideus",
-      "d. canalis caroticus",
-      "e. canalis musculo-tubarius"
+      "canalis caroticus",
+      "canalis facialis",
+      "canalis pterygoideus",
+      "canalis musculo-tubarius",
+      "canalis mastoideus"
     ],
     "correct": 2
   },
   {
     "question": "The facial canal ends at:",
     "options": [
-      "a. fissura petrosquamosa",
-      "b. fissura petrotympanica",
-      "c. foramen stylomastoideum",
-      "d. hiatus canalis nervi petrosi minoris",
-      "e. hiatus canalis nervi petrosi majoris"
+      "fissura petrosquamosa",
+      "hiatus canalis nervi petrosi majoris",
+      "foramen stylomastoideum",
+      "fissura petrotympanica",
+      "hiatus canalis nervi petrosi minoris"
     ],
     "correct": 2
   },
   {
     "question": "Which of the following canals begins at the depth of a fossula petrosa:",
     "options": [
-      "a. canaliculus tympanicus",
-      "b. canalis caroticus",
-      "c. canalis facialis",
-      "d. canaliculi chordae tympani",
-      "e. canalis pterygoideus"
+      "canalis facialis",
+      "canaliculi chordae tympani",
+      "canalis pterygoideus",
+      "canaliculus tympanicus",
+      "canalis caroticus"
     ],
-    "correct": 0
+    "correct": 3
   },
   {
     "question": "At the proximal end of the humerus is:",
     "options": [
-      "a. fossa coronarius",
-      "b. caput humeri",
-      "c. capitatulum condylis humeri",
-      "d. sulcus nervi ulnaris",
-      "e. trochlea humeri"
+      "sulcus nervi ulnaris",
+      "trochlea humeri",
+      "caput humeri",
+      "fossa coronarius",
+      "capitatulum condylis humeri"
     ],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "Choose the location of the articular cavity of the scapula for articulation with the humerus:",
     "options": [
-      "a. processus coracoideus",
-      "b. angulus inferior",
-      "c. angulus superior",
-      "d. acromion",
-      "e. angulus lateralis"
+      "processus coracoideus",
+      "angulus lateralis",
+      "angulus superior",
+      "angulus inferior",
+      "acromion"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "Which of the following is on the scapula:",
     "options": [
-      "a. processus coracoideus",
-      "b. processus mastoideus",
-      "c. processus styloideus",
-      "d. processus coronarius",
-      "e. processus pterygoideus"
+      "processus coracoideus",
+      "processus coronarius",
+      "processus mastoideus",
+      "processus styloideus",
+      "processus pterygoideus"
     ],
     "correct": 0
   },
   {
     "question": "At the distal end of the humerus is everything EXCEPT:",
     "options": [
-      "a. fossa olecrani",
-      "b. capitatulum condylis humeri",
-      "c. sulcus nervi ulnaris",
-      "d. caput humeri",
-      "e. epicondylus medialis"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "At the distal end of the humerus is:",
-    "options": [
-      "a. trochlea humeri",
-      "b. collum anatomicum",
-      "c. caput humeri",
-      "d. sulcus nervi radialis",
-      "e. tuberositas deltoidea"
+      "caput humeri",
+      "fossa olecrani",
+      "sulcus nervi ulnaris",
+      "capitatulum condylis humeri",
+      "epicondylus medialis"
     ],
     "correct": 0
   },
   {
     "question": "At the distal end of the humerus is:",
     "options": [
-      "a. sulcus intertubercularis",
-      "b. capitatulum humeri",
-      "c. collum anatomicum",
-      "d. collum chirurgicum",
-      "e. crista tuberculi majoris"
+      "trochlea humeri",
+      "tuberositas deltoidea",
+      "collum anatomicum",
+      "caput humeri",
+      "sulcus nervi radialis"
     ],
-    "correct": 1
+    "correct": 0
   },
   {
-    "question": "At the proximal end of the ulna is:",
+    "question": "At the distal end of the humerus is:",
     "options": [
-      "a. circumferentia articularis ulnae",
-      "b. processus styloideus",
-      "c. processus coronoideus",
-      "d. caput ulnae",
-      "e. tuberositas ulnae"
+      "crista tuberculi majoris",
+      "collum chirurgicum",
+      "capitatulum humeri",
+      "sulcus intertubercularis",
+      "collum anatomicum"
     ],
     "correct": 2
   },
   {
-    "question": "At the distal end of the ulna is:",
+    "question": "At the proximal end of the ulna is:",
     "options": [
-      "a. olecranon",
-      "b. incisura trochlearis",
-      "c. tuberositas ulnae",
-      "d. incisura radialis",
-      "e. circumferencia articularis ulnae"
+      "tuberositas ulnae",
+      "processus styloideus",
+      "caput ulnae",
+      "circumferentia articularis ulnae",
+      "processus coronoideus"
     ],
     "correct": 4
+  },
+  {
+    "question": "At the distal end of the ulna is:",
+    "options": [
+      "incisura radialis",
+      "incisura trochlearis",
+      "olecranon",
+      "circumferencia articularis ulnae",
+      "tuberositas ulnae"
+    ],
+    "correct": 3
   },
   {
     "question": "At the distal end of the radius is:",
     "options": [
-      "a. caput radii",
-      "b. processus styloideus",
-      "c. tuberositas radii",
-      "d. circumferentia articularis radii",
-      "e. fovea articularis capitis radii"
+      "tuberositas radii",
+      "caput radii",
+      "circumferentia articularis radii",
+      "fovea articularis capitis radii",
+      "processus styloideus"
     ],
-    "correct": 1
+    "correct": 4
   },
   {
     "question": "At the proximal end of the radius is:",
     "options": [
-      "a. facies lateralis radii",
-      "b. fovea articularis capitis radii",
-      "c. facies articularis carpalis",
-      "d. processus styloideus",
-      "e. incisura ulnaris"
+      "fovea articularis capitis radii",
+      "incisura ulnaris",
+      "processus styloideus",
+      "facies articularis carpalis",
+      "facies lateralis radii"
     ],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "At the proximal end of the femur is:",
     "options": [
-      "a. condylus medialis",
-      "b. linea aspera",
-      "c. fossa intercondylaris",
-      "d. facies poplitea",
-      "e. collum femoris"
+      "collum femoris",
+      "facies poplitea",
+      "condylus medialis",
+      "linea aspera",
+      "fossa intercondylaris"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "At the distal end of the femur is:",
+    "options": [
+      "collum femoris",
+      "linea intertrochanterica",
+      "tuberositas glutea",
+      "fovea capitis femoris",
+      "fossa intercodylaris"
     ],
     "correct": 4
   },
   {
     "question": "At the distal end of the femur is:",
     "options": [
-      "a. fossa intercodylaris",
-      "b. tuberositas glutea",
-      "c. linea intertrochanterica",
-      "d. collum femoris",
-      "e. fovea capitis femoris"
+      "facies poplitea",
+      "linea aspera",
+      "fossa intercondylaris",
+      "fossa trochanterica",
+      "crista intertrochanterica"
     ],
-    "correct": 0
-  },
-  {
-    "question": "At the distal end of the femur is:",
-    "options": [
-      "a. crista intertrochanterica",
-      "b. fossa trochanterica",
-      "c. facies poplitea",
-      "d. fossa intercondylaris",
-      "e. linea aspera"
-    ],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "At the distal end of the tibia is:",
     "options": [
-      "a. malleolus lateralis",
-      "b. tuberositas intercodylaris",
-      "c. linea musculi solei",
-      "d. facies articularis inferior",
-      "e. tuberositas tabiae"
+      "tuberositas tabiae",
+      "malleolus lateralis",
+      "facies articularis inferior",
+      "linea musculi solei",
+      "tuberositas intercodylaris"
     ],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "At the distal end of the tibia is:",
     "options": [
-      "a. malleolus medialis",
-      "b. eminentia intercondylaris",
-      "c. facies articularis fibularis",
-      "d. linea musculi solei",
-      "e. area intercondylaris anterior"
+      "eminentia intercondylaris",
+      "facies articularis fibularis",
+      "area intercondylaris anterior",
+      "linea musculi solei",
+      "malleolus medialis"
     ],
-    "correct": 0
+    "correct": 4
   },
   {
     "question": "At the proximal end of the tibia is:",
     "options": [
-      "a. malleolus medialis",
-      "b. tuberositas tibiae",
-      "c. incisura fibularis",
-      "d. malleolus lateralis",
-      "e. facies articularis inferior"
+      "malleolus medialis",
+      "tuberositas tibiae",
+      "facies articularis inferior",
+      "incisura fibularis",
+      "malleolus lateralis"
     ],
     "correct": 1
   },
   {
     "question": "At the proximal end of the tibia is:",
     "options": [
-      "a. malleolus medialis",
-      "b. incisura fibularis",
-      "c. linea musculi solei",
-      "d. facies articularis malleoli lateralis",
-      "e. eminentia intercondylaris"
+      "facies articularis malleoli lateralis",
+      "incisura fibularis",
+      "malleolus medialis",
+      "eminentia intercondylaris",
+      "linea musculi solei"
     ],
-    "correct": 4
+    "correct": 3
   },
   {
     "question": "At the distal end of the fibula is:",
     "options": [
-      "a. collum fibulae",
-      "b. caput fibulae",
-      "c. facies articularis capitis fibulae",
-      "d. malleolus medialis",
-      "e. facies articulis malleoli lateralis"
+      "collum fibulae",
+      "facies articulis malleoli lateralis",
+      "caput fibulae",
+      "malleolus medialis",
+      "facies articularis capitis fibulae"
     ],
-    "correct": 4
+    "correct": 1
   },
   {
     "question": "At the distal end of the fibula is:",
     "options": [
-      "a. fossa malleoli lateralis",
-      "b. sulcus malleolaris",
-      "c. caput fibulae",
-      "d. collum fibulae",
-      "e. apex capitis fibulae"
+      "sulcus malleolaris",
+      "fossa malleoli lateralis",
+      "caput fibulae",
+      "apex capitis fibulae",
+      "collum fibulae"
     ],
     "correct": 1
   },
   {
     "question": "At the proximal end of the fibula is:",
     "options": [
-      "a. facies articularis malleoli lateralis",
-      "b. fossa malleoli lateralis",
-      "c. margo interosseus",
-      "d. malleolus medialis",
-      "e. collum fibulae"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "With which bone connects the proximal end of the femur:",
-    "options": [
-      "a. os sacrum",
-      "b. patella",
-      "c. tibia",
-      "d. os coxae",
-      "e. fibula"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "With which bone connects the distal end of the tibia:",
-    "options": [
-      "a. os coxae",
-      "b. femur",
-      "c. fibula",
-      "d. patella",
-      "e. calcaneus"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "With which bone DOES NOT connect the talus:",
-    "options": [
-      "a. os cuneiforme intermedium",
-      "b. calcaneus",
-      "c. fibula",
-      "d. tibia",
-      "e. os naviculare"
+      "collum fibulae",
+      "malleolus medialis",
+      "fossa malleoli lateralis",
+      "margo interosseus",
+      "facies articularis malleoli lateralis"
     ],
     "correct": 0
   },
   {
-    "question": "What bone connects the talus:",
+    "question": "With which bone coonects proximal end of the femur:",
     "options": [
-      "a. patella",
-      "b. femur",
-      "c. os metatarsi I",
-      "d. os coxae",
-      "e. os naviculare"
+      "os sacrum",
+      "os coxae",
+      "fibula",
+      "patella",
+      "tibia"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "With which bone connects distal end of the tibia:",
+    "options": [
+      "femur",
+      "fibula",
+      "patella",
+      "calcaneus",
+      "os coxae"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "With which bone DOES NOT connect the talus:",
+    "options": [
+      "fibula",
+      "calcaneus",
+      "os naviculare",
+      "tibia",
+      "os cuneiforme intermedium"
     ],
     "correct": 4
+  },
+  {
+    "question": "What bone connects the talus:",
+    "options": [
+      "os coxae",
+      "femur",
+      "patella",
+      "os naviculare",
+      "os metatarsi I"
+    ],
+    "correct": 3
   },
   {
     "question": "As a result of fusion of the spinous processes of the sacral vertebrae on the sacrum bone is present:",
     "options": [
-      "a. promontorium",
-      "b. crista sacralis lateralis",
-      "c. linea transversa",
-      "d. cornu sacrale",
-      "e. crista mediana"
+      "crista mediana",
+      "promontorium",
+      "crista sacralis lateralis",
+      "cornu sacrale",
+      "linea transversa"
     ],
-    "correct": 4
+    "correct": 0
   },
   {
     "question": "As a result of fusion of the transverse processes of the sacral vertebrae on the sacrum bone is present:",
     "options": [
-      "a. crista sacralis mediana",
-      "b. linea transversa",
-      "c. crista sacralis lateralis",
-      "d. crista sacralis intermedia",
-      "e. facies auricularis"
+      "crista sacralis lateralis",
+      "crista sacralis mediana",
+      "facies auricularis",
+      "linea transversa",
+      "crista sacralis intermedia"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "As a result of fusion of sacral vertebral bodies on the sacrum bone is present:",
     "options": [
-      "a. crista sacralis mediana",
-      "b. cornu sacrale",
-      "c. hiatus sacralis",
-      "d. linea transversa",
-      "e. tuberositas ossis sacri"
+      "cornu sacrale",
+      "linea transversa",
+      "hiatus sacralis",
+      "tuberositas ossis sacri",
+      "crista sacralis mediana"
     ],
-    "correct": 3
+    "correct": 1
   },
   {
     "question": "On the lateral part of the sacrum is:",
     "options": [
-      "a. facies pelvica",
-      "b. basis ossis sacri",
-      "c. linea transversa",
-      "d. facies auricularis",
-      "e. hiatus sacralis"
+      "hiatus sacralis",
+      "facies pelvica",
+      "facies auricularis",
+      "basis ossis sacri",
+      "linea transversa"
     ],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "On the pelvic surface of the sacrum is:",
     "options": [
-      "a. crista sacralis lateralis",
-      "b. linea transversa",
-      "c. tuberositas ossis sacri",
-      "d. foramen sacrale posterius",
-      "e. facies auricularis"
+      "tuberositas ossis sacri",
+      "facies auricularis",
+      "foramen sacrale posterius",
+      "crista sacralis lateralis",
+      "linea transversa"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "On the anterior arch of the first cervical vertebra is:",
+    "options": [
+      "fovea dentis",
+      "tuberculum posterius",
+      "tuberculum caroticum",
+      "processus spinosus",
+      "sulcus arteriae vertebralis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "On the posterior arch of the first cervical vertebra is:",
+    "options": [
+      "tuberculum caroticum",
+      "tuberculum anterius",
+      "fovae dentis",
+      "sulcus arteriae vertebralis",
+      "tuberculum anterius"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "On the axial vertebra is:",
+    "options": [
+      "tuberculum caroticum",
+      "tuberculum posterius",
+      "fovea dentis",
+      "sulcus arteriae vertebralis",
+      "dens"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The sulcus of the wrist is formed by all of the following bones EXCEPT:",
+    "options": [
+      "os scafoideum",
+      "os cuboideum",
+      "os pisiforme",
+      "os trapezoideum",
+      "os hamatum"
     ],
     "correct": 1
+  },
+  {
+    "question": "On the sciatic bone are all of the following anatomical elements except:",
+    "options": [
+      "incisura ischiadica minor",
+      "spina ischiadica",
+      "incisura ischiadica major",
+      "tuber ischiadicum",
+      "linea arcuata"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "On the pubic bone are all of the following anatomical elements except:",
+    "options": [
+      "tuberculum pubicum",
+      "pecten ossis pubis",
+      "facias symphysialis",
+      "sulcus obturatorius",
+      "facies auricularis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "On the Ilium are all of the following anatomical elements EXCEPT:",
+    "options": [
+      "fossa iliaca",
+      "linea arcuata",
+      "facies symphysialis",
+      "facies auricularis",
+      "tuberositas iliaca"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "On the first rib are all of the following anatomical elements except:",
+    "options": [
+      "tuberculum musculi solei anterioris",
+      "sulcus arteriae vertebralis",
+      "sulcus arteriae subclavii",
+      "caput costae primae",
+      "sulcus venae subclavii"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Select the anatomical element that is located on the pelvic bone:",
+    "options": [
+      "linea intertrochanterica",
+      "linea arcuata",
+      "promontorium",
+      "linea musculi solei",
+      "linea aspera"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Select the anatomical element that is located on the sternum:",
+    "options": [
+      "incisura vertebralis",
+      "incisura jugularis",
+      "processus coracoideus",
+      "processus coronoideus",
+      "fovea costalis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is not on the mandible:",
+    "options": [
+      "processus coronoideus",
+      "fossa sublinqualis",
+      "incisura pterygoidea",
+      "linea mylohyoidea",
+      "tuberositas pterygoidea"
+    ],
+    "correct": 2
   }
 ]

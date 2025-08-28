@@ -1,1102 +1,1102 @@
 [
   {
-    "question": "1. Choose a muscle that starts from the nine upper ribs and attaches to the medial border of the scapula:",
+    "question": "Choose a muscle that starts from the nine upper ribs\nand attaches to the medial border of the scapula:",
     "options": [
-      "a. m. serratus posterior inferior",
-      "b. m. pectoralis major",
-      "c. m. serratus posterior superior",
-      "d. m. serratus anterior",
-      "e. m. rhomboideus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "2. The tendon of levator scapula muscle inserts to:",
-    "options": [
-      "a. spina scapulae",
-      "b. angulus superior scapulae",
-      "c. angulus inferior scapulae",
-      "d. acromion scapulae",
-      "e. tuberculum supraglenoidale scapulae"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "3. To the group of the masticatory muscles are all EXCEPT:",
-    "options": [
-      "a. m. masseter",
-      "b. m. pterygoideus medialis",
-      "c. m. pterygoideus lateralis",
-      "d. m. mylohyoideus",
-      "e. m. temporalis"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "4. The muscle that pulls the larynx down is:",
-    "options": [
-      "a. m. stylohyoideus",
-      "b. m. omohyoideus",
-      "c. m. sternothyroideus",
-      "d. m. thyrohyoideus",
-      "e. m. sternohyoideus"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "5. The muscle attached to the upper surface of the first rib between the sulcus of the subclavian artery and sulcus of subclavian vein is:",
-    "options": [
-      "a. m. scalenus anterior",
-      "b. m. scalenus medius",
-      "c. m. longus colli",
-      "d. m. sternocleidomastoideus",
-      "e. m. longus capitis"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "6. The muscle that initiates abduction of the shoulder in the shoulder joint is:",
-    "options": [
-      "a. m. teres major",
-      "b. m. supraspinatus",
-      "c. m. rhomboideus",
-      "d. m. infraspinatus",
-      "e. m. coracobrachialis"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "7. The muscle attached to the lesser tubercle of the humerus is:",
-    "options": [
-      "a. m. teres minor",
-      "b. m. teres major",
-      "c. m. supraspinatus",
-      "d. m. subscapularis",
-      "e. m. infraspinatus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "8. The tendon of the long head of the biceps brachii muscle starts from:",
-    "options": [
-      "a. acromion",
-      "b. tuberculum majus humeri",
-      "c. processus coracoideus",
-      "d. tuberculum infraglenoidale",
-      "e. tuberculum supraglenoidale"
+      "m. rhomboideus",
+      "m.\npectoralis major",
+      "m. serratus posterior inferior",
+      "m. serratus posterior superior",
+      "m.\nserratus anterior"
     ],
     "correct": 4
   },
   {
-    "question": "9. To the back group of the shoulder muscles include:",
+    "question": "The tendon of levator scapula muscle inserts to:",
     "options": [
-      "a. m. coracobrachialis",
-      "b. m. biceps brachii",
-      "c. m. anconeus",
-      "d. m. brachialis",
-      "e. m. brachioradialis"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "10. The long head of the triceps brachii muscle begins from:",
-    "options": [
-      "a. tuberculum infraglenoidale",
-      "b. tuberositas radii",
-      "c. tuberositas ulnae",
-      "d. tuberculum supraglenoidale",
-      "e. extremitas acromialis claviculae"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "11. The rotation of the forearm initiate all muscles EXCEPT:",
-    "options": [
-      "a. m. pronator teres",
-      "b. m. pronator quadratus",
-      "c. m. brachialis",
-      "d. m. supinator",
-      "e. m. biceps brachii"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "12. The muscle of thenar is:",
-    "options": [
-      "a. m. palmaris brevis",
-      "b. m. flexor pollicis longus",
-      "c. m. flexor pollicis brevis",
-      "d. m. opponens digiti minimi",
-      "e. m. palmaris longus"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "13. Choose one muscle related to hypothenar:",
-    "options": [
-      "a. m. palmaris longus",
-      "b. m. flexor carpi ulnaris",
-      "c. m. extensor digiti minimi",
-      "d. m. palmaris brevis",
-      "e. m. extensor pollicis longus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "14. The floor of the cubital fossa forms:",
-    "options": [
-      "a. m. supinator",
-      "b. m. brachialis",
-      "c. m. coracobrachialis",
-      "d. m. brachioradialis",
-      "e. m. anconeus"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "15. The main respiratory muscle is:",
-    "options": [
-      "a. diaphragma",
-      "b. m. pectoralis minor",
-      "c. mm intercostales interni",
-      "d. mm intercostales externi",
-      "e. m. pectoralis major"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "16. Canalis humeromuscularis is located on the posterior surface of the shoulder between the body of the humerus and:",
-    "options": [
-      "a. m. biceps brachii",
-      "b. m. pectoralis major",
-      "c. m. deltoideus",
-      "d. m. triceps brachii",
-      "e. m. brachialis"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "17. The piriformis muscle begins from:",
-    "options": [
-      "a. ischial spine",
-      "b. ischial tuberosity",
-      "c. lateral crest of sacrum",
-      "d. the pelvic surface of the sacrum",
-      "e. pubic tubercle"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "18. The pectoral major muscle on the shoulder attaches to the:",
-    "options": [
-      "a. crista tuberculi minoris",
-      "b. tuberculum infraglenoidale scapulae",
-      "c. tuberculum minus humeri",
-      "d. crista tuberculi majoris",
-      "e. tuberculum majus humeri"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "19. The pectoralis minor muscle begins from II to IV ribs and is attach to the:",
-    "options": [
-      "a. tuberculum infraglenoidale scapulae",
-      "b. acromion scapulae",
-      "c. processus coracoideus scapulae",
-      "d. tuberculum supraglenoidale scapulae",
-      "e. tuberculum minus humeri"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "20. The muscle, which is an antagonist of the anterior serratus muscle, and also attaches to the medial border of the scapula is:",
-    "options": [
-      "a. m. rhomboideus",
-      "b. m. serratus posterior inferior",
-      "c. m. serratus posterior superior",
-      "d. m. brachialis",
-      "e. m. deltoideus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "21. The muscle starting on the posterior surface of the lower angle of the scapula and attached to the crest of the lesser tubercle is:",
-    "options": [
-      "a. m. rhomboideus",
-      "b. m. teres minor",
-      "c. m. subscapularis",
-      "d. m. infraspinatus",
-      "e. m. teres major"
+      "acromion scapulae",
+      "spina scapulae",
+      "tuberculum supraglenoidale scapulae",
+      "angulus inferior scapulae",
+      "angulus\nsuperior scapulae"
     ],
     "correct": 4
   },
   {
-    "question": "22. The lower free edge of the aponeurosis of the external oblique abdominal muscle, stretched between the anterior upper iliac spine and pubic tubercle, is called:",
+    "question": "To the group of the masticatory muscles are all\nEXCEPT:",
     "options": [
-      "a. arcus iliopubicus",
-      "b. lig. lacunare",
-      "c. lig. inguinale",
-      "d. lig. pubofemorale",
-      "e. lig. sacrotuberale"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "23. The biceps brachii muscle begins on the scapula and attaches by common tendon to:",
-    "options": [
-      "a. tuberositas deltoidea",
-      "b. tuberositas ulnae",
-      "c. tuberositas radii",
-      "d. caput radii",
-      "e. olecranon"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "24. The muscle that sets the radius in the middle position between pronation and supination:",
-    "options": [
-      "a. m. palmaris longus",
-      "b. m. supinator",
-      "c. m. brachioradialis",
-      "d. m. pronator teres",
-      "e. m. pronator quadratus"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "25. The flexion of the forearm in the elbow initiate all muscles EXCEPT:",
-    "options": [
-      "a. m. pronator teres",
-      "b. m. brachialis",
-      "c. m. brachioradialis",
-      "d. m. biceps brachii",
-      "e. m. coracobrachialis"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "26. Which of the following muscles is not involved in lowering the mandible:",
-    "options": [
-      "a. posterior belly m. digastrici",
-      "b. m. mylohyoideus",
-      "c. m. digastricus",
-      "d. m. temporalis",
-      "e. m. genihyoideus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "27. Which of the following muscles involved in supination of the shoulder in the shoulder joint:",
-    "options": [
-      "a. m. subscapularis",
-      "b. m. infraspinatus",
-      "c. m. teres minor",
-      "d. m. latissimus dorsi",
-      "e. m. teres major"
+      "m. masseter",
+      "m.\nmylohyoideus",
+      "m. temporalis",
+      "m. pterygoideus medialis",
+      "m. pterygoideus lateralis"
     ],
     "correct": 1
   },
   {
-    "question": "28. Which of the following muscles DOES NOT participate in the flexion of the forearm in the elbow joint:",
+    "question": "The muscle that pulls the larynx down is:",
     "options": [
-      "a. m. biceps brachii",
-      "b. pronator teres muscle",
-      "c. m. brachialis",
-      "d. m. brachioradialis",
-      "e. m. coracobrachialis"
+      "m. omohyoideus",
+      "m. stylohyoideus",
+      "m. thyrohyoideus",
+      "m.\nsternothyroideus",
+      "m. sternohyoideus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "The muscle that is attached to the upper surface of the\nfirst rib between the sulcus of the subclavian artery and sulcus of subclavian vein\nis:",
+    "options": [
+      "m. longus capitis",
+      "m. sternocleidomastoideus",
+      "m. scalenus medius",
+      "m. longus colli",
+      "m.\nscalenus anterior"
     ],
     "correct": 4
   },
   {
-    "question": "29. Which of the following muscles involved in the abduction of the shoulder in the shoulder joint:",
+    "question": "The muscle that initiates abduction of the shoulder in\nthe shoulder joint is:",
     "options": [
-      "a. m. supraspinatus",
-      "b. m. pectoralis minor",
-      "c. m. subscapularis",
-      "d. m. teres major",
-      "e. m. latissimus dorsi"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "30. Which of the following muscles IS NOT involved in the rotation of the forearm:",
-    "options": [
-      "a. m. anconeus",
-      "b. m. pronator teres",
-      "c. m. pronator quadratus",
-      "d. m. biceps brachii",
-      "e. m. supinator"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "31. Which of the following muscles is involved in hip flexion in the hip joint:",
-    "options": [
-      "a. m. iliopsoas",
-      "b. m. vastus medialis",
-      "c. m. biceps femoris",
-      "d. m. gluteus maximus",
-      "e. m. soleus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "32. Which of the following muscles is involved in the abduction of the hip joint:",
-    "options": [
-      "a. m. quadratus femoris",
-      "b. m. semimembranosus",
-      "c. m. gluteus minor",
-      "d. m. pectineus",
-      "e. m. piriformis"
+      "m. coracobrachialis",
+      "m. infraspinatus",
+      "m.\nsupraspinatus",
+      "m. rhomboideus",
+      "m. teres major"
     ],
     "correct": 2
   },
   {
-    "question": "33. Which of the following muscles IS NOT involved in flexion of leg in the knee joint:",
+    "question": "The muscle attached to the lesser tubercle of the\nhumerus is:",
     "options": [
-      "a. m. semimembranosus",
-      "b. m. semitendinosus",
-      "c. m. gastrocnemius",
-      "d. m. tibialis anterior",
-      "e. m. biceps femoris"
+      "m. infraspinatus",
+      "m. teres major",
+      "m. teres minor",
+      "m.\nsubscapularis",
+      "m. supraspinatus"
     ],
     "correct": 3
   },
   {
-    "question": "34. Which of the following muscles participates in flexion of the leg in the knee joint:",
+    "question": "The tendon of the long head of the biceps brachii\nmuscle starts from:",
     "options": [
-      "a. m. tibialis anterior",
-      "b. m. popliteus",
-      "c. m. tibialis posterior",
-      "d. m. soleus",
-      "e. m. quadriceps femoris"
+      "tuberculum majus humeri",
+      "tuberculum\nsupraglenoidale",
+      "processus coracoideus",
+      "tuberculum infraglenoidale",
+      "acromion"
     ],
     "correct": 1
   },
   {
-    "question": "35. Which of the following muscles initiate lateral rotation of the leg in the knee joint:",
+    "question": "To the back group of the shoulder muscles include:",
     "options": [
-      "a. m. semimembranosus",
-      "b. m. quadriceps femoris",
-      "c. m. sartorius",
-      "d. m. plantaris",
-      "e. m. biceps femoris"
+      "m. coracobrachialis",
+      "m. brachioradialis",
+      "m. biceps brachii",
+      "m. brachialis",
+      "m. anconeus"
     ],
     "correct": 4
   },
   {
-    "question": "36. Which of the following muscles IS NOT involved in the plantar flexion of the foot:",
+    "question": "The long head of the triceps brachii muscle begins\nfrom:",
     "options": [
-      "a. m. flexor hallucis longus",
-      "b. m. plantaris",
-      "c. m. flexor digitorum longus",
-      "d. m. triceps surae",
-      "e. m. tibialis anterior"
+      "tuberculum\ninfraglenoidale",
+      "extremitas acromialis claviculae",
+      "tuberculum supraglenoidale",
+      "tuberositas ulnae",
+      "tuberositas radii"
     ],
-    "correct": 4
+    "correct": 0
   },
   {
-    "question": "37. Which of the following muscles belongs to the autochthonous muscles of the chest:",
+    "question": "The rotation of the forearm initiate all muscles\nEXCEPT:",
     "options": [
-      "a. m. pectoralis minor",
-      "b. m. transversus thoracis",
-      "c. m. subclavius",
-      "d. m. pectoralis major",
-      "e. m. serratus anterior"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "38. What are the anatomical formation that forms the posterior wall of the inguinal canal:",
-    "options": [
-      "a. lig. inguinalis",
-      "b. aponeurosis of m. obliquus abdominis externus",
-      "c. m. transversus abdominis",
-      "d. fascia iliaca",
-      "e. fascia transversalis"
-    ],
-    "correct": 4
-  },
-  {
-    "question": "39. What are the anatomical formation that forms the anterior wall of the inguinal canal:",
-    "options": [
-      "a. lig. inguinalis",
-      "b. m. transversus abdominis",
-      "c. fascia transversalis",
-      "d. aponeurosis of m. obliquus abdominis externus",
-      "e. fascia iliaca"
+      "m. supinator",
+      "m. biceps brachii",
+      "m. pronator teres",
+      "m.\nbrachialis",
+      "m. pronator quadratus"
     ],
     "correct": 3
   },
   {
-    "question": "40. What are the anatomical formation that forms the inferior wall of the inguinal canal:",
+    "question": "The muscle of thenar is:",
     "options": [
-      "a. fascia iliaca",
-      "b. m. transversus abdominis",
-      "c. lig. inguinalis",
-      "d. aponeurosis of m. obliquus abdominis externus",
-      "e. fascia transversalis"
+      "m. flexor pollicis longus",
+      "m. palmaris brevis",
+      "m. palmaris longus",
+      "m. opponens digiti minimi",
+      "m.\nflexor pollicis brevis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Choose one muscle related to hypothenar:",
+    "options": [
+      "m. extensor digiti minimi",
+      "m. palmaris longus",
+      "m. extensor pollicis longus",
+      "m.\npalmaris brevis",
+      "m. flexor carpi ulnaris"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "The floor of the cubital fossa forms:",
+    "options": [
+      "m. brachioradialis",
+      "m. supinator",
+      "m.\nbrachialis",
+      "m. anconeus",
+      "m. coracobrachialis"
     ],
     "correct": 2
   },
   {
-    "question": "41. Vascular lacuna on the medial side bordered by:",
+    "question": "The main respiratory muscle is:",
     "options": [
-      "a. ligamentum inguinale",
-      "b. ligamentum pectinatum",
-      "c. os ilium",
-      "d. arcus iliopectineus",
-      "e. ligamentum lacunare"
+      "m.\npectoralis major",
+      "diaphragma",
+      "m.\npectoralis minor",
+      "mm.\nintercostales interni",
+      "mm.\nintercostales externi"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Canalis humeromuscularis is located on the posterior\nsurface of the shoulder between the body of the humerus and:",
+    "options": [
+      "m.\npectoralis major",
+      "m.\ndeltoideus",
+      "m.\ntriceps brachii",
+      "m. biceps\nbrachii",
+      "m.\nbrachialis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The piriformis muscle begins from:",
+    "options": [
+      "the\npelvic surface of the sacrum",
+      "ischial\ntuberosity",
+      "pubic\ntubercle",
+      "lateral\ncrest of sacrum",
+      "ischial\nspine"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The pectoral major muscle on the shoulder attaches to\nthe:",
+    "options": [
+      "tuberculum minus humeri",
+      "tuberculum majus humeri",
+      "crista tuberculi minoris",
+      "tuberculum\ninfraglenoidale scapulae",
+      "crista\ntuberculi majoris"
     ],
     "correct": 4
   },
   {
-    "question": "42. The foramen trilaterum of the posterior wall of the axillary cavity inferiorly bordered by:",
+    "question": "The pectoralis minor muscle begins from II to IV ribs and is attach to the:",
     "options": [
-      "a. tendo m. subscapularis",
-      "b. caput longus m. tricepitis brachii",
-      "c. tendo m. latissimi dorsi",
-      "d. tendo m. supraspinati",
-      "e. caput breves m. bicepitis brachii"
+      "tuberculum minus humeri",
+      "processus\ncoracoideus scapulae",
+      "acromion scapulae",
+      "tuberculum supraglenoidale scapulae",
+      "tuberculum infraglenoidale scapulae"
     ],
-    "correct": 2
+    "correct": 1
   },
   {
-    "question": "43. The median sulcus of the forearm on the lateral side bordered by:",
+    "question": "The muscle, which is an antagonist of the anterior\nserratus muscle, and also attaches to the medial border of the scapula is:",
     "options": [
-      "a. m. flexor carpi radialis",
-      "b. m. palmaris longus",
-      "c. m. flexor digitorum superficialis",
-      "d. m. brachioradialis",
-      "e. m. flexor carpi ulnaris"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "44. The ulnar sulcus of the forearm on the medial side bordered by:",
-    "options": [
-      "a. m. flexor digitorum superficialis",
-      "b. m. brachioradialis",
-      "c. m. flexor carpi radialis",
-      "d. m. flexor carpi ulnaris",
-      "e. m. palmaris longus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "45. The radial sulcus of the forearm on the medial side is limited:",
-    "options": [
-      "a. m. flexor carpi radialis",
-      "b. m. brachioradialis",
-      "c. m. flexor digitorum superficialis",
-      "d. m. flexor carpi ulnaris",
-      "e. m. palmaris longus"
+      "m. rhomboideus",
+      "m. brachialis",
+      "m. serratus posterior inferior",
+      "m. deltoideus",
+      "m. serratus posterior superior"
     ],
     "correct": 0
   },
   {
-    "question": "46. The femoral triangle on the medial side bordered by:",
+    "question": "The muscle starting on the posterior surface of the\nlower angle of the scapula and attached to the crest of the lesser tubercle is:",
     "options": [
-      "a. m. adductor longus",
-      "b. m. vastus medialis femoris",
-      "c. m. pectineus",
-      "d. lig. inguinale",
-      "e. m. sartorius"
+      "m.\nteres major",
+      "m. subscapularis",
+      "m. infraspinatus",
+      "m. teres minor",
+      "m. rhomboideus"
     ],
     "correct": 0
   },
   {
-    "question": "47. Popliteal fossa at the superiolateral side bordered by:",
+    "question": "The lower free edge of the aponeurosis of the external\noblique abdominal muscle, stretched between the anterior upper iliac spine and\npubic tubercle, is called:",
     "options": [
-      "a. m. gastrocnemius",
-      "b. m. soleus",
-      "c. m. semimembranosus",
-      "d. m. popliteus",
-      "e. m. biceps femoris"
+      "arcus iliopubicus",
+      "lig. pubofemorale",
+      "lig. sacrotuberale",
+      "lig.\nlacunare",
+      "lig.\ninguinale"
     ],
     "correct": 4
   },
   {
-    "question": "48. Adductor canal in medial side limits:",
+    "question": "The biceps brachii muscle begins on the scapula and attaches\nby common tendon to:",
     "options": [
-      "a. m. semimembranosus",
-      "b. m. adductor magnus",
-      "c. m. vastus medialis femoris",
-      "d. m. adductor longus",
-      "e. m. popliteus"
+      "tuberositas ulnae",
+      "tuberositas\nradii",
+      "tuberositas deltoidea",
+      "caput radii",
+      "olecranon"
     ],
     "correct": 1
   },
   {
-    "question": "49. Inferior border of the lumbar triangle is:",
+    "question": "The muscle that sets the radius in the middle position\nbetween pronation and supination:",
     "options": [
-      "a. crista iliaca",
-      "b. m. quadratus abdominis",
-      "c. m. obliquus abdominis externus",
-      "d. m. latissimus dorsi",
-      "e. m. psoas major"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "50. The posterior wall of the axillary cavity is:",
-    "options": [
-      "a. m. pectoralis major",
-      "b. collum chirurgicum brachii",
-      "c. m. serratus anterior",
-      "d. m. latissimus dorsi",
-      "e. mm. rhomboidei major et minor"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "51. The Pirogov's triangle (lingual triangle) from below and behind restricts:",
-    "options": [
-      "a. nervus hypoglossus",
-      "b. m. mylohyoideus",
-      "c. venter superior m. omohyoidei",
-      "d. venter posterior m. digastrici",
-      "e. venter anterior m. digastrici"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "52. The Pirogov's triangle (lingual triangle) superiorly bordered by:",
-    "options": [
-      "a. venter anterior m. digastrici",
-      "b. venter superior m. omohyoidei",
-      "c. m. mylohyoideus",
-      "d. nervus hypoglossus",
-      "e. venter posterior m. digastrici"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "53. Carotid triangle superiorly bordered by:",
-    "options": [
-      "a. venter superior m. omohyoidei",
-      "b. venter posterior m. digastrici",
-      "c. venter inferior m. omohyoidei",
-      "d. m. sternocleidomastoideus",
-      "e. venter anterior m. digastrici"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "54. The carotid triangle at the front and bottom restricts:",
-    "options": [
-      "a. venter anterior m. digastrici",
-      "b. venter posterior m. digastrici",
-      "c. m. sternocleidomastoideus",
-      "d. venter superior m. omohyoidei",
-      "e. venter inferior m. omohyoidei"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "55. The lateral area of the neck from below bordered by:",
-    "options": [
-      "a. clavicula",
-      "b. venter superior m. omohyoidei",
-      "c. venter inferior m. omohyoidei",
-      "d. venter posterior m. digastrici",
-      "e. anterior border m. sternocleidomastoideus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "56. Yellow ligament (lig. flavum), connects:",
-    "options": [
-      "a. corpus vertebrae",
-      "b. arcus vertebrae",
-      "c. pedunculi arcus vertebrae",
-      "d. processus spinosus",
-      "e. processus transversus"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "57. Art. costotransversaria form:",
-    "options": [
-      "a. I, XI and XII pairs of ribs",
-      "b. II–X pairs of ribs",
-      "c. all 12 pairs of ribs",
-      "d. from I to X pairs of ribs",
-      "e. only XI and XII pairs of ribs"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "58. The sternoclavicular joint is supported by the following ligaments, EXCEPT:",
-    "options": [
-      "a. lig. interclaviculare",
-      "b. lig. sternoclavicularis anterior",
-      "c. lig. coracoacromiale",
-      "d. lig. sternoclavicularis posterior",
-      "e. lig. costoclaviculare"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "59. Removal of the upper limb above the horizontal level is limited by stopping the upper end of the humerus in:",
-    "options": [
-      "a. processus coracoideus",
-      "b. lig. coracoacromiale",
-      "c. lig. coracoclaviculare",
-      "d. clavicula",
-      "e. lig. transversum scapulae inferius"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "60. What muscle tendon passes through the cavity of the shoulder joint:",
-    "options": [
-      "a. m. brachialis",
-      "b. m. deltoideus",
-      "c. m. coracobrachialis",
-      "d. m. triceps brachii",
-      "e. m. biceps brachii"
+      "m. supinator",
+      "m. palmaris longus",
+      "m. pronator quadratus",
+      "m. pronator teres",
+      "m.\nbrachioradialis"
     ],
     "correct": 4
   },
   {
-    "question": "61. The wrist joint is strengthened by all the ligaments listed below, EXCEPT:",
+    "question": "The flexion of the forearm in the elbow initiate all\nmuscles EXCEPT:",
     "options": [
-      "a. lig. collaterale carpi ulnare",
-      "b. lig. collaterale carpi radiale",
-      "c. lig. radiocarpale dorsale",
-      "d. lig. radiocarpale palmare",
-      "e. lig. coracoclaviculare"
+      "m.\ncoracobrachialis",
+      "m. biceps brachii",
+      "m. brachioradialis",
+      "m. pronator teres",
+      "m. brachialis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following muscles is not involved in\nlowering the mandible:",
+    "options": [
+      "m. temporalis",
+      "m. digastricus",
+      "m. genihyoideus",
+      "m. mylohyoideus",
+      "posterior belly m. digastrici"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following muscles involved in supination\nof the shoulder in the shoulder joint:",
+    "options": [
+      "m. latissimus dorsi",
+      "m. subscapularis",
+      "m. teres minor",
+      "m. infraspinatus",
+      "m. teres major"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following muscles DOES NOT participate in\nthe flexion of the forearm in the elbow joint:",
+    "options": [
+      "m.\ncoracobrachialis",
+      "m. biceps brachii",
+      "pronator teres muscle",
+      "m. brachioradialis",
+      "m. brachialis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following muscles involved in the abduction\nof the shoulder in the shoulder joint:",
+    "options": [
+      "m. subscapularis",
+      "m. teres major",
+      "m. latissimus dorsi",
+      "m. pectoralis minor",
+      "m.\nsupraspinatus"
     ],
     "correct": 4
   },
   {
-    "question": "62. Of the following, select biaxial joints:",
+    "question": "Which of the following muscles IS NOT involved in the\nrotation of the forearm:",
     "options": [
-      "a. art. coxae",
-      "b. art. radiocarpea",
-      "c. art. radioulnaris distalis",
-      "d. art. radioulnaris proximalis",
-      "e. art. humeri"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "63. Select a uniaxial joint from the following joints:",
-    "options": [
-      "a. art. humeri",
-      "b. art. interphalangealis manus",
-      "c. art. atlantooccipitalis",
-      "d. art. sternoclavicularis",
-      "e. art. temporomandibularis"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "64. The sacroiliac joint is supported by all the ligaments, EXCEPT:",
-    "options": [
-      "a. lig. iliolumbale",
-      "b. ligg. sacroiliaca dorsalia",
-      "c. lig. inguinale",
-      "d. ligg. sacroiliaca interossea",
-      "e. ligg. sacroiliaca ventralia"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "65. The biaxial joint is:",
-    "options": [
-      "a. art. atlantoaxialis mediana",
-      "b. art. sacroiliaca",
-      "c. art. humeri",
-      "d. art. genus",
-      "e. art. coxae"
+      "m. supinator",
+      "m. pronator teres",
+      "m. pronator quadratus",
+      "m. anconeus",
+      "m. biceps brachii"
     ],
     "correct": 3
   },
   {
-    "question": "66. What kind of movement in the joints is possible around the vertical axis:",
+    "question": "Which of the following muscles is involved in hip\nflexion in the hip joint:",
     "options": [
-      "a. flexion",
-      "b. adduction",
-      "c. abduction",
-      "d. rotation",
-      "e. extension"
+      "m. vastus medialis",
+      "m. iliopsoas",
+      "m. soleus",
+      "m. biceps femoris",
+      "m. gluteus maximus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following muscles is involved in the abduction\nof the hip joint:",
+    "options": [
+      "m. pectineus",
+      "m. quadratus femoris",
+      "m. piriformis",
+      "m. gluteus minor",
+      "m. semimembranosus"
     ],
     "correct": 3
   },
   {
-    "question": "67. To the fibrous joints include all of these, EXCEPT:",
+    "question": "Which of the following muscles IS NOT involved in flexion\nof leg in the knee joint:",
     "options": [
-      "a. synostosis",
-      "b. ligamentum",
-      "c. membrana interossea",
-      "d. ghomphosis",
-      "e. suturae"
+      "m. tibialis anterior",
+      "m. gastrocnemius",
+      "m. semimebranosus",
+      "m. semitendinosus",
+      "m. biceps femoris"
     ],
     "correct": 0
   },
   {
-    "question": "68. Which of the joints refers to multiaxial joints:",
+    "question": "Which of the following muscles participates in flexion\nof the leg in the knee joint:",
     "options": [
-      "a. atlantooccipital joint",
-      "b. genu joint",
-      "c. shoulder joint",
-      "d. carpal-metacarpal joint of the thumb",
-      "e. wrist joint"
+      "m. popliteus",
+      "m. tibialis posterior",
+      "m. soleus",
+      "m. tibialis anterior",
+      "m. quadriceps femoris"
     ],
-    "correct": 2
+    "correct": 0
   },
   {
-    "question": "69. In which joint between the articular surfaces is the meniscus:",
+    "question": "Which of the following muscles initiate lateral\nrotation of the leg in the knee joint:",
     "options": [
-      "a. shoulder joint",
-      "b. temporomandibular joint",
-      "c. ankle joint",
-      "d. the elbow joint",
-      "e. the knee joint"
+      "m. semimebranosus",
+      "m. quadriceps femoris",
+      "m. sartorius",
+      "m. biceps\nfemoris",
+      "m. plantaris"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following muscles IS NOT involved in the\nplantar flexion of the foot:",
+    "options": [
+      "m. plantaris",
+      "m. triceps surae",
+      "m. flexor hallucis longus",
+      "m. flexor digitorum longus",
+      "m. tibialis anterior"
     ],
     "correct": 4
   },
   {
-    "question": "70. Choose the anatomical formation, which is NOT in the structure of the temporomandibular joint:",
+    "question": "Which of the following muscles belongs to the autochthonous muscles of the chest:",
     "options": [
-      "a. facies articularis",
-      "b. ligamenta",
-      "c. capsula articularis",
-      "d. discus articularis",
-      "e. labrum articulare"
+      "m. pectoralis minor",
+      "m. transversus thoracis",
+      "m. subclavius",
+      "m. serratus anterior",
+      "m. pectoralis major"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are the anatomical formation that forms the posterior\nwall of the inguinal canal:",
+    "options": [
+      "m. transversus abdominis",
+      "lig. inguinalis",
+      "fascia iliaca",
+      "fascia\ntransversalis",
+      "aponeurosis of m. obliquus abdominis externus"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What are the anatomical formation that forms the\nanterior wall of the inguinal canal:",
+    "options": [
+      "fascia iliaca",
+      "lig. inguinalis",
+      "fascia transversalis",
+      "aponeurosis\nof m. obliquus abdominis externus",
+      "m. transversus abdominis"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What are the anatomical formation that forms the inferior\nwall of the inguinal canal:",
+    "options": [
+      "fascia iliaca",
+      "fascia transversalis",
+      "lig.\ninguinalis",
+      "aponeurosis of m. obliquus abdominis externus",
+      "m. transversus abdominis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Vascular lacuna on the medial side bordered by:",
+    "options": [
+      "ligamentun pectinatum",
+      "arcus iliopectineus",
+      "os ilium",
+      "ligamentum inguinale",
+      "ligamentum\nlacunare"
     ],
     "correct": 4
   },
   {
-    "question": "71. Protrusion of the synovial membrane in thinned areas of the fibrous membrane of the joint are called:",
+    "question": "The foramen trilaterum of the posterior wall of the\naxillary cavity inferiorly bordered by:",
     "options": [
-      "a. discus articularis",
-      "b. cavitas articularis",
-      "c. bursa synovialis",
-      "d. ligamentum capsulare",
-      "e. ligamentum extracapsulare"
+      "caput breves m. bicepitis brachii",
+      "tendo m. supraspinati",
+      "tendo m. latissimi dorsi",
+      "tendo\nm. subscapularis",
+      "caput longus m. tricepitis brachii"
     ],
-    "correct": 2
+    "correct": 3
   },
   {
-    "question": "72. Local thickening of the fibrous membrane of the joint capsule is called:",
+    "question": "The median sulcus of the forearm on the lateral side bordered\nby:",
     "options": [
-      "a. bursa synovialis",
-      "b. ligamentum capsulare",
-      "c. labrum articulare",
-      "d. cartilago articularis",
-      "e. plicae synoviales"
+      "m. flexor carpi ulnaris",
+      "m. brachioradialis",
+      "m. flexor digitorum superficialis",
+      "m. flexor carpi radialis",
+      "m. palmaris longus"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
-    "question": "73. The accessory components of the joint does not include:",
+    "question": "The ulnar sulcus of the forearm on the medial side bordered\nby:",
     "options": [
-      "a. capsula articularis",
-      "b. discus articularis",
-      "c. labrum articulare",
-      "d. meniscus articularis",
-      "e. ligamenta"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "74. In which joint between the articular surfaces is the intra-articular disc:",
-    "options": [
-      "a. art. temporomandibularis",
-      "b. art. cubiti",
-      "c. art. genus",
-      "d. art. humeri",
-      "e. art. talocruralis"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "75. What is the curvature of the spine facing forward:",
-    "options": [
-      "a. synostosis",
-      "b. lordosis",
-      "c. kyphosis",
-      "d. scoliosis",
-      "e. synchondrosis"
+      "m. flexor carpi radialis",
+      "m. flexor carpi ulnaris",
+      "m. brachioradialis",
+      "m. palmaris longus",
+      "m. flexor digitorum superficialis"
     ],
     "correct": 1
   },
   {
-    "question": "76. Which of the following is not take part in connecting the vertebrae to each other:",
+    "question": "The radial sulcus of the forearm on the medial side is\nlimited:",
     "options": [
-      "a. articulatio atlantoaxialis mediana",
-      "b. articulatio lumbosacralis",
-      "c. articulatio costotransversaria",
-      "d. discus intervertebralis",
-      "e. articulatio zygapophysialis"
+      "m. brachioradialis",
+      "m. flexor digitorum superficialis",
+      "m. flexor carpi radialis",
+      "m. palmaris longus",
+      "m.\nflexor carpi ulnaris"
     ],
     "correct": 2
   },
   {
-    "question": "77. Which of the following is not involved in the formation of the chest walls:",
+    "question": "The femoral triangle on the medial side bordered by:",
     "options": [
-      "a. clavicula",
-      "b. costae",
-      "c. manubrium sterni",
-      "d. corpus sterni",
-      "e. vertebrae thoracicae"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "78. What muscle is attached to the lesser trochanter of the femur:",
-    "options": [
-      "a. m. gluteus maximus",
-      "b. m. piriformis",
-      "c. m. popliteus",
-      "d. m. rectus femoris",
-      "e. m. iliopsoas"
+      "m. sartorius",
+      "lig. inguinale",
+      "m. pectineus",
+      "m. vastus medialis femoris",
+      "m.\nadductor longus"
     ],
     "correct": 4
   },
   {
-    "question": "79. What muscle passes through the greater sciatic foramen:",
+    "question": "Popliteal fossa at the superiolateral side bordered by:",
     "options": [
-      "a. m. iliopsoas",
-      "b. m. obturator externus",
-      "c. m. piriformis",
-      "d. m. gluteus minimus",
-      "e. m. obturator internus"
+      "m. popliteus",
+      "m. semimebranosus",
+      "m. biceps femoris",
+      "m. soleus",
+      "m. gastrocnemius"
     ],
     "correct": 2
   },
   {
-    "question": "80. The tendon of what muscle originates on the supraglenoidal tubercle of the scapula:",
+    "question": "Adductor canal in medial side limits:",
     "options": [
-      "a. m. brachialis",
-      "b. m. anconeus",
-      "c. m. coracobrachialis",
-      "d. m. triceps brachii",
-      "e. m. biceps brachii"
+      "m. semimembranosus",
+      "m. adductor longus",
+      "m. vastus medialis femoris",
+      "m. popliteus",
+      "m. adductor magnus"
     ],
     "correct": 4
   },
   {
-    "question": "81. The tendon of which muscle originates on coracoid processes of the scapula:",
+    "question": "Inferior border of the lumbar triangle is:",
     "options": [
-      "a. m. pectoralis major",
-      "b. m. supraspinatus",
-      "c. m. pectoralis minor",
-      "d. m. triceps brachii",
-      "e. m. biceps brachii"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "82. What of the following ligaments is not attached to the clavicle:",
-    "options": [
-      "a. lig. quadratum",
-      "b. lig. interclaviculare",
-      "c. lig. sternoclaviculare anterius",
-      "d. lig. conoideum",
-      "e. lig. trapezoideum"
+      "crista\nilliaca",
+      "m. latissimus dorsi",
+      "m. psoas major",
+      "m. obliquus abdominis externus",
+      "m. quadratus abdominis"
     ],
     "correct": 0
   },
   {
-    "question": "83. In the formation of which joint does not take part the radius:",
+    "question": "The posterior wall of the axillary cavity is:",
     "options": [
-      "a. art. radioulnaris proximalis",
-      "b. art. radiocarpea",
-      "c. art. radioulnaris distalis",
-      "d. art. humeri",
-      "e. art. cubiti"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "84. What of the following bones IS NOT connected to the vertebral column:",
-    "options": [
-      "a. occipital bone",
-      "b. the first rib",
-      "c. pelvic bone",
-      "d. clavicula",
-      "e. the tenth rib"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "85. What muscle starts from the inguinal ligament:",
-    "options": [
-      "a. m. pyramidalis",
-      "b. m. gluteus maximus",
-      "c. m. obliquus abdominis internus",
-      "d. m. rectus abdominis",
-      "e. m. iliopsoas"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "86. Walls of the abdominal cavity DOES NOT form:",
-    "options": [
-      "a. m. psoas major",
-      "b. m. gluteus maximus",
-      "c. m. quadratus lumborum",
-      "d. m. rectus abdominis",
-      "e. m. transversus abdominis"
+      "collum chirurgicum brachii",
+      "m. latissimus dorsi",
+      "mm. rhomboidei major et minor",
+      "m. pectoralis major",
+      "m. serratus anterior"
     ],
     "correct": 1
   },
   {
-    "question": "87. To the anterior group of muscles of the forearm does not apply:",
+    "question": "The Pirogov’s triangle (lingual triangle) from below\nand behind restricts:",
     "options": [
-      "a. m. palmaris longus",
-      "b. m. flexor carpi ulnaris",
-      "c. m. supinator",
-      "d. m. flexor digitorum superficialis",
-      "e. m. pronator teres"
+      "m. mylohyoideus",
+      "venter\nposterior m. digastrici",
+      "venter anterior m. digastrici",
+      "nervus hypoglossus",
+      "venter\nsuperior\nm.\nomohyoidei"
     ],
-    "correct": 2
+    "correct": 1
   },
   {
-    "question": "88. The posterior group of thigh muscles DOES NOT apply:",
+    "question": "The Pirogov’s triangle (lingual triangle) superiorly\nbordered by:",
     "options": [
-      "a. m. semimembranosus",
-      "b. caput longus musculi bicepitis femoris",
-      "c. caput brevis musculi bicepitis femoris",
-      "d. m. semitendinosus",
-      "e. m. rectus femoris"
+      "nervus\nhypoglossus",
+      "venter anterior m. digastrici",
+      "m. mylohyoideus",
+      "venter superior m. omohyoidei",
+      "venter posterior m. digastrici"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Carotid triangle superiorly bordered by:",
+    "options": [
+      "venter superior m. omohyoidei",
+      "venter anterior m. digastrici",
+      "m. sternocleidomastoideus",
+      "venter inferior m. omohyoidei",
+      "venter\nposterior m. digastrici"
     ],
     "correct": 4
   },
   {
-    "question": "89. Choose the muscle that take part in flexion of thigh:",
+    "question": "The carotid triangle at the front and bottom\nrestricts:",
     "options": [
-      "a. m. vastus medialis",
-      "b. m. rectus femoris",
-      "c. m. gluteus maximus",
-      "d. m. triceps surae",
-      "e. m. biceps femoris"
+      "venter inferior m. omohyoidei",
+      "venter anterior m. digastrici",
+      "venter posterior m. digastrici",
+      "venter superior m.\nomohyoidei",
+      "m. sternocleidomastoideus"
     ],
-    "correct": 1
+    "correct": 3
   },
   {
-    "question": "90. Choose the thigh muscle:",
+    "question": "The lateral area of the neck from below bordered by:",
     "options": [
-      "a. m. quadratus femoris",
-      "b. m. sartorius",
-      "c. m. soleus",
-      "d. m. iliopsoas",
-      "e. m. piriformis"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "91. Choose the muscle of the palm:",
-    "options": [
-      "a. m. palmaris longus",
-      "b. m. extensor digiti minimi",
-      "c. m. lumbricalis",
-      "d. m. extensor digitorum",
-      "e. m. pronator quadratus"
+      "anterior border m. sternocleidomastoideus",
+      "venter superior m. omohyoidei",
+      "clavicula",
+      "venter posterior m. digastrici",
+      "venter inferior m. omohyoidei"
     ],
     "correct": 2
   },
   {
-    "question": "92. Choose the muscle that flexes the vertebral column:",
+    "question": "Yellow ligament (lig. flavum), connects:",
     "options": [
-      "a. m. latissimus dorsi",
-      "b. m. erector spinae",
-      "c. m. pectoralis major",
-      "d. m. rectus abdominis",
-      "e. m. gluteus maximus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "93. The muscle of the chest is:",
-    "options": [
-      "a. m. coracobrachialis",
-      "b. m. brachialis",
-      "c. m. scalenus posterior",
-      "d. m. subcostalis",
-      "e. m. sternothyroideus"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "94. The muscle of the neck is:",
-    "options": [
-      "a. m. thyrohyoideus",
-      "b. m. pectoralis minor",
-      "c. m. subclavius",
-      "d. m. rhomboideus",
-      "e. m. supraspinatus"
-    ],
-    "correct": 0
-  },
-  {
-    "question": "95. The function of which muscle is the flexion of the shoulder in the shoulder joint:",
-    "options": [
-      "a. m. infraspinatus",
-      "b. m. trapezius",
-      "c. m. brachialis",
-      "d. m. deltoideus",
-      "e. m. pronator teres"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "96. Which of the following muscles IS NOT neck muscle:",
-    "options": [
-      "a. m. longus colli",
-      "b. m. rhomboideus",
-      "c. m. scalenus medius",
-      "d. m. omohyoideus",
-      "e. m. scalenius anterior"
+      "processus\nspinosus",
+      "arcus\nvertebrae",
+      "corpus vertebrae",
+      "pedunculi\narcus vertebrae",
+      "processus\ntransversus"
     ],
     "correct": 1
   },
   {
-    "question": "97. Where is the tendon of the anterior tibial muscle attached:",
+    "question": "Art. costotransversaria form:",
     "options": [
-      "a. os cuneiforme mediale",
-      "b. talus",
-      "c. calcaneus",
-      "d. os cuboideum",
-      "e. os naviculare"
+      "from I to X pairs of ribs",
+      "only XI and XII pairs of ribs",
+      "all 12 pairs of ribs",
+      "II-X pairs of ribs",
+      "I, XI and XII pairs of ribs"
     ],
     "correct": 0
   },
   {
-    "question": "98. Choose the muscle that extends and abducts the thigh:",
+    "question": "The sternoclavicular joint is supported by the following ligaments, EXCEPT:",
     "options": [
-      "a. m. sartorius",
-      "b. m. piriformis",
-      "c. m. rectus femoris",
-      "d. m. biceps femoris",
-      "e. m. vastus lateralis"
+      "lig.\ncoracoacromiale",
+      "lig. sternoclavicularis\nposterior",
+      "lig.\ncostoclaviculare",
+      "lig.\ninterclaviculare",
+      "lig.\nsternoclavicularis anterior"
     ],
     "correct": 0
   },
   {
-    "question": "99. What muscle is involved in the lateral rotation of the thigh:",
+    "question": "Removal of the upper limb above the horizontal level is limited by stopping the upper end of the humerus in:",
     "options": [
-      "a. m. vastus medialis",
-      "b. m. rectus femoris",
-      "c. m. vastus lateralis",
-      "d. m. semitendinosus",
-      "e. m. quadratus femoris"
+      "clavicula",
+      "lig.\ncoracoacromiale",
+      "processus\ncoracoideus",
+      "lig.\ncoracoclaviculare",
+      "lig.\ntransversum scapulae inferius"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What muscle tendon passes through the cavity of the shoulder joint:",
+    "options": [
+      "m.\nbiceps brachii",
+      "m.\ndeltoideus",
+      "m.\ntriceps brachii",
+      "m.\ncoracobrahialis",
+      "m.\nbrachialis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The wrist joint is strengthened by all the ligaments listed below, EXCEPT:",
+    "options": [
+      "lig.\nradiocarpale palmare",
+      "lig. radiocarpale\ndorsale",
+      "lig.\ncoracoclaviculare",
+      "lig.\ncollaterale carpi ulnare",
+      "lig.\ncollaterale carpi radiale"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Of the following, select biaxial joints:",
+    "options": [
+      "art. coxae",
+      "art. radioulnaris distalis",
+      "art. humeri",
+      "art. radioulnaris proximalis",
+      "art. radiocarpea"
     ],
     "correct": 4
   },
   {
-    "question": "100. What muscle is involved in the extension of the forearm in the elbow joint:",
+    "question": "Select a uniaxial joint from the following joints:",
     "options": [
-      "a. m. biceps brachii",
-      "b. m. pronator teres",
-      "c. m. brachioradialis",
-      "d. m. anconeus",
-      "e. m. brachialis"
+      "art. temporomandibularis",
+      "art. atlantooccipitalis",
+      "art. interphalangealis manus",
+      "art. sternoclavicularis",
+      "art. humeri"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The sacroiliac joint is supported by all the ligaments, EXCEPT:",
+    "options": [
+      "ligg.\nsacroiliaca dorsalia",
+      "ligg.\nsacroiliaca ventralia",
+      "lig.\ninguinale",
+      "lig. iliolumbale",
+      "ligg.\nsacroiliaca interossea"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The biaxial joint is:",
+    "options": [
+      "art.\ncoxae",
+      "art.\ngenus",
+      "art.\nsacroiliaca",
+      "art.\nhumeri",
+      "art. atlantoaxialis mediana"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What kind of movement in the joints is possible around the vertical axis:",
+    "options": [
+      "extention",
+      "rotation",
+      "adduction",
+      "abduction",
+      "flexion"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "To the fibrous joints include all of these, EXCEPT:",
+    "options": [
+      "suturae",
+      "synostosis",
+      "ligamentum",
+      "ghomphosis",
+      "membrana interossea"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the joints refers to multiaxial joints:",
+    "options": [
+      "genu joint",
+      "atlantooccipital joint",
+      "wrist joint",
+      "carpal-metacarpal joint of the thumb",
+      "shoulder joint"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "In which joint between the articular surfaces is the meniscus:",
+    "options": [
+      "the elbow joint",
+      "ankle joint",
+      "temporomandibular joint",
+      "shoulder joint",
+      "the knee joint"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Choose the anatomical formation, which is NOT in the structure of the temporomandibular joint:",
+    "options": [
+      "discus articularis",
+      "capsula articularis",
+      "labrum articulare",
+      "facies articularis",
+      "ligamenta"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Protrusion of the synovial membrane in thinned areas of the fibrous membrane of the joint are called:",
+    "options": [
+      "ligamentum capsulare",
+      "cavitas articularis",
+      "ligamentum extracapsulare",
+      "discus articularis",
+      "bursa synovialis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Local thickening of the fibrous membrane of the joint capsule is called:",
+    "options": [
+      "cartilago articularis",
+      "bursa synovialis",
+      "plicae synoviales",
+      "labrum articulare",
+      "ligamentum capsulare"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The accessory components of the joint does not include:",
+    "options": [
+      "labrum articulare",
+      "ligamenta",
+      "meniscus articularis",
+      "discus articularis",
+      "capsula articularis"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "In which joint between the articular surfaces is the intra-articular disc:",
+    "options": [
+      "art. genus",
+      "art. talocruralis",
+      "art. humeri",
+      "art. temporomandibularis",
+      "art. cubiti"
     ],
     "correct": 3
+  },
+  {
+    "question": "What is the curvature of the spine facing forward:",
+    "options": [
+      "scoliosis",
+      "synostosis",
+      "kyphosis",
+      "synchondrosis",
+      "лордоз"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Which of the following is not take part in connecting the vertebrae to each other:",
+    "options": [
+      "articulatio zygapophysialis",
+      "articulatio atlantoaxialis mediana",
+      "articulatio costotransversaria",
+      "discus intervertebralis",
+      "articulatio lumbosacralis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is not involved in the formation of the chest walls:",
+    "options": [
+      "clavicula",
+      "vertebrae thoracicae",
+      "manubrium sterni",
+      "costae",
+      "corpus sterni"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What muscle is attached to the lesser trochanter of the femur:",
+    "options": [
+      "m. iliopsoas",
+      "m. gluteus maximus",
+      "m. rectus femoris",
+      "m. popliteus",
+      "m. piriformis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What muscle passes through the greater sciatic foramen:",
+    "options": [
+      "m. gluteus minimus",
+      "m. piriformis",
+      "m. iliopsoas",
+      "m. obturator externus",
+      "m. obturator internus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The tendon of what muscle originates on the supraglenoidal tubercul of the scapula:",
+    "options": [
+      "m. coracobrachialis",
+      "m. anconeus",
+      "m. brachialis",
+      "m. triceps brachii",
+      "m. biceps brachii"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The tendon of which muscle originates on coracoid processes of the scapula:",
+    "options": [
+      "m. pectoralis minor",
+      "m. triceps brachii",
+      "m. pectoralis major",
+      "m. supraspinatus",
+      "m. biceps brachii"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What of the following ligaments is not attached to the clavicle:",
+    "options": [
+      "lig. conoideum",
+      "lig. interclaviculare",
+      "lig. sternoclaviculare anterius",
+      "lig. trapezoideum",
+      "lig. quadratum"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "In the formation of which joint does not take part the radius:",
+    "options": [
+      "art. radioulnaris distalis",
+      "art. radioulnaris proximalis",
+      "art. radiocarpea",
+      "art. humeri",
+      "art. cubiti"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What of the following bones IS NOT connected to the vertebral column:",
+    "options": [
+      "the tenth rib",
+      "clavicula",
+      "pelvic bone",
+      "occipital bone",
+      "the first rib"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What muscle starts from the inguinal ligament:",
+    "options": [
+      "m. obliquus abdominis internus",
+      "m. gluteus maximus",
+      "m. iliopsoas",
+      "m. rectus abdominis",
+      "m. pyramidalis"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Walls of the abdominal cavity DOES NOT form:",
+    "options": [
+      "m. transversus abdominis",
+      "m. psoas major",
+      "m. quadratus lumborum",
+      "m. rectus abdominis",
+      "m. gluteus maximus"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "To the anterior group of muscles of the forearm does not apply:",
+    "options": [
+      "m. supinator",
+      "m. flexor carpi ulnaris",
+      "m. pronator teres",
+      "m. flexor digitorum superficialis",
+      "m. palmaris longus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The posterior group of thigh muscles DOES NOT apply:",
+    "options": [
+      "m. semitendinosus",
+      "m. rectus femoris",
+      "m. semimembranosus",
+      "caput longus musculi bicepitis femoris",
+      "caput brevis musculi bicepitis femoris"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Choose the muscle that take part in flexion of thigh:",
+    "options": [
+      "m. vastus medialis",
+      "m. gluteus maximus",
+      "m. rectus femoris",
+      "m. triceps surae",
+      "m. biceps femoris"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Choose the thigh muscle:",
+    "options": [
+      "m. soleus",
+      "m. piriformis",
+      "m. sartorius",
+      "m. iliopsoas",
+      "m. quadratus femoris"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Choose the muscle of the palm:",
+    "options": [
+      "m. pronator quadratus",
+      "m. extensor digitorum",
+      "m. lumricalis",
+      "m. palmaris longus",
+      "m. extensor digiti minimi"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Choose the muscle that flexes the vertebral column:",
+    "options": [
+      "m. gluteus maximus",
+      "m. rectus abdominis",
+      "m. latissimus dorsi",
+      "m. errector spinae",
+      "m. pectoralis major"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The muscule of the chest is:",
+    "options": [
+      "m. coracobrachialis",
+      "m. brachialis",
+      "m. subcostalis",
+      "m. scalenus posterior",
+      "m. sternothyroideus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The muscule of the neck is:",
+    "options": [
+      "m. thyrohyoideus",
+      "m. subclavius",
+      "m. pectoralis minor",
+      "m. rhomboideus",
+      "m. supraspinatus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The function of which muscle is the flexion of the shoulder in the shoulder joint:",
+    "options": [
+      "m. trapezius",
+      "m. pronator teres",
+      "m. deltoideus",
+      "m. infraspinatus",
+      "m. brachialis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following muscles IS NOT neck muscle:",
+    "options": [
+      "m. rhomboideus",
+      "m. scalenius anterior",
+      "m. scalenus medius",
+      "m. longus colli",
+      "m. omohyoideus"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Where is the tendon of the anterior tibial muscle attached:",
+    "options": [
+      "calcaneus",
+      "os cuneimorme mediale",
+      "os naviculare",
+      "os cuboideum",
+      "talus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Choose the muscle that extends and abducts the thigh:",
+    "options": [
+      "m. biceps femoris",
+      "m. rectus femoris",
+      "m. sartorius",
+      "m. piriformis",
+      "m. vastus lateralis"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What muscle is involved in the lateral rotation of the thigh:",
+    "options": [
+      "m. vastus medialis",
+      "m. rectus femoris",
+      "m. quadratus femoris",
+      "m. vastus lateralis",
+      "m. semitendinosus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What muscle is involved in the extension of the forearm in the elbow joint:",
+    "options": [
+      "m. biceps brachii",
+      "m. anconeus",
+      "m. brachioradialis",
+      "m. pronator teres",
+      "m. brachialis"
+    ],
+    "correct": 1
   }
 ]
