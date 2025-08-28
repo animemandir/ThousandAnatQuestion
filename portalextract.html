@@ -51,7 +51,10 @@
     <button onclick="downloadJson()" id="downloadBtn" style="display:none;">Download JSON</button>
     <button class="copy" onclick="copyJson()" id="copyBtn" style="display:none;">Copy JSON</button>
   </div>
-  <h3>Preview JSON:</h3>
+  <h3>Total Questions: <span id="questionCount">0</span></h3>
+  
+
+  <h4>Preview JSON:</h4>
   <pre id="jsonPreview">{}</pre>
 
   <script>
@@ -143,6 +146,9 @@
       });
 
       extractedJson = results;
+      // after building results array
+document.getElementById('questionCount').textContent = results.length;
+
       document.getElementById('jsonPreview').textContent = JSON.stringify(results, null, 2);
       document.getElementById('downloadBtn').style.display = results.length ? '' : 'none';
       document.getElementById('copyBtn').style.display = results.length ? '' : 'none';
