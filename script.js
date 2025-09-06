@@ -166,7 +166,7 @@ function addFinishButton(quizContainer) {
                 You got <strong>${correctCount}</strong> out of <strong>${total}</strong> correct.
             </p>
             <p style="text-align:center;">
-                <a href="/score.html" class="btn">View Scoreboard</a>
+                <a href="score.html" class="btn">View Scoreboard</a>
             </p>
         `;
         quizContainer.appendChild(resultSection);
