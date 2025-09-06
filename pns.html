@@ -27,7 +27,7 @@
 <script>
     window.onload = () => {
         const subject = window.location.pathname.split('/').filter(Boolean).pop();
-        const jsonPath = `/data/pns.json`;
+        const jsonPath = `data/pns.json`;
         console.log("📄 Starting quiz load for:", subject);
         loadQuiz(jsonPath);
     };
